@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const httpLogger = require("./middlewares/httpLogger");
 const logger = require("./library/logger");
+const { notFound, handleError } = require("./middlewares/errorHandles");
 const { initdb } = require("./initdb");
 const path = require("path");
 const methodOverride = require("method-override");
