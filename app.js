@@ -6,13 +6,14 @@ const httpLogger = require("./middlewares/httpLogger");
 const logger = require("./library/logger");
 const { notFound, handleError } = require("./middlewares/errorHandles");
 const { initdb } = require("./initdb");
+const router = require("./router/router");
 const path = require("path");
 const methodOverride = require("method-override");
 
 /**configure envoirnment variables */
 dotenv.config();
 
-let port = process.env.PORT;
+let port = process.env.API_PORT;
 
 /**init express app */
 const app = express();
@@ -46,6 +47,6 @@ app.use(notFound);
 app.use(handleError);
 
 /**listen to server */
-let server = app.listen(post, () =>
+let server = app.listen(port, () =>
   logger.info(`API SERVER Running at:${port}`)
 );
