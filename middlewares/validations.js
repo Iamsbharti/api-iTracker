@@ -9,11 +9,19 @@ const registrationValidation = (req, res, next) => {
     name: joi.string().min(3).required(),
     email: joi.string().min(4).email().required(),
     username: joi.string().min(3).required(),
+    password: joi
+      .string()
+      .pattern(
+        new RegExp(
+          "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+        )
+      )
+      .required(),
   });
-  let error = registrationSchema.validate(req.body, options);
+  let { error } = registrationSchema.validate(req.body, options);
   if (error) {
     let errors = [];
-    error.details.map((err) => errors.push(err.message.split("is"[0])));
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
     return res
       .status(400)
       .json(
@@ -25,6 +33,7 @@ const registrationValidation = (req, res, next) => {
         )
       );
   }
+  next();
 };
 module.exports = {
   registrationValidation,
