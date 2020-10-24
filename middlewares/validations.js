@@ -35,6 +35,31 @@ const registrationValidation = (req, res, next) => {
   }
   next();
 };
+const loginValidations = (req, res, next) => {
+  logger.info("Login Param Validations");
+  let loginSchema = joi.object({
+    loginId: joi.string().min(3).required(),
+    password: joi.string().required(),
+  });
+
+  let { error } = loginSchema.validate(req.body, options);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
+  loginValidations,
 };

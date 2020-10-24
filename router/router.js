@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const registration = require("../controller/registrationControl");
+const login = require("../controller/loginControl");
 const validations = require("../middlewares/validations");
 
 router.get("/ping", (req, res) => {
@@ -14,4 +15,5 @@ router.post(
   registration.registerUserControl
 );
 
+router.post("/user/login", validations.loginValidations, login.loginControl);
 module.exports = router;
