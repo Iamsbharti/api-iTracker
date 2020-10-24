@@ -244,3 +244,11 @@
 2020-10-24 12:05:52 info: Regestration Parameter validation
 2020-10-24 12:05:52 info: User Registration Control
 2020-10-24 12:05:52 info: POST /api/v1/user/register 400 129.263 ms - 71
+2020-10-24 12:07:00 info: API SERVER Running at:3001
+2020-10-24 12:07:01 info: DB Conenction Sucess
+2020-10-24 12:07:03 info: API SERVER Running at:3001
+2020-10-24 12:07:04 info: DB Conenction Sucess
+2020-10-24 12:07:08 info: API SERVER Running at:3001
+2020-10-24 12:07:09 info: DB Conenction Sucess
+2020-10-24 12:07:16 info: API SERVER Running at:3001
+2020-10-24 12:07:17 info: DB Conenction Sucess

@@ -20,7 +20,6 @@ const registerUserControl = async (req, res) => {
   /**Create a new user */
   /**hash password */
   let hashedPwd = await managePwd.hashPassword(password);
-  logger.info(`hashed pwd${hashedPwd}`);
 
   /**new userSchema */
   let newUser = new User({
@@ -30,8 +29,6 @@ const registerUserControl = async (req, res) => {
     username: username,
     password: hashedPwd,
   });
-
-  logger.info(`USerschema:${newUser}`);
 
   let userCreated = await User.create(newUser);
 
