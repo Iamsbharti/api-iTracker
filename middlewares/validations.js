@@ -26,6 +26,6 @@ const registrationValidation = (req, res, next) => {
       );
   }
 };
-module.exports{
-    registrationValidation
-}
+module.exports = {
+  registrationValidation,
+};
