@@ -3,9 +3,13 @@ const Comment = require("./Comment");
 const Attachment = require("./Attachment");
 
 const issueSchema = mongoose.Schema({
-  bugId: {
+  issueId: {
     type: String,
     unique: true,
+    required: true,
+  },
+  userId: {
+    type: String,
     required: true,
   },
   title: {
