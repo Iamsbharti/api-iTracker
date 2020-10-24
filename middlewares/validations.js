@@ -110,9 +110,37 @@ const getAllIssuesValidations = (req, res, next) => {
   }
   next();
 };
+const filterIssuesValidation = (req, res, next) => {
+  // let { userId, option, name, type } = req.query;
+  logger.info("Filter user validations");
+  let filterSchema = joi.object({
+    userId: joi.string().min(3).required(),
+    name: joi.string().min(3).required(),
+    option: joi.string().required(),
+    type: joi.valid("time", "status").required(),
+  });
+
+  let { error } = filterSchema.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
   createIssueValidations,
   getAllIssuesValidations,
+  filterIssuesValidation,
 };

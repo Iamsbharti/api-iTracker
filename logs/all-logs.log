@@ -1062,3 +1062,271 @@
 2020-10-24 15:38:47 info: Get All Issues Control
 2020-10-24 15:38:47 info: Validate user stub
 2020-10-24 15:38:47 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 316.960 ms - 1386
+2020-10-24 15:52:57 info: API SERVER Running at:3001
+2020-10-24 15:52:58 info: DB Conenction Sucess
+2020-10-24 15:53:05 info: API SERVER Running at:3001
+2020-10-24 15:53:06 info: DB Conenction Sucess
+2020-10-24 15:53:12 info: API SERVER Running at:3001
+2020-10-24 15:53:13 info: DB Conenction Sucess
+2020-10-24 15:53:22 info: API SERVER Running at:3001
+2020-10-24 15:53:23 info: DB Conenction Sucess
+2020-10-24 15:53:34 info: API SERVER Running at:3001
+2020-10-24 15:53:35 info: DB Conenction Sucess
+2020-10-24 15:53:38 info: API SERVER Running at:3001
+2020-10-24 15:53:39 info: DB Conenction Sucess
+2020-10-24 15:53:49 info: API SERVER Running at:3001
+2020-10-24 15:53:50 info: DB Conenction Sucess
+2020-10-24 15:54:04 info: API SERVER Running at:3001
+2020-10-24 15:54:05 info: DB Conenction Sucess
+2020-10-24 15:54:16 info: API SERVER Running at:3001
+2020-10-24 15:54:17 info: DB Conenction Sucess
+2020-10-24 15:54:19 info: API SERVER Running at:3001
+2020-10-24 15:54:20 info: DB Conenction Sucess
+2020-10-24 15:54:26 info: API SERVER Running at:3001
+2020-10-24 15:54:27 info: DB Conenction Sucess
+2020-10-24 15:54:42 info: API SERVER Running at:3001
+2020-10-24 15:54:43 info: DB Conenction Sucess
+2020-10-24 15:55:07 info: API SERVER Running at:3001
+2020-10-24 15:55:09 info: DB Conenction Sucess
+2020-10-24 15:55:11 info: API SERVER Running at:3001
+2020-10-24 15:55:12 info: DB Conenction Sucess
+2020-10-24 15:55:36 info: API SERVER Running at:3001
+2020-10-24 15:55:36 info: DB Conenction Sucess
+2020-10-24 15:55:48 info: API SERVER Running at:3001
+2020-10-24 15:55:49 info: DB Conenction Sucess
+2020-10-24 15:56:08 info: API SERVER Running at:3001
+2020-10-24 15:56:09 info: DB Conenction Sucess
+2020-10-24 15:56:11 info: API SERVER Running at:3001
+2020-10-24 15:56:12 info: DB Conenction Sucess
+2020-10-24 15:57:46 info: API SERVER Running at:3001
+2020-10-24 15:57:47 info: DB Conenction Sucess
+2020-10-24 15:58:15 info: API SERVER Running at:3001
+2020-10-24 15:58:16 info: DB Conenction Sucess
+2020-10-24 15:58:23 info: API SERVER Running at:3001
+2020-10-24 15:58:24 info: DB Conenction Sucess
+2020-10-24 15:59:01 info: API SERVER Running at:3001
+2020-10-24 15:59:02 info: DB Conenction Sucess
+2020-10-24 15:59:14 info: API SERVER Running at:3001
+2020-10-24 15:59:15 info: DB Conenction Sucess
+2020-10-24 15:59:23 info: API SERVER Running at:3001
+2020-10-24 15:59:24 info: DB Conenction Sucess
+2020-10-24 16:06:02 info: API SERVER Running at:3001
+2020-10-24 16:06:04 info: DB Conenction Sucess
+2020-10-24 16:11:29 info: API SERVER Running at:3001
+2020-10-24 16:11:31 info: DB Conenction Sucess
+2020-10-24 16:11:32 info: API SERVER Running at:3001
+2020-10-24 16:11:33 info: DB Conenction Sucess
+2020-10-24 16:11:48 info: API SERVER Running at:3001
+2020-10-24 16:11:49 info: DB Conenction Sucess
+2020-10-24 16:12:00 info: API SERVER Running at:3001
+2020-10-24 16:12:01 info: DB Conenction Sucess
+2020-10-24 16:12:11 info: API SERVER Running at:3001
+2020-10-24 16:12:12 info: API SERVER Running at:3001
+2020-10-24 16:12:12 info: DB Conenction Sucess
+2020-10-24 16:57:06 info: API SERVER Running at:3001
+2020-10-24 16:57:07 info: DB Conenction Sucess
+2020-10-24 16:57:50 info: API SERVER Running at:3001
+2020-10-24 16:57:51 info: DB Conenction Sucess
+2020-10-24 16:59:03 info: API SERVER Running at:3001
+2020-10-24 16:59:04 info: DB Conenction Sucess
+2020-10-24 17:03:35 info: API SERVER Running at:3001
+2020-10-24 17:03:36 info: DB Conenction Sucess
+2020-10-24 17:03:43 info: API SERVER Running at:3001
+2020-10-24 17:03:44 info: DB Conenction Sucess
+2020-10-24 17:04:17 info: API SERVER Running at:3001
+2020-10-24 17:04:18 info: DB Conenction Sucess
+2020-10-24 17:04:23 info: API SERVER Running at:3001
+2020-10-24 17:04:24 info: DB Conenction Sucess
+2020-10-24 17:04:52 info: API SERVER Running at:3001
+2020-10-24 17:04:53 info: DB Conenction Sucess
+2020-10-24 17:06:13 info: API SERVER Running at:3001
+2020-10-24 17:06:15 info: DB Conenction Sucess
+2020-10-24 17:06:46 info: API SERVER Running at:3001
+2020-10-24 17:06:47 info: DB Conenction Sucess
+2020-10-24 17:06:57 info: API SERVER Running at:3001
+2020-10-24 17:06:58 info: DB Conenction Sucess
+2020-10-24 17:07:11 info: API SERVER Running at:3001
+2020-10-24 17:07:12 info: DB Conenction Sucess
+2020-10-24 17:07:18 info: API SERVER Running at:3001
+2020-10-24 17:07:20 info: API SERVER Running at:3001
+2020-10-24 17:07:21 info: DB Conenction Sucess
+2020-10-24 17:07:26 info: API SERVER Running at:3001
+2020-10-24 17:07:26 info: DB Conenction Sucess
+2020-10-24 17:08:08 info: API SERVER Running at:3001
+2020-10-24 17:08:09 info: DB Conenction Sucess
+2020-10-24 17:08:34 info: API SERVER Running at:3001
+2020-10-24 17:08:35 info: DB Conenction Sucess
+2020-10-24 17:09:24 info: API SERVER Running at:3001
+2020-10-24 17:09:25 info: DB Conenction Sucess
+2020-10-24 17:09:58 info: API SERVER Running at:3001
+2020-10-24 17:09:59 info: DB Conenction Sucess
+2020-10-24 17:10:12 info: API SERVER Running at:3001
+2020-10-24 17:10:13 info: API SERVER Running at:3001
+2020-10-24 17:10:14 info: DB Conenction Sucess
+2020-10-24 17:10:22 info: API SERVER Running at:3001
+2020-10-24 17:10:23 info: DB Conenction Sucess
+2020-10-24 17:12:45 info: API SERVER Running at:3001
+2020-10-24 17:12:46 info: DB Conenction Sucess
+2020-10-24 17:12:58 info: API SERVER Running at:3001
+2020-10-24 17:12:59 info: DB Conenction Sucess
+2020-10-24 17:13:14 info: API SERVER Running at:3001
+2020-10-24 17:13:15 info: DB Conenction Sucess
+2020-10-24 17:14:21 info: API SERVER Running at:3001
+2020-10-24 17:14:22 info: DB Conenction Sucess
+2020-10-24 17:14:38 info: API SERVER Running at:3001
+2020-10-24 17:14:39 info: DB Conenction Sucess
+2020-10-24 17:14:56 info: API SERVER Running at:3001
+2020-10-24 17:14:57 info: DB Conenction Sucess
+2020-10-24 17:15:01 info: API SERVER Running at:3001
+2020-10-24 17:15:02 info: DB Conenction Sucess
+2020-10-24 17:15:33 info: API SERVER Running at:3001
+2020-10-24 17:15:35 info: DB Conenction Sucess
+2020-10-24 17:16:01 info: API SERVER Running at:3001
+2020-10-24 17:16:02 info: API SERVER Running at:3001
+2020-10-24 17:16:03 info: DB Conenction Sucess
+2020-10-24 17:32:27 info: API SERVER Running at:3001
+2020-10-24 17:32:28 info: DB Conenction Sucess
+2020-10-24 17:32:39 info: API SERVER Running at:3001
+2020-10-24 17:32:40 info: DB Conenction Sucess
+2020-10-24 17:32:42 info: API SERVER Running at:3001
+2020-10-24 17:32:43 info: DB Conenction Sucess
+2020-10-24 17:33:12 info: API SERVER Running at:3001
+2020-10-24 17:33:13 info: DB Conenction Sucess
+2020-10-24 17:33:45 info: API SERVER Running at:3001
+2020-10-24 17:33:46 info: API SERVER Running at:3001
+2020-10-24 17:33:47 info: DB Conenction Sucess
+2020-10-24 17:34:05 info: API SERVER Running at:3001
+2020-10-24 17:34:06 info: DB Conenction Sucess
+2020-10-24 17:34:15 info: API SERVER Running at:3001
+2020-10-24 17:34:16 info: DB Conenction Sucess
+2020-10-24 17:34:33 info: API SERVER Running at:3001
+2020-10-24 17:34:34 info: DB Conenction Sucess
+2020-10-24 17:35:07 info: API SERVER Running at:3001
+2020-10-24 17:35:08 info: DB Conenction Sucess
+2020-10-24 17:35:28 info: API SERVER Running at:3001
+2020-10-24 17:35:29 info: DB Conenction Sucess
+2020-10-24 17:36:12 info: API SERVER Running at:3001
+2020-10-24 17:36:13 info: DB Conenction Sucess
+2020-10-24 17:36:21 info: API SERVER Running at:3001
+2020-10-24 17:36:22 info: DB Conenction Sucess
+2020-10-24 17:37:14 info: API SERVER Running at:3001
+2020-10-24 17:37:15 info: DB Conenction Sucess
+2020-10-24 17:37:42 info: API SERVER Running at:3001
+2020-10-24 17:37:43 info: DB Conenction Sucess
+2020-10-24 17:38:03 info: API SERVER Running at:3001
+2020-10-24 17:38:04 info: DB Conenction Sucess
+2020-10-24 17:38:18 info: API SERVER Running at:3001
+2020-10-24 17:38:20 info: DB Conenction Sucess
+2020-10-24 17:38:23 info: API SERVER Running at:3001
+2020-10-24 17:38:24 info: DB Conenction Sucess
+2020-10-24 17:39:06 info: API SERVER Running at:3001
+2020-10-24 17:39:07 info: DB Conenction Sucess
+2020-10-24 17:39:11 info: API SERVER Running at:3001
+2020-10-24 17:39:12 info: DB Conenction Sucess
+2020-10-24 17:39:59 info: API SERVER Running at:3001
+2020-10-24 17:40:00 info: DB Conenction Sucess
+2020-10-24 17:40:21 info: API SERVER Running at:3001
+2020-10-24 17:40:21 info: DB Conenction Sucess
+2020-10-24 17:40:32 info: API SERVER Running at:3001
+2020-10-24 17:40:33 info: DB Conenction Sucess
+2020-10-24 17:40:45 info: API SERVER Running at:3001
+2020-10-24 17:40:46 info: DB Conenction Sucess
+2020-10-24 17:41:01 info: API SERVER Running at:3001
+2020-10-24 17:41:02 info: DB Conenction Sucess
+2020-10-24 17:41:14 info: API SERVER Running at:3001
+2020-10-24 17:41:15 info: DB Conenction Sucess
+2020-10-24 17:41:35 info: API SERVER Running at:3001
+2020-10-24 17:41:36 info: DB Conenction Sucess
+2020-10-24 17:42:16 info: API SERVER Running at:3001
+2020-10-24 17:42:17 info: DB Conenction Sucess
+2020-10-24 17:42:42 info: API SERVER Running at:3001
+2020-10-24 17:42:43 info: DB Conenction Sucess
+2020-10-24 17:43:07 info: API SERVER Running at:3001
+2020-10-24 17:43:08 info: DB Conenction Sucess
+2020-10-24 17:43:22 info: API SERVER Running at:3001
+2020-10-24 17:43:23 info: DB Conenction Sucess
+2020-10-24 17:43:42 info: API SERVER Running at:3001
+2020-10-24 17:43:43 info: DB Conenction Sucess
+2020-10-24 17:45:08 info: API SERVER Running at:3001
+2020-10-24 17:45:09 info: DB Conenction Sucess
+2020-10-24 17:45:30 info: API SERVER Running at:3001
+2020-10-24 17:45:31 info: DB Conenction Sucess
+2020-10-24 17:45:41 info: API SERVER Running at:3001
+2020-10-24 17:45:42 info: DB Conenction Sucess
+2020-10-24 17:45:50 info: API SERVER Running at:3001
+2020-10-24 17:45:51 info: DB Conenction Sucess
+2020-10-24 17:46:00 info: API SERVER Running at:3001
+2020-10-24 17:46:01 info: DB Conenction Sucess
+2020-10-24 17:49:05 info: API SERVER Running at:3001
+2020-10-24 17:49:06 info: DB Conenction Sucess
+2020-10-24 17:49:18 info: Authorizing...
+2020-10-24 17:49:18 info: Filter user validations
+2020-10-24 17:49:18 info: Filter Issues Control
+2020-10-24 17:49:18 info: Computing status filter options
+2020-10-24 17:49:18 info: Validate user stub
+2020-10-24 17:49:19 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=all&type=status 200 279.428 ms - 1232
+2020-10-24 17:49:54 info: Authorizing...
+2020-10-24 17:49:54 info: Filter user validations
+2020-10-24 17:49:54 info: Filter Issues Control
+2020-10-24 17:49:54 info: Computing status filter options
+2020-10-24 17:49:54 info: Validate user stub
+2020-10-24 17:49:54 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=reportedByMe&type=status 200 209.086 ms - 1232
+2020-10-24 17:50:09 info: Authorizing...
+2020-10-24 17:50:09 info: Filter user validations
+2020-10-24 17:50:09 info: Filter Issues Control
+2020-10-24 17:50:09 info: Computing status filter options
+2020-10-24 17:50:09 info: Validate user stub
+2020-10-24 17:50:09 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=openIssues&type=status 200 214.306 ms - 75
+2020-10-24 17:50:42 info: Authorizing...
+2020-10-24 17:50:42 info: Filter user validations
+2020-10-24 17:50:42 info: Filter Issues Control
+2020-10-24 17:50:42 info: Computing status filter options
+2020-10-24 17:50:42 info: Validate user stub
+2020-10-24 17:50:42 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=doneIssues&type=status 200 234.369 ms - 75
+2020-10-24 17:51:06 info: Authorizing...
+2020-10-24 17:51:06 info: Filter user validations
+2020-10-24 17:51:06 info: Filter Issues Control
+2020-10-24 17:51:06 info: Computing status filter options
+2020-10-24 17:51:06 info: Validate user stub
+2020-10-24 17:51:06 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 500 128.819 ms - 73
+2020-10-24 17:51:44 info: Authorizing...
+2020-10-24 17:51:44 info: Filter user validations
+2020-10-24 17:51:44 info: Filter Issues Control
+2020-10-24 17:51:44 info: Computing status filter options
+2020-10-24 17:51:44 info: Validate user stub
+2020-10-24 17:52:53 info: API SERVER Running at:3001
+2020-10-24 17:52:54 info: DB Conenction Sucess
+2020-10-24 17:52:58 info: Authorizing...
+2020-10-24 17:52:58 info: Filter user validations
+2020-10-24 17:52:58 info: Filter Issues Control
+2020-10-24 17:52:58 info: Computing status filter options
+2020-10-24 17:52:58 info: Validate user stub
+2020-10-24 17:52:58 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=resolvedRecent&type=time 200 257.038 ms - 75
+2020-10-24 17:53:20 info: API SERVER Running at:3001
+2020-10-24 17:53:21 info: DB Conenction Sucess
+2020-10-24 17:53:22 info: Authorizing...
+2020-10-24 17:53:22 info: Filter user validations
+2020-10-24 17:53:22 info: Filter Issues Control
+2020-10-24 17:53:22 info: Computing status filter options
+2020-10-24 17:53:22 info: Validate user stub
+2020-10-24 17:53:22 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=resolvedRecent&type=time 200 231.367 ms - 75
+2020-10-24 17:53:40 info: API SERVER Running at:3001
+2020-10-24 17:53:41 info: DB Conenction Sucess
+2020-10-24 17:53:56 info: API SERVER Running at:3001
+2020-10-24 17:53:57 info: DB Conenction Sucess
+2020-10-24 17:54:05 info: Authorizing...
+2020-10-24 17:54:05 info: Filter user validations
+2020-10-24 17:54:05 info: Filter Issues Control
+2020-10-24 17:54:05 info: Computing status filter options
+2020-10-24 17:54:05 info: Validate user stub
+2020-10-24 17:54:05 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 500 145.947 ms - 73
+2020-10-24 17:54:12 info: API SERVER Running at:3001
+2020-10-24 17:54:12 info: DB Conenction Sucess
+2020-10-24 17:54:13 info: Authorizing...
+2020-10-24 17:54:13 info: Filter user validations
+2020-10-24 17:54:13 info: Filter Issues Control
+2020-10-24 17:54:13 info: Computing status filter options
+2020-10-24 17:54:13 info: Validate user stub
+2020-10-24 17:54:14 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 226.198 ms - 1232
+2020-10-24 17:55:03 info: API SERVER Running at:3001
+2020-10-24 17:55:05 info: DB Conenction Sucess

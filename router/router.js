@@ -32,4 +32,10 @@ router.get(
   validations.getAllIssuesValidations,
   issues.getAllIssues
 );
+router.get(
+  "/issue/filterIssues",
+  isAuthorized,
+  validations.filterIssuesValidation,
+  issues.filterIssues
+);
 module.exports = router;

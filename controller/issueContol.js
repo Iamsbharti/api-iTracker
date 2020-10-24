@@ -3,7 +3,8 @@ const User = require("../models/User");
 const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 const shortid = require("shortid");
-
+const { options } = require("@hapi/joi");
+const EXCLUDE = "-__v -_id";
 /**validation functions */
 const validateUser = async (userId) => {
   logger.info("Validate user stub");
@@ -79,7 +80,88 @@ const getAllIssues = async (req, res) => {
     });
   }
 };
+const filterIssues = async (req, res) => {
+  logger.info("Filter Issues Control");
+  let { userId, option, name, type } = req.query;
+  console.log(userId, option, name, type);
+
+  let queryOption;
+  logger.info("Computing status filter options");
+  switch (option) {
+    case "all":
+      queryOption = { userId: userId };
+      break;
+    case "reportedByMe":
+      queryOption = { reporter: name };
+      break;
+    case "openIssues":
+      queryOption = {
+        $and: [
+          { userId: userId },
+          { status: "in-progress" },
+          { status: "in-test" },
+        ],
+      };
+      break;
+    case "doneIssues":
+      queryOption = {
+        $and: [{ userId: userId }, { status: "done" }],
+      };
+      break;
+  }
+  /**check for valid userId */
+  let isUserValid = await validateUser(userId);
+
+  let issuesFetchedFlag = false;
+  let filteredIssues;
+
+  /**time based filters */
+  if (isUserValid && type === "time") {
+    console.log("Time based filter option");
+    if (option.includes("updatedRecent")) {
+      console.log("Recently updated");
+      filteredIssues = await Issue.find({ userId: userId })
+        .select(EXCLUDE)
+        .sort({ modifiedDate: "desc" })
+        .lean();
+      issuesFetchedFlag = filteredIssues ? true : false;
+    }
+
+    if (option.includes("resolvedRecent")) {
+      console.log("resolved recently");
+      filteredIssues = await Issue.find({
+        $and: [{ userId: userId }, { status: "done" }],
+      })
+        .select(EXCLUDE)
+        .sort({ modifiedDate: "desc" })
+        .lean();
+      issuesFetchedFlag = filteredIssues ? true : false;
+    }
+  } else if (isUserValid && type === "status") {
+    console.log("Status bsed filters");
+    /**status based filters */
+    filteredIssues = await Issue.find(queryOption).select(EXCLUDE).lean();
+    issuesFetchedFlag = filteredIssues ? true : false;
+  } else if (!isUserValid) {
+    console.log("invalid user");
+    res.status(404).json(formatResponse(true, 404, "Invalid User", null));
+  }
+
+  /**compute final response */
+  if (issuesFetchedFlag) {
+    res
+      .status(200)
+      .json(
+        formatResponse(false, 200, "Filtered Issues Fectched", filteredIssues)
+      );
+  } else {
+    res
+      .status(500)
+      .json(formatResponse(true, 500, "Internal Server Error", null));
+  }
+};
 module.exports = {
   createIssue,
   getAllIssues,
+  filterIssues,
 };
