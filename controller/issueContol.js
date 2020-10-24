@@ -61,8 +61,25 @@ const createIssue = async (req, res) => {
 };
 const getAllIssues = async (req, res) => {
   logger.info("Get All Issues Control");
+  let { userId } = req.query;
   /**check for valid userId */
+  let isUserValid = await validateUser(userId);
+
+  if (isUserValid) {
+    await Issue.find({ userId: userId }, (error, allIssues) => {
+      if (error) {
+        return res
+          .status(500)
+          .json(formatResponse(true, 500, "Internal Server Error", error));
+      } else {
+        return res
+          .status(200)
+          .json(formatResponse(false, 200, "Issues Fetched", allIssues));
+      }
+    });
+  }
 };
 module.exports = {
   createIssue,
+  getAllIssues,
 };

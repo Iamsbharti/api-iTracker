@@ -88,8 +88,31 @@ const createIssueValidations = (req, res, next) => {
   }
   next();
 };
+const getAllIssuesValidations = (req, res, next) => {
+  logger.info("Get All Issues Validations");
+  let getIssueSchema = joi.object({
+    userId: joi.string().min(3).required(),
+  });
+  let { error } = getIssueSchema.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
   createIssueValidations,
+  getAllIssuesValidations,
 };

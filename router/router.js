@@ -26,4 +26,10 @@ router.post(
   validations.createIssueValidations,
   issues.createIssue
 );
+router.get(
+  "/issue/allIssues",
+  isAuthorized,
+  validations.getAllIssuesValidations,
+  issues.getAllIssues
+);
 module.exports = router;
