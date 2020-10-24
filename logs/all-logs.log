@@ -1330,3 +1330,214 @@
 2020-10-24 17:54:14 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 226.198 ms - 1232
 2020-10-24 17:55:03 info: API SERVER Running at:3001
 2020-10-24 17:55:05 info: DB Conenction Sucess
+2020-10-24 17:55:51 info: API SERVER Running at:3001
+2020-10-24 17:55:52 info: DB Conenction Sucess
+2020-10-24 17:59:43 info: API SERVER Running at:3001
+2020-10-24 17:59:44 info: DB Conenction Sucess
+2020-10-24 18:01:08 info: API SERVER Running at:3001
+2020-10-24 18:01:10 info: DB Conenction Sucess
+2020-10-24 18:09:24 info: API SERVER Running at:3001
+2020-10-24 18:09:30 info: DB Conenction Sucess
+2020-10-24 18:11:25 info: API SERVER Running at:3001
+2020-10-24 18:11:27 info: DB Conenction Sucess
+2020-10-24 18:11:28 info: API SERVER Running at:3001
+2020-10-24 18:11:29 info: DB Conenction Sucess
+2020-10-24 18:12:05 info: API SERVER Running at:3001
+2020-10-24 18:12:06 info: DB Conenction Sucess
+2020-10-24 18:12:17 info: API SERVER Running at:3001
+2020-10-24 18:12:18 info: DB Conenction Sucess
+2020-10-24 18:12:21 info: API SERVER Running at:3001
+2020-10-24 18:12:22 info: DB Conenction Sucess
+2020-10-24 18:12:24 info: API SERVER Running at:3001
+2020-10-24 18:12:25 info: DB Conenction Sucess
+2020-10-24 18:12:28 info: API SERVER Running at:3001
+2020-10-24 18:12:30 info: DB Conenction Sucess
+2020-10-24 18:12:38 info: API SERVER Running at:3001
+2020-10-24 18:12:39 info: DB Conenction Sucess
+2020-10-24 18:12:56 info: API SERVER Running at:3001
+2020-10-24 18:12:57 info: DB Conenction Sucess
+2020-10-24 18:15:48 info: API SERVER Running at:3001
+2020-10-24 18:15:49 info: DB Conenction Sucess
+2020-10-24 18:16:05 info: API SERVER Running at:3001
+2020-10-24 18:16:06 info: DB Conenction Sucess
+2020-10-24 18:16:12 info: API SERVER Running at:3001
+2020-10-24 18:16:13 info: DB Conenction Sucess
+2020-10-24 18:16:21 info: API SERVER Running at:3001
+2020-10-24 18:16:22 info: DB Conenction Sucess
+2020-10-24 18:16:37 info: API SERVER Running at:3001
+2020-10-24 18:16:37 info: DB Conenction Sucess
+2020-10-24 18:18:21 info: API SERVER Running at:3001
+2020-10-24 18:18:22 info: DB Conenction Sucess
+2020-10-24 18:18:31 info: API SERVER Running at:3001
+2020-10-24 18:18:32 info: DB Conenction Sucess
+2020-10-24 18:41:10 info: API SERVER Running at:3001
+2020-10-24 18:41:11 info: DB Conenction Sucess
+2020-10-24 18:41:16 info: Authorizing...
+2020-10-24 18:41:16 info: Create Issue Validation
+2020-10-24 18:41:16 info: Create Issue Control
+2020-10-24 18:41:16 info: Validate user stub
+2020-10-24 18:41:17 info: ValidationError: watchList: Cast to [ObjectId] failed for value "["saurabh"]" at path "watchList"
+2020-10-24 18:41:17 info: POST /api/v1/issue/create?userId=_ofyQhK9u&title=First%20Issue&description=this%20is%20a%20test%20issue&status=in-progress&reporter=saurabh&priority=high&estimates=1%20w&watchList=saurabh 500 144.305 ms - 459
+2020-10-24 18:42:20 info: Authorizing...
+2020-10-24 18:42:20 info: Create Issue Validation
+2020-10-24 18:42:20 info: Create Issue Control
+2020-10-24 18:42:20 info: Validate user stub
+2020-10-24 18:42:20 info: null
+2020-10-24 18:42:20 info: POST /api/v1/issue/create?userId=_ofyQhK9u&title=First%20Issue&description=this%20is%20a%20test%20issue&status=in-progress&reporter=saurabh&priority=high&estimates=1%20w&watchList=5f93cb3e1d269674d14d5533 200 272.529 ms - 439
+2020-10-24 18:42:42 info: Authorizing...
+2020-10-24 18:42:42 info: Filter user validations
+2020-10-24 18:42:42 info: Filter Issues Control
+2020-10-24 18:42:42 info: Computing status filter options
+2020-10-24 18:42:42 info: Validate user stub
+2020-10-24 18:42:42 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 333.098 ms - 586
+2020-10-24 18:43:25 info: API SERVER Running at:3001
+2020-10-24 18:43:26 info: DB Conenction Sucess
+2020-10-24 18:43:41 info: API SERVER Running at:3001
+2020-10-24 18:43:42 info: DB Conenction Sucess
+2020-10-24 18:43:46 info: Authorizing...
+2020-10-24 18:43:46 info: Filter user validations
+2020-10-24 18:43:46 info: Filter Issues Control
+2020-10-24 18:43:46 info: Computing status filter options
+2020-10-24 18:43:46 info: Validate user stub
+2020-10-24 18:43:47 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 365.508 ms - 586
+2020-10-24 18:45:49 info: API SERVER Running at:3001
+2020-10-24 18:45:50 info: API SERVER Running at:3001
+2020-10-24 18:45:51 info: DB Conenction Sucess
+2020-10-24 18:45:56 info: API SERVER Running at:3001
+2020-10-24 18:45:57 info: DB Conenction Sucess
+2020-10-24 18:46:01 info: API SERVER Running at:3001
+2020-10-24 18:46:02 info: DB Conenction Sucess
+2020-10-24 18:46:10 info: API SERVER Running at:3001
+2020-10-24 18:46:11 info: DB Conenction Sucess
+2020-10-24 18:46:13 info: API SERVER Running at:3001
+2020-10-24 18:46:14 info: DB Conenction Sucess
+2020-10-24 18:46:17 info: API SERVER Running at:3001
+2020-10-24 18:46:18 info: DB Conenction Sucess
+2020-10-24 18:46:22 info: API SERVER Running at:3001
+2020-10-24 18:46:23 info: DB Conenction Sucess
+2020-10-24 18:46:26 info: Authorizing...
+2020-10-24 18:46:26 info: Filter user validations
+2020-10-24 18:46:26 info: Filter Issues Control
+2020-10-24 18:46:26 info: Computing status filter options
+2020-10-24 18:46:26 info: Validate user stub
+2020-10-24 18:46:27 info: GET /api/v1/issue/filterIssues?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 372.759 ms - 443
+2020-10-24 18:47:33 info: API SERVER Running at:3001
+2020-10-24 18:47:34 info: DB Conenction Sucess
+2020-10-24 18:47:50 info: API SERVER Running at:3001
+2020-10-24 18:47:51 info: DB Conenction Sucess
+2020-10-24 18:48:45 info: API SERVER Running at:3001
+2020-10-24 18:48:46 info: DB Conenction Sucess
+2020-10-24 18:48:56 info: API SERVER Running at:3001
+2020-10-24 18:48:57 info: DB Conenction Sucess
+2020-10-24 18:49:26 info: API SERVER Running at:3001
+2020-10-24 18:49:27 info: DB Conenction Sucess
+2020-10-24 18:49:36 info: API SERVER Running at:3001
+2020-10-24 18:49:37 info: DB Conenction Sucess
+2020-10-24 18:49:41 info: API SERVER Running at:3001
+2020-10-24 18:49:42 info: DB Conenction Sucess
+2020-10-24 18:49:51 info: API SERVER Running at:3001
+2020-10-24 18:49:52 info: API SERVER Running at:3001
+2020-10-24 18:49:53 info: DB Conenction Sucess
+2020-10-24 18:50:24 info: API SERVER Running at:3001
+2020-10-24 18:50:25 info: DB Conenction Sucess
+2020-10-24 18:50:42 info: API SERVER Running at:3001
+2020-10-24 18:50:43 info: API SERVER Running at:3001
+2020-10-24 18:50:44 info: DB Conenction Sucess
+2020-10-24 18:50:46 info: API SERVER Running at:3001
+2020-10-24 18:50:47 info: DB Conenction Sucess
+2020-10-24 18:50:54 info: Authorizing...
+2020-10-24 18:50:54 info: Filter user validations
+2020-10-24 18:50:54 info: Filter Issues Control
+2020-10-24 18:50:54 info: Computing status filter options
+2020-10-24 18:50:54 info: Validate user stub
+2020-10-24 18:50:55 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 318.928 ms - 443
+2020-10-24 18:53:25 info: Authorizing...
+2020-10-24 18:53:25 info: Update issue validations
+2020-10-24 18:53:25 info: PUT /api/v1/issue/update?userId=_ofyQhK9u&issueId=TqX49OHSS&updates={%0A%20%20%20%20%22title%22:%20%22First%20Issue%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22status%22:%20%22in-progress%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22reporter%22:%20%22saurabh%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22priority%22:%20%22high%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22estimates%22:%20%221%20w%22%0A} 400 2.882 ms - 69
+2020-10-24 18:53:32 info: Authorizing...
+2020-10-24 18:53:32 info: Update issue validations
+2020-10-24 18:53:32 info: PUT /api/v1/issue/update?userId=_ofyQhK9u&issueId=TqX49OHSS&updates={%0A%20%20%20%20%22title%22:%20%22First%20Issue%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22status%22:%20%22in-progress%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22reporter%22:%20%22saurabh%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22priority%22:%20%22high%22,%0A%20%20%20%20%20%20%20%20%20%20%20%20%22estimates%22:%20%221%20w%22%0A} 400 2.626 ms - 132
+2020-10-24 18:56:54 info: API SERVER Running at:3001
+2020-10-24 18:56:56 info: DB Conenction Sucess
+2020-10-24 18:57:02 info: API SERVER Running at:3001
+2020-10-24 18:57:03 info: DB Conenction Sucess
+2020-10-24 18:57:47 info: API SERVER Running at:3001
+2020-10-24 18:57:48 info: DB Conenction Sucess
+2020-10-24 19:00:39 info: Authorizing...
+2020-10-24 19:00:39 info: Update issue validations
+2020-10-24 19:00:39 info: Update Issue Control
+2020-10-24 19:00:39 info: Validate user stub
+2020-10-24 19:01:37 info: API SERVER Running at:3001
+2020-10-24 19:01:39 info: DB Conenction Sucess
+2020-10-24 19:01:50 info: API SERVER Running at:3001
+2020-10-24 19:01:51 info: DB Conenction Sucess
+2020-10-24 19:02:00 info: API SERVER Running at:3001
+2020-10-24 19:02:01 info: DB Conenction Sucess
+2020-10-24 19:02:06 info: Authorizing...
+2020-10-24 19:02:06 info: Update issue validations
+2020-10-24 19:02:06 info: Update Issue Control
+2020-10-24 19:02:06 info: Validate user stub
+2020-10-24 19:02:06 info: Validate issue stub
+2020-10-24 19:02:06 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 404 168.785 ms - 64
+2020-10-24 19:03:00 info: API SERVER Running at:3001
+2020-10-24 19:03:01 info: DB Conenction Sucess
+2020-10-24 19:03:03 info: Authorizing...
+2020-10-24 19:03:03 info: Update issue validations
+2020-10-24 19:03:03 info: Update Issue Control
+2020-10-24 19:03:03 info: Validate user stub
+2020-10-24 19:03:03 info: Validate issue stub
+2020-10-24 19:03:04 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 404 268.915 ms - 65
+2020-10-24 19:03:35 info: API SERVER Running at:3001
+2020-10-24 19:03:36 info: DB Conenction Sucess
+2020-10-24 19:03:44 info: Authorizing...
+2020-10-24 19:03:44 info: Update issue validations
+2020-10-24 19:03:44 info: Update Issue Control
+2020-10-24 19:03:44 info: Validate user stub
+2020-10-24 19:03:44 info: Validate issue stub
+2020-10-24 19:03:44 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 200 364.784 ms - 79
+2020-10-24 19:03:57 info: Authorizing...
+2020-10-24 19:03:57 info: Filter user validations
+2020-10-24 19:03:57 info: Filter Issues Control
+2020-10-24 19:03:57 info: Computing status filter options
+2020-10-24 19:03:57 info: Validate user stub
+2020-10-24 19:03:57 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 355.324 ms - 450
+2020-10-24 19:04:38 info: API SERVER Running at:3001
+2020-10-24 19:04:39 info: DB Conenction Sucess
+2020-10-24 19:05:32 info: API SERVER Running at:3001
+2020-10-24 19:05:33 info: API SERVER Running at:3001
+2020-10-24 19:05:34 info: DB Conenction Sucess
+2020-10-24 19:05:40 info: Authorizing...
+2020-10-24 19:05:40 info: Update issue validations
+2020-10-24 19:05:40 info: Update Issue Control
+2020-10-24 19:05:40 info: Validate user stub
+2020-10-24 19:05:40 info: Validate issue stub
+2020-10-24 19:05:40 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 200 405.359 ms - 79
+2020-10-24 19:05:45 info: Authorizing...
+2020-10-24 19:05:45 info: Filter user validations
+2020-10-24 19:05:45 info: Filter Issues Control
+2020-10-24 19:05:45 info: Computing status filter options
+2020-10-24 19:05:45 info: Validate user stub
+2020-10-24 19:05:45 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 342.259 ms - 450
+2020-10-24 19:08:38 info: Regestration Parameter validation
+2020-10-24 19:08:38 info: User Registration Control
+2020-10-24 19:08:38 info: POST /api/v1/user/register 200 458.711 ms - 162
+2020-10-24 19:09:33 info: Authorizing...
+2020-10-24 19:09:33 info: Update issue validations
+2020-10-24 19:09:33 info: Update Issue Control
+2020-10-24 19:09:33 info: Validate user stub
+2020-10-24 19:09:33 info: Validate issue stub
+2020-10-24 19:09:33 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 500 318.316 ms - 124
+2020-10-24 19:10:54 info: API SERVER Running at:3001
+2020-10-24 19:10:55 info: DB Conenction Sucess
+2020-10-24 19:10:57 info: Authorizing...
+2020-10-24 19:10:57 info: Update issue validations
+2020-10-24 19:10:57 info: Update Issue Control
+2020-10-24 19:10:57 info: Validate user stub
+2020-10-24 19:10:57 info: Validate issue stub
+2020-10-24 19:10:57 info: PUT /api/v1/issue/update?userId=_ofyQhK9u 200 394.461 ms - 79
+2020-10-24 19:11:03 info: Authorizing...
+2020-10-24 19:11:03 info: Filter user validations
+2020-10-24 19:11:03 info: Filter Issues Control
+2020-10-24 19:11:03 info: Computing status filter options
+2020-10-24 19:11:03 info: Validate user stub
+2020-10-24 19:11:03 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh&option=updatedRecent&type=time 200 295.895 ms - 568

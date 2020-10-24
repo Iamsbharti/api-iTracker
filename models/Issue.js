@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Comment = require("./Comment");
 const Attachment = require("./Attachment");
+const User = require("./User");
 
 const issueSchema = mongoose.Schema({
   issueId: {
@@ -26,7 +27,6 @@ const issueSchema = mongoose.Schema({
   },
   modifiedDate: {
     type: Date,
-    default: Date.now(),
   },
   status: {
     type: String,
@@ -44,17 +44,8 @@ const issueSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  watchList: {
-    type: Array,
-    default: [],
-  },
-  commentId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Comment",
-  },
-  attachmentId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Attachment",
-  },
+  watchList: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
+  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
+  attachment: [{ type: mongoose.Schema.Types.ObjectId, ref: "Attachment" }],
 });
 module.exports = mongoose.model("Issue", issueSchema);

@@ -137,10 +137,36 @@ const filterIssuesValidation = (req, res, next) => {
   }
   next();
 };
+const updateIssueValidations = (req, res, next) => {
+  //let { userId, issueId, updates } = req.query;
+  logger.info("Update issue validations");
+  let updateSchema = joi.object({
+    userId: joi.string().min(3).required(),
+    issueId: joi.string().min(3).required(),
+    updates: joi.object().required(),
+  });
+  let { error } = updateSchema.validate(req.body);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
   createIssueValidations,
   getAllIssuesValidations,
   filterIssuesValidation,
+  updateIssueValidations,
 };

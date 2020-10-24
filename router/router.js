@@ -33,9 +33,15 @@ router.get(
   issues.getAllIssues
 );
 router.get(
-  "/issue/filterIssues",
+  "/issue/filter",
   isAuthorized,
   validations.filterIssuesValidation,
   issues.filterIssues
+);
+router.put(
+  "/issue/update",
+  isAuthorized,
+  validations.updateIssueValidations,
+  issues.updateIssue
 );
 module.exports = router;

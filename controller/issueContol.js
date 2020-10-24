@@ -3,17 +3,23 @@ const User = require("../models/User");
 const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 const shortid = require("shortid");
-const { options } = require("@hapi/joi");
 const EXCLUDE = "-__v -_id";
+
 /**validation functions */
-const validateUser = async (userId) => {
+const validateUser = async (userId, res) => {
   logger.info("Validate user stub");
   let userFound = await User.findOne({ userId: userId });
   return userFound
     ? true
     : res.status(404).json(formatResponse(true, 404, "Invalid User", null));
 };
-const validateIssue = async (issueId) => {};
+const validateIssue = async (issueId, res) => {
+  logger.info("Validate issue stub");
+  let issueFound = await Issue.findOne({ issueId: issueId });
+  return issueFound
+    ? true
+    : res.status(404).json(formatResponse(true, 404, "Invalid Issue", null));
+};
 
 /**controller functions */
 const createIssue = async (req, res) => {
@@ -31,7 +37,7 @@ const createIssue = async (req, res) => {
   } = req.query;
 
   /**validate user */
-  let userExists = await validateUser(userId);
+  let userExists = await validateUser(userId, res);
   if (userExists) {
     /** create  new_issue schema*/
     let newIssue = new Issue({
@@ -103,14 +109,14 @@ const filterIssues = async (req, res) => {
         ],
       };
       break;
-    case "doneIssues":
+    case "closedIssues":
       queryOption = {
         $and: [{ userId: userId }, { status: "done" }],
       };
       break;
   }
   /**check for valid userId */
-  let isUserValid = await validateUser(userId);
+  let isUserValid = await validateUser(userId, res);
 
   let issuesFetchedFlag = false;
   let filteredIssues;
@@ -123,6 +129,7 @@ const filterIssues = async (req, res) => {
       filteredIssues = await Issue.find({ userId: userId })
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
+        .populate("watchList", "name")
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
@@ -134,13 +141,17 @@ const filterIssues = async (req, res) => {
       })
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
+        .populate("watchList", "name")
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
   } else if (isUserValid && type === "status") {
     console.log("Status bsed filters");
     /**status based filters */
-    filteredIssues = await Issue.find(queryOption).select(EXCLUDE).lean();
+    filteredIssues = await Issue.find(queryOption)
+      .select(EXCLUDE)
+      .populate("watchList", "name")
+      .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
   } else if (!isUserValid) {
     console.log("invalid user");
@@ -160,8 +171,47 @@ const filterIssues = async (req, res) => {
       .json(formatResponse(true, 500, "Internal Server Error", null));
   }
 };
+const updateIssue = async (req, res) => {
+  logger.info("Update Issue Control");
+  let { userId, issueId, updates } = req.body;
+  /**check for valida user */
+  let isUserValid = await validateUser(userId, res);
+  let isIssueValid = await validateIssue(issueId, res);
+
+  let { watchList } = updates;
+  let updateOptions = updates;
+  delete updateOptions.watchList;
+
+  if (watchList !== undefined) {
+    /** add the unique db id to of the userid to the watchlist */
+    updateOptions = { ...updateOptions, $push: { watchList: watchList } };
+  }
+  /**add modifidied date */
+  updateOptions = { ...updateOptions, modifiedDate: Date.now() };
+  if (isUserValid && isIssueValid) {
+    await Issue.updateOne(
+      { issueId: issueId },
+      updateOptions,
+      (error, updatedIssue) => {
+        if (error) {
+          res
+            .status(500)
+            .json(formatResponse(true, 500, "Internal Server Error", error));
+        } else {
+          let { n } = updatedIssue;
+          res
+            .status(200)
+            .json(
+              formatResponse(false, 200, "Issue Updated", `${n} issue updated`)
+            );
+        }
+      }
+    );
+  }
+};
 module.exports = {
   createIssue,
   getAllIssues,
   filterIssues,
+  updateIssue,
 };
