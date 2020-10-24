@@ -26,6 +26,7 @@ const issueSchema = mongoose.Schema({
   },
   modifiedDate: {
     type: Date,
+    default: Date.now(),
   },
   status: {
     type: String,
@@ -45,14 +46,15 @@ const issueSchema = mongoose.Schema({
   },
   watchList: {
     type: Array,
+    default: [],
   },
   commentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Comment",
   },
-  attachementId: {
+  attachmentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Attachment",
   },
 });
-exports.module = mongoose.model("Issues", issueSchema);
+module.exports = mongoose.model("Issue", issueSchema);

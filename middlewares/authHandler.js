@@ -10,8 +10,8 @@ exports.isAuthorized = async (req, res, next) => {
 
   let authTokenQuery = req.query.authToken;
   let authTokenBody = req.body.authToken;
-  let authTokenHeader = req.header.authToken;
-
+  let authTokenHeader = req.header("authToken");
+  console.log(authTokenBody, authTokenHeader, authTokenQuery);
   /**check for token in req */
   if (
     authTokenBody !== undefined ||
@@ -24,13 +24,14 @@ exports.isAuthorized = async (req, res, next) => {
       process.env.TOKEN_SECRET
     );
 
-    logger.info(`Decoded Info:${decodedInfo}`);
-
+    logger.info(`Decoded Info:${decodedInfo.data}`);
+    logger.info(`userId,${reqUserId}`);
     let { userId } = decodedInfo.data;
 
     if (userId !== reqUserId) {
-      res.status(400);
-      throw new Error(`Not Valid Token ${req.originalUrl}`);
+      return res
+        .status(400)
+        .json(formatResponse(true, 400, "Invalid Token", null));
     }
   } else {
     /**auth token missing */

@@ -59,7 +59,37 @@ const loginValidations = (req, res, next) => {
   }
   next();
 };
+const createIssueValidations = (req, res, next) => {
+  logger.info("Create Issue Validation");
+  let issueSchema = joi.object({
+    title: joi.string().min(2).required(),
+    userId: joi.string().min(2).required(),
+    description: joi.string().min(2).required(),
+    status: joi.string().min(2).required(),
+    reporter: joi.string().min(2).required(),
+    priority: joi.string().min(2).required(),
+    estimates: joi.string().min(2).required(),
+    watchList: joi.string().min(2).optional(),
+  });
+  let { error } = issueSchema.validate(req.query, options);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
+  createIssueValidations,
 };
