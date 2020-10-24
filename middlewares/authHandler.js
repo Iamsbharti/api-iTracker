@@ -11,7 +11,7 @@ exports.isAuthorized = async (req, res, next) => {
   let authTokenQuery = req.query.authToken;
   let authTokenBody = req.body.authToken;
   let authTokenHeader = req.header("authToken");
-  console.log(authTokenBody, authTokenHeader, authTokenQuery);
+
   /**check for token in req */
   if (
     authTokenBody !== undefined ||
@@ -25,8 +25,6 @@ exports.isAuthorized = async (req, res, next) => {
         process.env.TOKEN_SECRET
       );
 
-      logger.info(`Decoded Info:${decodedInfo.data}`);
-      logger.info(`userId,${reqUserId}`);
       let { userId } = decodedInfo.data;
 
       if (userId !== reqUserId) {
