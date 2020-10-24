@@ -56,6 +56,26 @@ const loginControl = async (req, res) => {
       .json(formatResponse(true, 400, "Authentication Failed", null));
   }
 };
+const getAllUser = async (req, res) => {
+  const EXCLUDE = "-__v -password";
+  logger.info("Get All users for watchlist");
+
+  User.find()
+    .select(EXCLUDE)
+    .lean()
+    .exec((error, allUsers) => {
+      if (error) {
+        res
+          .status(500)
+          .json(formatResponse(true, 500, "Internal Server Error", null));
+      } else {
+        res
+          .status(200)
+          .json(formatResponse(false, 200, "Users Fetched", allUsers));
+      }
+    });
+};
 module.exports = {
   loginControl,
+  getAllUser,
 };
