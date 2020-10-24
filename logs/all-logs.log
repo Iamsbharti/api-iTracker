@@ -992,3 +992,27 @@
 2020-10-24 15:24:32 info: POST /api/v1/issue/create?userId=_ofyQhK9u&title=First%20Issue&description=this%20is%20a%20test%20issue&status=backlog&reporter=saurabh&priority=high&estimates=1%20w&watchList=saurabh 200 293.442 ms - 388
 2020-10-24 15:25:00 info: API SERVER Running at:3001
 2020-10-24 15:25:01 info: DB Conenction Sucess
+2020-10-24 15:26:06 info: API SERVER Running at:3001
+2020-10-24 15:26:07 info: DB Conenction Sucess
+2020-10-24 15:26:19 info: API SERVER Running at:3001
+2020-10-24 15:26:20 info: DB Conenction Sucess
+2020-10-24 15:26:34 info: API SERVER Running at:3001
+2020-10-24 15:26:35 info: DB Conenction Sucess
+2020-10-24 15:27:01 info: Authorizing...
+2020-10-24 15:28:24 info: API SERVER Running at:3001
+2020-10-24 15:28:26 info: DB Conenction Sucess
+2020-10-24 15:28:30 info: Authorizing...
+2020-10-24 15:29:25 info: API SERVER Running at:3001
+2020-10-24 15:29:26 info: DB Conenction Sucess
+2020-10-24 15:29:29 info: API SERVER Running at:3001
+2020-10-24 15:29:30 info: DB Conenction Sucess
+2020-10-24 15:29:33 info: Authorizing...
+2020-10-24 15:29:33 info: POST /api/v1/issue/create?userId=_ofyQhK9u&title=First%20Issue&description=this%20is%20a%20test%20issue&status=backlog&reporter=saurabh&priority=high&estimates=1%20w&watchList=saurabh 400 9.223 ms - 107
+2020-10-24 15:29:45 info: Authorizing...
+2020-10-24 15:29:45 info: Decoded Info:[object Object]
+2020-10-24 15:29:45 info: userId,_ofyQhK9u
+2020-10-24 15:29:45 info: Create Issue Validation
+2020-10-24 15:29:45 info: Create Issue Control
+2020-10-24 15:29:45 info: Validate user stub
+2020-10-24 15:29:46 info: null
+2020-10-24 15:29:46 info: POST /api/v1/issue/create?userId=_ofyQhK9u&title=First%20Issue&description=this%20is%20a%20test%20issue&status=backlog&reporter=saurabh&priority=high&estimates=1%20w&watchList=saurabh 200 277.242 ms - 388

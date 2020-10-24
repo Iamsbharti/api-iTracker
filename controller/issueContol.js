@@ -59,6 +59,10 @@ const createIssue = async (req, res) => {
     });
   }
 };
+const getAllIssues = async (req, res) => {
+  logger.info("Get All Issues Control");
+  /**check for valid userId */
+};
 module.exports = {
   createIssue,
 };

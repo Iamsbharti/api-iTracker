@@ -19,19 +19,23 @@ exports.isAuthorized = async (req, res, next) => {
     authTokenQuery !== undefined
   ) {
     /**validate the token */
-    let decodedInfo = jwt.verify(
-      authTokenQuery || authTokenHeader || authTokenBody,
-      process.env.TOKEN_SECRET
-    );
+    try {
+      let decodedInfo = jwt.verify(
+        authTokenQuery || authTokenHeader || authTokenBody,
+        process.env.TOKEN_SECRET
+      );
 
-    logger.info(`Decoded Info:${decodedInfo.data}`);
-    logger.info(`userId,${reqUserId}`);
-    let { userId } = decodedInfo.data;
+      logger.info(`Decoded Info:${decodedInfo.data}`);
+      logger.info(`userId,${reqUserId}`);
+      let { userId } = decodedInfo.data;
 
-    if (userId !== reqUserId) {
-      return res
-        .status(400)
-        .json(formatResponse(true, 400, "Invalid Token", null));
+      if (userId !== reqUserId) {
+        return res
+          .status(400)
+          .json(formatResponse(true, 400, "Invalid Token", null));
+      }
+    } catch (error) {
+      return res.status(400).json(formatResponse(true, 500, "Error", error));
     }
   } else {
     /**auth token missing */
