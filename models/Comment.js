@@ -6,7 +6,7 @@ const commentsSchema = mongoose.Schema({
     required: true,
     unique: true,
   },
-  comment: {
+  text: {
     type: String,
     required: true,
   },
@@ -18,6 +18,10 @@ const commentsSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  name: {
+    type: String,
+    required: true,
+  },
   createdAt: {
     type: Date,
     default: Date.now(),
@@ -26,4 +30,4 @@ const commentsSchema = mongoose.Schema({
     type: Date,
   },
 });
-exports.module = mongoose.model("Comment", commentsSchema);
+module.exports = mongoose.model("Comment", commentsSchema);

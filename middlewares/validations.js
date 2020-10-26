@@ -162,6 +162,32 @@ const updateIssueValidations = (req, res, next) => {
   }
   next();
 };
+const addCommentValidations = (req, res, next) => {
+  logger.info("Add comment validations");
+  //let { userId, text, issueId } = req.query;
+  let addCommentSchema = joi.object({
+    userId: joi.string().min(3).required(),
+    issueId: joi.string().min(3).required(),
+    text: joi.string().required(),
+    name: joi.string().min(3).required(),
+  });
+  let { error } = addCommentSchema.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
@@ -169,4 +195,5 @@ module.exports = {
   getAllIssuesValidations,
   filterIssuesValidation,
   updateIssueValidations,
+  addCommentValidations,
 };

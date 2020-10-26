@@ -51,4 +51,10 @@ router.put(
   validations.updateIssueValidations,
   issues.updateIssue
 );
+router.post(
+  "/issue/comment",
+  isAuthorized,
+  validations.addCommentValidations,
+  issues.addComment
+);
 module.exports = router;

@@ -1,24 +1,21 @@
 const Issue = require("../models/Issue");
 const User = require("../models/User");
+const Comment = require("../models/Comment");
 const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 const shortid = require("shortid");
 const EXCLUDE = "-__v -_id";
 
 /**validation functions */
-const validateUser = async (userId, res) => {
+const validateUser = async (userId) => {
   logger.info("Validate user stub");
   let userFound = await User.findOne({ userId: userId });
-  return userFound
-    ? true
-    : res.status(404).json(formatResponse(true, 404, "Invalid User", null));
+  return userFound ? true : false;
 };
-const validateIssue = async (issueId, res) => {
+const validateIssue = async (issueId) => {
   logger.info("Validate issue stub");
   let issueFound = await Issue.findOne({ issueId: issueId });
-  return issueFound
-    ? true
-    : res.status(404).json(formatResponse(true, 404, "Invalid Issue", null));
+  return issueFound ? true : false;
 };
 
 /**controller functions */
@@ -37,7 +34,7 @@ const createIssue = async (req, res) => {
   } = req.query;
 
   /**validate user */
-  let userExists = await validateUser(userId, res);
+  let userExists = await validateUser(userId);
   if (userExists) {
     /** create  new_issue schema*/
     let newIssue = new Issue({
@@ -64,6 +61,8 @@ const createIssue = async (req, res) => {
           .json(formatResponse(false, 200, "Issue Created", createdIssue));
       }
     });
+  } else {
+    res.status(400).json(formatResponse(false, 400, "Invalid userId", ""));
   }
 };
 const getAllIssues = async (req, res) => {
@@ -73,17 +72,23 @@ const getAllIssues = async (req, res) => {
   let isUserValid = await validateUser(userId);
 
   if (isUserValid) {
-    await Issue.find({ userId: userId }, (error, allIssues) => {
-      if (error) {
-        return res
-          .status(500)
-          .json(formatResponse(true, 500, "Internal Server Error", error));
-      } else {
-        return res
-          .status(200)
-          .json(formatResponse(false, 200, "Issues Fetched", allIssues));
-      }
-    });
+    await Issue.find({ userId: userId })
+      .populate("watchList", "name")
+      .populate("comments", ["text", "name"])
+      .lean()
+      .exec((error, allIssues) => {
+        if (error) {
+          return res
+            .status(500)
+            .json(formatResponse(true, 500, "Internal Server Error", error));
+        } else {
+          return res
+            .status(200)
+            .json(formatResponse(false, 200, "Issues Fetched", allIssues));
+        }
+      });
+  } else {
+    res.status(400).json(formatResponse(false, 400, "Invalid userId", ""));
   }
 };
 const filterIssues = async (req, res) => {
@@ -95,19 +100,14 @@ const filterIssues = async (req, res) => {
   logger.info("Computing status filter options");
   switch (option) {
     case "all":
-      queryOption = { userId: userId };
+      //queryOption = { userId: userId };
       break;
     case "reportedByMe":
       queryOption = { reporter: name };
       break;
     case "openIssues":
-      queryOption = {
-        $and: [
-          { userId: userId },
-          { status: "in-progress" },
-          { status: "in-test" },
-        ],
-      };
+      queryOption = 
+          { userId: userId,status:["test","progress"]};
       break;
     case "closedIssues":
       queryOption = {
@@ -116,7 +116,7 @@ const filterIssues = async (req, res) => {
       break;
   }
   /**check for valid userId */
-  let isUserValid = await validateUser(userId, res);
+  let isUserValid = await validateUser(userId);
 
   let issuesFetchedFlag = false;
   let filteredIssues;
@@ -130,6 +130,7 @@ const filterIssues = async (req, res) => {
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
+        .populate("comments", ["text", "name"])
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
@@ -142,15 +143,17 @@ const filterIssues = async (req, res) => {
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
+        .populate("comments", ["text", "name"])
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
   } else if (isUserValid && type === "status") {
-    console.log("Status bsed filters");
+    console.log("Status bsed filters",queryOption);
     /**status based filters */
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
       .populate("watchList", "name")
+      .populate("comments", ["text", "name"])
       .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
   } else if (!isUserValid) {
@@ -175,8 +178,8 @@ const updateIssue = async (req, res) => {
   logger.info("Update Issue Control");
   let { userId, issueId, updates } = req.body;
   /**check for valida user */
-  let isUserValid = await validateUser(userId, res);
-  let isIssueValid = await validateIssue(issueId, res);
+  let isUserValid = await validateUser(userId);
+  let isIssueValid = await validateIssue(issueId);
 
   let { watchList } = updates;
   let updateOptions = updates;
@@ -207,6 +210,52 @@ const updateIssue = async (req, res) => {
         }
       }
     );
+  } else if (!isUserValid) {
+    res.status(400).json(formatResponse(false, 400, "Invalid userId", ""));
+  } else if (!isIssueValid) {
+    res.status(400).json(formatResponse(false, 400, "Invalid IssueId", ""));
+  }
+};
+const addComment = async (req, res) => {
+  logger.info("Add Comment Route");
+  let { userId, text, issueId, name } = req.query;
+
+  /**validate userid and issueid */
+  let isUserValid = await validateUser(userId);
+  let isIssueValid = await validateIssue(issueId);
+
+  if (isUserValid && isIssueValid) {
+    let newComment = new Comment({
+      commentId: shortid.generate(),
+      userId: userId,
+      text: text,
+      issueId: issueId,
+      name: name,
+    });
+
+    /**save comment */
+    let savedComment = await Comment.create(newComment);
+    let unique_db_comment_id = savedComment._id;
+
+    /**populate the issues comment attribute */
+    let updatedIssue = await Issue.updateOne(
+      { issueId: issueId },
+      { $push: { comments: unique_db_comment_id } }
+    );
+
+    if (savedComment && updateIssue) {
+      res
+        .status(200)
+        .json(formatResponse(false, 200, "Comments Added", savedComment));
+    } else {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", null));
+    }
+  } else if (!isUserValid) {
+    res.status(400).json(formatResponse(false, 400, "Invalid userId", ""));
+  } else if (!isIssueValid) {
+    res.status(400).json(formatResponse(false, 400, "Invalid IssueId", ""));
   }
 };
 module.exports = {
@@ -214,4 +263,5 @@ module.exports = {
   getAllIssues,
   filterIssues,
   updateIssue,
+  addComment,
 };
