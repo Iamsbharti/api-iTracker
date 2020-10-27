@@ -103,10 +103,10 @@ const filterIssues = async (req, res) => {
       //queryOption = { userId: userId };
       break;
     case "reportedByMe":
-      queryOption = { reporter: name };
+      queryOption = { reporter: { $regex: new RegExp("^" + name.toLowerCase(), "i") } };
       break;
     case "openIssues":
-      queryOption = 
+      queryOption =
           { userId: userId,status:["test","progress"]};
       break;
     case "closedIssues":
