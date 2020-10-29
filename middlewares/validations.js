@@ -64,14 +64,15 @@ const createIssueValidations = (req, res, next) => {
   let issueSchema = joi.object({
     title: joi.string().min(2).required(),
     userId: joi.string().min(2).required(),
-    description: joi.string().min(2).required(),
     status: joi.string().min(2).required(),
     reporter: joi.string().min(2).required(),
     priority: joi.string().min(2).required(),
     estimates: joi.string().min(2).required(),
     watchList: joi.string().min(2).optional(),
+    assignee:joi.string().min(2).optional(),
+    description: joi.string().optional(),
   });
-  let { error } = issueSchema.validate(req.query, options);
+  let { error } = issueSchema.validate(req.body, options);
   if (error) {
     let errors = [];
     error.details.map((err) => errors.push(err.message.split("is")[0]));

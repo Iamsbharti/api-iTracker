@@ -31,7 +31,8 @@ const createIssue = async (req, res) => {
     priority,
     estimates,
     watchList,
-  } = req.query;
+    assignee,
+  } = req.body;
 
   /**validate user */
   let userExists = await validateUser(userId);
@@ -47,6 +48,7 @@ const createIssue = async (req, res) => {
       priority: priority,
       estimates: estimates,
       watchList: watchList,
+      assignee:assignee,
     });
 
     await Issue.create(newIssue, (error, createdIssue) => {
@@ -72,7 +74,7 @@ const getAllIssues = async (req, res) => {
   let isUserValid = await validateUser(userId);
 
   if (isUserValid) {
-    await Issue.find({ userId: userId })
+    await Issue.find({ assignee: userId })
       .populate("watchList", "name")
       .populate("comments", ["text", "name"])
       .lean()

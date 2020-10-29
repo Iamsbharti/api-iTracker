@@ -44,6 +44,10 @@ const issueSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  assignee:{
+    type: String,
+    required: true,
+  },
   watchList: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
   comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
   attachment: [{ type: mongoose.Schema.Types.ObjectId, ref: "Attachment" }],
