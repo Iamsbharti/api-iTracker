@@ -48,7 +48,7 @@ const createIssue = async (req, res) => {
       priority: priority,
       estimates: estimates,
       watchList: watchList,
-      assignee:assignee,
+      assignee: assignee,
     });
 
     await Issue.create(newIssue, (error, createdIssue) => {
@@ -105,11 +105,12 @@ const filterIssues = async (req, res) => {
       //queryOption = { userId: userId };
       break;
     case "reportedByMe":
-      queryOption = { reporter: { $regex: new RegExp("^" + name.toLowerCase(), "i") } };
+      queryOption = {
+        reporter: { $regex: new RegExp("^" + name.toLowerCase(), "i") },
+      };
       break;
     case "openIssues":
-      queryOption =
-          { userId: userId,status:["test","progress"]};
+      queryOption = { userId: userId, status: ["test", "progress"] };
       break;
     case "closedIssues":
       queryOption = {
@@ -122,7 +123,7 @@ const filterIssues = async (req, res) => {
 
   let issuesFetchedFlag = false;
   let filteredIssues;
-
+  console.log("query options:", queryOption);
   /**time based filters */
   if (isUserValid && type === "time") {
     console.log("Time based filter option");
@@ -150,7 +151,7 @@ const filterIssues = async (req, res) => {
       issuesFetchedFlag = filteredIssues ? true : false;
     }
   } else if (isUserValid && type === "status") {
-    console.log("Status bsed filters",queryOption);
+    console.log("Status bsed filters", queryOption);
     /**status based filters */
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
@@ -260,10 +261,43 @@ const addComment = async (req, res) => {
     res.status(400).json(formatResponse(false, 400, "Invalid IssueId", ""));
   }
 };
+const searchRoute = async (req, res) => {
+  logger.error("Search Route Control");
+  const { search } = req.query;
+  const queryOptions = {
+    $or: [
+      { title: { $regex: new RegExp(search.toLowerCase(), "i") } },
+      { description: { $regex: new RegExp(search.toLowerCase(), "i") } },
+      { reporter: { $regex: new RegExp(search.toLowerCase(), "i") } },
+      { name: { $regex: new RegExp(search.toLowerCase(), "i") } },
+    ],
+  };
+  console.log("queryoptions:", queryOptions);
+  Issue.find(queryOptions)
+    .select(EXCLUDE)
+    .sort({ title: "asc" })
+    .lean()
+    .exec((error, issues) => {
+      if (error) {
+        logger.error("Error Searching Issues", error.message);
+        res
+          .status(500)
+          .json(
+            formatResponse(true, 500, "Internal Server Error", error.message)
+          );
+      } else {
+        logger.info("Issue Fetched");
+        res
+          .status(200)
+          .json(formatResponse(false, 200, "Issues Fetched", issues));
+      }
+    });
+};
 module.exports = {
   createIssue,
   getAllIssues,
   filterIssues,
   updateIssue,
   addComment,
+  searchRoute,
 };

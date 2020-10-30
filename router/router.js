@@ -57,4 +57,10 @@ router.post(
   validations.addCommentValidations,
   issues.addComment
 );
+router.get(
+  "/issue/search",
+  isAuthorized,
+  validations.searchRouteValidation,
+  issues.searchRoute
+);
 module.exports = router;

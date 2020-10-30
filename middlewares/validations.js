@@ -69,7 +69,7 @@ const createIssueValidations = (req, res, next) => {
     priority: joi.string().min(2).required(),
     estimates: joi.string().min(2).required(),
     watchList: joi.string().min(2).optional(),
-    assignee:joi.string().min(2).optional(),
+    assignee: joi.string().min(2).optional(),
     description: joi.string().optional(),
   });
   let { error } = issueSchema.validate(req.body, options);
@@ -189,6 +189,29 @@ const addCommentValidations = (req, res, next) => {
   }
   next();
 };
+const searchRouteValidation = (req, res, next) => {
+  logger.info("Search Route Validation");
+  const searchParam = joi.object({
+    search: joi.string().min(1).required(),
+    userId: joi.string().min(2).required(),
+  });
+  let { error } = searchParam.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
@@ -197,4 +220,5 @@ module.exports = {
   filterIssuesValidation,
   updateIssueValidations,
   addCommentValidations,
+  searchRouteValidation,
 };
