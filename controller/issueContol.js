@@ -272,7 +272,7 @@ const searchRoute = async (req, res) => {
       { name: { $regex: new RegExp(search.toLowerCase(), "i") } },
     ],
   };
-  console.log("queryoptions:", queryOptions);
+  //console.log("queryoptions:", queryOptions);
   Issue.find(queryOptions)
     .select(EXCLUDE)
     .sort({ title: "asc" })
