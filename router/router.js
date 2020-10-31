@@ -5,6 +5,15 @@ const validations = require("../middlewares/validations");
 const issues = require("../controller/issueContol");
 const { isAuthorized } = require("../middlewares/authHandler");
 const User = require("../models/User");
+const uploadControl = require("../controller/uploadControl");
+const multer = require("multer");
+
+/**Init upload */
+const upload = multer({
+  storage: uploadControl.storage,
+  limits: 1024 * 1024 * 6,
+  fileFilter: uploadControl.fileFilter,
+});
 
 router.get("/ping", (req, res) => {
   console.log("Welcome to iTracker API");
@@ -62,5 +71,12 @@ router.get(
   isAuthorized,
   validations.searchRouteValidation,
   issues.searchRoute
+);
+router.post(
+  "/issue/upload",
+  isAuthorized,
+  uploadControl.uploadValidation,
+  upload.single("file"),
+  issues.uploadAttachment
 );
 module.exports = router;

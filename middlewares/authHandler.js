@@ -4,10 +4,10 @@ const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 
 exports.isAuthorized = async (req, res, next) => {
-
-
   let reqUserId = req.query.userId;
-  logger.info("Authorizing...",reqUserId);
+
+  console.log(req.body);
+  logger.info("Authorizing...", reqUserId);
   let authTokenQuery = req.query.authToken;
   let authTokenBody = req.body.authToken;
   let authTokenHeader = req.header("authToken");
@@ -26,7 +26,7 @@ exports.isAuthorized = async (req, res, next) => {
       );
 
       let { userId } = decodedInfo.data;
-
+      console.log("userid:", userId);
       if (userId !== reqUserId) {
         return res
           .status(400)

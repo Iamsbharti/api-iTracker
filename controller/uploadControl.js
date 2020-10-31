@@ -9,6 +9,7 @@ const User = require("../models/User");
 const EXCLUDE = "-__V -_id -password";
 const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
+const issueControl = require("./issueContol");
 
 const mongoURI = process.env.DB_CONNECT;
 mongoose.set("useNewUrlParser", true);
@@ -58,10 +59,32 @@ const fileFilter = (req, file, cb) => {
     cb(formatResponse(true, 500, "File Extension Not Allowed", null), false);
   }
 };
-
+// validate user and issue id before uploading
+const uploadValidation = async (req, res, next) => {
+  logger.info("upload i/p validation");
+  const userId = req.query.userId;
+  const issueId = req.query.issueId;
+  console.log(userId, issueId);
+  /**check for valid user & issue id */
+  let isUserValid = await issueControl.validateUser(userId);
+  let isIssueValid = await issueControl.validateIssue(issueId);
+  console.log("validity:", isUserValid, isIssueValid);
+  if (isUserValid && isIssueValid) {
+    console.log("valid ids");
+  } else if (!isUserValid) {
+    return res
+      .status(400)
+      .json(formatResponse(true, 400, "Invalid UserId", null));
+  } else if (!isIssueValid) {
+    return res
+      .status(400)
+      .json(formatResponse(true, 400, "Invalid IssueId", null));
+  }
+  next();
+};
 // fetch attachment for a issueId and UserId
 const fetchAttachment = async (req, res) => {
   logger.info("Fetch Attachments");
   // find file name
 };
-module.exports = { storage, fileFilter, fetchAttachment };
+module.exports = { storage, fileFilter, fetchAttachment, uploadValidation };
