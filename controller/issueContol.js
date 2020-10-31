@@ -293,6 +293,9 @@ const searchRoute = async (req, res) => {
       }
     });
 };
+const uploadAttachment = async (req, res) => {
+  
+};
 module.exports = {
   createIssue,
   getAllIssues,
@@ -300,4 +303,5 @@ module.exports = {
   updateIssue,
   addComment,
   searchRoute,
+  uploadAttachment,
 };
