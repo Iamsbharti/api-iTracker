@@ -294,7 +294,38 @@ const searchRoute = async (req, res) => {
     });
 };
 const uploadAttachment = async (req, res) => {
-  
+  logger.info("Attachment upload control");
+  const userId = req.query.userId;
+  const issueId = req.body.issueId;
+
+  /**check for valida user */
+  let isUserValid = await validateUser(userId);
+  let isIssueValid = await validateIssue(issueId);
+
+  /**update the issue's attachment list with uploaded file id*/
+  const updateQuery = { issueId: issueId };
+  let attachmentUpdateOption = {};
+  if (isUserValid && isIssueValid) {
+    attachmentUpdateOption = { $push: { attachment: req.file.id } };
+
+    let updatedIssue = await Issue.updateOne(
+      updateQuery,
+      attachmentUpdateOption
+    );
+    if (updatedIssue) {
+      res
+        .status(200)
+        .json(formatResponse(false, 200, "Attachment Uploaded", req.file));
+    } else {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", null));
+    }
+  } else if (!isUserValid) {
+    res.status(400).json(formatResponse(true, 400, "Invalid UserId", null));
+  } else if (!isIssueValid) {
+    res.status(400).json(formatResponse(true, 400, "Invalid IssueId", null));
+  }
 };
 module.exports = {
   createIssue,
