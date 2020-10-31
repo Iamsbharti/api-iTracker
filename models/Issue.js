@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Comment = require("./Comment");
-const Attachment = require("./Attachment");
+const Attachments = require("./Attachments");
 const User = require("./User");
 
 const issueSchema = mongoose.Schema({
@@ -44,12 +44,12 @@ const issueSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  assignee:{
+  assignee: {
     type: String,
     required: true,
   },
   watchList: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
   comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
-  attachment: [{ type: mongoose.Schema.Types.ObjectId, ref: "Attachment" }],
+  attachment: [{ type: mongoose.Schema.Types.ObjectId, ref: "Attachments" }],
 });
 module.exports = mongoose.model("Issue", issueSchema);

@@ -11574,3 +11574,183 @@
 2020-10-31 20:23:10 info: Validate issue stub:
 2020-10-31 20:23:15 info: Attachment upload control
 2020-10-31 20:23:15 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 200 5917.325 ms - 447
+2020-10-31 20:24:34 info: API SERVER Running at:3001
+2020-10-31 20:24:35 info: API SERVER Running at:3001
+2020-10-31 20:24:37 info: DB Conenction Sucess
+2020-10-31 20:24:58 info: API SERVER Running at:3001
+2020-10-31 20:24:59 info: API SERVER Running at:3001
+2020-10-31 20:25:01 info: API SERVER Running at:3001
+2020-10-31 20:25:02 info: DB Conenction Sucess
+2020-10-31 20:25:11 info: API SERVER Running at:3001
+2020-10-31 20:25:12 info: DB Conenction Sucess
+2020-10-31 20:25:15 info: API SERVER Running at:3001
+2020-10-31 20:25:16 info: DB Conenction Sucess
+2020-10-31 20:26:15 info: API SERVER Running at:3001
+2020-10-31 20:26:17 info: DB Conenction Sucess
+2020-10-31 20:26:19 info: API SERVER Running at:3001
+2020-10-31 20:26:20 info: DB Conenction Sucess
+2020-10-31 20:26:25 info: API SERVER Running at:3001
+2020-10-31 20:26:26 info: DB Conenction Sucess
+2020-10-31 20:26:28 info: API SERVER Running at:3001
+2020-10-31 20:26:29 info: DB Conenction Sucess
+2020-10-31 20:26:33 info: API SERVER Running at:3001
+2020-10-31 20:26:34 info: DB Conenction Sucess
+2020-10-31 20:26:37 info: API SERVER Running at:3001
+2020-10-31 20:26:38 info: DB Conenction Sucess
+2020-10-31 20:26:44 info: API SERVER Running at:3001
+2020-10-31 20:26:45 info: DB Conenction Sucess
+2020-10-31 20:26:57 info: Authorizing...
+2020-10-31 20:26:57 info: Get All Issues Validations
+2020-10-31 20:26:57 info: Get All Issues Control
+2020-10-31 20:26:57 info: Validate user stub
+2020-10-31 20:26:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 339.346 ms - 4361
+2020-10-31 20:27:06 info: Authorizing...
+2020-10-31 20:27:06 info: Get All Issues Validations
+2020-10-31 20:27:06 info: Get All Issues Control
+2020-10-31 20:27:06 info: Validate user stub
+2020-10-31 20:27:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 336.123 ms - 4361
+2020-10-31 20:28:20 info: API SERVER Running at:3001
+2020-10-31 20:28:22 info: DB Conenction Sucess
+2020-10-31 20:28:43 info: API SERVER Running at:3001
+2020-10-31 20:28:44 info: DB Conenction Sucess
+2020-10-31 20:28:47 info: API SERVER Running at:3001
+2020-10-31 20:28:48 info: DB Conenction Sucess
+2020-10-31 20:40:00 info: API SERVER Running at:3001
+2020-10-31 20:40:01 info: DB Conenction Sucess
+2020-10-31 20:40:30 info: Authorizing...
+2020-10-31 20:40:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 400 10.777 ms - 144
+2020-10-31 20:40:35 info: Login Param Validations
+2020-10-31 20:40:35 info: Login Control Init
+2020-10-31 20:40:35 info: credMatch:true
+2020-10-31 20:40:35 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-10-31 20:40:35 info: generate tokennull
+2020-10-31 20:40:35 info: POST /api/v1/user/login 200 545.448 ms - 498
+2020-10-31 20:40:51 info: Authorizing...
+2020-10-31 20:40:51 info: Get All Issues Validations
+2020-10-31 20:40:51 info: Get All Issues Control
+2020-10-31 20:40:51 info: Validate user stub
+2020-10-31 20:40:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 307.625 ms - 4361
+2020-10-31 20:44:10 info: API SERVER Running at:3001
+2020-10-31 20:44:11 info: DB Conenction Sucess
+2020-10-31 20:44:19 info: API SERVER Running at:3001
+2020-10-31 20:44:20 info: DB Conenction Sucess
+2020-10-31 20:48:36 info: Authorizing...
+2020-10-31 20:48:36 info: upload i/p validation
+2020-10-31 20:48:36 info: Validate user stub
+2020-10-31 20:48:36 info: Validate issue stub:
+2020-10-31 20:48:36 info: POST /api/v1/issue/upload?userId=_ofyQhK9u 400 249.664 ms - 67
+2020-10-31 20:49:05 info: API SERVER Running at:3001
+2020-10-31 20:49:07 info: API SERVER Running at:3001
+2020-10-31 20:49:08 info: API SERVER Running at:3001
+2020-10-31 20:49:09 info: DB Conenction Sucess
+2020-10-31 20:49:46 info: Authorizing...
+2020-10-31 20:49:46 info: upload i/p validation
+2020-10-31 20:49:46 info: Validate user stub
+2020-10-31 20:49:46 info: Validate issue stub:
+2020-10-31 20:49:46 info: Attachment upload control
+2020-10-31 20:50:17 info: API SERVER Running at:3001
+2020-10-31 20:50:19 info: DB Conenction Sucess
+2020-10-31 20:50:33 info: API SERVER Running at:3001
+2020-10-31 20:50:34 info: DB Conenction Sucess
+2020-10-31 20:50:56 info: Authorizing...
+2020-10-31 20:50:56 info: upload i/p validation
+2020-10-31 20:50:56 info: Validate user stub
+2020-10-31 20:50:56 info: Validate issue stub:
+2020-10-31 20:50:56 info: Attachment upload control
+2020-10-31 20:51:13 info: API SERVER Running at:3001
+2020-10-31 20:51:14 info: DB Conenction Sucess
+2020-10-31 20:51:50 info: API SERVER Running at:3001
+2020-10-31 20:51:51 info: DB Conenction Sucess
+2020-10-31 20:51:54 info: Authorizing...
+2020-10-31 20:51:54 info: upload i/p validation
+2020-10-31 20:51:54 info: Validate user stub
+2020-10-31 20:51:54 info: Validate issue stub:
+2020-10-31 20:51:54 info: Attachment upload control
+2020-10-31 20:51:54 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 404 227.511 ms - 100
+2020-10-31 20:52:49 info: Authorizing...
+2020-10-31 20:52:49 info: upload i/p validation
+2020-10-31 20:52:49 info: Validate user stub
+2020-10-31 20:52:49 info: Validate issue stub:
+2020-10-31 20:52:49 info: Attachment upload control
+2020-10-31 20:52:49 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 404 246.839 ms - 100
+2020-10-31 20:53:06 info: Authorizing...
+2020-10-31 20:53:06 info: upload i/p validation
+2020-10-31 20:53:06 info: Validate user stub
+2020-10-31 20:53:06 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 400 1.989 ms - 69
+2020-10-31 20:53:06 info: Validate issue stub:
+2020-10-31 20:53:06 info: Attachment upload control
+2020-10-31 20:53:10 info: Authorizing...
+2020-10-31 20:53:10 info: upload i/p validation
+2020-10-31 20:53:10 info: Validate user stub
+2020-10-31 20:53:10 info: Validate issue stub:
+2020-10-31 20:53:10 info: Attachment upload control
+2020-10-31 20:53:10 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 404 189.779 ms - 100
+2020-10-31 20:53:58 info: API SERVER Running at:3001
+2020-10-31 20:53:59 info: API SERVER Running at:3001
+2020-10-31 20:54:00 info: DB Conenction Sucess
+2020-10-31 20:54:02 info: Authorizing...
+2020-10-31 20:54:02 info: upload i/p validation
+2020-10-31 20:54:02 info: Validate user stub
+2020-10-31 20:54:02 info: Validate issue stub:
+2020-10-31 20:54:02 info: Attachment upload control
+2020-10-31 20:54:40 info: API SERVER Running at:3001
+2020-10-31 20:54:41 info: DB Conenction Sucess
+2020-10-31 20:54:44 info: Authorizing...
+2020-10-31 20:54:44 info: upload i/p validation
+2020-10-31 20:54:44 info: Validate user stub
+2020-10-31 20:54:44 info: Validate issue stub:
+2020-10-31 20:55:19 info: API SERVER Running at:3001
+2020-10-31 20:55:21 info: DB Conenction Sucess
+2020-10-31 20:55:29 info: API SERVER Running at:3001
+2020-10-31 20:55:30 info: DB Conenction Sucess
+2020-10-31 20:55:33 info: Authorizing...
+2020-10-31 20:55:33 info: upload i/p validation
+2020-10-31 20:55:33 info: Validate user stub
+2020-10-31 20:55:33 info: Validate issue stub:
+2020-10-31 20:55:33 info: Attachment upload control
+2020-10-31 20:56:14 info: API SERVER Running at:3001
+2020-10-31 20:56:15 info: DB Conenction Sucess
+2020-10-31 20:56:20 info: Authorizing...
+2020-10-31 20:56:20 info: Attachment upload control
+2020-10-31 20:56:57 info: API SERVER Running at:3001
+2020-10-31 20:56:58 info: DB Conenction Sucess
+2020-10-31 20:57:15 info: API SERVER Running at:3001
+2020-10-31 20:57:16 info: DB Conenction Sucess
+2020-10-31 20:57:21 info: API SERVER Running at:3001
+2020-10-31 20:57:33 info: API SERVER Running at:3001
+2020-10-31 20:57:34 info: DB Conenction Sucess
+2020-10-31 20:57:38 info: API SERVER Running at:3001
+2020-10-31 20:57:40 info: DB Conenction Sucess
+2020-10-31 20:57:46 info: Authorizing...
+2020-10-31 20:57:46 info: Attachment upload control
+2020-10-31 20:58:15 info: API SERVER Running at:3001
+2020-10-31 20:58:16 info: DB Conenction Sucess
+2020-10-31 20:58:53 info: Authorizing...
+2020-10-31 20:59:02 info: Attachment upload control
+2020-10-31 20:59:02 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 200 8698.369 ms - 447
+2020-10-31 20:59:16 info: Authorizing...
+2020-10-31 20:59:16 info: Get All Issues Validations
+2020-10-31 20:59:16 info: Get All Issues Control
+2020-10-31 20:59:16 info: Validate user stub
+2020-10-31 20:59:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 386.047 ms - 4441
+2020-10-31 20:59:40 info: API SERVER Running at:3001
+2020-10-31 20:59:42 info: DB Conenction Sucess
+2020-10-31 20:59:59 info: Authorizing...
+2020-10-31 20:59:59 info: upload i/p validation
+2020-10-31 20:59:59 info: Validate user stub
+2020-10-31 20:59:59 info: Validate issue stub:
+2020-10-31 21:00:02 info: Attachment upload control
+2020-10-31 21:00:02 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=kPQb9eYRR 200 2825.183 ms - 447
+2020-10-31 21:00:09 info: Authorizing...
+2020-10-31 21:00:09 info: Get All Issues Validations
+2020-10-31 21:00:09 info: Get All Issues Control
+2020-10-31 21:00:09 info: Validate user stub
+2020-10-31 21:00:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 346.061 ms - 4522

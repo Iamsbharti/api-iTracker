@@ -77,6 +77,7 @@ const getAllIssues = async (req, res) => {
     await Issue.find({ assignee: userId })
       .populate("watchList", "name")
       .populate("comments", ["text", "name"])
+      .populate("attachment", ["_id", "filename"])
       .lean()
       .exec((error, allIssues) => {
         if (error) {
@@ -134,6 +135,7 @@ const filterIssues = async (req, res) => {
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
         .populate("comments", ["text", "name"])
+        .populate("attachment", "filename")
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
@@ -147,6 +149,7 @@ const filterIssues = async (req, res) => {
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
         .populate("comments", ["text", "name"])
+        .populate("attachment", ["_id", "filename"])
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
@@ -157,6 +160,7 @@ const filterIssues = async (req, res) => {
       .select(EXCLUDE)
       .populate("watchList", "name")
       .populate("comments", ["text", "name"])
+      .populate("attachment", ["_id", "filename"])
       .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
   } else if (!isUserValid) {
@@ -295,9 +299,8 @@ const searchRoute = async (req, res) => {
 };
 const uploadAttachment = async (req, res) => {
   logger.info("Attachment upload control");
-  const userId = req.query.userId;
   const issueId = req.query.issueId;
-
+  console.log("file", req.file);
   /**update the issue's attachment list with uploaded file id*/
   const updateQuery = { issueId: issueId };
   let attachmentUpdateOption = { $push: { attachment: req.file.id } };
