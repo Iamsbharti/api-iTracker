@@ -79,4 +79,16 @@ router.post(
   upload.single("file"),
   issues.uploadAttachment
 );
+router.post(
+  "/issue/edit/comment",
+  isAuthorized,
+  validations.updateCommentValidation,
+  issues.updateComment
+);
+router.delete(
+  "/issue/delete/comment",
+  isAuthorized,
+  validations.deleteCommentValidation,
+  issues.deleteComment
+);
 module.exports = router;

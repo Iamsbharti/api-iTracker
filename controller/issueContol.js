@@ -17,7 +17,11 @@ const validateIssue = async (issueId) => {
   let issueFound = await Issue.findOne({ issueId: issueId });
   return issueFound ? true : false;
 };
-
+const validateComment = async (commentId) => {
+  logger.info("Validate comment stub:", commentId);
+  let commentFound = await Comment.findOne({ commentId: commentId });
+  return commentFound ? true : false;
+};
 /**controller functions */
 const createIssue = async (req, res) => {
   logger.info("Create Issue Control");
@@ -159,7 +163,7 @@ const filterIssues = async (req, res) => {
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
       .populate("watchList", "name")
-      .populate("comments", ["text", "name","commentId"])
+      .populate("comments", ["text", "name", "commentId"])
       .populate("attachment", ["_id", "filename"])
       .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
@@ -226,7 +230,7 @@ const updateIssue = async (req, res) => {
 const addComment = async (req, res) => {
   logger.info("Add Comment Route");
   let { userId, issueId, name } = req.query;
-  let {text}=req.body;
+  let { text } = req.body;
   /**validate userid and issueid */
   let isUserValid = await validateUser(userId);
   let isIssueValid = await validateIssue(issueId);
@@ -320,6 +324,57 @@ const uploadAttachment = async (req, res) => {
       .json(formatResponse(true, 500, "Internal Server Error", null));
   }
 };
+const updateComment = async (req, res) => {
+  logger.info("update comment control");
+  const { commentId, text } = req.body;
+  // validate comment
+  let isCommentValid = await validateComment(commentId);
+
+  if (isCommentValid) {
+    let updatedComment = await Comment.updateOne(
+      { commentId: commentId },
+      { text: text }
+    );
+    if (updateComment) {
+      let { n } = updatedComment;
+      res
+        .status(200)
+        .json(
+          formatResponse(false, 200, "Comment updated", `${n} comment updated`)
+        );
+    } else {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", null));
+    }
+  } else {
+    res.status(400).json(formatResponse(true, 500, "Invalid Comment", null));
+  }
+};
+const deleteComment = async (req, res) => {
+  logger.info("Delete comment control");
+  let { commentId } = req.query;
+  // validate comment
+  let isCommentValid = await validateComment(commentId);
+  if (isCommentValid) {
+    let deletedComment = await Comment.deleteOne({ commentId: commentId });
+
+    if (deleteComment) {
+      let { n } = deletedComment;
+      res
+        .status(200)
+        .json(
+          formatResponse(false, 200, "Comment updated", `${n} comment deleted`)
+        );
+    } else {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", null));
+    }
+  } else {
+    res.status(400).json(formatResponse(true, 500, "Invalid Comment", null));
+  }
+};
 module.exports = {
   validateUser,
   validateIssue,
@@ -330,4 +385,6 @@ module.exports = {
   addComment,
   searchRoute,
   uploadAttachment,
+  updateComment,
+  deleteComment,
 };

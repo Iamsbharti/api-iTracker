@@ -212,6 +212,52 @@ const searchRouteValidation = (req, res, next) => {
   }
   next();
 };
+const updateCommentValidation = (req, res, next) => {
+  logger.info("update comment Validation");
+  const updateCommentParam = joi.object({
+    commentId: joi.string().min(1).required(),
+    text: joi.string().required(),
+  });
+  let { error } = updateCommentParam.validate(req.body);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
+const deleteCommentValidation = (req, res, next) => {
+  logger.info("delete comment Validation");
+  const deleteCommentParam = joi.object({
+    commentId: joi.string().min(1).required(),
+    userId: joi.string().min(1).required(),
+  });
+  let { error } = deleteCommentParam.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
@@ -221,4 +267,6 @@ module.exports = {
   updateIssueValidations,
   addCommentValidations,
   searchRouteValidation,
+  updateCommentValidation,
+  deleteCommentValidation,
 };

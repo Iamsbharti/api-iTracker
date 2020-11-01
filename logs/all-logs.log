@@ -16076,3 +16076,130 @@
 2020-11-01 23:08:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.983 ms - -
 2020-11-01 23:09:11 info: API SERVER Running at:3001
 2020-11-01 23:09:12 info: DB Conenction Sucess
+2020-11-01 23:11:27 info: API SERVER Running at:3001
+2020-11-01 23:11:29 info: DB Conenction Sucess
+2020-11-01 23:12:01 info: API SERVER Running at:3001
+2020-11-01 23:12:02 info: DB Conenction Sucess
+2020-11-01 23:12:33 info: API SERVER Running at:3001
+2020-11-01 23:12:34 info: DB Conenction Sucess
+2020-11-01 23:12:56 info: API SERVER Running at:3001
+2020-11-01 23:12:58 info: DB Conenction Sucess
+2020-11-01 23:13:06 info: API SERVER Running at:3001
+2020-11-01 23:13:07 info: DB Conenction Sucess
+2020-11-01 23:14:47 info: API SERVER Running at:3001
+2020-11-01 23:14:48 info: DB Conenction Sucess
+2020-11-01 23:15:46 info: API SERVER Running at:3001
+2020-11-01 23:15:47 info: DB Conenction Sucess
+2020-11-01 23:16:53 info: API SERVER Running at:3001
+2020-11-01 23:16:55 info: DB Conenction Sucess
+2020-11-01 23:17:11 info: API SERVER Running at:3001
+2020-11-01 23:17:12 info: DB Conenction Sucess
+2020-11-01 23:17:20 info: API SERVER Running at:3001
+2020-11-01 23:17:21 info: DB Conenction Sucess
+2020-11-01 23:17:50 info: API SERVER Running at:3001
+2020-11-01 23:17:52 info: DB Conenction Sucess
+2020-11-01 23:18:58 info: API SERVER Running at:3001
+2020-11-01 23:19:00 info: DB Conenction Sucess
+2020-11-01 23:19:16 info: API SERVER Running at:3001
+2020-11-01 23:19:17 info: DB Conenction Sucess
+2020-11-01 23:19:28 info: API SERVER Running at:3001
+2020-11-01 23:19:29 info: DB Conenction Sucess
+2020-11-01 23:19:45 info: API SERVER Running at:3001
+2020-11-01 23:19:46 info: DB Conenction Sucess
+2020-11-01 23:19:53 info: API SERVER Running at:3001
+2020-11-01 23:19:54 info: DB Conenction Sucess
+2020-11-01 23:19:57 info: API SERVER Running at:3001
+2020-11-01 23:19:58 info: DB Conenction Sucess
+2020-11-01 23:20:01 info: API SERVER Running at:3001
+2020-11-01 23:20:02 info: DB Conenction Sucess
+2020-11-01 23:20:08 info: API SERVER Running at:3001
+2020-11-01 23:20:09 info: DB Conenction Sucess
+2020-11-01 23:20:15 info: API SERVER Running at:3001
+2020-11-01 23:20:16 info: DB Conenction Sucess
+2020-11-01 23:20:33 info: API SERVER Running at:3001
+2020-11-01 23:20:34 info: DB Conenction Sucess
+2020-11-01 23:20:44 info: API SERVER Running at:3001
+2020-11-01 23:20:45 info: DB Conenction Sucess
+2020-11-01 23:20:52 info: API SERVER Running at:3001
+2020-11-01 23:20:53 info: DB Conenction Sucess
+2020-11-01 23:20:56 info: API SERVER Running at:3001
+2020-11-01 23:20:57 info: DB Conenction Sucess
+2020-11-01 23:21:06 info: API SERVER Running at:3001
+2020-11-01 23:21:07 info: DB Conenction Sucess
+2020-11-01 23:21:11 info: API SERVER Running at:3001
+2020-11-01 23:21:13 info: API SERVER Running at:3001
+2020-11-01 23:21:14 info: DB Conenction Sucess
+2020-11-01 23:21:23 info: API SERVER Running at:3001
+2020-11-01 23:21:24 info: DB Conenction Sucess
+2020-11-01 23:21:57 info: API SERVER Running at:3001
+2020-11-01 23:21:58 info: DB Conenction Sucess
+2020-11-01 23:22:16 info: API SERVER Running at:3001
+2020-11-01 23:22:18 info: DB Conenction Sucess
+2020-11-01 23:22:27 info: API SERVER Running at:3001
+2020-11-01 23:22:28 info: DB Conenction Sucess
+2020-11-01 23:22:45 info: API SERVER Running at:3001
+2020-11-01 23:22:46 info: DB Conenction Sucess
+2020-11-01 23:22:55 info: API SERVER Running at:3001
+2020-11-01 23:22:56 info: DB Conenction Sucess
+2020-11-01 23:22:59 info: API SERVER Running at:3001
+2020-11-01 23:23:00 info: DB Conenction Sucess
+2020-11-01 23:23:04 info: API SERVER Running at:3001
+2020-11-01 23:23:05 info: DB Conenction Sucess
+2020-11-01 23:23:28 info: API SERVER Running at:3001
+2020-11-01 23:23:30 info: DB Conenction Sucess
+2020-11-01 23:23:33 info: API SERVER Running at:3001
+2020-11-01 23:23:34 info: DB Conenction Sucess
+2020-11-01 23:23:39 info: API SERVER Running at:3001
+2020-11-01 23:23:40 info: DB Conenction Sucess
+2020-11-01 23:23:42 info: API SERVER Running at:3001
+2020-11-01 23:23:43 info: DB Conenction Sucess
+2020-11-01 23:23:56 info: API SERVER Running at:3001
+2020-11-01 23:23:57 info: DB Conenction Sucess
+2020-11-01 23:24:44 info: API SERVER Running at:3001
+2020-11-01 23:24:46 info: DB Conenction Sucess
+2020-11-01 23:25:33 info: API SERVER Running at:3001
+2020-11-01 23:25:34 info: API SERVER Running at:3001
+2020-11-01 23:25:35 info: DB Conenction Sucess
+2020-11-01 23:27:53 info: Authorizing...
+2020-11-01 23:27:53 info: update comment Validation
+2020-11-01 23:27:53 info: update comment control
+2020-11-01 23:27:53 info: Validate comment stub:
+2020-11-01 23:27:53 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 290.938 ms - 91
+2020-11-01 23:28:30 info: API SERVER Running at:3001
+2020-11-01 23:28:31 info: DB Conenction Sucess
+2020-11-01 23:28:31 info: Authorizing...
+2020-11-01 23:28:31 info: update comment Validation
+2020-11-01 23:28:31 info: update comment control
+2020-11-01 23:28:31 info: Validate comment stub:
+2020-11-01 23:28:32 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 408.756 ms - 83
+2020-11-01 23:30:07 info: Authorizing...
+2020-11-01 23:30:07 info: Get All Issues Validations
+2020-11-01 23:30:07 info: Get All Issues Control
+2020-11-01 23:30:07 info: Validate user stub
+2020-11-01 23:30:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 352.628 ms - 5635
+2020-11-01 23:30:43 info: DELETE /api/v1/issue/edit/comment?commentId=5KPV4q1H2&userId=_ofyQhK9u 404 0.897 ms - 108
+2020-11-01 23:30:52 info: Authorizing...
+2020-11-01 23:30:52 info: delete comment Validation
+2020-11-01 23:30:52 info: DELETE /api/v1/issue/delete/comment?commentId=5KPV4q1H2&userId=_ofyQhK9u 400 0.959 ms - 69
+2020-11-01 23:31:14 info: Authorizing...
+2020-11-01 23:31:14 info: delete comment Validation
+2020-11-01 23:31:14 info: DELETE /api/v1/issue/delete/comment?commentId=5KPV4q1H2&userId=_ofyQhK9u 400 2.477 ms - 86
+2020-11-01 23:31:35 info: API SERVER Running at:3001
+2020-11-01 23:31:37 info: DB Conenction Sucess
+2020-11-01 23:31:38 info: Authorizing...
+2020-11-01 23:31:38 info: delete comment Validation
+2020-11-01 23:31:38 info: Delete comment control
+2020-11-01 23:31:38 info: Validate comment stub:
+2020-11-01 23:31:38 info: DELETE /api/v1/issue/delete/comment?commentId=5KPV4q1H2&userId=_ofyQhK9u 200 288.416 ms - 91
+2020-11-01 23:31:56 info: API SERVER Running at:3001
+2020-11-01 23:31:57 info: DB Conenction Sucess
+2020-11-01 23:31:59 info: Authorizing...
+2020-11-01 23:31:59 info: delete comment Validation
+2020-11-01 23:31:59 info: Delete comment control
+2020-11-01 23:31:59 info: Validate comment stub:
+2020-11-01 23:31:59 info: DELETE /api/v1/issue/delete/comment?commentId=5KPV4q1H2&userId=_ofyQhK9u 400 140.158 ms - 67
+2020-11-01 23:32:07 info: Authorizing...
+2020-11-01 23:32:07 info: Get All Issues Validations
+2020-11-01 23:32:07 info: Get All Issues Control
+2020-11-01 23:32:07 info: Validate user stub
+2020-11-01 23:32:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 353.336 ms - 5429
