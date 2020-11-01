@@ -33,6 +33,7 @@ app.use(function (req, res, next) {
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, authToken, access-control-allow-origin"
   );
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
 

@@ -169,7 +169,7 @@ const addCommentValidations = (req, res, next) => {
   let addCommentSchema = joi.object({
     userId: joi.string().min(3).required(),
     issueId: joi.string().min(3).required(),
-    text: joi.string().required(),
+    text: joi.string().optional(),
     name: joi.string().min(3).required(),
   });
   let { error } = addCommentSchema.validate(req.query);

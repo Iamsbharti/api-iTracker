@@ -76,7 +76,7 @@ const getAllIssues = async (req, res) => {
   if (isUserValid) {
     await Issue.find({ assignee: userId })
       .populate("watchList", "name")
-      .populate("comments", ["text", "name"])
+      .populate("comments")
       .populate("attachment", ["_id", "filename"])
       .lean()
       .exec((error, allIssues) => {
@@ -134,7 +134,7 @@ const filterIssues = async (req, res) => {
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
-        .populate("comments", ["text", "name"])
+        .populate("comments")
         .populate("attachment", "filename")
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
@@ -148,7 +148,7 @@ const filterIssues = async (req, res) => {
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
-        .populate("comments", ["text", "name"])
+        .populate("comments")
         .populate("attachment", ["_id", "filename"])
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
@@ -159,7 +159,7 @@ const filterIssues = async (req, res) => {
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
       .populate("watchList", "name")
-      .populate("comments", ["text", "name"])
+      .populate("comments", ["text", "name","commentId"])
       .populate("attachment", ["_id", "filename"])
       .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
@@ -225,8 +225,8 @@ const updateIssue = async (req, res) => {
 };
 const addComment = async (req, res) => {
   logger.info("Add Comment Route");
-  let { userId, text, issueId, name } = req.query;
-
+  let { userId, issueId, name } = req.query;
+  let {text}=req.body;
   /**validate userid and issueid */
   let isUserValid = await validateUser(userId);
   let isIssueValid = await validateIssue(issueId);
@@ -265,6 +265,7 @@ const addComment = async (req, res) => {
     res.status(400).json(formatResponse(false, 400, "Invalid IssueId", ""));
   }
 };
+
 const searchRoute = async (req, res) => {
   logger.error("Search Route Control");
   const { search } = req.query;
@@ -279,6 +280,9 @@ const searchRoute = async (req, res) => {
   //console.log("queryoptions:", queryOptions);
   Issue.find(queryOptions)
     .select(EXCLUDE)
+    .populate("watchList", "name")
+    .populate("comments")
+    .populate("attachment", ["_id", "filename"])
     .sort({ title: "asc" })
     .lean()
     .exec((error, issues) => {
