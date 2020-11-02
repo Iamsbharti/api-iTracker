@@ -364,7 +364,7 @@ const deleteComment = async (req, res) => {
       res
         .status(200)
         .json(
-          formatResponse(false, 200, "Comment updated", `${n} comment deleted`)
+          formatResponse(false, 200, "Comment Deleted", `${n} comment deleted`)
         );
     } else {
       res

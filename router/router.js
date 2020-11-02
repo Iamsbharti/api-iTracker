@@ -85,10 +85,11 @@ router.post(
   validations.updateCommentValidation,
   issues.updateComment
 );
-router.delete(
+router.post(
   "/issue/delete/comment",
   isAuthorized,
   validations.deleteCommentValidation,
   issues.deleteComment
 );
+router.get("/issue/attachment", isAuthorized, uploadControl.fetchAttachment);
 module.exports = router;

@@ -16203,3 +16203,1870 @@
 2020-11-01 23:32:07 info: Get All Issues Control
 2020-11-01 23:32:07 info: Validate user stub
 2020-11-01 23:32:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 353.336 ms - 5429
+2020-11-01 23:49:35 info: DB Conenction Sucess
+2020-11-01 23:53:32 info: DB Conenction Sucess
+2020-11-02 09:55:15 info: DB Conenction Sucess
+2020-11-02 09:57:49 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 1.114 ms - 0
+2020-11-02 09:57:49 info: Authorizing...
+2020-11-02 09:57:49 info: Get All Issues Validations
+2020-11-02 09:57:49 info: Get All Issues Control
+2020-11-02 09:57:49 info: Validate user stub
+2020-11-02 09:57:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 1035.270 ms - 5429
+2020-11-02 10:00:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.272 ms - 0
+2020-11-02 10:00:22 info: Authorizing...
+2020-11-02 10:00:22 info: Get All Issues Validations
+2020-11-02 10:00:22 info: Get All Issues Control
+2020-11-02 10:00:22 info: Validate user stub
+2020-11-02 10:00:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 347.305 ms - -
+2020-11-02 10:01:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.325 ms - 0
+2020-11-02 10:01:27 info: Authorizing...
+2020-11-02 10:01:27 info: Get All Issues Validations
+2020-11-02 10:01:27 info: Get All Issues Control
+2020-11-02 10:01:27 info: Validate user stub
+2020-11-02 10:01:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 298.868 ms - -
+2020-11-02 10:02:42 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.283 ms - 0
+2020-11-02 10:02:42 info: Authorizing...
+2020-11-02 10:02:42 info: Get All Issues Validations
+2020-11-02 10:02:42 info: Get All Issues Control
+2020-11-02 10:02:42 info: Validate user stub
+2020-11-02 10:02:43 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 315.566 ms - -
+2020-11-02 10:04:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.316 ms - 0
+2020-11-02 10:04:04 info: Authorizing...
+2020-11-02 10:04:04 info: Get All Issues Validations
+2020-11-02 10:04:04 info: Get All Issues Control
+2020-11-02 10:04:04 info: Validate user stub
+2020-11-02 10:04:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.046 ms - -
+2020-11-02 10:04:45 info: API SERVER Running at:3001
+2020-11-02 10:04:47 info: DB Conenction Sucess
+2020-11-02 10:06:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 2.867 ms - 0
+2020-11-02 10:06:06 info: Authorizing...
+2020-11-02 10:06:06 info: Get All Issues Validations
+2020-11-02 10:06:06 info: Get All Issues Control
+2020-11-02 10:06:06 info: Validate user stub
+2020-11-02 10:06:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 396.506 ms - -
+2020-11-02 10:07:24 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.300 ms - 0
+2020-11-02 10:07:24 info: Authorizing...
+2020-11-02 10:07:24 info: Get All Issues Validations
+2020-11-02 10:07:24 info: Get All Issues Control
+2020-11-02 10:07:24 info: Validate user stub
+2020-11-02 10:07:24 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 302.830 ms - -
+2020-11-02 10:08:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.277 ms - 0
+2020-11-02 10:08:23 info: Authorizing...
+2020-11-02 10:08:23 info: Get All Issues Validations
+2020-11-02 10:08:23 info: Get All Issues Control
+2020-11-02 10:08:23 info: Validate user stub
+2020-11-02 10:08:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 375.729 ms - -
+2020-11-02 10:09:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.179 ms - 0
+2020-11-02 10:09:08 info: Authorizing...
+2020-11-02 10:09:08 info: Get All Issues Validations
+2020-11-02 10:09:08 info: Get All Issues Control
+2020-11-02 10:09:08 info: Validate user stub
+2020-11-02 10:09:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 327.041 ms - -
+2020-11-02 10:10:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.363 ms - 0
+2020-11-02 10:10:04 info: Authorizing...
+2020-11-02 10:10:04 info: Get All Issues Validations
+2020-11-02 10:10:04 info: Get All Issues Control
+2020-11-02 10:10:04 info: Validate user stub
+2020-11-02 10:10:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 349.096 ms - -
+2020-11-02 10:11:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.294 ms - 0
+2020-11-02 10:11:38 info: Authorizing...
+2020-11-02 10:11:38 info: Get All Issues Validations
+2020-11-02 10:11:38 info: Get All Issues Control
+2020-11-02 10:11:38 info: Validate user stub
+2020-11-02 10:11:38 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 331.912 ms - -
+2020-11-02 10:11:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.182 ms - 0
+2020-11-02 10:11:48 info: Authorizing...
+2020-11-02 10:11:48 info: Get All Issues Validations
+2020-11-02 10:11:48 info: Get All Issues Control
+2020-11-02 10:11:48 info: Validate user stub
+2020-11-02 10:11:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 351.519 ms - -
+2020-11-02 10:12:35 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.309 ms - 0
+2020-11-02 10:12:35 info: Authorizing...
+2020-11-02 10:12:35 info: Get All Issues Validations
+2020-11-02 10:12:35 info: Get All Issues Control
+2020-11-02 10:12:35 info: Validate user stub
+2020-11-02 10:12:35 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.136 ms - -
+2020-11-02 10:13:11 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.271 ms - 0
+2020-11-02 10:13:11 info: Authorizing...
+2020-11-02 10:13:11 info: Get All Issues Validations
+2020-11-02 10:13:11 info: Get All Issues Control
+2020-11-02 10:13:11 info: Validate user stub
+2020-11-02 10:13:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 368.046 ms - -
+2020-11-02 10:13:16 info: Authorizing...
+2020-11-02 10:13:16 info: Get All Issues Validations
+2020-11-02 10:13:16 info: Get All Issues Control
+2020-11-02 10:13:16 info: Validate user stub
+2020-11-02 10:13:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 381.473 ms - -
+2020-11-02 10:13:26 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.273 ms - 0
+2020-11-02 10:13:26 info: Authorizing...
+2020-11-02 10:13:26 info: Get All Issues Validations
+2020-11-02 10:13:26 info: Get All Issues Control
+2020-11-02 10:13:26 info: Validate user stub
+2020-11-02 10:13:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.294 ms - -
+2020-11-02 10:14:11 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.317 ms - 0
+2020-11-02 10:14:11 info: Authorizing...
+2020-11-02 10:14:11 info: Get All Issues Validations
+2020-11-02 10:14:11 info: Get All Issues Control
+2020-11-02 10:14:11 info: Validate user stub
+2020-11-02 10:14:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.311 ms - -
+2020-11-02 10:14:40 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.293 ms - 0
+2020-11-02 10:14:40 info: Authorizing...
+2020-11-02 10:14:40 info: Get All Issues Validations
+2020-11-02 10:14:40 info: Get All Issues Control
+2020-11-02 10:14:40 info: Validate user stub
+2020-11-02 10:14:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.835 ms - -
+2020-11-02 10:14:42 info: Authorizing...
+2020-11-02 10:14:42 info: Get All Issues Validations
+2020-11-02 10:14:42 info: Get All Issues Control
+2020-11-02 10:14:42 info: Validate user stub
+2020-11-02 10:14:43 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.146 ms - -
+2020-11-02 10:15:01 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.969 ms - 0
+2020-11-02 10:15:01 info: Authorizing...
+2020-11-02 10:15:01 info: Get All Issues Validations
+2020-11-02 10:15:01 info: Get All Issues Control
+2020-11-02 10:15:01 info: Validate user stub
+2020-11-02 10:15:02 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 369.059 ms - -
+2020-11-02 10:15:04 info: Authorizing...
+2020-11-02 10:15:04 info: Get All Issues Validations
+2020-11-02 10:15:04 info: Get All Issues Control
+2020-11-02 10:15:04 info: Validate user stub
+2020-11-02 10:15:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.151 ms - -
+2020-11-02 10:16:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.303 ms - 0
+2020-11-02 10:16:16 info: Authorizing...
+2020-11-02 10:16:16 info: Get All Issues Validations
+2020-11-02 10:16:16 info: Get All Issues Control
+2020-11-02 10:16:16 info: Validate user stub
+2020-11-02 10:16:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 381.384 ms - -
+2020-11-02 10:17:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.274 ms - 0
+2020-11-02 10:17:16 info: Authorizing...
+2020-11-02 10:17:16 info: Get All Issues Validations
+2020-11-02 10:17:16 info: Get All Issues Control
+2020-11-02 10:17:16 info: Validate user stub
+2020-11-02 10:17:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.375 ms - -
+2020-11-02 10:17:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-02 10:17:33 info: Authorizing...
+2020-11-02 10:17:33 info: Get All Issues Validations
+2020-11-02 10:17:33 info: Get All Issues Control
+2020-11-02 10:17:33 info: Validate user stub
+2020-11-02 10:17:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.831 ms - -
+2020-11-02 10:18:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.286 ms - 0
+2020-11-02 10:18:04 info: Authorizing...
+2020-11-02 10:18:04 info: Get All Issues Validations
+2020-11-02 10:18:04 info: Get All Issues Control
+2020-11-02 10:18:04 info: Validate user stub
+2020-11-02 10:18:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 372.930 ms - -
+2020-11-02 10:18:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.270 ms - 0
+2020-11-02 10:18:28 info: Authorizing...
+2020-11-02 10:18:28 info: Get All Issues Validations
+2020-11-02 10:18:28 info: Get All Issues Control
+2020-11-02 10:18:28 info: Validate user stub
+2020-11-02 10:18:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 338.932 ms - -
+2020-11-02 10:18:54 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-02 10:18:54 info: Authorizing...
+2020-11-02 10:18:54 info: Get All Issues Validations
+2020-11-02 10:18:54 info: Get All Issues Control
+2020-11-02 10:18:54 info: Validate user stub
+2020-11-02 10:18:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.010 ms - -
+2020-11-02 10:19:00 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.215 ms - 0
+2020-11-02 10:19:00 info: Authorizing...
+2020-11-02 10:19:00 info: Get All Issues Validations
+2020-11-02 10:19:00 info: Get All Issues Control
+2020-11-02 10:19:00 info: Validate user stub
+2020-11-02 10:19:01 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 635.496 ms - -
+2020-11-02 10:19:05 info: Authorizing...
+2020-11-02 10:19:05 info: Get All Issues Validations
+2020-11-02 10:19:05 info: Get All Issues Control
+2020-11-02 10:19:05 info: Validate user stub
+2020-11-02 10:19:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.245 ms - -
+2020-11-02 10:19:10 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.258 ms - 0
+2020-11-02 10:19:10 info: Authorizing...
+2020-11-02 10:19:10 info: Get All Issues Validations
+2020-11-02 10:19:10 info: Get All Issues Control
+2020-11-02 10:19:10 info: Validate user stub
+2020-11-02 10:19:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 366.205 ms - -
+2020-11-02 10:19:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-02 10:19:23 info: Authorizing...
+2020-11-02 10:19:23 info: Get All Issues Validations
+2020-11-02 10:19:23 info: Get All Issues Control
+2020-11-02 10:19:23 info: Validate user stub
+2020-11-02 10:19:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 320.578 ms - -
+2020-11-02 10:19:28 info: Authorizing...
+2020-11-02 10:19:28 info: Get All Issues Validations
+2020-11-02 10:19:28 info: Get All Issues Control
+2020-11-02 10:19:28 info: Validate user stub
+2020-11-02 10:19:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 473.277 ms - -
+2020-11-02 10:20:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-02 10:20:08 info: Authorizing...
+2020-11-02 10:20:08 info: Get All Issues Validations
+2020-11-02 10:20:08 info: Get All Issues Control
+2020-11-02 10:20:08 info: Validate user stub
+2020-11-02 10:20:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 451.332 ms - -
+2020-11-02 10:20:13 info: Authorizing...
+2020-11-02 10:20:13 info: Get All Issues Validations
+2020-11-02 10:20:13 info: Get All Issues Control
+2020-11-02 10:20:13 info: Validate user stub
+2020-11-02 10:20:13 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.647 ms - -
+2020-11-02 10:21:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-02 10:21:27 info: Authorizing...
+2020-11-02 10:21:27 info: Get All Issues Validations
+2020-11-02 10:21:27 info: Get All Issues Control
+2020-11-02 10:21:27 info: Validate user stub
+2020-11-02 10:21:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 518.667 ms - -
+2020-11-02 10:25:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-02 10:25:08 info: Authorizing...
+2020-11-02 10:25:08 info: Get All Issues Validations
+2020-11-02 10:25:08 info: Get All Issues Control
+2020-11-02 10:25:08 info: Validate user stub
+2020-11-02 10:25:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.041 ms - -
+2020-11-02 10:26:00 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.235 ms - 0
+2020-11-02 10:26:00 info: Authorizing...
+2020-11-02 10:26:00 info: Get All Issues Validations
+2020-11-02 10:26:00 info: Get All Issues Control
+2020-11-02 10:26:00 info: Validate user stub
+2020-11-02 10:26:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 354.169 ms - -
+2020-11-02 10:32:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.170 ms - 0
+2020-11-02 10:32:16 info: Authorizing...
+2020-11-02 10:32:16 info: Get All Issues Validations
+2020-11-02 10:32:16 info: Get All Issues Control
+2020-11-02 10:32:16 info: Validate user stub
+2020-11-02 10:32:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1653.899 ms - -
+2020-11-02 10:32:59 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.305 ms - 0
+2020-11-02 10:32:59 info: Authorizing...
+2020-11-02 10:32:59 info: Get All Issues Validations
+2020-11-02 10:32:59 info: Get All Issues Control
+2020-11-02 10:32:59 info: Validate user stub
+2020-11-02 10:33:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 307.714 ms - -
+2020-11-02 10:42:41 info: OPTIONS /api/v1/user/login 204 0.214 ms - 0
+2020-11-02 10:42:41 info: Login Param Validations
+2020-11-02 10:42:41 info: Login Control Init
+2020-11-02 10:42:42 info: credMatch:true
+2020-11-02 10:42:42 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-02 10:42:42 info: generate tokennull
+2020-11-02 10:42:42 info: POST /api/v1/user/login 200 1328.974 ms - 498
+2020-11-02 10:42:44 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-02 10:42:44 info: Authorizing...
+2020-11-02 10:42:44 info: Get All Issues Validations
+2020-11-02 10:42:44 info: Get All Issues Control
+2020-11-02 10:42:44 info: Validate user stub
+2020-11-02 10:42:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 449.455 ms - -
+2020-11-02 10:44:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.231 ms - 0
+2020-11-02 10:44:31 info: Authorizing...
+2020-11-02 10:44:31 info: Get All Issues Validations
+2020-11-02 10:44:31 info: Get All Issues Control
+2020-11-02 10:44:31 info: Validate user stub
+2020-11-02 10:44:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 360.318 ms - -
+2020-11-02 10:45:42 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 10:45:42 info: Authorizing...
+2020-11-02 10:45:42 info: Get All Issues Validations
+2020-11-02 10:45:42 info: Get All Issues Control
+2020-11-02 10:45:42 info: Validate user stub
+2020-11-02 10:45:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 414.982 ms - -
+2020-11-02 10:45:59 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.197 ms - 0
+2020-11-02 10:45:59 info: Authorizing...
+2020-11-02 10:45:59 info: update comment Validation
+2020-11-02 10:45:59 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 400 4.885 ms - 92
+2020-11-02 10:46:40 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.279 ms - 0
+2020-11-02 10:46:40 info: Authorizing...
+2020-11-02 10:46:40 info: Get All Issues Validations
+2020-11-02 10:46:40 info: Get All Issues Control
+2020-11-02 10:46:40 info: Validate user stub
+2020-11-02 10:46:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 313.622 ms - -
+2020-11-02 10:46:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.213 ms - 0
+2020-11-02 10:46:57 info: Authorizing...
+2020-11-02 10:46:57 info: Get All Issues Validations
+2020-11-02 10:46:57 info: Get All Issues Control
+2020-11-02 10:46:57 info: Validate user stub
+2020-11-02 10:46:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 361.636 ms - -
+2020-11-02 10:47:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.272 ms - 0
+2020-11-02 10:47:12 info: Authorizing...
+2020-11-02 10:47:12 info: Get All Issues Validations
+2020-11-02 10:47:12 info: Get All Issues Control
+2020-11-02 10:47:12 info: Validate user stub
+2020-11-02 10:47:13 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.429 ms - -
+2020-11-02 10:47:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-02 10:47:29 info: Authorizing...
+2020-11-02 10:47:29 info: Get All Issues Validations
+2020-11-02 10:47:29 info: Get All Issues Control
+2020-11-02 10:47:29 info: Validate user stub
+2020-11-02 10:47:29 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.988 ms - -
+2020-11-02 10:47:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 10:47:53 info: Authorizing...
+2020-11-02 10:47:53 info: Get All Issues Validations
+2020-11-02 10:47:53 info: Get All Issues Control
+2020-11-02 10:47:53 info: Validate user stub
+2020-11-02 10:47:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 352.639 ms - -
+2020-11-02 10:48:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.161 ms - 0
+2020-11-02 10:48:07 info: Authorizing...
+2020-11-02 10:48:07 info: Get All Issues Validations
+2020-11-02 10:48:07 info: Get All Issues Control
+2020-11-02 10:48:07 info: Validate user stub
+2020-11-02 10:48:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.197 ms - -
+2020-11-02 10:48:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.268 ms - 0
+2020-11-02 10:48:20 info: Authorizing...
+2020-11-02 10:48:20 info: Get All Issues Validations
+2020-11-02 10:48:20 info: Get All Issues Control
+2020-11-02 10:48:20 info: Validate user stub
+2020-11-02 10:48:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.436 ms - -
+2020-11-02 10:48:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.265 ms - 0
+2020-11-02 10:48:29 info: Authorizing...
+2020-11-02 10:48:29 info: Get All Issues Validations
+2020-11-02 10:48:29 info: Get All Issues Control
+2020-11-02 10:48:29 info: Validate user stub
+2020-11-02 10:48:29 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 351.762 ms - -
+2020-11-02 10:48:45 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-02 10:48:45 info: Authorizing...
+2020-11-02 10:48:45 info: update comment Validation
+2020-11-02 10:48:45 info: update comment control
+2020-11-02 10:48:45 info: Validate comment stub:
+2020-11-02 10:48:45 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 226.305 ms - 83
+2020-11-02 10:49:35 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.167 ms - 0
+2020-11-02 10:49:35 info: Authorizing...
+2020-11-02 10:49:35 info: Get All Issues Validations
+2020-11-02 10:49:35 info: Get All Issues Control
+2020-11-02 10:49:35 info: Validate user stub
+2020-11-02 10:49:36 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 337.519 ms - 5446
+2020-11-02 10:49:47 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 10:49:47 info: Authorizing...
+2020-11-02 10:49:47 info: Get All Issues Validations
+2020-11-02 10:49:47 info: Get All Issues Control
+2020-11-02 10:49:47 info: Validate user stub
+2020-11-02 10:49:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.699 ms - -
+2020-11-02 10:49:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.193 ms - 0
+2020-11-02 10:49:55 info: Authorizing...
+2020-11-02 10:49:55 info: Get All Issues Validations
+2020-11-02 10:49:55 info: Get All Issues Control
+2020-11-02 10:49:55 info: Validate user stub
+2020-11-02 10:49:56 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 320.239 ms - -
+2020-11-02 10:50:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 10:50:03 info: Authorizing...
+2020-11-02 10:50:03 info: Get All Issues Validations
+2020-11-02 10:50:03 info: Get All Issues Control
+2020-11-02 10:50:03 info: Validate user stub
+2020-11-02 10:50:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 370.465 ms - -
+2020-11-02 10:50:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.235 ms - 0
+2020-11-02 10:50:18 info: Authorizing...
+2020-11-02 10:50:18 info: Get All Issues Validations
+2020-11-02 10:50:18 info: Get All Issues Control
+2020-11-02 10:50:18 info: Validate user stub
+2020-11-02 10:50:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 321.493 ms - -
+2020-11-02 10:50:30 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.270 ms - 0
+2020-11-02 10:50:30 info: Authorizing...
+2020-11-02 10:50:30 info: update comment Validation
+2020-11-02 10:50:30 info: update comment control
+2020-11-02 10:50:30 info: Validate comment stub:
+2020-11-02 10:50:30 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 238.839 ms - 83
+2020-11-02 10:50:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.149 ms - 0
+2020-11-02 10:50:33 info: Authorizing...
+2020-11-02 10:50:33 info: Get All Issues Validations
+2020-11-02 10:50:33 info: Get All Issues Control
+2020-11-02 10:50:33 info: Validate user stub
+2020-11-02 10:50:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 343.976 ms - 5442
+2020-11-02 10:50:38 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=0ZH24cfgw 204 0.309 ms - 0
+2020-11-02 10:50:38 info: Authorizing...
+2020-11-02 10:50:38 info: delete comment Validation
+2020-11-02 10:50:38 info: Delete comment control
+2020-11-02 10:50:38 info: Validate comment stub:
+2020-11-02 10:50:38 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=0ZH24cfgw 200 233.141 ms - 83
+2020-11-02 10:50:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.198 ms - 0
+2020-11-02 10:50:41 info: Authorizing...
+2020-11-02 10:50:41 info: Get All Issues Validations
+2020-11-02 10:50:41 info: Get All Issues Control
+2020-11-02 10:50:41 info: Validate user stub
+2020-11-02 10:50:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 355.264 ms - 5233
+2020-11-02 10:51:14 info: API SERVER Running at:3001
+2020-11-02 10:51:15 info: DB Conenction Sucess
+2020-11-02 10:51:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 3.426 ms - 0
+2020-11-02 10:51:58 info: Authorizing...
+2020-11-02 10:51:58 info: Get All Issues Validations
+2020-11-02 10:51:58 info: Get All Issues Control
+2020-11-02 10:51:58 info: Validate user stub
+2020-11-02 10:51:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 495.900 ms - -
+2020-11-02 10:52:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 10:52:05 info: Authorizing...
+2020-11-02 10:52:05 info: Get All Issues Validations
+2020-11-02 10:52:05 info: Get All Issues Control
+2020-11-02 10:52:05 info: Validate user stub
+2020-11-02 10:52:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.365 ms - -
+2020-11-02 10:52:40 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.269 ms - 0
+2020-11-02 10:52:40 info: Authorizing...
+2020-11-02 10:52:40 info: Get All Issues Validations
+2020-11-02 10:52:40 info: Get All Issues Control
+2020-11-02 10:52:40 info: Validate user stub
+2020-11-02 10:52:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.404 ms - -
+2020-11-02 10:52:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.307 ms - 0
+2020-11-02 10:52:53 info: Authorizing...
+2020-11-02 10:52:53 info: Get All Issues Validations
+2020-11-02 10:52:53 info: Get All Issues Control
+2020-11-02 10:52:53 info: Validate user stub
+2020-11-02 10:52:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 304.596 ms - -
+2020-11-02 10:53:01 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-02 10:53:01 info: Authorizing...
+2020-11-02 10:53:01 info: Get All Issues Validations
+2020-11-02 10:53:01 info: Get All Issues Control
+2020-11-02 10:53:01 info: Validate user stub
+2020-11-02 10:53:02 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 372.710 ms - -
+2020-11-02 10:53:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.296 ms - 0
+2020-11-02 10:53:16 info: Authorizing...
+2020-11-02 10:53:16 info: Get All Issues Validations
+2020-11-02 10:53:16 info: Get All Issues Control
+2020-11-02 10:53:16 info: Validate user stub
+2020-11-02 10:53:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 329.901 ms - -
+2020-11-02 10:53:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.305 ms - 0
+2020-11-02 10:53:38 info: Authorizing...
+2020-11-02 10:53:38 info: Get All Issues Validations
+2020-11-02 10:53:38 info: Get All Issues Control
+2020-11-02 10:53:38 info: Validate user stub
+2020-11-02 10:53:38 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.639 ms - -
+2020-11-02 10:53:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-02 10:53:43 info: Authorizing...
+2020-11-02 10:53:43 info: Get All Issues Validations
+2020-11-02 10:53:43 info: Get All Issues Control
+2020-11-02 10:53:43 info: Validate user stub
+2020-11-02 10:53:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.397 ms - -
+2020-11-02 10:55:19 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.284 ms - 0
+2020-11-02 10:55:19 info: Authorizing...
+2020-11-02 10:55:19 info: Get All Issues Validations
+2020-11-02 10:55:19 info: Get All Issues Control
+2020-11-02 10:55:19 info: Validate user stub
+2020-11-02 10:55:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.348 ms - -
+2020-11-02 10:55:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.274 ms - 0
+2020-11-02 10:55:31 info: Authorizing...
+2020-11-02 10:55:31 info: Get All Issues Validations
+2020-11-02 10:55:31 info: Get All Issues Control
+2020-11-02 10:55:31 info: Validate user stub
+2020-11-02 10:55:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 357.553 ms - -
+2020-11-02 10:55:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.290 ms - 0
+2020-11-02 10:55:55 info: Authorizing...
+2020-11-02 10:55:55 info: Get All Issues Validations
+2020-11-02 10:55:55 info: Get All Issues Control
+2020-11-02 10:55:55 info: Validate user stub
+2020-11-02 10:55:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 391.009 ms - -
+2020-11-02 10:56:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.273 ms - 0
+2020-11-02 10:56:18 info: Authorizing...
+2020-11-02 10:56:18 info: Get All Issues Validations
+2020-11-02 10:56:18 info: Get All Issues Control
+2020-11-02 10:56:18 info: Validate user stub
+2020-11-02 10:56:19 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 385.041 ms - -
+2020-11-02 10:57:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 10:57:16 info: Authorizing...
+2020-11-02 10:57:16 info: Get All Issues Validations
+2020-11-02 10:57:16 info: Get All Issues Control
+2020-11-02 10:57:16 info: Validate user stub
+2020-11-02 10:57:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.281 ms - -
+2020-11-02 10:59:13 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.262 ms - 0
+2020-11-02 10:59:13 info: Authorizing...
+2020-11-02 10:59:13 info: Get All Issues Validations
+2020-11-02 10:59:13 info: Get All Issues Control
+2020-11-02 10:59:13 info: Validate user stub
+2020-11-02 10:59:13 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.113 ms - -
+2020-11-02 10:59:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.263 ms - 0
+2020-11-02 10:59:36 info: Authorizing...
+2020-11-02 10:59:36 info: Get All Issues Validations
+2020-11-02 10:59:36 info: Get All Issues Control
+2020-11-02 10:59:36 info: Validate user stub
+2020-11-02 10:59:36 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 356.848 ms - -
+2020-11-02 11:00:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.260 ms - 0
+2020-11-02 11:00:52 info: Authorizing...
+2020-11-02 11:00:52 info: Get All Issues Validations
+2020-11-02 11:00:52 info: Get All Issues Control
+2020-11-02 11:00:52 info: Validate user stub
+2020-11-02 11:00:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 309.248 ms - -
+2020-11-02 11:01:13 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=M-8cERXFX 204 0.339 ms - 0
+2020-11-02 11:01:13 info: Authorizing...
+2020-11-02 11:01:13 info: delete comment Validation
+2020-11-02 11:01:13 info: Delete comment control
+2020-11-02 11:01:13 info: Validate comment stub:
+2020-11-02 11:01:13 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=M-8cERXFX 200 245.019 ms - 83
+2020-11-02 11:01:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-02 11:01:36 info: Authorizing...
+2020-11-02 11:01:36 info: Get All Issues Validations
+2020-11-02 11:01:36 info: Get All Issues Control
+2020-11-02 11:01:36 info: Validate user stub
+2020-11-02 11:01:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 345.111 ms - 5037
+2020-11-02 11:01:57 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.261 ms - 0
+2020-11-02 11:01:57 info: Authorizing...
+2020-11-02 11:01:57 info: update comment Validation
+2020-11-02 11:01:57 info: update comment control
+2020-11-02 11:01:57 info: Validate comment stub:
+2020-11-02 11:01:58 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 243.779 ms - 83
+2020-11-02 11:02:21 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-02 11:02:21 info: Authorizing...
+2020-11-02 11:02:21 info: update comment Validation
+2020-11-02 11:02:21 info: update comment control
+2020-11-02 11:02:21 info: Validate comment stub:
+2020-11-02 11:02:22 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 223.033 ms - 83
+2020-11-02 11:02:36 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.147 ms - 0
+2020-11-02 11:02:36 info: Authorizing...
+2020-11-02 11:02:36 info: Add comment validations
+2020-11-02 11:02:36 info: Add Comment Route
+2020-11-02 11:02:36 info: Validate user stub
+2020-11-02 11:02:36 info: Validate issue stub:
+2020-11-02 11:02:37 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 449.959 ms - 265
+2020-11-02 11:03:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.208 ms - 0
+2020-11-02 11:03:06 info: Authorizing...
+2020-11-02 11:03:06 info: Get All Issues Validations
+2020-11-02 11:03:06 info: Get All Issues Control
+2020-11-02 11:03:06 info: Validate user stub
+2020-11-02 11:03:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 323.696 ms - 5246
+2020-11-02 11:03:18 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.237 ms - 0
+2020-11-02 11:03:18 info: Authorizing...
+2020-11-02 11:03:18 info: Add comment validations
+2020-11-02 11:03:18 info: Add Comment Route
+2020-11-02 11:03:18 info: Validate user stub
+2020-11-02 11:03:18 info: Validate issue stub:
+2020-11-02 11:03:19 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 443.711 ms - 259
+2020-11-02 11:03:54 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.246 ms - 0
+2020-11-02 11:03:54 info: Authorizing...
+2020-11-02 11:03:54 info: Get All Issues Validations
+2020-11-02 11:03:54 info: Get All Issues Control
+2020-11-02 11:03:54 info: Validate user stub
+2020-11-02 11:03:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 390.286 ms - 5443
+2020-11-02 11:04:06 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.171 ms - 0
+2020-11-02 11:04:06 info: Authorizing...
+2020-11-02 11:04:06 info: Add comment validations
+2020-11-02 11:04:06 info: Add Comment Route
+2020-11-02 11:04:06 info: Validate user stub
+2020-11-02 11:04:06 info: Validate issue stub:
+2020-11-02 11:04:06 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 498.361 ms - 257
+2020-11-02 11:04:17 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=zeongmRMk 204 0.320 ms - 0
+2020-11-02 11:04:17 info: Authorizing...
+2020-11-02 11:04:17 info: delete comment Validation
+2020-11-02 11:04:17 info: Delete comment control
+2020-11-02 11:04:17 info: Validate comment stub:
+2020-11-02 11:04:17 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=zeongmRMk 200 255.405 ms - 83
+2020-11-02 11:07:00 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-02 11:07:00 info: Authorizing...
+2020-11-02 11:07:00 info: Get All Issues Validations
+2020-11-02 11:07:00 info: Get All Issues Control
+2020-11-02 11:07:00 info: Validate user stub
+2020-11-02 11:07:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 368.935 ms - 5441
+2020-11-02 11:07:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.272 ms - 0
+2020-11-02 11:07:12 info: Authorizing...
+2020-11-02 11:07:12 info: Get All Issues Validations
+2020-11-02 11:07:12 info: Get All Issues Control
+2020-11-02 11:07:12 info: Validate user stub
+2020-11-02 11:07:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 341.718 ms - -
+2020-11-02 11:07:27 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.245 ms - 0
+2020-11-02 11:07:27 info: Authorizing...
+2020-11-02 11:07:27 info: Add comment validations
+2020-11-02 11:07:27 info: Add Comment Route
+2020-11-02 11:07:27 info: Validate user stub
+2020-11-02 11:07:28 info: Validate issue stub:
+2020-11-02 11:07:28 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 478.111 ms - 257
+2020-11-02 11:07:34 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.240 ms - 0
+2020-11-02 11:07:34 info: Authorizing...
+2020-11-02 11:07:34 info: Get All Issues Validations
+2020-11-02 11:07:34 info: Get All Issues Control
+2020-11-02 11:07:34 info: Validate user stub
+2020-11-02 11:07:35 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 377.968 ms - 5636
+2020-11-02 11:07:44 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-02 11:07:44 info: Authorizing...
+2020-11-02 11:07:44 info: update comment Validation
+2020-11-02 11:07:44 info: update comment control
+2020-11-02 11:07:44 info: Validate comment stub:
+2020-11-02 11:07:44 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 237.687 ms - 83
+2020-11-02 11:09:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 11:09:52 info: Authorizing...
+2020-11-02 11:09:52 info: Get All Issues Validations
+2020-11-02 11:09:52 info: Get All Issues Control
+2020-11-02 11:09:52 info: Validate user stub
+2020-11-02 11:09:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 356.490 ms - 5637
+2020-11-02 11:11:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.298 ms - 0
+2020-11-02 11:11:03 info: Authorizing...
+2020-11-02 11:11:03 info: Get All Issues Validations
+2020-11-02 11:11:03 info: Get All Issues Control
+2020-11-02 11:11:03 info: Validate user stub
+2020-11-02 11:11:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 341.241 ms - -
+2020-11-02 11:11:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-02 11:11:32 info: Authorizing...
+2020-11-02 11:11:32 info: Get All Issues Validations
+2020-11-02 11:11:32 info: Get All Issues Control
+2020-11-02 11:11:32 info: Validate user stub
+2020-11-02 11:11:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 495.242 ms - -
+2020-11-02 11:12:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-02 11:12:41 info: Authorizing...
+2020-11-02 11:12:41 info: Get All Issues Validations
+2020-11-02 11:12:41 info: Get All Issues Control
+2020-11-02 11:12:41 info: Validate user stub
+2020-11-02 11:12:41 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 351.409 ms - -
+2020-11-02 11:12:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 1.161 ms - 0
+2020-11-02 11:12:48 info: Authorizing...
+2020-11-02 11:12:48 info: Get All Issues Validations
+2020-11-02 11:12:48 info: Get All Issues Control
+2020-11-02 11:12:48 info: Validate user stub
+2020-11-02 11:12:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.347 ms - -
+2020-11-02 11:13:10 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-02 11:13:10 info: Authorizing...
+2020-11-02 11:13:10 info: Get All Issues Validations
+2020-11-02 11:13:10 info: Get All Issues Control
+2020-11-02 11:13:10 info: Validate user stub
+2020-11-02 11:13:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 310.807 ms - -
+2020-11-02 11:13:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 11:13:53 info: Authorizing...
+2020-11-02 11:13:53 info: Get All Issues Validations
+2020-11-02 11:13:53 info: Get All Issues Control
+2020-11-02 11:13:53 info: Validate user stub
+2020-11-02 11:13:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 338.507 ms - -
+2020-11-02 11:14:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:14:02 info: Authorizing...
+2020-11-02 11:14:02 info: Get All Issues Validations
+2020-11-02 11:14:02 info: Get All Issues Control
+2020-11-02 11:14:02 info: Validate user stub
+2020-11-02 11:14:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 381.336 ms - -
+2020-11-02 11:14:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.210 ms - 0
+2020-11-02 11:14:58 info: Authorizing...
+2020-11-02 11:14:58 info: Get All Issues Validations
+2020-11-02 11:14:58 info: Get All Issues Control
+2020-11-02 11:14:58 info: Validate user stub
+2020-11-02 11:14:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 317.732 ms - -
+2020-11-02 11:15:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.206 ms - 0
+2020-11-02 11:15:21 info: Authorizing...
+2020-11-02 11:15:21 info: Get All Issues Validations
+2020-11-02 11:15:21 info: Get All Issues Control
+2020-11-02 11:15:21 info: Validate user stub
+2020-11-02 11:15:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 377.923 ms - -
+2020-11-02 11:16:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.256 ms - 0
+2020-11-02 11:16:06 info: Authorizing...
+2020-11-02 11:16:06 info: Get All Issues Validations
+2020-11-02 11:16:06 info: Get All Issues Control
+2020-11-02 11:16:06 info: Validate user stub
+2020-11-02 11:16:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.814 ms - -
+2020-11-02 11:16:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-02 11:16:55 info: Authorizing...
+2020-11-02 11:16:55 info: Get All Issues Validations
+2020-11-02 11:16:55 info: Get All Issues Control
+2020-11-02 11:16:55 info: Validate user stub
+2020-11-02 11:16:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.100 ms - -
+2020-11-02 11:17:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-02 11:17:08 info: Authorizing...
+2020-11-02 11:17:08 info: Get All Issues Validations
+2020-11-02 11:17:08 info: Get All Issues Control
+2020-11-02 11:17:08 info: Validate user stub
+2020-11-02 11:17:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 322.479 ms - -
+2020-11-02 11:17:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-02 11:17:53 info: Authorizing...
+2020-11-02 11:17:53 info: Get All Issues Validations
+2020-11-02 11:17:53 info: Get All Issues Control
+2020-11-02 11:17:53 info: Validate user stub
+2020-11-02 11:17:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 452.832 ms - -
+2020-11-02 11:18:05 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.271 ms - 0
+2020-11-02 11:18:05 info: Authorizing...
+2020-11-02 11:18:05 info: Add comment validations
+2020-11-02 11:18:05 info: Add Comment Route
+2020-11-02 11:18:05 info: Validate user stub
+2020-11-02 11:18:05 info: Validate issue stub:
+2020-11-02 11:18:05 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 405.836 ms - 257
+2020-11-02 11:18:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-02 11:18:09 info: Authorizing...
+2020-11-02 11:18:09 info: Get All Issues Validations
+2020-11-02 11:18:09 info: Get All Issues Control
+2020-11-02 11:18:09 info: Validate user stub
+2020-11-02 11:18:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 335.175 ms - 5832
+2020-11-02 11:18:45 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.256 ms - 0
+2020-11-02 11:18:45 info: Authorizing...
+2020-11-02 11:18:45 info: Get All Issues Validations
+2020-11-02 11:18:45 info: Get All Issues Control
+2020-11-02 11:18:45 info: Validate user stub
+2020-11-02 11:18:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 357.140 ms - -
+2020-11-02 11:18:51 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=kx_4uZIMv 204 0.252 ms - 0
+2020-11-02 11:18:51 info: Authorizing...
+2020-11-02 11:18:51 info: delete comment Validation
+2020-11-02 11:18:51 info: Delete comment control
+2020-11-02 11:18:51 info: Validate comment stub:
+2020-11-02 11:18:51 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=kx_4uZIMv 200 234.802 ms - 83
+2020-11-02 11:19:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.206 ms - 0
+2020-11-02 11:19:22 info: Authorizing...
+2020-11-02 11:19:22 info: Get All Issues Validations
+2020-11-02 11:19:22 info: Get All Issues Control
+2020-11-02 11:19:22 info: Validate user stub
+2020-11-02 11:19:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 363.397 ms - 5637
+2020-11-02 11:20:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.326 ms - 0
+2020-11-02 11:20:12 info: Authorizing...
+2020-11-02 11:20:12 info: Get All Issues Validations
+2020-11-02 11:20:12 info: Get All Issues Control
+2020-11-02 11:20:12 info: Validate user stub
+2020-11-02 11:20:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.067 ms - -
+2020-11-02 11:20:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 11:20:18 info: Authorizing...
+2020-11-02 11:20:18 info: Get All Issues Validations
+2020-11-02 11:20:18 info: Get All Issues Control
+2020-11-02 11:20:18 info: Validate user stub
+2020-11-02 11:20:19 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 383.754 ms - -
+2020-11-02 11:20:25 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.204 ms - 0
+2020-11-02 11:20:25 info: Authorizing...
+2020-11-02 11:20:25 info: Get All Issues Validations
+2020-11-02 11:20:25 info: Get All Issues Control
+2020-11-02 11:20:25 info: Validate user stub
+2020-11-02 11:20:26 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 341.666 ms - -
+2020-11-02 11:20:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-02 11:20:32 info: Authorizing...
+2020-11-02 11:20:32 info: Get All Issues Validations
+2020-11-02 11:20:32 info: Get All Issues Control
+2020-11-02 11:20:32 info: Validate user stub
+2020-11-02 11:20:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 361.254 ms - -
+2020-11-02 11:20:37 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=6A2H8QaY3 204 0.317 ms - 0
+2020-11-02 11:20:37 info: Authorizing...
+2020-11-02 11:20:37 info: delete comment Validation
+2020-11-02 11:20:37 info: Delete comment control
+2020-11-02 11:20:37 info: Validate comment stub:
+2020-11-02 11:20:37 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=6A2H8QaY3 200 241.962 ms - 83
+2020-11-02 11:20:39 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=e9kwWM7OT 204 0.220 ms - 0
+2020-11-02 11:20:39 info: Authorizing...
+2020-11-02 11:20:39 info: delete comment Validation
+2020-11-02 11:20:39 info: Delete comment control
+2020-11-02 11:20:39 info: Validate comment stub:
+2020-11-02 11:20:39 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=e9kwWM7OT 200 251.647 ms - 83
+2020-11-02 11:20:41 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=S_W6gRqGR 204 0.234 ms - 0
+2020-11-02 11:20:41 info: Authorizing...
+2020-11-02 11:20:41 info: delete comment Validation
+2020-11-02 11:20:41 info: Delete comment control
+2020-11-02 11:20:41 info: Validate comment stub:
+2020-11-02 11:20:41 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=S_W6gRqGR 200 233.780 ms - 83
+2020-11-02 11:20:47 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:20:47 info: Authorizing...
+2020-11-02 11:20:47 info: update comment Validation
+2020-11-02 11:20:47 info: update comment control
+2020-11-02 11:20:47 info: Validate comment stub:
+2020-11-02 11:20:48 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 229.744 ms - 83
+2020-11-02 11:20:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.198 ms - 0
+2020-11-02 11:20:58 info: Authorizing...
+2020-11-02 11:20:58 info: Get All Issues Validations
+2020-11-02 11:20:58 info: Get All Issues Control
+2020-11-02 11:20:58 info: Validate user stub
+2020-11-02 11:20:59 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 320.218 ms - 5036
+2020-11-02 11:21:24 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-02 11:21:24 info: Authorizing...
+2020-11-02 11:21:24 info: update comment Validation
+2020-11-02 11:21:24 info: update comment control
+2020-11-02 11:21:24 info: Validate comment stub:
+2020-11-02 11:21:24 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 225.205 ms - 83
+2020-11-02 11:22:17 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-02 11:22:17 info: Authorizing...
+2020-11-02 11:22:17 info: Get All Issues Validations
+2020-11-02 11:22:17 info: Get All Issues Control
+2020-11-02 11:22:17 info: Validate user stub
+2020-11-02 11:22:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 323.826 ms - 5037
+2020-11-02 11:22:25 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-02 11:22:25 info: Authorizing...
+2020-11-02 11:22:25 info: update comment Validation
+2020-11-02 11:22:25 info: update comment control
+2020-11-02 11:22:25 info: Validate comment stub:
+2020-11-02 11:22:26 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 223.235 ms - 83
+2020-11-02 11:22:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-02 11:22:56 info: Authorizing...
+2020-11-02 11:22:56 info: Get All Issues Validations
+2020-11-02 11:22:56 info: Get All Issues Control
+2020-11-02 11:22:56 info: Validate user stub
+2020-11-02 11:22:56 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 340.177 ms - 5043
+2020-11-02 11:23:08 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-02 11:23:08 info: Authorizing...
+2020-11-02 11:23:08 info: update comment Validation
+2020-11-02 11:23:08 info: update comment control
+2020-11-02 11:23:08 info: Validate comment stub:
+2020-11-02 11:23:08 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 246.949 ms - 83
+2020-11-02 11:23:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.205 ms - 0
+2020-11-02 11:23:48 info: Authorizing...
+2020-11-02 11:23:48 info: Get All Issues Validations
+2020-11-02 11:23:48 info: Get All Issues Control
+2020-11-02 11:23:48 info: Validate user stub
+2020-11-02 11:23:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 510.777 ms - 5037
+2020-11-02 11:23:52 info: Authorizing...
+2020-11-02 11:23:52 info: Get All Issues Validations
+2020-11-02 11:23:52 info: Get All Issues Control
+2020-11-02 11:23:52 info: Validate user stub
+2020-11-02 11:23:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 421.237 ms - -
+2020-11-02 11:24:01 info: OPTIONS /api/v1/issue/edit/comment?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:24:01 info: Authorizing...
+2020-11-02 11:24:01 info: update comment Validation
+2020-11-02 11:24:01 info: update comment control
+2020-11-02 11:24:01 info: Validate comment stub:
+2020-11-02 11:24:02 info: POST /api/v1/issue/edit/comment?userId=_ofyQhK9u 200 256.168 ms - 83
+2020-11-02 11:24:07 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=TAKeMkf3w 204 0.222 ms - 0
+2020-11-02 11:24:07 info: Authorizing...
+2020-11-02 11:24:07 info: delete comment Validation
+2020-11-02 11:24:07 info: Delete comment control
+2020-11-02 11:24:07 info: Validate comment stub:
+2020-11-02 11:24:07 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=TAKeMkf3w 200 245.732 ms - 83
+2020-11-02 11:24:13 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.248 ms - 0
+2020-11-02 11:24:13 info: Authorizing...
+2020-11-02 11:24:13 info: Add comment validations
+2020-11-02 11:24:13 info: Add Comment Route
+2020-11-02 11:24:13 info: Validate user stub
+2020-11-02 11:24:13 info: Validate issue stub:
+2020-11-02 11:24:13 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 462.075 ms - 257
+2020-11-02 11:25:59 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.246 ms - 0
+2020-11-02 11:25:59 info: Authorizing...
+2020-11-02 11:25:59 info: Get All Issues Validations
+2020-11-02 11:25:59 info: Get All Issues Control
+2020-11-02 11:25:59 info: Validate user stub
+2020-11-02 11:25:59 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 348.801 ms - 5032
+2020-11-02 11:26:17 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.209 ms - 0
+2020-11-02 11:26:17 info: Authorizing...
+2020-11-02 11:26:17 info: Get All Issues Validations
+2020-11-02 11:26:17 info: Get All Issues Control
+2020-11-02 11:26:17 info: Validate user stub
+2020-11-02 11:26:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 361.124 ms - -
+2020-11-02 11:26:34 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.229 ms - 0
+2020-11-02 11:26:34 info: Authorizing...
+2020-11-02 11:26:34 info: Add comment validations
+2020-11-02 11:26:34 info: Add Comment Route
+2020-11-02 11:26:34 info: Validate user stub
+2020-11-02 11:26:34 info: Validate issue stub:
+2020-11-02 11:26:34 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 564.591 ms - 256
+2020-11-02 11:27:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-02 11:27:32 info: Authorizing...
+2020-11-02 11:27:32 info: Get All Issues Validations
+2020-11-02 11:27:32 info: Get All Issues Control
+2020-11-02 11:27:32 info: Validate user stub
+2020-11-02 11:27:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 867.984 ms - 5226
+2020-11-02 11:27:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:27:56 info: Authorizing...
+2020-11-02 11:27:56 info: Get All Issues Validations
+2020-11-02 11:27:56 info: Get All Issues Control
+2020-11-02 11:27:56 info: Validate user stub
+2020-11-02 11:27:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 393.716 ms - -
+2020-11-02 11:28:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.209 ms - 0
+2020-11-02 11:28:06 info: Authorizing...
+2020-11-02 11:28:06 info: Get All Issues Validations
+2020-11-02 11:28:06 info: Get All Issues Control
+2020-11-02 11:28:06 info: Validate user stub
+2020-11-02 11:28:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.812 ms - -
+2020-11-02 11:28:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.207 ms - 0
+2020-11-02 11:28:12 info: Authorizing...
+2020-11-02 11:28:12 info: Get All Issues Validations
+2020-11-02 11:28:12 info: Get All Issues Control
+2020-11-02 11:28:12 info: Validate user stub
+2020-11-02 11:28:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.919 ms - -
+2020-11-02 11:28:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 11:28:22 info: Authorizing...
+2020-11-02 11:28:22 info: Get All Issues Validations
+2020-11-02 11:28:22 info: Get All Issues Control
+2020-11-02 11:28:22 info: Validate user stub
+2020-11-02 11:28:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 365.860 ms - -
+2020-11-02 11:28:32 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.242 ms - 0
+2020-11-02 11:28:32 info: Authorizing...
+2020-11-02 11:28:32 info: Add comment validations
+2020-11-02 11:28:32 info: Add Comment Route
+2020-11-02 11:28:32 info: Validate user stub
+2020-11-02 11:28:32 info: Validate issue stub:
+2020-11-02 11:28:32 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 434.820 ms - 259
+2020-11-02 11:29:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 11:29:43 info: Authorizing...
+2020-11-02 11:29:43 info: Get All Issues Validations
+2020-11-02 11:29:43 info: Get All Issues Control
+2020-11-02 11:29:43 info: Validate user stub
+2020-11-02 11:29:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 378.142 ms - 5423
+2020-11-02 11:29:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 11:29:58 info: Authorizing...
+2020-11-02 11:29:58 info: Get All Issues Validations
+2020-11-02 11:29:58 info: Get All Issues Control
+2020-11-02 11:29:58 info: Validate user stub
+2020-11-02 11:29:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.678 ms - -
+2020-11-02 11:30:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-02 11:30:04 info: Authorizing...
+2020-11-02 11:30:04 info: Get All Issues Validations
+2020-11-02 11:30:04 info: Get All Issues Control
+2020-11-02 11:30:04 info: Validate user stub
+2020-11-02 11:30:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 438.685 ms - -
+2020-11-02 11:30:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:30:36 info: Authorizing...
+2020-11-02 11:30:36 info: Get All Issues Validations
+2020-11-02 11:30:36 info: Get All Issues Control
+2020-11-02 11:30:36 info: Validate user stub
+2020-11-02 11:30:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.005 ms - -
+2020-11-02 11:30:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.267 ms - 0
+2020-11-02 11:30:57 info: Authorizing...
+2020-11-02 11:30:57 info: Get All Issues Validations
+2020-11-02 11:30:57 info: Get All Issues Control
+2020-11-02 11:30:57 info: Validate user stub
+2020-11-02 11:30:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 321.695 ms - -
+2020-11-02 11:31:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 11:31:41 info: Authorizing...
+2020-11-02 11:31:41 info: Get All Issues Validations
+2020-11-02 11:31:41 info: Get All Issues Control
+2020-11-02 11:31:41 info: Validate user stub
+2020-11-02 11:31:41 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 368.487 ms - -
+2020-11-02 11:31:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.213 ms - 0
+2020-11-02 11:31:57 info: Authorizing...
+2020-11-02 11:31:57 info: Get All Issues Validations
+2020-11-02 11:31:57 info: Get All Issues Control
+2020-11-02 11:31:57 info: Validate user stub
+2020-11-02 11:31:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 384.675 ms - -
+2020-11-02 11:32:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-02 11:32:03 info: Authorizing...
+2020-11-02 11:32:03 info: Get All Issues Validations
+2020-11-02 11:32:03 info: Get All Issues Control
+2020-11-02 11:32:03 info: Validate user stub
+2020-11-02 11:32:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 372.484 ms - -
+2020-11-02 11:33:19 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 11:33:20 info: Authorizing...
+2020-11-02 11:33:20 info: Get All Issues Validations
+2020-11-02 11:33:20 info: Get All Issues Control
+2020-11-02 11:33:20 info: Validate user stub
+2020-11-02 11:33:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.317 ms - -
+2020-11-02 11:34:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-02 11:34:22 info: Authorizing...
+2020-11-02 11:34:22 info: Get All Issues Validations
+2020-11-02 11:34:22 info: Get All Issues Control
+2020-11-02 11:34:22 info: Validate user stub
+2020-11-02 11:34:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 357.701 ms - -
+2020-11-02 11:34:30 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.213 ms - 0
+2020-11-02 11:34:30 info: Authorizing...
+2020-11-02 11:34:30 info: Add comment validations
+2020-11-02 11:34:30 info: Add Comment Route
+2020-11-02 11:34:30 info: Validate user stub
+2020-11-02 11:34:30 info: Validate issue stub:
+2020-11-02 11:34:31 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 200 538.807 ms - 256
+2020-11-02 11:35:27 info: OPTIONS /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=0tUmQhMej 204 0.245 ms - 0
+2020-11-02 11:35:27 info: Authorizing...
+2020-11-02 11:35:27 info: delete comment Validation
+2020-11-02 11:35:27 info: Delete comment control
+2020-11-02 11:35:27 info: Validate comment stub:
+2020-11-02 11:35:27 info: POST /api/v1/issue/delete/comment?userId=_ofyQhK9u&commentId=0tUmQhMej 200 246.217 ms - 83
+2020-11-02 11:37:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.249 ms - 0
+2020-11-02 11:37:38 info: Authorizing...
+2020-11-02 11:37:38 info: Get All Issues Validations
+2020-11-02 11:37:38 info: Get All Issues Control
+2020-11-02 11:37:38 info: Validate user stub
+2020-11-02 11:37:38 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 371.182 ms - -
+2020-11-02 11:39:35 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.344 ms - 0
+2020-11-02 11:39:35 info: Authorizing...
+2020-11-02 11:39:35 info: Get All Issues Validations
+2020-11-02 11:39:35 info: Get All Issues Control
+2020-11-02 11:39:35 info: Validate user stub
+2020-11-02 11:39:36 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 387.160 ms - -
+2020-11-02 11:41:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 11:41:09 info: Authorizing...
+2020-11-02 11:41:09 info: Get All Issues Validations
+2020-11-02 11:41:09 info: Get All Issues Control
+2020-11-02 11:41:09 info: Validate user stub
+2020-11-02 11:41:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 374.138 ms - -
+2020-11-02 11:41:51 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-02 11:41:51 info: Authorizing...
+2020-11-02 11:41:51 info: Get All Issues Validations
+2020-11-02 11:41:51 info: Get All Issues Control
+2020-11-02 11:41:51 info: Validate user stub
+2020-11-02 11:41:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 366.177 ms - -
+2020-11-02 11:43:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.196 ms - 0
+2020-11-02 11:43:24 info: Authorizing...
+2020-11-02 11:43:24 info: Get All Issues Validations
+2020-11-02 11:43:24 info: Get All Issues Control
+2020-11-02 11:43:24 info: Validate user stub
+2020-11-02 11:43:24 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.393 ms - -
+2020-11-02 11:44:01 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.246 ms - 0
+2020-11-02 11:44:01 info: Authorizing...
+2020-11-02 11:44:01 info: Get All Issues Validations
+2020-11-02 11:44:01 info: Get All Issues Control
+2020-11-02 11:44:01 info: Validate user stub
+2020-11-02 11:44:01 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 384.607 ms - -
+2020-11-02 11:44:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 11:44:36 info: Authorizing...
+2020-11-02 11:44:36 info: Get All Issues Validations
+2020-11-02 11:44:36 info: Get All Issues Control
+2020-11-02 11:44:36 info: Validate user stub
+2020-11-02 11:44:36 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 329.551 ms - -
+2020-11-02 11:51:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 11:51:29 info: Authorizing...
+2020-11-02 11:51:29 info: Get All Issues Validations
+2020-11-02 11:51:29 info: Get All Issues Control
+2020-11-02 11:51:29 info: Validate user stub
+2020-11-02 11:51:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1403.319 ms - -
+2020-11-02 11:51:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.135 ms - 0
+2020-11-02 11:51:46 info: Authorizing...
+2020-11-02 11:51:46 info: Get All Issues Validations
+2020-11-02 11:51:46 info: Get All Issues Control
+2020-11-02 11:51:46 info: Validate user stub
+2020-11-02 11:51:47 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 387.130 ms - -
+2020-11-02 11:52:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 11:52:09 info: Authorizing...
+2020-11-02 11:52:09 info: Get All Issues Validations
+2020-11-02 11:52:09 info: Get All Issues Control
+2020-11-02 11:52:09 info: Validate user stub
+2020-11-02 11:52:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 362.941 ms - -
+2020-11-02 11:52:15 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.164 ms - 0
+2020-11-02 11:52:15 info: Authorizing...
+2020-11-02 11:52:15 info: Get All Issues Validations
+2020-11-02 11:52:15 info: Get All Issues Control
+2020-11-02 11:52:15 info: Validate user stub
+2020-11-02 11:52:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.861 ms - -
+2020-11-02 11:52:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-02 11:52:57 info: Authorizing...
+2020-11-02 11:52:57 info: Get All Issues Validations
+2020-11-02 11:52:57 info: Get All Issues Control
+2020-11-02 11:52:57 info: Validate user stub
+2020-11-02 11:52:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 365.550 ms - -
+2020-11-02 11:53:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 11:53:22 info: Authorizing...
+2020-11-02 11:53:22 info: Get All Issues Validations
+2020-11-02 11:53:22 info: Get All Issues Control
+2020-11-02 11:53:22 info: Validate user stub
+2020-11-02 11:53:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.584 ms - -
+2020-11-02 11:53:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-02 11:53:28 info: Authorizing...
+2020-11-02 11:53:28 info: Get All Issues Validations
+2020-11-02 11:53:28 info: Get All Issues Control
+2020-11-02 11:53:28 info: Validate user stub
+2020-11-02 11:53:29 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.933 ms - -
+2020-11-02 11:53:34 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.260 ms - 0
+2020-11-02 11:53:34 info: Authorizing...
+2020-11-02 11:53:34 info: Get All Issues Validations
+2020-11-02 11:53:34 info: Get All Issues Control
+2020-11-02 11:53:34 info: Validate user stub
+2020-11-02 11:53:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 414.466 ms - -
+2020-11-02 11:53:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-02 11:53:56 info: Authorizing...
+2020-11-02 11:53:56 info: Get All Issues Validations
+2020-11-02 11:53:56 info: Get All Issues Control
+2020-11-02 11:53:56 info: Validate user stub
+2020-11-02 11:53:56 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 394.030 ms - -
+2020-11-02 11:54:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.266 ms - 0
+2020-11-02 11:54:27 info: Authorizing...
+2020-11-02 11:54:27 info: Get All Issues Validations
+2020-11-02 11:54:27 info: Get All Issues Control
+2020-11-02 11:54:27 info: Validate user stub
+2020-11-02 11:54:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.841 ms - -
+2020-11-02 11:54:31 info: Authorizing...
+2020-11-02 11:54:31 info: Get All Issues Validations
+2020-11-02 11:54:31 info: Get All Issues Control
+2020-11-02 11:54:31 info: Validate user stub
+2020-11-02 11:54:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 366.438 ms - -
+2020-11-02 11:54:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-02 11:54:48 info: Authorizing...
+2020-11-02 11:54:48 info: Get All Issues Validations
+2020-11-02 11:54:48 info: Get All Issues Control
+2020-11-02 11:54:48 info: Validate user stub
+2020-11-02 11:54:49 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 359.666 ms - -
+2020-11-02 11:55:26 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.336 ms - 0
+2020-11-02 11:55:26 info: Authorizing...
+2020-11-02 11:55:26 info: Get All Issues Validations
+2020-11-02 11:55:26 info: Get All Issues Control
+2020-11-02 11:55:26 info: Validate user stub
+2020-11-02 11:55:26 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 352.787 ms - -
+2020-11-02 11:55:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.213 ms - 0
+2020-11-02 11:55:46 info: Authorizing...
+2020-11-02 11:55:46 info: Get All Issues Validations
+2020-11-02 11:55:46 info: Get All Issues Control
+2020-11-02 11:55:46 info: Validate user stub
+2020-11-02 11:55:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 327.505 ms - -
+2020-11-02 11:56:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.256 ms - 0
+2020-11-02 11:56:28 info: Authorizing...
+2020-11-02 11:56:28 info: Get All Issues Validations
+2020-11-02 11:56:28 info: Get All Issues Control
+2020-11-02 11:56:28 info: Validate user stub
+2020-11-02 11:56:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 356.209 ms - -
+2020-11-02 11:56:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-02 11:56:52 info: Authorizing...
+2020-11-02 11:56:52 info: Get All Issues Validations
+2020-11-02 11:56:52 info: Get All Issues Control
+2020-11-02 11:56:52 info: Validate user stub
+2020-11-02 11:56:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 374.205 ms - -
+2020-11-02 11:57:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.374 ms - 0
+2020-11-02 11:57:32 info: Authorizing...
+2020-11-02 11:57:32 info: Get All Issues Validations
+2020-11-02 11:57:32 info: Get All Issues Control
+2020-11-02 11:57:32 info: Validate user stub
+2020-11-02 11:57:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 722.405 ms - -
+2020-11-02 11:57:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.133 ms - 0
+2020-11-02 11:57:53 info: Authorizing...
+2020-11-02 11:57:53 info: Get All Issues Validations
+2020-11-02 11:57:53 info: Get All Issues Control
+2020-11-02 11:57:53 info: Validate user stub
+2020-11-02 11:57:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.300 ms - -
+2020-11-02 11:58:00 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti 204 0.189 ms - 0
+2020-11-02 11:58:00 info: Authorizing...
+2020-11-02 11:58:00 info: Add comment validations
+2020-11-02 11:58:00 info: Add Comment Route
+2020-11-02 11:58:00 info: Validate user stub
+2020-11-02 11:58:00 info: Validate issue stub:
+2020-11-02 11:59:02 info: POST /api/v1/issue/comment?userId=_ofyQhK9u&issueId=Qpln2-MVW&name=Saurabh%20Bharti - - ms - -
+2020-11-02 11:59:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-02 11:59:04 info: Authorizing...
+2020-11-02 11:59:04 info: Get All Issues Validations
+2020-11-02 11:59:04 info: Get All Issues Control
+2020-11-02 11:59:04 info: Validate user stub
+2020-11-02 11:59:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 358.729 ms - -
+2020-11-02 11:59:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.215 ms - 0
+2020-11-02 11:59:12 info: Authorizing...
+2020-11-02 11:59:12 info: Get All Issues Validations
+2020-11-02 11:59:12 info: Get All Issues Control
+2020-11-02 11:59:12 info: Validate user stub
+2020-11-02 11:59:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 421.031 ms - -
+2020-11-02 11:59:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.181 ms - 0
+2020-11-02 11:59:38 info: Authorizing...
+2020-11-02 11:59:38 info: Get All Issues Validations
+2020-11-02 11:59:38 info: Get All Issues Control
+2020-11-02 11:59:38 info: Validate user stub
+2020-11-02 11:59:38 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 407.392 ms - -
+2020-11-02 12:00:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-02 12:00:43 info: Authorizing...
+2020-11-02 12:00:43 info: Get All Issues Validations
+2020-11-02 12:00:43 info: Get All Issues Control
+2020-11-02 12:00:43 info: Validate user stub
+2020-11-02 12:00:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 378.046 ms - -
+2020-11-02 12:00:51 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-02 12:00:51 info: Authorizing...
+2020-11-02 12:00:51 info: Get All Issues Validations
+2020-11-02 12:00:51 info: Get All Issues Control
+2020-11-02 12:00:51 info: Validate user stub
+2020-11-02 12:00:51 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 324.051 ms - -
+2020-11-02 12:01:24 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 12:01:24 info: Authorizing...
+2020-11-02 12:01:24 info: Get All Issues Validations
+2020-11-02 12:01:24 info: Get All Issues Control
+2020-11-02 12:01:24 info: Validate user stub
+2020-11-02 12:01:24 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 361.015 ms - -
+2020-11-02 12:02:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 12:02:31 info: Authorizing...
+2020-11-02 12:02:31 info: Get All Issues Validations
+2020-11-02 12:02:31 info: Get All Issues Control
+2020-11-02 12:02:31 info: Validate user stub
+2020-11-02 12:02:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 420.606 ms - -
+2020-11-02 12:02:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 12:02:52 info: Authorizing...
+2020-11-02 12:02:52 info: Get All Issues Validations
+2020-11-02 12:02:52 info: Get All Issues Control
+2020-11-02 12:02:52 info: Validate user stub
+2020-11-02 12:02:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 385.121 ms - -
+2020-11-02 12:03:37 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.194 ms - 0
+2020-11-02 12:03:37 info: Authorizing...
+2020-11-02 12:03:37 info: Get All Issues Validations
+2020-11-02 12:03:37 info: Get All Issues Control
+2020-11-02 12:03:37 info: Validate user stub
+2020-11-02 12:03:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 391.778 ms - -
+2020-11-02 12:03:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 12:03:56 info: Authorizing...
+2020-11-02 12:03:56 info: Get All Issues Validations
+2020-11-02 12:03:56 info: Get All Issues Control
+2020-11-02 12:03:56 info: Validate user stub
+2020-11-02 12:03:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 413.132 ms - -
+2020-11-02 12:04:00 info: Authorizing...
+2020-11-02 12:04:00 info: Get All Issues Validations
+2020-11-02 12:04:00 info: Get All Issues Control
+2020-11-02 12:04:00 info: Validate user stub
+2020-11-02 12:04:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 411.099 ms - -
+2020-11-02 12:04:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.215 ms - 0
+2020-11-02 12:04:06 info: Authorizing...
+2020-11-02 12:04:06 info: Get All Issues Validations
+2020-11-02 12:04:06 info: Get All Issues Control
+2020-11-02 12:04:06 info: Validate user stub
+2020-11-02 12:04:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 366.980 ms - -
+2020-11-02 12:10:50 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.347 ms - 0
+2020-11-02 12:10:50 info: Authorizing...
+2020-11-02 12:10:50 info: Get All Issues Validations
+2020-11-02 12:10:50 info: Get All Issues Control
+2020-11-02 12:10:50 info: Validate user stub
+2020-11-02 12:10:51 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1269.052 ms - -
+2020-11-02 12:10:55 info: Authorizing...
+2020-11-02 12:10:55 info: Get All Issues Validations
+2020-11-02 12:10:55 info: Get All Issues Control
+2020-11-02 12:10:55 info: Validate user stub
+2020-11-02 12:10:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 324.939 ms - -
+2020-11-02 12:11:30 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-02 12:11:30 info: Authorizing...
+2020-11-02 12:11:30 info: Get All Issues Validations
+2020-11-02 12:11:30 info: Get All Issues Control
+2020-11-02 12:11:30 info: Validate user stub
+2020-11-02 12:11:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 307.060 ms - -
+2020-11-02 12:11:45 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.205 ms - 0
+2020-11-02 12:11:45 info: Authorizing...
+2020-11-02 12:11:45 info: Get All Issues Validations
+2020-11-02 12:11:45 info: Get All Issues Control
+2020-11-02 12:11:45 info: Validate user stub
+2020-11-02 12:11:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.337 ms - -
+2020-11-02 12:11:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.290 ms - 0
+2020-11-02 12:11:56 info: Authorizing...
+2020-11-02 12:11:56 info: Get All Issues Validations
+2020-11-02 12:11:56 info: Get All Issues Control
+2020-11-02 12:11:56 info: Validate user stub
+2020-11-02 12:11:56 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 292.601 ms - -
+2020-11-02 12:13:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-02 12:13:53 info: Authorizing...
+2020-11-02 12:13:53 info: Get All Issues Validations
+2020-11-02 12:13:53 info: Get All Issues Control
+2020-11-02 12:13:53 info: Validate user stub
+2020-11-02 12:13:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.212 ms - -
+2020-11-02 12:14:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.183 ms - 0
+2020-11-02 12:14:20 info: Authorizing...
+2020-11-02 12:14:20 info: Get All Issues Validations
+2020-11-02 12:14:20 info: Get All Issues Control
+2020-11-02 12:14:20 info: Validate user stub
+2020-11-02 12:14:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.405 ms - -
+2020-11-02 12:14:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.223 ms - 0
+2020-11-02 12:14:33 info: Authorizing...
+2020-11-02 12:14:33 info: Get All Issues Validations
+2020-11-02 12:14:33 info: Get All Issues Control
+2020-11-02 12:14:33 info: Validate user stub
+2020-11-02 12:14:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.760 ms - -
+2020-11-02 12:15:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.320 ms - 0
+2020-11-02 12:15:12 info: Authorizing...
+2020-11-02 12:15:12 info: Get All Issues Validations
+2020-11-02 12:15:12 info: Get All Issues Control
+2020-11-02 12:15:12 info: Validate user stub
+2020-11-02 12:15:13 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.678 ms - -
+2020-11-02 12:15:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 12:15:20 info: Authorizing...
+2020-11-02 12:15:20 info: Get All Issues Validations
+2020-11-02 12:15:20 info: Get All Issues Control
+2020-11-02 12:15:20 info: Validate user stub
+2020-11-02 12:15:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 331.957 ms - -
+2020-11-02 12:15:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.244 ms - 0
+2020-11-02 12:15:39 info: Authorizing...
+2020-11-02 12:15:39 info: Get All Issues Validations
+2020-11-02 12:15:39 info: Get All Issues Control
+2020-11-02 12:15:39 info: Validate user stub
+2020-11-02 12:15:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.672 ms - -
+2020-11-02 12:15:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 12:15:53 info: Authorizing...
+2020-11-02 12:15:53 info: Get All Issues Validations
+2020-11-02 12:15:53 info: Get All Issues Control
+2020-11-02 12:15:53 info: Validate user stub
+2020-11-02 12:15:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.102 ms - -
+2020-11-02 12:16:04 info: OPTIONS /api/v1/issue/upload?userId=_ofyQhK9u&issueId=Qpln2-MVW 204 0.195 ms - 0
+2020-11-02 12:16:04 info: Authorizing...
+2020-11-02 12:16:04 info: upload i/p validation
+2020-11-02 12:16:04 info: Validate user stub
+2020-11-02 12:16:04 info: Validate issue stub:
+2020-11-02 12:16:05 info: Attachment upload control
+2020-11-02 12:16:05 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=Qpln2-MVW 200 1339.259 ms - 447
+2020-11-02 12:16:11 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.134 ms - 0
+2020-11-02 12:16:11 info: Authorizing...
+2020-11-02 12:16:11 info: Get All Issues Validations
+2020-11-02 12:16:11 info: Get All Issues Control
+2020-11-02 12:16:11 info: Validate user stub
+2020-11-02 12:16:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 342.280 ms - 5503
+2020-11-02 12:18:15 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.219 ms - 0
+2020-11-02 12:18:15 info: Authorizing...
+2020-11-02 12:18:15 info: Get All Issues Validations
+2020-11-02 12:18:15 info: Get All Issues Control
+2020-11-02 12:18:15 info: Validate user stub
+2020-11-02 12:18:15 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.480 ms - -
+2020-11-02 12:18:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-02 12:18:33 info: Authorizing...
+2020-11-02 12:18:33 info: Get All Issues Validations
+2020-11-02 12:18:33 info: Get All Issues Control
+2020-11-02 12:18:33 info: Validate user stub
+2020-11-02 12:18:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 306.499 ms - -
+2020-11-02 12:18:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.244 ms - 0
+2020-11-02 12:18:39 info: Authorizing...
+2020-11-02 12:18:39 info: Get All Issues Validations
+2020-11-02 12:18:39 info: Get All Issues Control
+2020-11-02 12:18:39 info: Validate user stub
+2020-11-02 12:18:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 331.766 ms - -
+2020-11-02 12:18:46 info: OPTIONS /api/v1/issue/upload?userId=_ofyQhK9u&issueId=Qpln2-MVW 204 0.240 ms - 0
+2020-11-02 12:18:46 info: Authorizing...
+2020-11-02 12:18:46 info: upload i/p validation
+2020-11-02 12:18:46 info: Validate user stub
+2020-11-02 12:18:46 info: Validate issue stub:
+2020-11-02 12:18:47 info: Attachment upload control
+2020-11-02 12:18:48 info: POST /api/v1/issue/upload?userId=_ofyQhK9u&issueId=Qpln2-MVW 200 1399.469 ms - 447
+2020-11-02 12:25:51 info: API SERVER Running at:3001
+2020-11-02 12:25:53 info: API SERVER Running at:3001
+2020-11-02 12:25:54 info: DB Conenction Sucess
+2020-11-02 12:29:01 info: API SERVER Running at:3001
+2020-11-02 12:29:02 info: DB Conenction Sucess
+2020-11-02 12:29:44 info: API SERVER Running at:3001
+2020-11-02 12:29:45 info: DB Conenction Sucess
+2020-11-02 12:29:59 info: Authorizing...
+2020-11-02 12:29:59 info: Get All Issues Validations
+2020-11-02 12:29:59 info: Get All Issues Control
+2020-11-02 12:29:59 info: Validate user stub
+2020-11-02 12:30:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 407.913 ms - 5584
+2020-11-02 12:30:35 info: GET /api/v1/issue/upload?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 404 1.434 ms - 124
+2020-11-02 12:30:58 info: Authorizing...
+2020-11-02 12:30:58 info: Fetch Attachments
+2020-11-02 12:30:58 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:31:00 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 200 1590.472 ms - -
+2020-11-02 12:36:35 info: Authorizing...
+2020-11-02 12:36:35 info: Fetch Attachments
+2020-11-02 12:36:35 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:36:35 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IlRvaTh2RG9DQyIsImlhdCI6MTYwNDI0MjM3OTY5NywiZXhwIjoxNjA0NDE1MTc5LCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.E2fWcHebXe26kqr8O-cOfWzMNrgR87N7782F5e-k9zk 400 2.882 ms - 69
+2020-11-02 12:37:03 info: API SERVER Running at:3001
+2020-11-02 12:37:05 info: DB Conenction Sucess
+2020-11-02 12:37:09 info: Authorizing...
+2020-11-02 12:37:09 info: Fetch Attachments
+2020-11-02 12:37:09 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:37:10 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IlRvaTh2RG9DQyIsImlhdCI6MTYwNDI0MjM3OTY5NywiZXhwIjoxNjA0NDE1MTc5LCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.E2fWcHebXe26kqr8O-cOfWzMNrgR87N7782F5e-k9zk 200 1467.926 ms - -
+2020-11-02 12:38:28 info: OPTIONS /api/v1/user/login 204 1.038 ms - 0
+2020-11-02 12:38:28 info: Login Param Validations
+2020-11-02 12:38:28 info: Login Control Init
+2020-11-02 12:38:29 info: credMatch:true
+2020-11-02 12:38:29 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-02 12:38:29 info: generate tokennull
+2020-11-02 12:38:29 info: POST /api/v1/user/login 200 544.258 ms - 498
+2020-11-02 12:38:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.278 ms - 0
+2020-11-02 12:38:31 info: Authorizing...
+2020-11-02 12:38:31 info: Get All Issues Validations
+2020-11-02 12:38:31 info: Get All Issues Control
+2020-11-02 12:38:31 info: Validate user stub
+2020-11-02 12:38:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 354.404 ms - 5584
+2020-11-02 12:39:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.260 ms - 0
+2020-11-02 12:39:52 info: Authorizing...
+2020-11-02 12:39:52 info: Get All Issues Validations
+2020-11-02 12:39:52 info: Get All Issues Control
+2020-11-02 12:39:52 info: Validate user stub
+2020-11-02 12:39:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.973 ms - -
+2020-11-02 12:40:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.265 ms - 0
+2020-11-02 12:40:20 info: Authorizing...
+2020-11-02 12:40:20 info: Get All Issues Validations
+2020-11-02 12:40:20 info: Get All Issues Control
+2020-11-02 12:40:20 info: Validate user stub
+2020-11-02 12:40:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.223 ms - -
+2020-11-02 12:40:42 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.326 ms - 0
+2020-11-02 12:40:42 info: Authorizing...
+2020-11-02 12:40:42 info: Get All Issues Validations
+2020-11-02 12:40:42 info: Get All Issues Control
+2020-11-02 12:40:42 info: Validate user stub
+2020-11-02 12:40:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.647 ms - -
+2020-11-02 12:41:42 info: OPTIONS /api/v1/user/login 204 0.296 ms - 0
+2020-11-02 12:41:42 info: Login Param Validations
+2020-11-02 12:41:42 info: Login Control Init
+2020-11-02 12:41:42 info: credMatch:true
+2020-11-02 12:41:42 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-02 12:41:42 info: generate tokennull
+2020-11-02 12:41:42 info: POST /api/v1/user/login 200 289.917 ms - 498
+2020-11-02 12:41:45 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.333 ms - 0
+2020-11-02 12:41:45 info: Authorizing...
+2020-11-02 12:41:45 info: Get All Issues Validations
+2020-11-02 12:41:45 info: Get All Issues Control
+2020-11-02 12:41:45 info: Validate user stub
+2020-11-02 12:41:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 323.387 ms - -
+2020-11-02 12:42:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.294 ms - 0
+2020-11-02 12:42:27 info: Authorizing...
+2020-11-02 12:42:27 info: Get All Issues Validations
+2020-11-02 12:42:27 info: Get All Issues Control
+2020-11-02 12:42:27 info: Validate user stub
+2020-11-02 12:42:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 329.329 ms - -
+2020-11-02 12:43:10 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.288 ms - 0
+2020-11-02 12:43:10 info: Authorizing...
+2020-11-02 12:43:10 info: Get All Issues Validations
+2020-11-02 12:43:10 info: Get All Issues Control
+2020-11-02 12:43:10 info: Validate user stub
+2020-11-02 12:43:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.030 ms - -
+2020-11-02 12:43:24 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.321 ms - 0
+2020-11-02 12:43:24 info: Authorizing...
+2020-11-02 12:43:24 info: Get All Issues Validations
+2020-11-02 12:43:24 info: Get All Issues Control
+2020-11-02 12:43:24 info: Validate user stub
+2020-11-02 12:43:24 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 352.734 ms - -
+2020-11-02 12:43:30 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.263 ms - 0
+2020-11-02 12:43:30 info: Authorizing...
+2020-11-02 12:43:30 info: Get All Issues Validations
+2020-11-02 12:43:30 info: Get All Issues Control
+2020-11-02 12:43:30 info: Validate user stub
+2020-11-02 12:43:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.469 ms - -
+2020-11-02 12:43:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.292 ms - 0
+2020-11-02 12:43:39 info: Authorizing...
+2020-11-02 12:43:39 info: Get All Issues Validations
+2020-11-02 12:43:39 info: Get All Issues Control
+2020-11-02 12:43:39 info: Validate user stub
+2020-11-02 12:43:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 345.673 ms - -
+2020-11-02 12:44:50 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.290 ms - 0
+2020-11-02 12:44:50 info: Authorizing...
+2020-11-02 12:44:50 info: Get All Issues Validations
+2020-11-02 12:44:50 info: Get All Issues Control
+2020-11-02 12:44:50 info: Validate user stub
+2020-11-02 12:44:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 331.348 ms - -
+2020-11-02 12:44:53 info: Authorizing...
+2020-11-02 12:44:53 info: GET /api/v1/issue/attachment??userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 400 1.745 ms - 65
+2020-11-02 12:44:53 info: Authorizing...
+2020-11-02 12:44:53 info: GET /api/v1/issue/attachment??userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 400 1.676 ms - 65
+2020-11-02 12:45:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 12:45:05 info: Authorizing...
+2020-11-02 12:45:05 info: Get All Issues Validations
+2020-11-02 12:45:05 info: Get All Issues Control
+2020-11-02 12:45:05 info: Validate user stub
+2020-11-02 12:45:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.735 ms - -
+2020-11-02 12:45:07 info: Authorizing...
+2020-11-02 12:45:07 info: Fetch Attachments
+2020-11-02 12:45:07 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:45:07 info: Authorizing...
+2020-11-02 12:45:07 info: Fetch Attachments
+2020-11-02 12:45:07 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:45:09 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1640.095 ms - -
+2020-11-02 12:45:09 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1806.367 ms - -
+2020-11-02 12:45:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.263 ms - 0
+2020-11-02 12:45:31 info: Authorizing...
+2020-11-02 12:45:31 info: Get All Issues Validations
+2020-11-02 12:45:31 info: Get All Issues Control
+2020-11-02 12:45:31 info: Validate user stub
+2020-11-02 12:45:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 351.815 ms - -
+2020-11-02 12:45:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.273 ms - 0
+2020-11-02 12:45:43 info: Authorizing...
+2020-11-02 12:45:43 info: Get All Issues Validations
+2020-11-02 12:45:43 info: Get All Issues Control
+2020-11-02 12:45:43 info: Validate user stub
+2020-11-02 12:45:43 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.170 ms - -
+2020-11-02 12:45:45 info: Authorizing...
+2020-11-02 12:45:45 info: Fetch Attachments
+2020-11-02 12:45:45 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:45:45 info: Authorizing...
+2020-11-02 12:45:45 info: Fetch Attachments
+2020-11-02 12:45:45 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:45:47 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1939.514 ms - -
+2020-11-02 12:45:47 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 2054.561 ms - -
+2020-11-02 12:46:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.308 ms - 0
+2020-11-02 12:46:57 info: Authorizing...
+2020-11-02 12:46:57 info: Get All Issues Validations
+2020-11-02 12:46:57 info: Get All Issues Control
+2020-11-02 12:46:57 info: Validate user stub
+2020-11-02 12:46:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.322 ms - -
+2020-11-02 12:46:59 info: Authorizing...
+2020-11-02 12:46:59 info: Fetch Attachments
+2020-11-02 12:46:59 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:46:59 info: Authorizing...
+2020-11-02 12:46:59 info: Fetch Attachments
+2020-11-02 12:46:59 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:47:01 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1834.464 ms - -
+2020-11-02 12:47:01 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1883.286 ms - -
+2020-11-02 12:48:10 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.291 ms - 0
+2020-11-02 12:48:10 info: Authorizing...
+2020-11-02 12:48:10 info: Get All Issues Validations
+2020-11-02 12:48:10 info: Get All Issues Control
+2020-11-02 12:48:10 info: Validate user stub
+2020-11-02 12:48:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 351.117 ms - -
+2020-11-02 12:48:45 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-02 12:48:46 info: Authorizing...
+2020-11-02 12:48:46 info: Get All Issues Validations
+2020-11-02 12:48:46 info: Get All Issues Control
+2020-11-02 12:48:46 info: Validate user stub
+2020-11-02 12:48:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 364.032 ms - -
+2020-11-02 12:48:49 info: Authorizing...
+2020-11-02 12:48:49 info: Get All Issues Validations
+2020-11-02 12:48:49 info: Get All Issues Control
+2020-11-02 12:48:49 info: Validate user stub
+2020-11-02 12:48:49 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 365.222 ms - -
+2020-11-02 12:48:50 info: Authorizing...
+2020-11-02 12:48:50 info: Fetch Attachments
+2020-11-02 12:48:50 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:48:50 info: Authorizing...
+2020-11-02 12:48:50 info: Fetch Attachments
+2020-11-02 12:48:50 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:48:52 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1693.671 ms - -
+2020-11-02 12:48:52 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 2050.437 ms - -
+2020-11-02 12:49:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.274 ms - 0
+2020-11-02 12:49:43 info: Authorizing...
+2020-11-02 12:49:43 info: Get All Issues Validations
+2020-11-02 12:49:43 info: Get All Issues Control
+2020-11-02 12:49:43 info: Validate user stub
+2020-11-02 12:49:43 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 367.346 ms - -
+2020-11-02 12:49:54 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.153 ms - 0
+2020-11-02 12:49:54 info: Authorizing...
+2020-11-02 12:49:54 info: Get All Issues Validations
+2020-11-02 12:49:54 info: Get All Issues Control
+2020-11-02 12:49:54 info: Validate user stub
+2020-11-02 12:49:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.455 ms - -
+2020-11-02 12:50:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-02 12:50:04 info: Authorizing...
+2020-11-02 12:50:04 info: Get All Issues Validations
+2020-11-02 12:50:04 info: Get All Issues Control
+2020-11-02 12:50:04 info: Validate user stub
+2020-11-02 12:50:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.450 ms - -
+2020-11-02 12:50:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.270 ms - 0
+2020-11-02 12:50:12 info: Authorizing...
+2020-11-02 12:50:12 info: Get All Issues Validations
+2020-11-02 12:50:12 info: Get All Issues Control
+2020-11-02 12:50:12 info: Validate user stub
+2020-11-02 12:50:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.147 ms - -
+2020-11-02 12:50:14 info: Authorizing...
+2020-11-02 12:50:14 info: Fetch Attachments
+2020-11-02 12:50:14 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:50:14 info: Authorizing...
+2020-11-02 12:50:14 info: Fetch Attachments
+2020-11-02 12:50:14 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:50:15 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1930.872 ms - -
+2020-11-02 12:50:16 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 2132.269 ms - -
+2020-11-02 12:50:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 12:50:27 info: Authorizing...
+2020-11-02 12:50:27 info: Get All Issues Validations
+2020-11-02 12:50:27 info: Get All Issues Control
+2020-11-02 12:50:27 info: Validate user stub
+2020-11-02 12:50:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.437 ms - -
+2020-11-02 12:50:29 info: Authorizing...
+2020-11-02 12:50:29 info: Fetch Attachments
+2020-11-02 12:50:29 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:50:29 info: Authorizing...
+2020-11-02 12:50:29 info: Fetch Attachments
+2020-11-02 12:50:29 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:50:31 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1757.708 ms - -
+2020-11-02 12:50:31 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1811.783 ms - -
+2020-11-02 12:51:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.261 ms - 0
+2020-11-02 12:51:21 info: Authorizing...
+2020-11-02 12:51:21 info: Get All Issues Validations
+2020-11-02 12:51:21 info: Get All Issues Control
+2020-11-02 12:51:21 info: Validate user stub
+2020-11-02 12:51:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.126 ms - -
+2020-11-02 12:51:24 info: Authorizing...
+2020-11-02 12:51:24 info: Fetch Attachments
+2020-11-02 12:51:24 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:51:24 info: Authorizing...
+2020-11-02 12:51:24 info: Fetch Attachments
+2020-11-02 12:51:24 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:51:26 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1766.374 ms - -
+2020-11-02 12:51:26 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IjdQckF3M21RQSIsImlhdCI6MTYwNDMwMTEwMjkzMCwiZXhwIjoxNjA0NDczOTAyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.aU3PdiZ2GxQLJbzIGnW-7CU7nF8gykGtRCQ0pU8mCHc 200 1830.073 ms - -
+2020-11-02 12:54:13 info: OPTIONS /api/v1/user/login 204 0.231 ms - 0
+2020-11-02 12:54:13 info: Login Param Validations
+2020-11-02 12:54:13 info: Login Control Init
+2020-11-02 12:54:13 info: credMatch:true
+2020-11-02 12:54:13 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-02 12:54:13 info: generate tokennull
+2020-11-02 12:54:13 info: POST /api/v1/user/login 200 304.244 ms - 498
+2020-11-02 12:54:15 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-02 12:54:15 info: Authorizing...
+2020-11-02 12:54:15 info: Get All Issues Validations
+2020-11-02 12:54:15 info: Get All Issues Control
+2020-11-02 12:54:15 info: Validate user stub
+2020-11-02 12:54:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 575.596 ms - -
+2020-11-02 12:55:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 12:55:07 info: Authorizing...
+2020-11-02 12:55:07 info: Get All Issues Validations
+2020-11-02 12:55:07 info: Get All Issues Control
+2020-11-02 12:55:07 info: Validate user stub
+2020-11-02 12:55:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.998 ms - -
+2020-11-02 12:55:14 info: Authorizing...
+2020-11-02 12:55:14 info: Fetch Attachments
+2020-11-02 12:55:14 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:55:14 info: Authorizing...
+2020-11-02 12:55:14 info: Fetch Attachments
+2020-11-02 12:55:14 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:55:16 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1672.985 ms - -
+2020-11-02 12:55:16 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1911.225 ms - -
+2020-11-02 12:56:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 12:56:09 info: Authorizing...
+2020-11-02 12:56:09 info: Get All Issues Validations
+2020-11-02 12:56:09 info: Get All Issues Control
+2020-11-02 12:56:09 info: Validate user stub
+2020-11-02 12:56:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 360.433 ms - -
+2020-11-02 12:56:12 info: Authorizing...
+2020-11-02 12:56:12 info: Fetch Attachments
+2020-11-02 12:56:12 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:56:12 info: Authorizing...
+2020-11-02 12:56:12 info: Fetch Attachments
+2020-11-02 12:56:12 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:56:14 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1707.035 ms - -
+2020-11-02 12:56:14 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1989.018 ms - -
+2020-11-02 12:56:47 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.278 ms - 0
+2020-11-02 12:56:47 info: Authorizing...
+2020-11-02 12:56:47 info: Get All Issues Validations
+2020-11-02 12:56:47 info: Get All Issues Control
+2020-11-02 12:56:47 info: Validate user stub
+2020-11-02 12:56:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.541 ms - -
+2020-11-02 12:56:49 info: Authorizing...
+2020-11-02 12:56:49 info: Fetch Attachments
+2020-11-02 12:56:49 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:56:49 info: Authorizing...
+2020-11-02 12:56:49 info: Fetch Attachments
+2020-11-02 12:56:49 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 12:56:51 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1701.432 ms - -
+2020-11-02 12:56:51 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2047.341 ms - -
+2020-11-02 12:56:56 info: Authorizing...
+2020-11-02 12:56:56 info: Fetch Attachments
+2020-11-02 12:56:56 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:56:58 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1891.126 ms - -
+2020-11-02 12:56:59 info: GET /favicon.ico 404 0.590 ms - 57
+2020-11-02 12:59:08 info: Authorizing...
+2020-11-02 12:59:08 info: Fetch Attachments
+2020-11-02 12:59:08 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 12:59:10 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1859.077 ms - -
+2020-11-02 12:59:37 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-02 12:59:37 info: Authorizing...
+2020-11-02 12:59:37 info: Get All Issues Validations
+2020-11-02 12:59:37 info: Get All Issues Control
+2020-11-02 12:59:37 info: Validate user stub
+2020-11-02 12:59:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.038 ms - -
+2020-11-02 13:01:59 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.222 ms - 0
+2020-11-02 13:01:59 info: Authorizing...
+2020-11-02 13:01:59 info: Get All Issues Validations
+2020-11-02 13:01:59 info: Get All Issues Control
+2020-11-02 13:01:59 info: Validate user stub
+2020-11-02 13:02:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 338.503 ms - -
+2020-11-02 13:02:49 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-02 13:02:49 info: Authorizing...
+2020-11-02 13:02:49 info: Get All Issues Validations
+2020-11-02 13:02:49 info: Get All Issues Control
+2020-11-02 13:02:49 info: Validate user stub
+2020-11-02 13:02:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 345.849 ms - -
+2020-11-02 13:04:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.311 ms - 0
+2020-11-02 13:04:20 info: Authorizing...
+2020-11-02 13:04:20 info: Get All Issues Validations
+2020-11-02 13:04:20 info: Get All Issues Control
+2020-11-02 13:04:20 info: Validate user stub
+2020-11-02 13:04:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 331.515 ms - -
+2020-11-02 13:05:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.288 ms - 0
+2020-11-02 13:05:02 info: Authorizing...
+2020-11-02 13:05:02 info: Get All Issues Validations
+2020-11-02 13:05:02 info: Get All Issues Control
+2020-11-02 13:05:02 info: Validate user stub
+2020-11-02 13:05:02 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 341.334 ms - -
+2020-11-02 13:05:27 info: Authorizing...
+2020-11-02 13:05:27 info: Fetch Attachments
+2020-11-02 13:05:27 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:05:27 info: Authorizing...
+2020-11-02 13:05:27 info: Fetch Attachments
+2020-11-02 13:05:27 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 13:05:29 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1760.122 ms - -
+2020-11-02 13:05:29 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1834.322 ms - -
+2020-11-02 13:05:31 info: OPTIONS /api/v1/issue/comment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 204 0.184 ms - 0
+2020-11-02 13:05:31 info: GET /api/v1/issue/comment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 404 0.732 ms - 125
+2020-11-02 13:06:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 13:06:20 info: Authorizing...
+2020-11-02 13:06:20 info: Get All Issues Validations
+2020-11-02 13:06:20 info: Get All Issues Control
+2020-11-02 13:06:20 info: Validate user stub
+2020-11-02 13:06:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 348.341 ms - -
+2020-11-02 13:06:24 info: Authorizing...
+2020-11-02 13:06:24 info: Fetch Attachments
+2020-11-02 13:06:24 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:06:24 info: Authorizing...
+2020-11-02 13:06:24 info: Fetch Attachments
+2020-11-02 13:06:24 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 13:06:26 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1705.649 ms - -
+2020-11-02 13:06:26 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2009.029 ms - -
+2020-11-02 13:06:28 info: OPTIONS /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 204 0.169 ms - 0
+2020-11-02 13:06:28 info: Authorizing...
+2020-11-02 13:06:28 info: Fetch Attachments
+2020-11-02 13:06:28 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:06:30 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 200 1846.342 ms - -
+2020-11-02 13:08:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-02 13:08:03 info: Authorizing...
+2020-11-02 13:08:03 info: Get All Issues Validations
+2020-11-02 13:08:03 info: Get All Issues Control
+2020-11-02 13:08:03 info: Validate user stub
+2020-11-02 13:08:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.183 ms - -
+2020-11-02 13:08:26 info: Authorizing...
+2020-11-02 13:08:26 info: Fetch Attachments
+2020-11-02 13:08:26 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:08:26 info: Authorizing...
+2020-11-02 13:08:26 info: Fetch Attachments
+2020-11-02 13:08:26 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 13:08:28 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1574.339 ms - -
+2020-11-02 13:08:28 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1643.938 ms - -
+2020-11-02 13:08:29 info: OPTIONS /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 204 0.147 ms - 0
+2020-11-02 13:08:29 info: Authorizing...
+2020-11-02 13:08:29 info: Fetch Attachments
+2020-11-02 13:08:29 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:08:31 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78 200 1751.390 ms - -
+2020-11-02 13:08:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.203 ms - 0
+2020-11-02 13:08:39 info: Authorizing...
+2020-11-02 13:08:39 info: Get All Issues Validations
+2020-11-02 13:08:39 info: Get All Issues Control
+2020-11-02 13:08:39 info: Validate user stub
+2020-11-02 13:08:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 323.606 ms - -
+2020-11-02 13:08:53 info: Authorizing...
+2020-11-02 13:08:53 info: Fetch Attachments
+2020-11-02 13:08:53 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:08:53 info: Authorizing...
+2020-11-02 13:08:53 info: Fetch Attachments
+2020-11-02 13:08:53 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 13:08:55 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1655.252 ms - -
+2020-11-02 13:08:55 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1770.993 ms - -
+2020-11-02 13:08:55 info: Authorizing...
+2020-11-02 13:08:55 info: Fetch Attachments
+2020-11-02 13:08:55 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 13:08:57 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 1595.046 ms - -
+2020-11-02 22:17:35 info: DB Conenction Sucess
+2020-11-02 22:18:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.244 ms - 0
+2020-11-02 22:18:33 info: Authorizing...
+2020-11-02 22:18:33 info: Get All Issues Validations
+2020-11-02 22:18:33 info: Get All Issues Control
+2020-11-02 22:18:33 info: Validate user stub
+2020-11-02 22:18:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1221.113 ms - -
+2020-11-02 22:18:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.153 ms - 0
+2020-11-02 22:18:43 info: Authorizing...
+2020-11-02 22:18:43 info: Get All Issues Validations
+2020-11-02 22:18:43 info: Get All Issues Control
+2020-11-02 22:18:43 info: Validate user stub
+2020-11-02 22:18:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 401.405 ms - -
+2020-11-02 22:18:45 info: Authorizing...
+2020-11-02 22:18:45 info: Fetch Attachments
+2020-11-02 22:18:45 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:18:45 info: Authorizing...
+2020-11-02 22:18:45 info: Fetch Attachments
+2020-11-02 22:18:45 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:18:53 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 7726.276 ms - -
+2020-11-02 22:18:54 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 8565.732 ms - -
+2020-11-02 22:19:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.305 ms - 0
+2020-11-02 22:19:16 info: Authorizing...
+2020-11-02 22:19:16 info: Get All Issues Validations
+2020-11-02 22:19:16 info: Get All Issues Control
+2020-11-02 22:19:16 info: Validate user stub
+2020-11-02 22:19:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 555.565 ms - -
+2020-11-02 22:19:19 info: Authorizing...
+2020-11-02 22:19:19 info: Fetch Attachments
+2020-11-02 22:19:19 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:19:19 info: Authorizing...
+2020-11-02 22:19:19 info: Fetch Attachments
+2020-11-02 22:19:19 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:19:27 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 7962.948 ms - -
+2020-11-02 22:19:35 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 15586.221 ms - -
+2020-11-02 22:20:13 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-02 22:20:13 info: Authorizing...
+2020-11-02 22:20:13 info: Get All Issues Validations
+2020-11-02 22:20:13 info: Get All Issues Control
+2020-11-02 22:20:13 info: Validate user stub
+2020-11-02 22:20:14 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1010.177 ms - -
+2020-11-02 22:20:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.142 ms - 0
+2020-11-02 22:20:21 info: Authorizing...
+2020-11-02 22:20:21 info: Get All Issues Validations
+2020-11-02 22:20:21 info: Get All Issues Control
+2020-11-02 22:20:21 info: Validate user stub
+2020-11-02 22:20:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 637.454 ms - -
+2020-11-02 22:20:25 info: Authorizing...
+2020-11-02 22:20:25 info: Get All Issues Validations
+2020-11-02 22:20:25 info: Get All Issues Control
+2020-11-02 22:20:25 info: Validate user stub
+2020-11-02 22:20:26 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 764.720 ms - -
+2020-11-02 22:20:27 info: Authorizing...
+2020-11-02 22:20:27 info: Fetch Attachments
+2020-11-02 22:20:27 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:20:27 info: Authorizing...
+2020-11-02 22:20:27 info: Fetch Attachments
+2020-11-02 22:20:27 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:20:39 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 11807.000 ms - -
+2020-11-02 22:20:41 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 13537.505 ms - -
+2020-11-02 22:23:13 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-02 22:23:13 info: Authorizing...
+2020-11-02 22:23:13 info: Get All Issues Validations
+2020-11-02 22:23:13 info: Get All Issues Control
+2020-11-02 22:23:13 info: Validate user stub
+2020-11-02 22:23:14 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 533.001 ms - -
+2020-11-02 22:23:18 info: Authorizing...
+2020-11-02 22:23:18 info: Get All Issues Validations
+2020-11-02 22:23:18 info: Get All Issues Control
+2020-11-02 22:23:18 info: Validate user stub
+2020-11-02 22:23:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 494.475 ms - -
+2020-11-02 22:23:25 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-02 22:23:25 info: Authorizing...
+2020-11-02 22:23:25 info: Get All Issues Validations
+2020-11-02 22:23:25 info: Get All Issues Control
+2020-11-02 22:23:25 info: Validate user stub
+2020-11-02 22:23:25 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 361.146 ms - -
+2020-11-02 22:23:28 info: Authorizing...
+2020-11-02 22:23:28 info: Fetch Attachments
+2020-11-02 22:23:28 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:23:28 info: Authorizing...
+2020-11-02 22:23:28 info: Fetch Attachments
+2020-11-02 22:23:28 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:23:31 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 3025.890 ms - -
+2020-11-02 22:23:32 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 3365.868 ms - -
+2020-11-02 22:25:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.210 ms - 0
+2020-11-02 22:25:04 info: Authorizing...
+2020-11-02 22:25:04 info: Get All Issues Validations
+2020-11-02 22:25:04 info: Get All Issues Control
+2020-11-02 22:25:04 info: Validate user stub
+2020-11-02 22:25:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 408.701 ms - -
+2020-11-02 22:26:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 22:26:05 info: Authorizing...
+2020-11-02 22:26:05 info: Get All Issues Validations
+2020-11-02 22:26:05 info: Get All Issues Control
+2020-11-02 22:26:05 info: Validate user stub
+2020-11-02 22:26:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 360.660 ms - -
+2020-11-02 22:26:14 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-02 22:26:14 info: Authorizing...
+2020-11-02 22:26:14 info: Get All Issues Validations
+2020-11-02 22:26:14 info: Get All Issues Control
+2020-11-02 22:26:14 info: Validate user stub
+2020-11-02 22:26:14 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 402.174 ms - -
+2020-11-02 22:27:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-02 22:27:36 info: Authorizing...
+2020-11-02 22:27:36 info: Get All Issues Validations
+2020-11-02 22:27:36 info: Get All Issues Control
+2020-11-02 22:27:36 info: Validate user stub
+2020-11-02 22:27:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 364.366 ms - -
+2020-11-02 22:28:02 info: Authorizing...
+2020-11-02 22:28:02 info: Fetch Attachments
+2020-11-02 22:28:02 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:28:02 info: Authorizing...
+2020-11-02 22:28:02 info: Fetch Attachments
+2020-11-02 22:28:02 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:28:05 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2929.172 ms - -
+2020-11-02 22:28:05 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2939.100 ms - -
+2020-11-02 22:28:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-02 22:28:16 info: Authorizing...
+2020-11-02 22:28:16 info: Get All Issues Validations
+2020-11-02 22:28:16 info: Get All Issues Control
+2020-11-02 22:28:16 info: Validate user stub
+2020-11-02 22:28:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 389.528 ms - -
+2020-11-02 22:28:18 info: Authorizing...
+2020-11-02 22:28:18 info: Fetch Attachments
+2020-11-02 22:28:18 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:28:18 info: Authorizing...
+2020-11-02 22:28:18 info: Fetch Attachments
+2020-11-02 22:28:18 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:28:22 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 3639.052 ms - -
+2020-11-02 22:28:23 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 4143.243 ms - -
+2020-11-02 22:28:47 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 22:28:47 info: Authorizing...
+2020-11-02 22:28:47 info: Get All Issues Validations
+2020-11-02 22:28:47 info: Get All Issues Control
+2020-11-02 22:28:47 info: Validate user stub
+2020-11-02 22:28:47 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 390.302 ms - -
+2020-11-02 22:29:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-02 22:29:43 info: Authorizing...
+2020-11-02 22:29:43 info: Get All Issues Validations
+2020-11-02 22:29:43 info: Get All Issues Control
+2020-11-02 22:29:43 info: Validate user stub
+2020-11-02 22:29:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 494.472 ms - -
+2020-11-02 22:30:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-02 22:30:02 info: Authorizing...
+2020-11-02 22:30:02 info: Get All Issues Validations
+2020-11-02 22:30:02 info: Get All Issues Control
+2020-11-02 22:30:02 info: Validate user stub
+2020-11-02 22:30:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 378.591 ms - -
+2020-11-02 22:30:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-02 22:30:22 info: Authorizing...
+2020-11-02 22:30:22 info: Get All Issues Validations
+2020-11-02 22:30:22 info: Get All Issues Control
+2020-11-02 22:30:22 info: Validate user stub
+2020-11-02 22:30:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 416.963 ms - -
+2020-11-02 22:30:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-02 22:30:28 info: Authorizing...
+2020-11-02 22:30:28 info: Get All Issues Validations
+2020-11-02 22:30:28 info: Get All Issues Control
+2020-11-02 22:30:28 info: Validate user stub
+2020-11-02 22:30:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 377.033 ms - -
+2020-11-02 22:31:38 info: Authorizing...
+2020-11-02 22:31:38 info: Fetch Attachments
+2020-11-02 22:31:38 info: Fetch Picturesaf64391648a77c1e3f8c5f850f0bcf78
+2020-11-02 22:31:38 info: Authorizing...
+2020-11-02 22:31:38 info: Fetch Attachments
+2020-11-02 22:31:38 info: Fetch Picturesca8021d0d0494627e43a4dc0205e6773
+2020-11-02 22:31:41 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=ca8021d0d0494627e43a4dc0205e6773&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2672.740 ms - -
+2020-11-02 22:31:41 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=af64391648a77c1e3f8c5f850f0bcf78&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6Ik85OGkydFlGUyIsImlhdCI6MTYwNDMwMTg1MzgxMSwiZXhwIjoxNjA0NDc0NjUzLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.uWVE7wWbgkrqGEi1Ue-i4sQQU6vEgZ47iauUHskXUec 200 2848.405 ms - -
+2020-11-02 22:32:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-02 22:32:08 info: Authorizing...
+2020-11-02 22:32:08 info: Get All Issues Validations
+2020-11-02 22:32:08 info: Get All Issues Control
+2020-11-02 22:32:08 info: Validate user stub
+2020-11-02 22:32:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 378.165 ms - -

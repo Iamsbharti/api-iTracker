@@ -86,5 +86,16 @@ const uploadValidation = async (req, res, next) => {
 const fetchAttachment = async (req, res) => {
   logger.info("Fetch Attachments");
   // find file name
+  logger.info(`Fetch Pictures${req.query.filename}`);
+  gfs.files.findOne({ filename: req.query.filename }, (error, file) => {
+    /**file existence */
+    if (!file || file.length === 0) {
+      return res
+        .status(404)
+        .json(formatResponse(true, 404, "File Not Found", ""));
+    }
+    const readStream = gfs.createReadStream(file.filename);
+    readStream.pipe(res);
+  });
 };
 module.exports = { storage, fileFilter, fetchAttachment, uploadValidation };
