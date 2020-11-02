@@ -10,6 +10,7 @@ const EXCLUDE = "-__V -_id -password";
 const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 const issueControl = require("./issueContol");
+const Issue = require("../models/Issue");
 
 const mongoURI = process.env.DB_CONNECT;
 mongoose.set("useNewUrlParser", true);
@@ -98,4 +99,26 @@ const fetchAttachment = async (req, res) => {
     readStream.pipe(res);
   });
 };
-module.exports = { storage, fileFilter, fetchAttachment, uploadValidation };
+// delete attachment route
+const deleteAttachment = async (req, res) => {
+  logger.info("Delete Attachment");
+  const { filename } = req.query;
+  gfs.files.deleteOne({ filename: filename }, (err) => {
+    if (err) {
+      return res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", err.message));
+    } else {
+      return res
+        .status(200)
+        .json(formatResponse(false, 200, "Attachment Deleted", ""));
+    }
+  });
+};
+module.exports = {
+  storage,
+  fileFilter,
+  fetchAttachment,
+  uploadValidation,
+  deleteAttachment,
+};

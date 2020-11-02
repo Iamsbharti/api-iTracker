@@ -139,7 +139,7 @@ const filterIssues = async (req, res) => {
         .sort({ modifiedDate: "desc" })
         .populate("watchList", "name")
         .populate("comments")
-        .populate("attachment", "filename")
+        .populate("attachment", ["_id", "filename"])
         .lean();
       issuesFetchedFlag = filteredIssues ? true : false;
     }
@@ -308,7 +308,7 @@ const searchRoute = async (req, res) => {
 const uploadAttachment = async (req, res) => {
   logger.info("Attachment upload control");
   const issueId = req.query.issueId;
-  console.log("file", req.file);
+  console.log("file", req.file.id);
   /**update the issue's attachment list with uploaded file id*/
   const updateQuery = { issueId: issueId };
   let attachmentUpdateOption = { $push: { attachment: req.file.id } };

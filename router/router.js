@@ -91,5 +91,16 @@ router.post(
   validations.deleteCommentValidation,
   issues.deleteComment
 );
-router.get("/issue/attachment", isAuthorized, uploadControl.fetchAttachment);
+router.get(
+  "/issue/attachment",
+  isAuthorized,
+  validations.getImageValidation,
+  uploadControl.fetchAttachment
+);
+router.delete(
+  "/issue/delete/attachment",
+  isAuthorized,
+  validations.deleteImgValidation,
+  uploadControl.deleteAttachment
+);
 module.exports = router;

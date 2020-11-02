@@ -258,6 +258,53 @@ const deleteCommentValidation = (req, res, next) => {
   }
   next();
 };
+const getImageValidation = (req, res, next) => {
+  logger.info("Get Image Validation");
+  const getImageParam = joi.object({
+    filename: joi.string().min(1).required(),
+    userId: joi.string().min(1).required(),
+    authToken: joi.string().required(),
+  });
+  let { error } = getImageParam.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
+const deleteImgValidation = (req, res, next) => {
+  logger.info("Get Image Validation");
+  const deleteImgParam = joi.object({
+    filename: joi.string().min(1).required(),
+    userId: joi.string().min(1).required(),
+  });
+  let { error } = deleteImgParam.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
@@ -269,4 +316,6 @@ module.exports = {
   searchRouteValidation,
   updateCommentValidation,
   deleteCommentValidation,
+  getImageValidation,
+  deleteImgValidation,
 };
