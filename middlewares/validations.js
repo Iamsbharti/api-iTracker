@@ -305,6 +305,29 @@ const deleteImgValidation = (req, res, next) => {
   }
   next();
 };
+const verifySocialValidation = (req, res, next) => {
+  logger.info("Verify social  Validation");
+  const socialParam = joi.object({
+    email: joi.string().min(1).required(),
+    name: joi.string().min(1).required(),
+  });
+  let { error } = socialParam.validate(req.query);
+  if (error) {
+    let errors = [];
+    error.details.map((err) => errors.push(err.message.split("is")[0]));
+    return res
+      .status(400)
+      .json(
+        formatResponse(
+          true,
+          400,
+          `${errors.toString()} ${errors.length > 1 ? "are" : "is"} required`,
+          errors
+        )
+      );
+  }
+  next();
+};
 module.exports = {
   registrationValidation,
   loginValidations,
@@ -318,4 +341,5 @@ module.exports = {
   deleteCommentValidation,
   getImageValidation,
   deleteImgValidation,
+  verifySocialValidation,
 };

@@ -3,6 +3,7 @@ const { formatResponse } = require("../library/formatResponse");
 const logger = require("../library/logger");
 const { generateToken } = require("../library/tokenManager");
 const pwdManager = require("../library/managePasswords");
+const shortid = require("shortid");
 
 const loginControl = async (req, res) => {
   logger.info("Login Control Init");
@@ -75,7 +76,103 @@ const getAllUser = async (req, res) => {
       }
     });
 };
+const tokenGen = async (userDetails) => {
+  console.log("generating auth toekn");
+  /**generate authToken */
+  await generateToken(userDetails, (token, error) => {
+    logger.info(`generate token${(token, error)}`);
+    if (error) {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Error", null));
+    } else {
+      console.log("token genrated:");
+      return token.authToken;
+    }
+  });
+};
+const verifySocialLogin = async (req, res) => {
+  logger.info("verify social response control");
+  const { email, name } = req.query;
+
+  // check if email is present on not
+  let userExists = await User.findOne({ email: email });
+
+  if (userExists) {
+    let userInfo = userExists.toObject();
+
+    delete userInfo.password;
+    delete userInfo._id;
+    delete userInfo.__v;
+
+    //const token = await tokenGen(userInfo);
+    let tokenauth;
+    await generateToken(userInfo, (token, error) => {
+      logger.info(`generate token${(token, error)}`);
+      if (error) {
+        res
+          .status(500)
+          .json(formatResponse(true, 500, "Internal Server Error", null));
+      } else {
+        console.log("token genrated:");
+        tokenauth = token;
+      }
+    });
+
+    console.log("token genrated:", tokenauth);
+    res.status(200).json(
+      formatResponse(false, 200, "User Verification Success", {
+        ...userInfo,
+        ...tokenauth,
+      })
+    );
+  } else {
+    // store user
+
+    /**new userSchema */
+    let newUser = new User({
+      userId: shortid.generate(),
+      name: name,
+      email: email,
+      username: email,
+      password: "dummy",
+    });
+
+    let userCreated = await User.create(newUser);
+
+    if (userCreated) {
+      let userInfo = userCreated.toObject();
+      delete userInfo.password;
+      delete userInfo._id;
+      delete userInfo.__v;
+
+      let tokenauth;
+      await generateToken(userInfo, (token, error) => {
+        logger.info(`generate token${(token, error)}`);
+        if (error) {
+          res
+            .status(500)
+            .json(formatResponse(true, 500, "Internal Server Error", null));
+        } else {
+          tokenauth = token;
+        }
+      });
+
+      res.status(200).json(
+        formatResponse(false, 200, "User Verification Success", {
+          ...userInfo,
+          ...tokenauth,
+        })
+      );
+    } else {
+      res
+        .status(500)
+        .json(formatResponse(true, 500, "Internal Server Eroor", null));
+    }
+  }
+};
 module.exports = {
   loginControl,
   getAllUser,
+  verifySocialLogin,
 };

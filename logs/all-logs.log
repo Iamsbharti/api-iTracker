@@ -31270,3 +31270,305 @@
 2020-11-04 15:25:14 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 280.400 ms - -
 2020-11-04 15:25:14 info: Authenticating User
 2020-11-04 15:25:14 info: Verify USERId
+2020-11-04 17:51:09 info: SERVER__HEALTH true
+2020-11-04 17:51:09 info: SOCKET SERVER INIT
+2020-11-04 17:51:09 info: API SERVER Running at:3001
+2020-11-04 17:51:11 info: DB Conenction Sucess
+2020-11-04 17:51:13 info: SERVER__HEALTH true
+2020-11-04 17:51:13 info: SOCKET SERVER INIT
+2020-11-04 17:51:13 info: API SERVER Running at:3001
+2020-11-04 17:51:14 info: DB Conenction Sucess
+2020-11-04 17:51:27 info: SERVER__HEALTH true
+2020-11-04 17:51:27 info: SOCKET SERVER INIT
+2020-11-04 17:51:27 info: API SERVER Running at:3001
+2020-11-04 17:51:28 info: DB Conenction Sucess
+2020-11-04 17:51:51 info: SERVER__HEALTH true
+2020-11-04 17:51:51 info: SOCKET SERVER INIT
+2020-11-04 17:51:51 info: API SERVER Running at:3001
+2020-11-04 17:51:52 info: DB Conenction Sucess
+2020-11-04 17:52:05 info: SERVER__HEALTH true
+2020-11-04 17:52:05 info: SOCKET SERVER INIT
+2020-11-04 17:52:05 info: API SERVER Running at:3001
+2020-11-04 17:52:06 info: DB Conenction Sucess
+2020-11-04 17:52:35 info: SERVER__HEALTH true
+2020-11-04 17:52:35 info: SOCKET SERVER INIT
+2020-11-04 17:52:35 info: API SERVER Running at:3001
+2020-11-04 17:52:36 info: DB Conenction Sucess
+2020-11-04 17:52:42 info: SERVER__HEALTH true
+2020-11-04 17:52:42 info: SOCKET SERVER INIT
+2020-11-04 17:52:42 info: API SERVER Running at:3001
+2020-11-04 17:52:43 info: DB Conenction Sucess
+2020-11-04 17:53:21 info: SERVER__HEALTH true
+2020-11-04 17:53:22 info: SOCKET SERVER INIT
+2020-11-04 17:53:22 info: API SERVER Running at:3001
+2020-11-04 17:53:23 info: DB Conenction Sucess
+2020-11-04 17:53:37 info: SERVER__HEALTH true
+2020-11-04 17:53:37 info: SOCKET SERVER INIT
+2020-11-04 17:53:37 info: API SERVER Running at:3001
+2020-11-04 17:53:38 info: DB Conenction Sucess
+2020-11-04 17:53:49 info: SERVER__HEALTH true
+2020-11-04 17:53:49 info: SOCKET SERVER INIT
+2020-11-04 17:53:49 info: API SERVER Running at:3001
+2020-11-04 17:53:50 info: DB Conenction Sucess
+2020-11-04 17:53:55 info: SERVER__HEALTH true
+2020-11-04 17:53:55 info: SOCKET SERVER INIT
+2020-11-04 17:53:55 info: API SERVER Running at:3001
+2020-11-04 17:53:56 info: DB Conenction Sucess
+2020-11-04 17:54:08 info: SERVER__HEALTH true
+2020-11-04 17:54:08 info: SOCKET SERVER INIT
+2020-11-04 17:54:08 info: API SERVER Running at:3001
+2020-11-04 17:54:09 info: DB Conenction Sucess
+2020-11-04 17:54:14 info: SERVER__HEALTH true
+2020-11-04 17:54:14 info: SOCKET SERVER INIT
+2020-11-04 17:54:14 info: API SERVER Running at:3001
+2020-11-04 17:54:15 info: DB Conenction Sucess
+2020-11-04 17:54:19 info: SERVER__HEALTH true
+2020-11-04 17:54:19 info: SOCKET SERVER INIT
+2020-11-04 17:54:19 info: API SERVER Running at:3001
+2020-11-04 17:54:20 info: DB Conenction Sucess
+2020-11-04 17:54:57 info: SERVER__HEALTH true
+2020-11-04 17:54:57 info: SOCKET SERVER INIT
+2020-11-04 17:54:57 info: API SERVER Running at:3001
+2020-11-04 17:54:59 info: DB Conenction Sucess
+2020-11-04 17:55:11 info: SERVER__HEALTH true
+2020-11-04 17:55:11 info: SOCKET SERVER INIT
+2020-11-04 17:55:11 info: API SERVER Running at:3001
+2020-11-04 17:55:12 info: DB Conenction Sucess
+2020-11-04 17:55:19 info: SERVER__HEALTH true
+2020-11-04 17:55:19 info: SOCKET SERVER INIT
+2020-11-04 17:55:19 info: API SERVER Running at:3001
+2020-11-04 17:55:20 info: DB Conenction Sucess
+2020-11-04 17:55:39 info: SERVER__HEALTH true
+2020-11-04 17:55:39 info: SOCKET SERVER INIT
+2020-11-04 17:55:39 info: API SERVER Running at:3001
+2020-11-04 17:55:40 info: DB Conenction Sucess
+2020-11-04 17:55:55 info: SERVER__HEALTH true
+2020-11-04 17:55:55 info: SOCKET SERVER INIT
+2020-11-04 17:55:55 info: API SERVER Running at:3001
+2020-11-04 17:55:56 info: DB Conenction Sucess
+2020-11-04 17:56:02 info: SERVER__HEALTH true
+2020-11-04 17:56:02 info: SOCKET SERVER INIT
+2020-11-04 17:56:02 info: API SERVER Running at:3001
+2020-11-04 17:56:04 info: DB Conenction Sucess
+2020-11-04 17:56:12 info: SERVER__HEALTH true
+2020-11-04 17:56:12 info: SOCKET SERVER INIT
+2020-11-04 17:56:12 info: API SERVER Running at:3001
+2020-11-04 17:56:13 info: DB Conenction Sucess
+2020-11-04 17:57:09 info: SERVER__HEALTH true
+2020-11-04 17:57:09 info: SOCKET SERVER INIT
+2020-11-04 17:57:09 info: API SERVER Running at:3001
+2020-11-04 17:57:10 info: DB Conenction Sucess
+2020-11-04 17:57:20 info: SERVER__HEALTH true
+2020-11-04 17:57:20 info: SOCKET SERVER INIT
+2020-11-04 17:57:20 info: API SERVER Running at:3001
+2020-11-04 17:57:21 info: DB Conenction Sucess
+2020-11-04 17:57:41 info: SERVER__HEALTH true
+2020-11-04 17:57:41 info: SOCKET SERVER INIT
+2020-11-04 17:57:41 info: API SERVER Running at:3001
+2020-11-04 17:57:42 info: DB Conenction Sucess
+2020-11-04 17:57:45 info: SERVER__HEALTH true
+2020-11-04 17:57:45 info: SOCKET SERVER INIT
+2020-11-04 17:57:45 info: API SERVER Running at:3001
+2020-11-04 17:57:46 info: DB Conenction Sucess
+2020-11-04 17:57:53 info: SERVER__HEALTH true
+2020-11-04 17:57:53 info: SOCKET SERVER INIT
+2020-11-04 17:57:53 info: API SERVER Running at:3001
+2020-11-04 17:57:54 info: DB Conenction Sucess
+2020-11-04 17:58:03 info: SERVER__HEALTH true
+2020-11-04 17:58:03 info: SOCKET SERVER INIT
+2020-11-04 17:58:03 info: API SERVER Running at:3001
+2020-11-04 17:58:04 info: DB Conenction Sucess
+2020-11-04 18:00:06 info: SERVER__HEALTH true
+2020-11-04 18:00:06 info: SOCKET SERVER INIT
+2020-11-04 18:00:06 info: API SERVER Running at:3001
+2020-11-04 18:00:08 info: SERVER__HEALTH true
+2020-11-04 18:00:08 info: SOCKET SERVER INIT
+2020-11-04 18:00:08 info: API SERVER Running at:3001
+2020-11-04 18:00:09 info: DB Conenction Sucess
+2020-11-04 18:00:24 info: SERVER__HEALTH true
+2020-11-04 18:00:24 info: SOCKET SERVER INIT
+2020-11-04 18:00:24 info: API SERVER Running at:3001
+2020-11-04 18:00:25 info: DB Conenction Sucess
+2020-11-04 18:00:46 info: SERVER__HEALTH true
+2020-11-04 18:00:46 info: SOCKET SERVER INIT
+2020-11-04 18:00:46 info: API SERVER Running at:3001
+2020-11-04 18:00:47 info: DB Conenction Sucess
+2020-11-04 18:06:28 info: SERVER__HEALTH true
+2020-11-04 18:06:28 info: SOCKET SERVER INIT
+2020-11-04 18:06:28 info: API SERVER Running at:3001
+2020-11-04 18:06:30 info: DB Conenction Sucess
+2020-11-04 18:06:37 info: Verify social  Validation
+2020-11-04 18:06:37 info: verify social response control
+2020-11-04 18:06:37 info: generate tokennull
+2020-11-04 18:06:37 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 160.083 ms - 160
+2020-11-04 18:07:01 info: SERVER__HEALTH true
+2020-11-04 18:07:01 info: SOCKET SERVER INIT
+2020-11-04 18:07:01 info: API SERVER Running at:3001
+2020-11-04 18:07:02 info: DB Conenction Sucess
+2020-11-04 18:07:18 info: SERVER__HEALTH true
+2020-11-04 18:07:18 info: SOCKET SERVER INIT
+2020-11-04 18:07:18 info: API SERVER Running at:3001
+2020-11-04 18:07:20 info: DB Conenction Sucess
+2020-11-04 18:07:27 info: SERVER__HEALTH true
+2020-11-04 18:07:27 info: SOCKET SERVER INIT
+2020-11-04 18:07:27 info: API SERVER Running at:3001
+2020-11-04 18:07:28 info: DB Conenction Sucess
+2020-11-04 18:07:33 info: SERVER__HEALTH true
+2020-11-04 18:07:33 info: SOCKET SERVER INIT
+2020-11-04 18:07:33 info: API SERVER Running at:3001
+2020-11-04 18:07:34 info: DB Conenction Sucess
+2020-11-04 18:07:39 info: Verify social  Validation
+2020-11-04 18:07:39 info: verify social response control
+2020-11-04 18:07:39 info: generate tokennull
+2020-11-04 18:09:39 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti - - ms - -
+2020-11-04 18:09:43 info: SERVER__HEALTH true
+2020-11-04 18:09:43 info: SOCKET SERVER INIT
+2020-11-04 18:09:43 info: API SERVER Running at:3001
+2020-11-04 18:09:45 info: DB Conenction Sucess
+2020-11-04 18:09:56 info: SERVER__HEALTH true
+2020-11-04 18:09:56 info: SOCKET SERVER INIT
+2020-11-04 18:09:56 info: API SERVER Running at:3001
+2020-11-04 18:09:57 info: DB Conenction Sucess
+2020-11-04 18:09:59 info: SERVER__HEALTH true
+2020-11-04 18:09:59 info: SOCKET SERVER INIT
+2020-11-04 18:09:59 info: API SERVER Running at:3001
+2020-11-04 18:10:00 info: DB Conenction Sucess
+2020-11-04 18:10:01 info: Verify social  Validation
+2020-11-04 18:10:01 info: verify social response control
+2020-11-04 18:10:01 info: generate tokennull
+2020-11-04 18:10:13 info: SERVER__HEALTH true
+2020-11-04 18:10:13 info: SOCKET SERVER INIT
+2020-11-04 18:10:13 info: API SERVER Running at:3001
+2020-11-04 18:10:14 info: DB Conenction Sucess
+2020-11-04 18:10:21 info: SERVER__HEALTH true
+2020-11-04 18:10:21 info: SOCKET SERVER INIT
+2020-11-04 18:10:21 info: API SERVER Running at:3001
+2020-11-04 18:10:23 info: SERVER__HEALTH true
+2020-11-04 18:10:23 info: SOCKET SERVER INIT
+2020-11-04 18:10:23 info: API SERVER Running at:3001
+2020-11-04 18:10:24 info: DB Conenction Sucess
+2020-11-04 18:10:24 info: Verify social  Validation
+2020-11-04 18:10:24 info: verify social response control
+2020-11-04 18:10:24 info: generate tokennull
+2020-11-04 18:10:24 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 140.053 ms - 160
+2020-11-04 18:11:30 info: SERVER__HEALTH true
+2020-11-04 18:11:30 info: SOCKET SERVER INIT
+2020-11-04 18:11:30 info: API SERVER Running at:3001
+2020-11-04 18:11:32 info: DB Conenction Sucess
+2020-11-04 18:11:36 info: SERVER__HEALTH true
+2020-11-04 18:11:36 info: SOCKET SERVER INIT
+2020-11-04 18:11:36 info: API SERVER Running at:3001
+2020-11-04 18:11:38 info: DB Conenction Sucess
+2020-11-04 18:11:52 info: SERVER__HEALTH true
+2020-11-04 18:11:52 info: SOCKET SERVER INIT
+2020-11-04 18:11:52 info: API SERVER Running at:3001
+2020-11-04 18:11:53 info: DB Conenction Sucess
+2020-11-04 18:11:58 info: SERVER__HEALTH true
+2020-11-04 18:11:58 info: SOCKET SERVER INIT
+2020-11-04 18:11:58 info: API SERVER Running at:3001
+2020-11-04 18:11:59 info: DB Conenction Sucess
+2020-11-04 18:12:01 info: SERVER__HEALTH true
+2020-11-04 18:12:01 info: SOCKET SERVER INIT
+2020-11-04 18:12:01 info: API SERVER Running at:3001
+2020-11-04 18:12:02 info: DB Conenction Sucess
+2020-11-04 18:12:05 info: SERVER__HEALTH true
+2020-11-04 18:12:05 info: SOCKET SERVER INIT
+2020-11-04 18:12:05 info: API SERVER Running at:3001
+2020-11-04 18:12:06 info: DB Conenction Sucess
+2020-11-04 18:12:09 info: SERVER__HEALTH true
+2020-11-04 18:12:09 info: SOCKET SERVER INIT
+2020-11-04 18:12:09 info: API SERVER Running at:3001
+2020-11-04 18:12:11 info: DB Conenction Sucess
+2020-11-04 18:12:13 info: SERVER__HEALTH true
+2020-11-04 18:12:13 info: SOCKET SERVER INIT
+2020-11-04 18:12:13 info: API SERVER Running at:3001
+2020-11-04 18:12:14 info: DB Conenction Sucess
+2020-11-04 18:12:18 info: SERVER__HEALTH true
+2020-11-04 18:12:18 info: SOCKET SERVER INIT
+2020-11-04 18:12:18 info: API SERVER Running at:3001
+2020-11-04 18:12:19 info: DB Conenction Sucess
+2020-11-04 18:12:23 info: Verify social  Validation
+2020-11-04 18:12:23 info: verify social response control
+2020-11-04 18:12:23 info: generate tokennull
+2020-11-04 18:12:23 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 127.344 ms - 3360
+2020-11-04 18:12:41 info: SERVER__HEALTH true
+2020-11-04 18:12:41 info: SOCKET SERVER INIT
+2020-11-04 18:12:41 info: API SERVER Running at:3001
+2020-11-04 18:12:42 info: DB Conenction Sucess
+2020-11-04 18:12:43 info: Verify social  Validation
+2020-11-04 18:12:43 info: verify social response control
+2020-11-04 18:12:43 info: generate tokennull
+2020-11-04 18:12:43 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 160.915 ms - 506
+2020-11-04 18:13:11 info: SERVER__HEALTH true
+2020-11-04 18:13:11 info: SOCKET SERVER INIT
+2020-11-04 18:13:11 info: API SERVER Running at:3001
+2020-11-04 18:13:12 info: DB Conenction Sucess
+2020-11-04 18:13:18 info: SERVER__HEALTH true
+2020-11-04 18:13:18 info: SOCKET SERVER INIT
+2020-11-04 18:13:18 info: API SERVER Running at:3001
+2020-11-04 18:13:19 info: DB Conenction Sucess
+2020-11-04 18:13:20 info: Verify social  Validation
+2020-11-04 18:13:20 info: verify social response control
+2020-11-04 18:13:20 info: generate tokennull
+2020-11-04 18:13:20 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 164.205 ms - 506
+2020-11-04 18:13:40 info: SERVER__HEALTH true
+2020-11-04 18:13:40 info: SOCKET SERVER INIT
+2020-11-04 18:13:40 info: API SERVER Running at:3001
+2020-11-04 18:13:41 info: DB Conenction Sucess
+2020-11-04 18:13:46 info: SERVER__HEALTH true
+2020-11-04 18:13:46 info: SOCKET SERVER INIT
+2020-11-04 18:13:46 info: API SERVER Running at:3001
+2020-11-04 18:13:48 info: DB Conenction Sucess
+2020-11-04 18:13:50 info: SERVER__HEALTH true
+2020-11-04 18:13:50 info: SOCKET SERVER INIT
+2020-11-04 18:13:50 info: API SERVER Running at:3001
+2020-11-04 18:13:51 info: DB Conenction Sucess
+2020-11-04 18:13:56 info: SERVER__HEALTH true
+2020-11-04 18:13:56 info: SOCKET SERVER INIT
+2020-11-04 18:13:56 info: API SERVER Running at:3001
+2020-11-04 18:13:58 info: DB Conenction Sucess
+2020-11-04 18:14:05 info: SERVER__HEALTH true
+2020-11-04 18:14:05 info: SOCKET SERVER INIT
+2020-11-04 18:14:05 info: API SERVER Running at:3001
+2020-11-04 18:14:06 info: DB Conenction Sucess
+2020-11-04 18:14:13 info: Verify social  Validation
+2020-11-04 18:14:13 info: verify social response control
+2020-11-04 18:14:13 info: generate tokennull
+2020-11-04 18:14:13 info: GET /api/v1/user/social/verify?email=sb@api.com&name=Saurabh%20Bharti 200 157.439 ms - 506
+2020-11-04 18:14:22 info: Verify social  Validation
+2020-11-04 18:14:22 info: verify social response control
+2020-11-04 18:14:45 info: SERVER__HEALTH true
+2020-11-04 18:14:45 info: SOCKET SERVER INIT
+2020-11-04 18:14:45 info: API SERVER Running at:3001
+2020-11-04 18:14:46 info: DB Conenction Sucess
+2020-11-04 18:15:04 info: SERVER__HEALTH true
+2020-11-04 18:15:04 info: SOCKET SERVER INIT
+2020-11-04 18:15:04 info: API SERVER Running at:3001
+2020-11-04 18:15:07 info: SERVER__HEALTH true
+2020-11-04 18:15:07 info: SOCKET SERVER INIT
+2020-11-04 18:15:07 info: API SERVER Running at:3001
+2020-11-04 18:15:09 info: SERVER__HEALTH true
+2020-11-04 18:15:09 info: SOCKET SERVER INIT
+2020-11-04 18:15:09 info: API SERVER Running at:3001
+2020-11-04 18:15:10 info: DB Conenction Sucess
+2020-11-04 18:15:13 info: SERVER__HEALTH true
+2020-11-04 18:15:13 info: SOCKET SERVER INIT
+2020-11-04 18:15:13 info: API SERVER Running at:3001
+2020-11-04 18:15:15 info: DB Conenction Sucess
+2020-11-04 18:15:17 info: Verify social  Validation
+2020-11-04 18:15:17 info: verify social response control
+2020-11-04 18:15:35 info: SERVER__HEALTH true
+2020-11-04 18:15:35 info: SOCKET SERVER INIT
+2020-11-04 18:15:35 info: API SERVER Running at:3001
+2020-11-04 18:15:36 info: DB Conenction Sucess
+2020-11-04 18:15:39 info: Verify social  Validation
+2020-11-04 18:15:39 info: verify social response control
+2020-11-04 18:15:40 info: generate tokennull
+2020-11-04 18:15:59 info: SERVER__HEALTH true
+2020-11-04 18:15:59 info: SOCKET SERVER INIT
+2020-11-04 18:15:59 info: API SERVER Running at:3001
+2020-11-04 18:16:01 info: DB Conenction Sucess
+2020-11-04 18:16:02 info: Verify social  Validation
+2020-11-04 18:16:02 info: verify social response control
+2020-11-04 18:16:03 info: generate tokennull
+2020-11-04 18:16:03 info: GET /api/v1/user/social/verify?email=sbh@api.com&name=Saurabh%20Bharti 200 193.601 ms - 522

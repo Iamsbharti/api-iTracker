@@ -34,6 +34,11 @@ router.get(
   validations.getAllIssuesValidations,
   users.getAllUser
 );
+router.get(
+  "/user/social/verify",
+  validations.verifySocialValidation,
+  users.verifySocialLogin
+);
 
 /**Issue Control */
 router.post(
@@ -103,4 +108,5 @@ router.delete(
   validations.deleteImgValidation,
   uploadControl.deleteAttachment
 );
+
 module.exports = router;
