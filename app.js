@@ -9,6 +9,7 @@ const { initdb } = require("./initdb");
 const router = require("./router/router");
 const path = require("path");
 const methodOverride = require("method-override");
+const { setSocketServer } = require("./library/socketInit");
 
 /**configure envoirnment variables */
 dotenv.config();
@@ -33,7 +34,7 @@ app.use(function (req, res, next) {
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, authToken, access-control-allow-origin"
   );
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
 
@@ -51,3 +52,7 @@ app.use(handleError);
 let server = app.listen(port, () =>
   logger.info(`API SERVER Running at:${port}`)
 );
+
+/**Init Socket */
+logger.info(`SERVER__HEALTH ${server.listening}`);
+let setSocketServerInit = setSocketServer(server);
