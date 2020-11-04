@@ -28428,3 +28428,2845 @@
 2020-11-04 10:22:53 info: SOCKET SERVER INIT
 2020-11-04 10:22:53 info: API SERVER Running at:3001
 2020-11-04 10:22:54 info: DB Conenction Sucess
+2020-11-04 10:33:38 info: SERVER__HEALTH true
+2020-11-04 10:33:38 info: SOCKET SERVER INIT
+2020-11-04 10:33:38 info: API SERVER Running at:3001
+2020-11-04 10:33:40 info: DB Conenction Sucess
+2020-11-04 10:33:50 info: SERVER__HEALTH true
+2020-11-04 10:33:50 info: SOCKET SERVER INIT
+2020-11-04 10:33:50 info: API SERVER Running at:3001
+2020-11-04 10:33:51 info: DB Conenction Sucess
+2020-11-04 10:38:35 info: SERVER__HEALTH true
+2020-11-04 10:38:35 info: SOCKET SERVER INIT
+2020-11-04 10:38:35 info: API SERVER Running at:3001
+2020-11-04 10:38:41 info: DB Conenction Sucess
+2020-11-04 10:41:04 info: SERVER__HEALTH true
+2020-11-04 10:41:04 info: SOCKET SERVER INIT
+2020-11-04 10:41:04 info: API SERVER Running at:3001
+2020-11-04 10:41:06 info: DB Conenction Sucess
+2020-11-04 10:41:08 info: SERVER__HEALTH true
+2020-11-04 10:41:08 info: SOCKET SERVER INIT
+2020-11-04 10:41:08 info: API SERVER Running at:3001
+2020-11-04 10:41:09 info: DB Conenction Sucess
+2020-11-04 11:07:34 info: OPTIONS /api/v1/user/login 204 1.446 ms - 0
+2020-11-04 11:07:34 info: Login Param Validations
+2020-11-04 11:07:34 info: Login Control Init
+2020-11-04 11:07:35 info: credMatch:true
+2020-11-04 11:07:35 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-04 11:07:35 info: generate tokennull
+2020-11-04 11:07:35 info: POST /api/v1/user/login 200 1152.540 ms - 498
+2020-11-04 11:07:37 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.306 ms - 0
+2020-11-04 11:07:37 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 11:07:37 info: Authorizing...
+2020-11-04 11:07:37 info: Get All Issues Validations
+2020-11-04 11:07:37 info: Get All Issues Control
+2020-11-04 11:07:37 info: Validate user stub
+2020-11-04 11:07:37 info: Authorizing...
+2020-11-04 11:07:37 info: Get All Issues Validations
+2020-11-04 11:07:37 info: Get All users for watchlist
+2020-11-04 11:07:37 info: Emit On Connection
+2020-11-04 11:07:37 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 172.448 ms - -
+2020-11-04 11:07:37 info: Authenticating User
+2020-11-04 11:07:38 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 480.694 ms - -
+2020-11-04 11:09:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.280 ms - 0
+2020-11-04 11:09:02 info: Authorizing...
+2020-11-04 11:09:02 info: Get All Issues Validations
+2020-11-04 11:09:02 info: Get All Issues Control
+2020-11-04 11:09:02 info: Validate user stub
+2020-11-04 11:09:02 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.290 ms - 0
+2020-11-04 11:09:02 info: Authorizing...
+2020-11-04 11:09:02 info: Get All Issues Validations
+2020-11-04 11:09:02 info: Get All users for watchlist
+2020-11-04 11:09:02 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 133.937 ms - -
+2020-11-04 11:09:02 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 354.203 ms - -
+2020-11-04 11:09:02 info: Emit On Connection
+2020-11-04 11:09:03 info: Authenticating User
+2020-11-04 11:09:03 info: Verify USERId
+2020-11-04 11:13:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.294 ms - 0
+2020-11-04 11:13:33 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.272 ms - 0
+2020-11-04 11:13:33 info: Authorizing...
+2020-11-04 11:13:33 info: Get All Issues Validations
+2020-11-04 11:13:33 info: Get All Issues Control
+2020-11-04 11:13:33 info: Validate user stub
+2020-11-04 11:13:33 info: Authorizing...
+2020-11-04 11:13:33 info: Get All Issues Validations
+2020-11-04 11:13:33 info: Get All users for watchlist
+2020-11-04 11:13:33 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 108.733 ms - -
+2020-11-04 11:13:33 info: Emit On Connection
+2020-11-04 11:13:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.365 ms - -
+2020-11-04 11:13:33 info: Authenticating User
+2020-11-04 11:13:33 info: Verify USERId
+2020-11-04 11:13:50 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.283 ms - 0
+2020-11-04 11:13:50 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.334 ms - 0
+2020-11-04 11:13:50 info: Authorizing...
+2020-11-04 11:13:50 info: Get All Issues Validations
+2020-11-04 11:13:50 info: Get All Issues Control
+2020-11-04 11:13:50 info: Validate user stub
+2020-11-04 11:13:50 info: Authorizing...
+2020-11-04 11:13:50 info: Get All Issues Validations
+2020-11-04 11:13:50 info: Get All users for watchlist
+2020-11-04 11:13:50 info: Emit On Connection
+2020-11-04 11:13:50 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 125.375 ms - -
+2020-11-04 11:13:50 info: Authenticating User
+2020-11-04 11:13:50 info: Verify USERId
+2020-11-04 11:13:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.138 ms - -
+2020-11-04 11:14:54 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.294 ms - 0
+2020-11-04 11:14:54 info: Authorizing...
+2020-11-04 11:14:54 info: Get All Issues Validations
+2020-11-04 11:14:54 info: Get All Issues Control
+2020-11-04 11:14:54 info: Validate user stub
+2020-11-04 11:14:54 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.280 ms - 0
+2020-11-04 11:14:54 info: Authorizing...
+2020-11-04 11:14:54 info: Get All Issues Validations
+2020-11-04 11:14:54 info: Get All users for watchlist
+2020-11-04 11:14:55 info: Emit On Connection
+2020-11-04 11:14:55 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 132.733 ms - -
+2020-11-04 11:14:55 info: Authenticating User
+2020-11-04 11:14:55 info: Verify USERId
+2020-11-04 11:14:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 355.312 ms - -
+2020-11-04 11:15:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.279 ms - 0
+2020-11-04 11:15:05 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.262 ms - 0
+2020-11-04 11:15:05 info: Authorizing...
+2020-11-04 11:15:05 info: Get All Issues Validations
+2020-11-04 11:15:05 info: Get All Issues Control
+2020-11-04 11:15:05 info: Validate user stub
+2020-11-04 11:15:05 info: Authorizing...
+2020-11-04 11:15:05 info: Get All Issues Validations
+2020-11-04 11:15:05 info: Get All users for watchlist
+2020-11-04 11:15:05 info: Emit On Connection
+2020-11-04 11:15:05 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 116.822 ms - -
+2020-11-04 11:15:05 info: Authenticating User
+2020-11-04 11:15:05 info: Verify USERId
+2020-11-04 11:15:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.231 ms - -
+2020-11-04 11:15:13 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-04 11:15:13 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.265 ms - 0
+2020-11-04 11:15:13 info: Authorizing...
+2020-11-04 11:15:13 info: Get All Issues Validations
+2020-11-04 11:15:13 info: Get All Issues Control
+2020-11-04 11:15:13 info: Validate user stub
+2020-11-04 11:15:13 info: Authorizing...
+2020-11-04 11:15:13 info: Get All Issues Validations
+2020-11-04 11:15:13 info: Get All users for watchlist
+2020-11-04 11:15:13 info: Emit On Connection
+2020-11-04 11:15:13 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 109.449 ms - -
+2020-11-04 11:15:13 info: Authenticating User
+2020-11-04 11:15:13 info: Verify USERId
+2020-11-04 11:15:13 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 317.843 ms - -
+2020-11-04 11:15:37 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.276 ms - 0
+2020-11-04 11:15:37 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.235 ms - 0
+2020-11-04 11:15:37 info: Authorizing...
+2020-11-04 11:15:37 info: Get All Issues Validations
+2020-11-04 11:15:37 info: Get All Issues Control
+2020-11-04 11:15:37 info: Validate user stub
+2020-11-04 11:15:37 info: Authorizing...
+2020-11-04 11:15:37 info: Get All Issues Validations
+2020-11-04 11:15:37 info: Get All users for watchlist
+2020-11-04 11:15:37 info: Emit On Connection
+2020-11-04 11:15:37 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.740 ms - -
+2020-11-04 11:15:37 info: Authenticating User
+2020-11-04 11:15:37 info: Verify USERId
+2020-11-04 11:15:37 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 325.461 ms - -
+2020-11-04 11:15:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.275 ms - 0
+2020-11-04 11:15:55 info: Authorizing...
+2020-11-04 11:15:55 info: Get All Issues Validations
+2020-11-04 11:15:55 info: Get All Issues Control
+2020-11-04 11:15:55 info: Validate user stub
+2020-11-04 11:15:55 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.281 ms - 0
+2020-11-04 11:15:55 info: Authorizing...
+2020-11-04 11:15:55 info: Get All Issues Validations
+2020-11-04 11:15:55 info: Get All users for watchlist
+2020-11-04 11:15:55 info: Emit On Connection
+2020-11-04 11:15:55 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 118.195 ms - -
+2020-11-04 11:15:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.833 ms - -
+2020-11-04 11:15:55 info: Authenticating User
+2020-11-04 11:15:55 info: Verify USERId
+2020-11-04 11:16:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 11:16:04 info: Authorizing...
+2020-11-04 11:16:04 info: Get All Issues Validations
+2020-11-04 11:16:04 info: Get All Issues Control
+2020-11-04 11:16:04 info: Validate user stub
+2020-11-04 11:16:05 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.276 ms - 0
+2020-11-04 11:16:05 info: Authorizing...
+2020-11-04 11:16:05 info: Get All Issues Validations
+2020-11-04 11:16:05 info: Get All users for watchlist
+2020-11-04 11:16:05 info: Emit On Connection
+2020-11-04 11:16:05 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 89.424 ms - -
+2020-11-04 11:16:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 302.581 ms - -
+2020-11-04 11:16:05 info: Authenticating User
+2020-11-04 11:16:05 info: Verify USERId
+2020-11-04 11:16:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-04 11:16:23 info: Authorizing...
+2020-11-04 11:16:23 info: Get All Issues Validations
+2020-11-04 11:16:23 info: Get All Issues Control
+2020-11-04 11:16:23 info: Validate user stub
+2020-11-04 11:16:23 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.257 ms - 0
+2020-11-04 11:16:23 info: Authorizing...
+2020-11-04 11:16:23 info: Get All Issues Validations
+2020-11-04 11:16:23 info: Get All users for watchlist
+2020-11-04 11:16:24 info: Emit On Connection
+2020-11-04 11:16:24 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 136.975 ms - -
+2020-11-04 11:16:24 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.607 ms - -
+2020-11-04 11:16:24 info: Authenticating User
+2020-11-04 11:16:24 info: Verify USERId
+2020-11-04 11:17:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 11:17:21 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 11:17:21 info: Authorizing...
+2020-11-04 11:17:21 info: Get All Issues Validations
+2020-11-04 11:17:21 info: Get All Issues Control
+2020-11-04 11:17:21 info: Validate user stub
+2020-11-04 11:17:21 info: Authorizing...
+2020-11-04 11:17:21 info: Get All Issues Validations
+2020-11-04 11:17:21 info: Get All users for watchlist
+2020-11-04 11:17:21 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 121.313 ms - -
+2020-11-04 11:17:21 info: Emit On Connection
+2020-11-04 11:17:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.659 ms - -
+2020-11-04 11:17:22 info: Authenticating User
+2020-11-04 11:17:22 info: Verify USERId
+2020-11-04 11:18:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.143 ms - 0
+2020-11-04 11:18:09 info: Authorizing...
+2020-11-04 11:18:09 info: Get All Issues Validations
+2020-11-04 11:18:09 info: Get All Issues Control
+2020-11-04 11:18:09 info: Validate user stub
+2020-11-04 11:18:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-04 11:18:09 info: Authorizing...
+2020-11-04 11:18:09 info: Get All Issues Validations
+2020-11-04 11:18:09 info: Get All users for watchlist
+2020-11-04 11:18:09 info: Emit On Connection
+2020-11-04 11:18:09 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 135.180 ms - -
+2020-11-04 11:18:09 info: Authenticating User
+2020-11-04 11:18:09 info: Verify USERId
+2020-11-04 11:18:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.158 ms - -
+2020-11-04 11:18:14 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.267 ms - 0
+2020-11-04 11:18:14 info: Authorizing...
+2020-11-04 11:18:14 info: Get All Issues Validations
+2020-11-04 11:18:14 info: Get All Issues Control
+2020-11-04 11:18:14 info: Validate user stub
+2020-11-04 11:18:14 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-04 11:18:14 info: Authorizing...
+2020-11-04 11:18:14 info: Get All Issues Validations
+2020-11-04 11:18:14 info: Get All users for watchlist
+2020-11-04 11:18:14 info: Emit On Connection
+2020-11-04 11:18:14 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 115.810 ms - -
+2020-11-04 11:18:14 info: Authenticating User
+2020-11-04 11:18:14 info: Verify USERId
+2020-11-04 11:18:14 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 336.590 ms - -
+2020-11-04 11:19:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.285 ms - 0
+2020-11-04 11:19:05 info: Authorizing...
+2020-11-04 11:19:05 info: Get All Issues Validations
+2020-11-04 11:19:05 info: Get All Issues Control
+2020-11-04 11:19:05 info: Validate user stub
+2020-11-04 11:19:05 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 11:19:05 info: Authorizing...
+2020-11-04 11:19:05 info: Get All Issues Validations
+2020-11-04 11:19:05 info: Get All users for watchlist
+2020-11-04 11:19:05 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 96.039 ms - -
+2020-11-04 11:19:05 info: Emit On Connection
+2020-11-04 11:19:05 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 312.935 ms - -
+2020-11-04 11:19:05 info: Authenticating User
+2020-11-04 11:19:05 info: Verify USERId
+2020-11-04 11:19:08 info: Authorizing...
+2020-11-04 11:19:08 info: Get All Issues Validations
+2020-11-04 11:19:08 info: Get All Issues Control
+2020-11-04 11:19:08 info: Validate user stub
+2020-11-04 11:19:08 info: Authorizing...
+2020-11-04 11:19:08 info: Get All Issues Validations
+2020-11-04 11:19:08 info: Get All users for watchlist
+2020-11-04 11:19:08 info: Emit On Connection
+2020-11-04 11:19:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 120.402 ms - -
+2020-11-04 11:19:08 info: Authenticating User
+2020-11-04 11:19:08 info: Verify USERId
+2020-11-04 11:19:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.241 ms - -
+2020-11-04 11:19:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-04 11:19:58 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 11:19:58 info: Authorizing...
+2020-11-04 11:19:58 info: Get All Issues Validations
+2020-11-04 11:19:58 info: Get All Issues Control
+2020-11-04 11:19:58 info: Validate user stub
+2020-11-04 11:19:58 info: Authorizing...
+2020-11-04 11:19:58 info: Get All Issues Validations
+2020-11-04 11:19:58 info: Get All users for watchlist
+2020-11-04 11:19:58 info: Emit On Connection
+2020-11-04 11:19:58 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 129.288 ms - -
+2020-11-04 11:19:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.218 ms - -
+2020-11-04 11:19:59 info: Authenticating User
+2020-11-04 11:19:59 info: Verify USERId
+2020-11-04 11:20:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-04 11:20:16 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 11:20:16 info: Authorizing...
+2020-11-04 11:20:16 info: Get All Issues Validations
+2020-11-04 11:20:16 info: Get All Issues Control
+2020-11-04 11:20:16 info: Validate user stub
+2020-11-04 11:20:16 info: Authorizing...
+2020-11-04 11:20:16 info: Get All Issues Validations
+2020-11-04 11:20:16 info: Get All users for watchlist
+2020-11-04 11:20:16 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.375 ms - -
+2020-11-04 11:20:16 info: Emit On Connection
+2020-11-04 11:20:16 info: Authenticating User
+2020-11-04 11:20:16 info: Verify USERId
+2020-11-04 11:20:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 299.739 ms - -
+2020-11-04 11:20:34 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-04 11:20:34 info: Authorizing...
+2020-11-04 11:20:34 info: Get All Issues Validations
+2020-11-04 11:20:34 info: Get All Issues Control
+2020-11-04 11:20:34 info: Validate user stub
+2020-11-04 11:20:34 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 7.629 ms - 0
+2020-11-04 11:20:34 info: Authorizing...
+2020-11-04 11:20:34 info: Get All Issues Validations
+2020-11-04 11:20:34 info: Get All users for watchlist
+2020-11-04 11:20:34 info: Emit On Connection
+2020-11-04 11:20:34 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.474 ms - -
+2020-11-04 11:20:34 info: Authenticating User
+2020-11-04 11:20:34 info: Verify USERId
+2020-11-04 11:20:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 325.858 ms - -
+2020-11-04 11:20:51 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.281 ms - 0
+2020-11-04 11:20:51 info: Authorizing...
+2020-11-04 11:20:51 info: Get All Issues Validations
+2020-11-04 11:20:51 info: Get All Issues Control
+2020-11-04 11:20:51 info: Validate user stub
+2020-11-04 11:20:51 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 11:20:51 info: Authorizing...
+2020-11-04 11:20:51 info: Get All Issues Validations
+2020-11-04 11:20:51 info: Get All users for watchlist
+2020-11-04 11:20:51 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.862 ms - -
+2020-11-04 11:20:51 info: Emit On Connection
+2020-11-04 11:20:51 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.337 ms - -
+2020-11-04 11:20:51 info: Authenticating User
+2020-11-04 11:20:51 info: Verify USERId
+2020-11-04 11:20:55 info: Authorizing...
+2020-11-04 11:20:55 info: Get All Issues Validations
+2020-11-04 11:20:55 info: Get All Issues Control
+2020-11-04 11:20:55 info: Validate user stub
+2020-11-04 11:20:55 info: Authorizing...
+2020-11-04 11:20:55 info: Get All Issues Validations
+2020-11-04 11:20:55 info: Get All users for watchlist
+2020-11-04 11:20:55 info: Emit On Connection
+2020-11-04 11:20:55 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.563 ms - -
+2020-11-04 11:20:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 358.083 ms - -
+2020-11-04 11:20:55 info: Authenticating User
+2020-11-04 11:20:55 info: Verify USERId
+2020-11-04 11:21:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-04 11:21:07 info: Authorizing...
+2020-11-04 11:21:07 info: Get All Issues Validations
+2020-11-04 11:21:07 info: Get All Issues Control
+2020-11-04 11:21:07 info: Validate user stub
+2020-11-04 11:21:07 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 11:21:07 info: Authorizing...
+2020-11-04 11:21:07 info: Get All Issues Validations
+2020-11-04 11:21:07 info: Get All users for watchlist
+2020-11-04 11:21:07 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.282 ms - -
+2020-11-04 11:21:07 info: Emit On Connection
+2020-11-04 11:21:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 309.727 ms - -
+2020-11-04 11:21:07 info: Authenticating User
+2020-11-04 11:21:07 info: Verify USERId
+2020-11-04 11:21:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 11:21:20 info: Authorizing...
+2020-11-04 11:21:20 info: Get All Issues Validations
+2020-11-04 11:21:20 info: Get All Issues Control
+2020-11-04 11:21:20 info: Validate user stub
+2020-11-04 11:21:20 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-04 11:21:20 info: Authorizing...
+2020-11-04 11:21:20 info: Get All Issues Validations
+2020-11-04 11:21:20 info: Get All users for watchlist
+2020-11-04 11:21:20 info: Emit On Connection
+2020-11-04 11:21:20 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 116.733 ms - -
+2020-11-04 11:21:21 info: Authenticating User
+2020-11-04 11:21:21 info: Verify USERId
+2020-11-04 11:21:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 315.635 ms - -
+2020-11-04 11:21:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.244 ms - 0
+2020-11-04 11:21:28 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.250 ms - 0
+2020-11-04 11:21:28 info: Authorizing...
+2020-11-04 11:21:28 info: Get All Issues Validations
+2020-11-04 11:21:28 info: Get All Issues Control
+2020-11-04 11:21:28 info: Validate user stub
+2020-11-04 11:21:28 info: Authorizing...
+2020-11-04 11:21:28 info: Get All Issues Validations
+2020-11-04 11:21:28 info: Get All users for watchlist
+2020-11-04 11:21:28 info: Emit On Connection
+2020-11-04 11:21:28 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 130.251 ms - -
+2020-11-04 11:21:28 info: Authenticating User
+2020-11-04 11:21:28 info: Verify USERId
+2020-11-04 11:21:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.304 ms - -
+2020-11-04 11:23:19 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.141 ms - 0
+2020-11-04 11:23:19 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.205 ms - 0
+2020-11-04 11:23:19 info: Authorizing...
+2020-11-04 11:23:19 info: Get All Issues Validations
+2020-11-04 11:23:19 info: Get All Issues Control
+2020-11-04 11:23:19 info: Validate user stub
+2020-11-04 11:23:19 info: Authorizing...
+2020-11-04 11:23:19 info: Get All Issues Validations
+2020-11-04 11:23:19 info: Get All users for watchlist
+2020-11-04 11:23:20 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.507 ms - -
+2020-11-04 11:23:20 info: Emit On Connection
+2020-11-04 11:23:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 328.934 ms - -
+2020-11-04 11:23:20 info: Authenticating User
+2020-11-04 11:23:20 info: Verify USERId
+2020-11-04 11:23:35 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-04 11:23:35 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 11:23:35 info: Authorizing...
+2020-11-04 11:23:35 info: Get All Issues Validations
+2020-11-04 11:23:35 info: Get All Issues Control
+2020-11-04 11:23:35 info: Validate user stub
+2020-11-04 11:23:35 info: Authorizing...
+2020-11-04 11:23:35 info: Get All Issues Validations
+2020-11-04 11:23:35 info: Get All users for watchlist
+2020-11-04 11:23:35 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.896 ms - -
+2020-11-04 11:23:35 info: Emit On Connection
+2020-11-04 11:23:35 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 315.172 ms - -
+2020-11-04 11:23:35 info: Authenticating User
+2020-11-04 11:23:35 info: Verify USERId
+2020-11-04 11:23:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.286 ms - 0
+2020-11-04 11:23:48 info: Authorizing...
+2020-11-04 11:23:48 info: Get All Issues Validations
+2020-11-04 11:23:48 info: Get All Issues Control
+2020-11-04 11:23:48 info: Validate user stub
+2020-11-04 11:23:48 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.199 ms - 0
+2020-11-04 11:23:48 info: Authorizing...
+2020-11-04 11:23:48 info: Get All Issues Validations
+2020-11-04 11:23:48 info: Get All users for watchlist
+2020-11-04 11:23:48 info: Emit On Connection
+2020-11-04 11:23:48 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.582 ms - -
+2020-11-04 11:23:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 278.869 ms - -
+2020-11-04 11:23:48 info: Authenticating User
+2020-11-04 11:23:48 info: Verify USERId
+2020-11-04 11:24:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.149 ms - 0
+2020-11-04 11:24:07 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-04 11:24:07 info: Authorizing...
+2020-11-04 11:24:07 info: Get All Issues Validations
+2020-11-04 11:24:07 info: Get All Issues Control
+2020-11-04 11:24:07 info: Validate user stub
+2020-11-04 11:24:07 info: Authorizing...
+2020-11-04 11:24:07 info: Get All Issues Validations
+2020-11-04 11:24:07 info: Get All users for watchlist
+2020-11-04 11:24:07 info: Emit On Connection
+2020-11-04 11:24:07 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 121.600 ms - -
+2020-11-04 11:24:08 info: Authenticating User
+2020-11-04 11:24:08 info: Verify USERId
+2020-11-04 11:24:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.442 ms - -
+2020-11-04 11:24:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 11:24:33 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-04 11:24:33 info: Authorizing...
+2020-11-04 11:24:33 info: Get All Issues Validations
+2020-11-04 11:24:33 info: Get All Issues Control
+2020-11-04 11:24:33 info: Validate user stub
+2020-11-04 11:24:33 info: Authorizing...
+2020-11-04 11:24:33 info: Get All Issues Validations
+2020-11-04 11:24:33 info: Get All users for watchlist
+2020-11-04 11:24:33 info: Emit On Connection
+2020-11-04 11:24:33 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 126.797 ms - -
+2020-11-04 11:24:34 info: Authenticating User
+2020-11-04 11:24:34 info: Verify USERId
+2020-11-04 11:24:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.233 ms - -
+2020-11-04 11:24:49 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-04 11:24:49 info: Authorizing...
+2020-11-04 11:24:49 info: Get All Issues Validations
+2020-11-04 11:24:49 info: Get All Issues Control
+2020-11-04 11:24:49 info: Validate user stub
+2020-11-04 11:24:49 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-04 11:24:49 info: Authorizing...
+2020-11-04 11:24:49 info: Get All Issues Validations
+2020-11-04 11:24:49 info: Get All users for watchlist
+2020-11-04 11:24:49 info: Emit On Connection
+2020-11-04 11:24:49 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.968 ms - -
+2020-11-04 11:24:49 info: Authenticating User
+2020-11-04 11:24:49 info: Verify USERId
+2020-11-04 11:24:49 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 297.533 ms - -
+2020-11-04 11:24:52 info: Authorizing...
+2020-11-04 11:24:52 info: Get All Issues Validations
+2020-11-04 11:24:52 info: Get All Issues Control
+2020-11-04 11:24:52 info: Validate user stub
+2020-11-04 11:24:52 info: Authorizing...
+2020-11-04 11:24:52 info: Get All Issues Validations
+2020-11-04 11:24:52 info: Get All users for watchlist
+2020-11-04 11:24:52 info: Emit On Connection
+2020-11-04 11:24:52 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 129.175 ms - -
+2020-11-04 11:24:52 info: Authenticating User
+2020-11-04 11:24:52 info: Verify USERId
+2020-11-04 11:24:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.274 ms - -
+2020-11-04 11:26:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 11:26:07 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 11:26:07 info: Authorizing...
+2020-11-04 11:26:07 info: Get All Issues Validations
+2020-11-04 11:26:07 info: Get All Issues Control
+2020-11-04 11:26:07 info: Validate user stub
+2020-11-04 11:26:07 info: Authorizing...
+2020-11-04 11:26:07 info: Get All Issues Validations
+2020-11-04 11:26:07 info: Get All users for watchlist
+2020-11-04 11:26:07 info: Emit On Connection
+2020-11-04 11:26:07 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 135.695 ms - -
+2020-11-04 11:26:07 info: Authenticating User
+2020-11-04 11:26:07 info: Verify USERId
+2020-11-04 11:26:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.812 ms - -
+2020-11-04 11:26:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-04 11:26:46 info: Authorizing...
+2020-11-04 11:26:46 info: Get All Issues Validations
+2020-11-04 11:26:46 info: Get All Issues Control
+2020-11-04 11:26:46 info: Validate user stub
+2020-11-04 11:26:46 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 11:26:46 info: Authorizing...
+2020-11-04 11:26:46 info: Get All Issues Validations
+2020-11-04 11:26:46 info: Get All users for watchlist
+2020-11-04 11:26:46 info: Emit On Connection
+2020-11-04 11:26:46 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 122.984 ms - -
+2020-11-04 11:26:46 info: Authenticating User
+2020-11-04 11:26:46 info: Verify USERId
+2020-11-04 11:26:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.460 ms - -
+2020-11-04 11:27:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-04 11:27:07 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 11:27:07 info: Authorizing...
+2020-11-04 11:27:07 info: Get All Issues Validations
+2020-11-04 11:27:07 info: Get All Issues Control
+2020-11-04 11:27:07 info: Validate user stub
+2020-11-04 11:27:07 info: Authorizing...
+2020-11-04 11:27:07 info: Get All Issues Validations
+2020-11-04 11:27:07 info: Get All users for watchlist
+2020-11-04 11:27:07 info: Emit On Connection
+2020-11-04 11:27:07 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 100.659 ms - -
+2020-11-04 11:27:07 info: Authenticating User
+2020-11-04 11:27:07 info: Verify USERId
+2020-11-04 11:27:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 306.656 ms - -
+2020-11-04 11:27:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-04 11:27:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.235 ms - 0
+2020-11-04 11:27:18 info: Authorizing...
+2020-11-04 11:27:18 info: Get All Issues Validations
+2020-11-04 11:27:18 info: Get All Issues Control
+2020-11-04 11:27:18 info: Validate user stub
+2020-11-04 11:27:18 info: Authorizing...
+2020-11-04 11:27:18 info: Get All Issues Validations
+2020-11-04 11:27:18 info: Get All users for watchlist
+2020-11-04 11:27:18 info: Emit On Connection
+2020-11-04 11:27:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 122.718 ms - -
+2020-11-04 11:27:18 info: Authenticating User
+2020-11-04 11:27:18 info: Verify USERId
+2020-11-04 11:27:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.717 ms - -
+2020-11-04 11:27:22 info: Authorizing...
+2020-11-04 11:27:22 info: Get All Issues Validations
+2020-11-04 11:27:22 info: Get All Issues Control
+2020-11-04 11:27:22 info: Validate user stub
+2020-11-04 11:27:22 info: Authorizing...
+2020-11-04 11:27:22 info: Get All Issues Validations
+2020-11-04 11:27:22 info: Get All users for watchlist
+2020-11-04 11:27:22 info: Emit On Connection
+2020-11-04 11:27:22 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 132.142 ms - -
+2020-11-04 11:27:22 info: Authenticating User
+2020-11-04 11:27:22 info: Verify USERId
+2020-11-04 11:27:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.715 ms - -
+2020-11-04 11:27:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-04 11:27:28 info: Authorizing...
+2020-11-04 11:27:28 info: Get All Issues Validations
+2020-11-04 11:27:28 info: Get All Issues Control
+2020-11-04 11:27:28 info: Validate user stub
+2020-11-04 11:27:28 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 11:27:28 info: Authorizing...
+2020-11-04 11:27:28 info: Get All Issues Validations
+2020-11-04 11:27:28 info: Get All users for watchlist
+2020-11-04 11:27:28 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 110.910 ms - -
+2020-11-04 11:27:28 info: Emit On Connection
+2020-11-04 11:27:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 321.537 ms - -
+2020-11-04 11:27:28 info: Authenticating User
+2020-11-04 11:27:28 info: Verify USERId
+2020-11-04 11:27:31 info: Authorizing...
+2020-11-04 11:27:31 info: Get All Issues Validations
+2020-11-04 11:27:31 info: Get All Issues Control
+2020-11-04 11:27:31 info: Validate user stub
+2020-11-04 11:27:31 info: Authorizing...
+2020-11-04 11:27:31 info: Get All Issues Validations
+2020-11-04 11:27:31 info: Get All users for watchlist
+2020-11-04 11:27:31 info: Emit On Connection
+2020-11-04 11:27:31 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 113.485 ms - -
+2020-11-04 11:27:31 info: Authenticating User
+2020-11-04 11:27:31 info: Verify USERId
+2020-11-04 11:27:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.120 ms - -
+2020-11-04 11:27:36 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.195 ms - 0
+2020-11-04 11:27:36 info: Authorizing...
+2020-11-04 11:27:36 info: Get All Issues Validations
+2020-11-04 11:27:36 info: Get All Issues Control
+2020-11-04 11:27:36 info: Validate user stub
+2020-11-04 11:27:36 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.131 ms - 0
+2020-11-04 11:27:36 info: Authorizing...
+2020-11-04 11:27:36 info: Get All Issues Validations
+2020-11-04 11:27:36 info: Get All users for watchlist
+2020-11-04 11:27:36 info: Emit On Connection
+2020-11-04 11:27:36 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 134.891 ms - -
+2020-11-04 11:27:36 info: Authenticating User
+2020-11-04 11:27:36 info: Verify USERId
+2020-11-04 11:27:36 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 341.523 ms - -
+2020-11-04 11:27:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.251 ms - 0
+2020-11-04 11:27:41 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 11:27:41 info: Authorizing...
+2020-11-04 11:27:41 info: Get All Issues Validations
+2020-11-04 11:27:41 info: Get All Issues Control
+2020-11-04 11:27:41 info: Validate user stub
+2020-11-04 11:27:41 info: Authorizing...
+2020-11-04 11:27:41 info: Get All Issues Validations
+2020-11-04 11:27:41 info: Get All users for watchlist
+2020-11-04 11:27:41 info: Emit On Connection
+2020-11-04 11:27:41 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 123.965 ms - -
+2020-11-04 11:27:41 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 311.650 ms - -
+2020-11-04 11:27:41 info: Authenticating User
+2020-11-04 11:27:41 info: Verify USERId
+2020-11-04 11:27:45 info: Authorizing...
+2020-11-04 11:27:45 info: Get All Issues Validations
+2020-11-04 11:27:45 info: Get All Issues Control
+2020-11-04 11:27:45 info: Validate user stub
+2020-11-04 11:27:45 info: Authorizing...
+2020-11-04 11:27:45 info: Get All Issues Validations
+2020-11-04 11:27:45 info: Get All users for watchlist
+2020-11-04 11:27:45 info: Emit On Connection
+2020-11-04 11:27:45 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 105.435 ms - -
+2020-11-04 11:27:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 311.697 ms - -
+2020-11-04 11:27:45 info: Authenticating User
+2020-11-04 11:27:45 info: Verify USERId
+2020-11-04 11:27:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 11:27:55 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-04 11:27:55 info: Authorizing...
+2020-11-04 11:27:55 info: Get All Issues Validations
+2020-11-04 11:27:55 info: Get All Issues Control
+2020-11-04 11:27:55 info: Validate user stub
+2020-11-04 11:27:55 info: Authorizing...
+2020-11-04 11:27:55 info: Get All Issues Validations
+2020-11-04 11:27:55 info: Get All users for watchlist
+2020-11-04 11:27:55 info: Emit On Connection
+2020-11-04 11:27:55 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 94.842 ms - -
+2020-11-04 11:27:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 313.215 ms - -
+2020-11-04 11:27:55 info: Authenticating User
+2020-11-04 11:27:55 info: Verify USERId
+2020-11-04 11:28:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-04 11:28:52 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 11:28:52 info: Authorizing...
+2020-11-04 11:28:52 info: Get All Issues Validations
+2020-11-04 11:28:52 info: Get All Issues Control
+2020-11-04 11:28:52 info: Validate user stub
+2020-11-04 11:28:52 info: Authorizing...
+2020-11-04 11:28:52 info: Get All Issues Validations
+2020-11-04 11:28:52 info: Get All users for watchlist
+2020-11-04 11:28:52 info: Emit On Connection
+2020-11-04 11:28:52 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 132.244 ms - -
+2020-11-04 11:28:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.742 ms - -
+2020-11-04 11:28:52 info: Authenticating User
+2020-11-04 11:28:52 info: Verify USERId
+2020-11-04 11:29:15 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-04 11:29:15 info: Authorizing...
+2020-11-04 11:29:15 info: Get All Issues Validations
+2020-11-04 11:29:15 info: Get All Issues Control
+2020-11-04 11:29:15 info: Validate user stub
+2020-11-04 11:29:15 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 11:29:15 info: Authorizing...
+2020-11-04 11:29:15 info: Get All Issues Validations
+2020-11-04 11:29:15 info: Get All users for watchlist
+2020-11-04 11:29:15 info: Emit On Connection
+2020-11-04 11:29:15 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 101.092 ms - -
+2020-11-04 11:29:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 294.337 ms - -
+2020-11-04 11:29:16 info: Authenticating User
+2020-11-04 11:29:16 info: Verify USERId
+2020-11-04 11:30:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 11:30:08 info: Authorizing...
+2020-11-04 11:30:08 info: Get All Issues Validations
+2020-11-04 11:30:08 info: Get All Issues Control
+2020-11-04 11:30:08 info: Validate user stub
+2020-11-04 11:30:08 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 11:30:08 info: Authorizing...
+2020-11-04 11:30:08 info: Get All Issues Validations
+2020-11-04 11:30:08 info: Get All users for watchlist
+2020-11-04 11:30:08 info: Emit On Connection
+2020-11-04 11:30:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 95.961 ms - -
+2020-11-04 11:30:08 info: Authenticating User
+2020-11-04 11:30:08 info: Verify USERId
+2020-11-04 11:30:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 320.769 ms - -
+2020-11-04 11:30:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.210 ms - 0
+2020-11-04 11:30:21 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.234 ms - 0
+2020-11-04 11:30:21 info: Authorizing...
+2020-11-04 11:30:21 info: Get All Issues Validations
+2020-11-04 11:30:21 info: Get All Issues Control
+2020-11-04 11:30:21 info: Validate user stub
+2020-11-04 11:30:21 info: Authorizing...
+2020-11-04 11:30:21 info: Get All Issues Validations
+2020-11-04 11:30:21 info: Get All users for watchlist
+2020-11-04 11:30:21 info: Emit On Connection
+2020-11-04 11:30:21 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 116.067 ms - -
+2020-11-04 11:30:21 info: Authenticating User
+2020-11-04 11:30:21 info: Verify USERId
+2020-11-04 11:30:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 316.619 ms - -
+2020-11-04 11:30:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 11:30:32 info: Authorizing...
+2020-11-04 11:30:32 info: Get All Issues Validations
+2020-11-04 11:30:32 info: Get All Issues Control
+2020-11-04 11:30:32 info: Validate user stub
+2020-11-04 11:30:32 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 11:30:32 info: Authorizing...
+2020-11-04 11:30:32 info: Get All Issues Validations
+2020-11-04 11:30:32 info: Get All users for watchlist
+2020-11-04 11:30:32 info: Emit On Connection
+2020-11-04 11:30:32 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 128.623 ms - -
+2020-11-04 11:30:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 307.866 ms - -
+2020-11-04 11:30:33 info: Authenticating User
+2020-11-04 11:30:33 info: Verify USERId
+2020-11-04 12:01:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.221 ms - 0
+2020-11-04 12:01:38 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.180 ms - 0
+2020-11-04 12:01:38 info: Authorizing...
+2020-11-04 12:01:38 info: Get All Issues Validations
+2020-11-04 12:01:38 info: Get All Issues Control
+2020-11-04 12:01:38 info: Validate user stub
+2020-11-04 12:01:38 info: Authorizing...
+2020-11-04 12:01:38 info: Get All Issues Validations
+2020-11-04 12:01:38 info: Get All users for watchlist
+2020-11-04 12:01:38 info: Emit On Connection
+2020-11-04 12:01:39 info: Authenticating User
+2020-11-04 12:01:39 info: Verify USERId
+2020-11-04 12:01:39 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 1042.951 ms - -
+2020-11-04 12:01:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1231.086 ms - -
+2020-11-04 12:05:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.290 ms - 0
+2020-11-04 12:05:05 info: Authorizing...
+2020-11-04 12:05:05 info: Get All Issues Validations
+2020-11-04 12:05:05 info: Get All Issues Control
+2020-11-04 12:05:05 info: Validate user stub
+2020-11-04 12:05:05 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 12:05:05 info: Authorizing...
+2020-11-04 12:05:05 info: Get All Issues Validations
+2020-11-04 12:05:05 info: Get All users for watchlist
+2020-11-04 12:05:05 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.850 ms - -
+2020-11-04 12:05:05 info: Emit On Connection
+2020-11-04 12:05:05 info: Authenticating User
+2020-11-04 12:05:05 info: Verify USERId
+2020-11-04 12:05:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 330.670 ms - -
+2020-11-04 12:05:32 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.219 ms - 0
+2020-11-04 12:05:32 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 12:05:32 info: Authorizing...
+2020-11-04 12:05:32 info: Get All Issues Validations
+2020-11-04 12:05:32 info: Get All Issues Control
+2020-11-04 12:05:32 info: Validate user stub
+2020-11-04 12:05:32 info: Authorizing...
+2020-11-04 12:05:32 info: Get All Issues Validations
+2020-11-04 12:05:32 info: Get All users for watchlist
+2020-11-04 12:05:32 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 98.341 ms - -
+2020-11-04 12:05:32 info: Emit On Connection
+2020-11-04 12:05:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 301.092 ms - -
+2020-11-04 12:05:32 info: Authenticating User
+2020-11-04 12:05:32 info: Verify USERId
+2020-11-04 12:05:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.217 ms - 0
+2020-11-04 12:05:52 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.278 ms - 0
+2020-11-04 12:05:52 info: Authorizing...
+2020-11-04 12:05:52 info: Get All Issues Validations
+2020-11-04 12:05:52 info: Get All Issues Control
+2020-11-04 12:05:52 info: Validate user stub
+2020-11-04 12:05:52 info: Authorizing...
+2020-11-04 12:05:52 info: Get All Issues Validations
+2020-11-04 12:05:52 info: Get All users for watchlist
+2020-11-04 12:05:52 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 134.180 ms - -
+2020-11-04 12:05:52 info: Emit On Connection
+2020-11-04 12:05:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.690 ms - -
+2020-11-04 12:05:53 info: Authenticating User
+2020-11-04 12:05:53 info: Verify USERId
+2020-11-04 12:06:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.244 ms - 0
+2020-11-04 12:06:20 info: Authorizing...
+2020-11-04 12:06:20 info: Get All Issues Validations
+2020-11-04 12:06:20 info: Get All Issues Control
+2020-11-04 12:06:20 info: Validate user stub
+2020-11-04 12:06:20 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.145 ms - 0
+2020-11-04 12:06:20 info: Authorizing...
+2020-11-04 12:06:20 info: Get All Issues Validations
+2020-11-04 12:06:20 info: Get All users for watchlist
+2020-11-04 12:06:20 info: Emit On Connection
+2020-11-04 12:06:20 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 126.156 ms - -
+2020-11-04 12:06:20 info: Authenticating User
+2020-11-04 12:06:20 info: Verify USERId
+2020-11-04 12:06:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 335.757 ms - -
+2020-11-04 12:07:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.138 ms - 0
+2020-11-04 12:07:03 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.132 ms - 0
+2020-11-04 12:07:03 info: Authorizing...
+2020-11-04 12:07:03 info: Get All Issues Validations
+2020-11-04 12:07:03 info: Get All Issues Control
+2020-11-04 12:07:03 info: Validate user stub
+2020-11-04 12:07:03 info: Authorizing...
+2020-11-04 12:07:03 info: Get All Issues Validations
+2020-11-04 12:07:03 info: Get All users for watchlist
+2020-11-04 12:07:03 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 109.622 ms - -
+2020-11-04 12:07:03 info: Emit On Connection
+2020-11-04 12:07:03 info: Authenticating User
+2020-11-04 12:07:03 info: Verify USERId
+2020-11-04 12:07:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 312.371 ms - -
+2020-11-04 12:07:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 12:07:22 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-04 12:07:22 info: Authorizing...
+2020-11-04 12:07:22 info: Get All Issues Validations
+2020-11-04 12:07:22 info: Get All Issues Control
+2020-11-04 12:07:22 info: Validate user stub
+2020-11-04 12:07:22 info: Authorizing...
+2020-11-04 12:07:22 info: Get All Issues Validations
+2020-11-04 12:07:22 info: Get All users for watchlist
+2020-11-04 12:07:22 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 119.143 ms - -
+2020-11-04 12:07:22 info: Emit On Connection
+2020-11-04 12:07:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 321.485 ms - -
+2020-11-04 12:07:23 info: Authenticating User
+2020-11-04 12:07:23 info: Verify USERId
+2020-11-04 12:07:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 12:07:56 info: Authorizing...
+2020-11-04 12:07:56 info: Get All Issues Validations
+2020-11-04 12:07:56 info: Get All Issues Control
+2020-11-04 12:07:56 info: Validate user stub
+2020-11-04 12:07:56 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.264 ms - 0
+2020-11-04 12:07:56 info: Authorizing...
+2020-11-04 12:07:56 info: Get All Issues Validations
+2020-11-04 12:07:56 info: Get All users for watchlist
+2020-11-04 12:07:56 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 124.205 ms - -
+2020-11-04 12:07:56 info: Emit On Connection
+2020-11-04 12:07:56 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 380.114 ms - -
+2020-11-04 12:07:57 info: Authenticating User
+2020-11-04 12:07:57 info: Verify USERId
+2020-11-04 12:08:04 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-04 12:08:04 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-04 12:08:04 info: Authorizing...
+2020-11-04 12:08:04 info: Get All Issues Validations
+2020-11-04 12:08:04 info: Get All Issues Control
+2020-11-04 12:08:04 info: Validate user stub
+2020-11-04 12:08:04 info: Authorizing...
+2020-11-04 12:08:04 info: Get All Issues Validations
+2020-11-04 12:08:04 info: Get All users for watchlist
+2020-11-04 12:08:04 info: Emit On Connection
+2020-11-04 12:08:04 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 120.225 ms - -
+2020-11-04 12:08:04 info: Authenticating User
+2020-11-04 12:08:04 info: Verify USERId
+2020-11-04 12:08:04 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 332.357 ms - -
+2020-11-04 12:09:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.246 ms - 0
+2020-11-04 12:09:28 info: Authorizing...
+2020-11-04 12:09:28 info: Get All Issues Validations
+2020-11-04 12:09:28 info: Get All Issues Control
+2020-11-04 12:09:28 info: Validate user stub
+2020-11-04 12:09:28 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-04 12:09:28 info: Authorizing...
+2020-11-04 12:09:28 info: Get All Issues Validations
+2020-11-04 12:09:28 info: Get All users for watchlist
+2020-11-04 12:09:28 info: Emit On Connection
+2020-11-04 12:09:28 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.239 ms - -
+2020-11-04 12:09:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.284 ms - -
+2020-11-04 12:09:29 info: Authenticating User
+2020-11-04 12:09:29 info: Verify USERId
+2020-11-04 12:10:58 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.212 ms - 0
+2020-11-04 12:10:58 info: Authorizing...
+2020-11-04 12:10:58 info: Update issue validations
+2020-11-04 12:10:58 info: Update Issue Control
+2020-11-04 12:10:58 info: Validate user stub
+2020-11-04 12:10:58 info: Validate issue stub:
+2020-11-04 12:10:59 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 337.845 ms - 79
+2020-11-04 12:11:44 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.231 ms - 0
+2020-11-04 12:11:44 info: Authorizing...
+2020-11-04 12:11:44 info: Update issue validations
+2020-11-04 12:11:44 info: Update Issue Control
+2020-11-04 12:11:44 info: Validate user stub
+2020-11-04 12:11:44 info: Validate issue stub:
+2020-11-04 12:11:44 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 336.806 ms - 79
+2020-11-04 12:14:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 12:14:39 info: Authorizing...
+2020-11-04 12:14:39 info: Get All Issues Validations
+2020-11-04 12:14:39 info: Get All Issues Control
+2020-11-04 12:14:39 info: Validate user stub
+2020-11-04 12:14:39 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 12:14:39 info: Authorizing...
+2020-11-04 12:14:39 info: Get All Issues Validations
+2020-11-04 12:14:39 info: Get All users for watchlist
+2020-11-04 12:14:39 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 107.847 ms - -
+2020-11-04 12:14:39 info: Emit On Connection
+2020-11-04 12:14:39 info: Authenticating User
+2020-11-04 12:14:39 info: Verify USERId
+2020-11-04 12:14:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 356.294 ms - 4593
+2020-11-04 12:14:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.217 ms - 0
+2020-11-04 12:14:52 info: Authorizing...
+2020-11-04 12:14:52 info: Get All Issues Validations
+2020-11-04 12:14:52 info: Get All Issues Control
+2020-11-04 12:14:52 info: Validate user stub
+2020-11-04 12:14:52 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-04 12:14:52 info: Authorizing...
+2020-11-04 12:14:52 info: Get All Issues Validations
+2020-11-04 12:14:52 info: Get All users for watchlist
+2020-11-04 12:14:52 info: Emit On Connection
+2020-11-04 12:14:52 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 114.081 ms - -
+2020-11-04 12:14:52 info: Authenticating User
+2020-11-04 12:14:52 info: Verify USERId
+2020-11-04 12:14:52 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 329.199 ms - -
+2020-11-04 12:15:05 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 12:15:05 info: Authorizing...
+2020-11-04 12:15:05 info: Update issue validations
+2020-11-04 12:15:05 info: Update Issue Control
+2020-11-04 12:15:05 info: Validate user stub
+2020-11-04 12:15:05 info: Validate issue stub:
+2020-11-04 12:15:05 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 332.081 ms - 79
+2020-11-04 12:15:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.197 ms - 0
+2020-11-04 12:15:46 info: Authorizing...
+2020-11-04 12:15:46 info: Get All Issues Validations
+2020-11-04 12:15:46 info: Get All Issues Control
+2020-11-04 12:15:46 info: Validate user stub
+2020-11-04 12:15:46 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 12:15:46 info: Authorizing...
+2020-11-04 12:15:46 info: Get All Issues Validations
+2020-11-04 12:15:46 info: Get All users for watchlist
+2020-11-04 12:15:46 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 122.713 ms - -
+2020-11-04 12:15:46 info: Emit On Connection
+2020-11-04 12:15:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 358.327 ms - -
+2020-11-04 12:15:46 info: Authenticating User
+2020-11-04 12:15:46 info: Verify USERId
+2020-11-04 12:15:54 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.231 ms - 0
+2020-11-04 12:15:54 info: Authorizing...
+2020-11-04 12:15:54 info: Update issue validations
+2020-11-04 12:15:54 info: Update Issue Control
+2020-11-04 12:15:54 info: Validate user stub
+2020-11-04 12:15:54 info: Validate issue stub:
+2020-11-04 12:15:54 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 315.234 ms - 79
+2020-11-04 12:16:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 12:16:20 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-04 12:16:20 info: Authorizing...
+2020-11-04 12:16:20 info: Get All Issues Validations
+2020-11-04 12:16:20 info: Get All Issues Control
+2020-11-04 12:16:20 info: Validate user stub
+2020-11-04 12:16:20 info: Authorizing...
+2020-11-04 12:16:20 info: Get All Issues Validations
+2020-11-04 12:16:20 info: Get All users for watchlist
+2020-11-04 12:16:20 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 121.950 ms - -
+2020-11-04 12:16:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 329.288 ms - -
+2020-11-04 12:16:20 info: Emit On Connection
+2020-11-04 12:16:21 info: Authenticating User
+2020-11-04 12:16:21 info: Verify USERId
+2020-11-04 12:17:01 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 12:17:01 info: Authorizing...
+2020-11-04 12:17:01 info: Get All Issues Validations
+2020-11-04 12:17:01 info: Get All Issues Control
+2020-11-04 12:17:01 info: Validate user stub
+2020-11-04 12:17:01 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.221 ms - 0
+2020-11-04 12:17:01 info: Authorizing...
+2020-11-04 12:17:01 info: Get All Issues Validations
+2020-11-04 12:17:01 info: Get All users for watchlist
+2020-11-04 12:17:01 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 121.362 ms - -
+2020-11-04 12:17:01 info: Emit On Connection
+2020-11-04 12:17:01 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 321.071 ms - -
+2020-11-04 12:17:01 info: Authenticating User
+2020-11-04 12:17:01 info: Verify USERId
+2020-11-04 12:18:00 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 12:18:00 info: Authorizing...
+2020-11-04 12:18:00 info: Get All Issues Validations
+2020-11-04 12:18:00 info: Get All Issues Control
+2020-11-04 12:18:00 info: Validate user stub
+2020-11-04 12:18:00 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 12:18:00 info: Authorizing...
+2020-11-04 12:18:00 info: Get All Issues Validations
+2020-11-04 12:18:00 info: Get All users for watchlist
+2020-11-04 12:18:00 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 96.095 ms - -
+2020-11-04 12:18:00 info: Emit On Connection
+2020-11-04 12:18:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 305.867 ms - -
+2020-11-04 12:18:01 info: Authenticating User
+2020-11-04 12:18:01 info: Verify USERId
+2020-11-04 12:18:07 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.275 ms - 0
+2020-11-04 12:18:07 info: Authorizing...
+2020-11-04 12:18:07 info: Update issue validations
+2020-11-04 12:18:07 info: Update Issue Control
+2020-11-04 12:18:07 info: Validate user stub
+2020-11-04 12:18:07 info: Validate issue stub:
+2020-11-04 12:18:08 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 321.742 ms - 79
+2020-11-04 12:25:38 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 12:25:38 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.198 ms - 0
+2020-11-04 12:25:38 info: Authorizing...
+2020-11-04 12:25:38 info: Get All Issues Validations
+2020-11-04 12:25:38 info: Get All Issues Control
+2020-11-04 12:25:38 info: Validate user stub
+2020-11-04 12:25:38 info: Authorizing...
+2020-11-04 12:25:38 info: Get All Issues Validations
+2020-11-04 12:25:38 info: Get All users for watchlist
+2020-11-04 12:25:39 info: Emit On Connection
+2020-11-04 12:25:39 info: Authenticating User
+2020-11-04 12:25:39 info: Verify USERId
+2020-11-04 12:25:39 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 781.754 ms - -
+2020-11-04 12:25:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 980.692 ms - 4590
+2020-11-04 12:26:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.245 ms - 0
+2020-11-04 12:26:09 info: Authorizing...
+2020-11-04 12:26:09 info: Get All Issues Validations
+2020-11-04 12:26:09 info: Get All Issues Control
+2020-11-04 12:26:09 info: Validate user stub
+2020-11-04 12:26:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-04 12:26:09 info: Authorizing...
+2020-11-04 12:26:09 info: Get All Issues Validations
+2020-11-04 12:26:09 info: Get All users for watchlist
+2020-11-04 12:26:09 info: Emit On Connection
+2020-11-04 12:26:09 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 149.381 ms - -
+2020-11-04 12:26:09 info: Authenticating User
+2020-11-04 12:26:09 info: Verify USERId
+2020-11-04 12:26:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 362.119 ms - -
+2020-11-04 12:26:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.272 ms - 0
+2020-11-04 12:26:43 info: Authorizing...
+2020-11-04 12:26:43 info: Get All Issues Validations
+2020-11-04 12:26:43 info: Get All Issues Control
+2020-11-04 12:26:43 info: Validate user stub
+2020-11-04 12:26:43 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.231 ms - 0
+2020-11-04 12:26:43 info: Authorizing...
+2020-11-04 12:26:43 info: Get All Issues Validations
+2020-11-04 12:26:43 info: Get All users for watchlist
+2020-11-04 12:26:43 info: Emit On Connection
+2020-11-04 12:26:43 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 147.639 ms - -
+2020-11-04 12:26:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 357.361 ms - -
+2020-11-04 12:26:44 info: Authenticating User
+2020-11-04 12:26:44 info: Verify USERId
+2020-11-04 12:27:44 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.139 ms - 0
+2020-11-04 12:27:44 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.136 ms - 0
+2020-11-04 12:27:44 info: Authorizing...
+2020-11-04 12:27:44 info: Get All Issues Validations
+2020-11-04 12:27:44 info: Get All Issues Control
+2020-11-04 12:27:44 info: Validate user stub
+2020-11-04 12:27:44 info: Authorizing...
+2020-11-04 12:27:44 info: Get All Issues Validations
+2020-11-04 12:27:44 info: Get All users for watchlist
+2020-11-04 12:27:45 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.025 ms - -
+2020-11-04 12:27:45 info: Emit On Connection
+2020-11-04 12:27:45 info: Authenticating User
+2020-11-04 12:27:45 info: Verify USERId
+2020-11-04 12:27:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.189 ms - -
+2020-11-04 12:27:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.249 ms - 0
+2020-11-04 12:27:56 info: Authorizing...
+2020-11-04 12:27:56 info: Get All Issues Validations
+2020-11-04 12:27:56 info: Get All Issues Control
+2020-11-04 12:27:56 info: Validate user stub
+2020-11-04 12:27:56 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 12:27:57 info: Authorizing...
+2020-11-04 12:27:57 info: Get All Issues Validations
+2020-11-04 12:27:57 info: Get All users for watchlist
+2020-11-04 12:27:57 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.838 ms - -
+2020-11-04 12:27:57 info: Emit On Connection
+2020-11-04 12:27:57 info: Authenticating User
+2020-11-04 12:27:57 info: Verify USERId
+2020-11-04 12:27:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.127 ms - -
+2020-11-04 12:28:11 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.256 ms - 0
+2020-11-04 12:28:11 info: Authorizing...
+2020-11-04 12:28:11 info: Get All Issues Validations
+2020-11-04 12:28:11 info: Get All Issues Control
+2020-11-04 12:28:11 info: Validate user stub
+2020-11-04 12:28:11 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-04 12:28:11 info: Authorizing...
+2020-11-04 12:28:11 info: Get All Issues Validations
+2020-11-04 12:28:11 info: Get All users for watchlist
+2020-11-04 12:28:11 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 98.079 ms - -
+2020-11-04 12:28:11 info: Emit On Connection
+2020-11-04 12:28:11 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 323.902 ms - -
+2020-11-04 12:28:12 info: Authenticating User
+2020-11-04 12:28:12 info: Verify USERId
+2020-11-04 12:28:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 12:28:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 12:28:18 info: Authorizing...
+2020-11-04 12:28:18 info: Get All Issues Validations
+2020-11-04 12:28:18 info: Get All Issues Control
+2020-11-04 12:28:18 info: Validate user stub
+2020-11-04 12:28:18 info: Authorizing...
+2020-11-04 12:28:18 info: Get All Issues Validations
+2020-11-04 12:28:18 info: Get All users for watchlist
+2020-11-04 12:28:18 info: Emit On Connection
+2020-11-04 12:28:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 97.067 ms - -
+2020-11-04 12:28:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 299.916 ms - -
+2020-11-04 12:28:18 info: Authenticating User
+2020-11-04 12:28:18 info: Verify USERId
+2020-11-04 12:28:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.257 ms - 0
+2020-11-04 12:28:31 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.223 ms - 0
+2020-11-04 12:28:31 info: Authorizing...
+2020-11-04 12:28:31 info: Get All Issues Validations
+2020-11-04 12:28:31 info: Get All Issues Control
+2020-11-04 12:28:31 info: Validate user stub
+2020-11-04 12:28:31 info: Authorizing...
+2020-11-04 12:28:31 info: Get All Issues Validations
+2020-11-04 12:28:31 info: Get All users for watchlist
+2020-11-04 12:28:31 info: Emit On Connection
+2020-11-04 12:28:31 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 150.017 ms - -
+2020-11-04 12:28:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 364.791 ms - -
+2020-11-04 12:28:32 info: Authenticating User
+2020-11-04 12:28:32 info: Verify USERId
+2020-11-04 12:29:27 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-04 12:29:27 info: Authorizing...
+2020-11-04 12:29:27 info: Get All Issues Validations
+2020-11-04 12:29:27 info: Get All Issues Control
+2020-11-04 12:29:27 info: Validate user stub
+2020-11-04 12:29:27 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-04 12:29:27 info: Authorizing...
+2020-11-04 12:29:27 info: Get All Issues Validations
+2020-11-04 12:29:27 info: Get All users for watchlist
+2020-11-04 12:29:27 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 118.758 ms - -
+2020-11-04 12:29:27 info: Emit On Connection
+2020-11-04 12:29:27 info: Authenticating User
+2020-11-04 12:29:27 info: Verify USERId
+2020-11-04 12:29:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 300.695 ms - -
+2020-11-04 12:29:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.224 ms - 0
+2020-11-04 12:29:41 info: Authorizing...
+2020-11-04 12:29:41 info: Get All Issues Validations
+2020-11-04 12:29:41 info: Get All Issues Control
+2020-11-04 12:29:41 info: Validate user stub
+2020-11-04 12:29:41 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 12:29:41 info: Authorizing...
+2020-11-04 12:29:41 info: Get All Issues Validations
+2020-11-04 12:29:41 info: Get All users for watchlist
+2020-11-04 12:29:41 info: Emit On Connection
+2020-11-04 12:29:41 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 154.242 ms - -
+2020-11-04 12:29:42 info: Authenticating User
+2020-11-04 12:29:42 info: Verify USERId
+2020-11-04 12:29:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 359.264 ms - -
+2020-11-04 12:31:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 12:31:08 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.211 ms - 0
+2020-11-04 12:31:08 info: Authorizing...
+2020-11-04 12:31:08 info: Get All Issues Validations
+2020-11-04 12:31:08 info: Get All Issues Control
+2020-11-04 12:31:08 info: Validate user stub
+2020-11-04 12:31:08 info: Authorizing...
+2020-11-04 12:31:08 info: Get All Issues Validations
+2020-11-04 12:31:08 info: Get All users for watchlist
+2020-11-04 12:31:08 info: Emit On Connection
+2020-11-04 12:31:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 143.101 ms - -
+2020-11-04 12:31:08 info: Authenticating User
+2020-11-04 12:31:08 info: Verify USERId
+2020-11-04 12:31:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.440 ms - -
+2020-11-04 12:31:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.176 ms - 0
+2020-11-04 12:31:23 info: Authorizing...
+2020-11-04 12:31:23 info: Get All Issues Validations
+2020-11-04 12:31:23 info: Get All Issues Control
+2020-11-04 12:31:23 info: Validate user stub
+2020-11-04 12:31:23 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 12:31:23 info: Authorizing...
+2020-11-04 12:31:23 info: Get All Issues Validations
+2020-11-04 12:31:23 info: Get All users for watchlist
+2020-11-04 12:31:23 info: Emit On Connection
+2020-11-04 12:31:23 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 142.617 ms - -
+2020-11-04 12:31:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 356.920 ms - -
+2020-11-04 12:31:24 info: Authenticating User
+2020-11-04 12:31:24 info: Verify USERId
+2020-11-04 12:31:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 12:31:43 info: Authorizing...
+2020-11-04 12:31:43 info: Get All Issues Validations
+2020-11-04 12:31:43 info: Get All Issues Control
+2020-11-04 12:31:43 info: Validate user stub
+2020-11-04 12:31:43 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.188 ms - 0
+2020-11-04 12:31:43 info: Authorizing...
+2020-11-04 12:31:43 info: Get All Issues Validations
+2020-11-04 12:31:43 info: Get All users for watchlist
+2020-11-04 12:31:43 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 127.226 ms - -
+2020-11-04 12:31:43 info: Emit On Connection
+2020-11-04 12:31:43 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 374.405 ms - -
+2020-11-04 12:31:44 info: Authenticating User
+2020-11-04 12:31:44 info: Verify USERId
+2020-11-04 12:32:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 12:32:16 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 12:32:16 info: Authorizing...
+2020-11-04 12:32:16 info: Get All Issues Validations
+2020-11-04 12:32:16 info: Get All Issues Control
+2020-11-04 12:32:16 info: Validate user stub
+2020-11-04 12:32:16 info: Authorizing...
+2020-11-04 12:32:16 info: Get All Issues Validations
+2020-11-04 12:32:16 info: Get All users for watchlist
+2020-11-04 12:32:16 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 133.876 ms - -
+2020-11-04 12:32:16 info: Emit On Connection
+2020-11-04 12:32:16 info: Authenticating User
+2020-11-04 12:32:16 info: Verify USERId
+2020-11-04 12:32:16 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.921 ms - -
+2020-11-04 12:32:30 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-04 12:32:30 info: Authorizing...
+2020-11-04 12:32:30 info: Get All Issues Validations
+2020-11-04 12:32:30 info: Get All Issues Control
+2020-11-04 12:32:30 info: Validate user stub
+2020-11-04 12:32:30 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.232 ms - 0
+2020-11-04 12:32:30 info: Authorizing...
+2020-11-04 12:32:30 info: Get All Issues Validations
+2020-11-04 12:32:30 info: Get All users for watchlist
+2020-11-04 12:32:30 info: Emit On Connection
+2020-11-04 12:32:30 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 111.142 ms - -
+2020-11-04 12:32:30 info: Authenticating User
+2020-11-04 12:32:30 info: Verify USERId
+2020-11-04 12:32:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.700 ms - -
+2020-11-04 12:32:47 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 12:32:47 info: Authorizing...
+2020-11-04 12:32:47 info: Get All Issues Validations
+2020-11-04 12:32:47 info: Get All Issues Control
+2020-11-04 12:32:47 info: Validate user stub
+2020-11-04 12:32:47 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.273 ms - 0
+2020-11-04 12:32:47 info: Authorizing...
+2020-11-04 12:32:47 info: Get All Issues Validations
+2020-11-04 12:32:47 info: Get All users for watchlist
+2020-11-04 12:32:48 info: Emit On Connection
+2020-11-04 12:32:48 info: Authenticating User
+2020-11-04 12:32:48 info: Verify USERId
+2020-11-04 12:32:48 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 168.188 ms - -
+2020-11-04 12:32:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 381.436 ms - -
+2020-11-04 12:33:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 12:33:03 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 12:33:03 info: Authorizing...
+2020-11-04 12:33:03 info: Get All Issues Validations
+2020-11-04 12:33:03 info: Get All Issues Control
+2020-11-04 12:33:03 info: Validate user stub
+2020-11-04 12:33:03 info: Authorizing...
+2020-11-04 12:33:03 info: Get All Issues Validations
+2020-11-04 12:33:03 info: Get All users for watchlist
+2020-11-04 12:33:03 info: Emit On Connection
+2020-11-04 12:33:03 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 171.700 ms - -
+2020-11-04 12:33:03 info: Authenticating User
+2020-11-04 12:33:03 info: Verify USERId
+2020-11-04 12:33:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.030 ms - -
+2020-11-04 12:33:19 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 12:33:19 info: Authorizing...
+2020-11-04 12:33:19 info: Get All Issues Validations
+2020-11-04 12:33:19 info: Get All Issues Control
+2020-11-04 12:33:19 info: Validate user stub
+2020-11-04 12:33:19 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.260 ms - 0
+2020-11-04 12:33:19 info: Authorizing...
+2020-11-04 12:33:19 info: Get All Issues Validations
+2020-11-04 12:33:19 info: Get All users for watchlist
+2020-11-04 12:33:20 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 107.794 ms - -
+2020-11-04 12:33:20 info: Emit On Connection
+2020-11-04 12:33:20 info: Authenticating User
+2020-11-04 12:33:20 info: Verify USERId
+2020-11-04 12:33:20 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.994 ms - -
+2020-11-04 12:33:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.240 ms - 0
+2020-11-04 12:33:39 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 12:33:39 info: Authorizing...
+2020-11-04 12:33:39 info: Get All Issues Validations
+2020-11-04 12:33:39 info: Get All Issues Control
+2020-11-04 12:33:39 info: Validate user stub
+2020-11-04 12:33:39 info: Emit On Connection
+2020-11-04 12:33:39 info: Authorizing...
+2020-11-04 12:33:39 info: Get All Issues Validations
+2020-11-04 12:33:39 info: Get All users for watchlist
+2020-11-04 12:33:40 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 747.331 ms - -
+2020-11-04 12:33:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 1055.708 ms - -
+2020-11-04 12:33:40 info: Authenticating User
+2020-11-04 12:33:40 info: Verify USERId
+2020-11-04 12:34:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.156 ms - 0
+2020-11-04 12:34:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.240 ms - 0
+2020-11-04 12:34:18 info: Authorizing...
+2020-11-04 12:34:18 info: Get All Issues Validations
+2020-11-04 12:34:18 info: Get All Issues Control
+2020-11-04 12:34:18 info: Validate user stub
+2020-11-04 12:34:18 info: Authorizing...
+2020-11-04 12:34:18 info: Get All Issues Validations
+2020-11-04 12:34:18 info: Get All users for watchlist
+2020-11-04 12:34:18 info: Emit On Connection
+2020-11-04 12:34:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 144.530 ms - -
+2020-11-04 12:34:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.670 ms - -
+2020-11-04 12:34:19 info: Authenticating User
+2020-11-04 12:34:19 info: Verify USERId
+2020-11-04 12:35:45 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.218 ms - 0
+2020-11-04 12:35:45 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 1.075 ms - 0
+2020-11-04 12:35:45 info: Authorizing...
+2020-11-04 12:35:45 info: Get All Issues Validations
+2020-11-04 12:35:45 info: Get All Issues Control
+2020-11-04 12:35:45 info: Validate user stub
+2020-11-04 12:35:45 info: Authorizing...
+2020-11-04 12:35:45 info: Get All Issues Validations
+2020-11-04 12:35:45 info: Get All users for watchlist
+2020-11-04 12:35:45 info: Emit On Connection
+2020-11-04 12:35:45 info: Authenticating User
+2020-11-04 12:35:45 info: Verify USERId
+2020-11-04 12:35:45 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.559 ms - -
+2020-11-04 12:35:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 349.476 ms - -
+2020-11-04 12:36:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 12:36:08 info: Authorizing...
+2020-11-04 12:36:08 info: Get All Issues Validations
+2020-11-04 12:36:08 info: Get All Issues Control
+2020-11-04 12:36:08 info: Validate user stub
+2020-11-04 12:36:08 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-04 12:36:08 info: Authorizing...
+2020-11-04 12:36:08 info: Get All Issues Validations
+2020-11-04 12:36:08 info: Get All users for watchlist
+2020-11-04 12:36:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.799 ms - -
+2020-11-04 12:36:08 info: Emit On Connection
+2020-11-04 12:36:08 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 309.679 ms - -
+2020-11-04 12:36:08 info: Authenticating User
+2020-11-04 12:36:08 info: Verify USERId
+2020-11-04 12:36:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 1.481 ms - 0
+2020-11-04 12:36:23 info: Authorizing...
+2020-11-04 12:36:23 info: Get All Issues Validations
+2020-11-04 12:36:23 info: Get All Issues Control
+2020-11-04 12:36:23 info: Validate user stub
+2020-11-04 12:36:23 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.215 ms - 0
+2020-11-04 12:36:23 info: Authorizing...
+2020-11-04 12:36:23 info: Get All Issues Validations
+2020-11-04 12:36:23 info: Get All users for watchlist
+2020-11-04 12:36:23 info: Emit On Connection
+2020-11-04 12:36:23 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 142.682 ms - -
+2020-11-04 12:36:23 info: Authenticating User
+2020-11-04 12:36:23 info: Verify USERId
+2020-11-04 12:36:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 362.247 ms - -
+2020-11-04 12:36:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 12:36:58 info: Authorizing...
+2020-11-04 12:36:58 info: Get All Issues Validations
+2020-11-04 12:36:58 info: Get All Issues Control
+2020-11-04 12:36:58 info: Validate user stub
+2020-11-04 12:36:58 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-04 12:36:58 info: Authorizing...
+2020-11-04 12:36:58 info: Get All Issues Validations
+2020-11-04 12:36:58 info: Get All users for watchlist
+2020-11-04 12:36:58 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 111.898 ms - -
+2020-11-04 12:36:58 info: Emit On Connection
+2020-11-04 12:36:58 info: Authenticating User
+2020-11-04 12:36:58 info: Verify USERId
+2020-11-04 12:36:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 325.828 ms - -
+2020-11-04 12:37:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 12:37:18 info: Authorizing...
+2020-11-04 12:37:18 info: Get All Issues Validations
+2020-11-04 12:37:18 info: Get All Issues Control
+2020-11-04 12:37:18 info: Validate user stub
+2020-11-04 12:37:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-04 12:37:18 info: Authorizing...
+2020-11-04 12:37:18 info: Get All Issues Validations
+2020-11-04 12:37:18 info: Get All users for watchlist
+2020-11-04 12:37:18 info: Emit On Connection
+2020-11-04 12:37:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 122.913 ms - -
+2020-11-04 12:37:18 info: Authenticating User
+2020-11-04 12:37:18 info: Verify USERId
+2020-11-04 12:37:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.242 ms - -
+2020-11-04 12:37:43 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.204 ms - 0
+2020-11-04 12:37:43 info: Authorizing...
+2020-11-04 12:37:43 info: Get All Issues Validations
+2020-11-04 12:37:43 info: Get All Issues Control
+2020-11-04 12:37:43 info: Validate user stub
+2020-11-04 12:37:43 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.226 ms - 0
+2020-11-04 12:37:43 info: Authorizing...
+2020-11-04 12:37:43 info: Get All Issues Validations
+2020-11-04 12:37:43 info: Get All users for watchlist
+2020-11-04 12:37:44 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 129.861 ms - -
+2020-11-04 12:37:44 info: Emit On Connection
+2020-11-04 12:37:44 info: Authenticating User
+2020-11-04 12:37:44 info: Verify USERId
+2020-11-04 12:37:44 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 353.194 ms - -
+2020-11-04 12:37:50 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.278 ms - 0
+2020-11-04 12:37:50 info: Authorizing...
+2020-11-04 12:37:50 info: Get All Issues Validations
+2020-11-04 12:37:50 info: Get All Issues Control
+2020-11-04 12:37:50 info: Validate user stub
+2020-11-04 12:37:50 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.208 ms - 0
+2020-11-04 12:37:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 383.182 ms - -
+2020-11-04 12:37:50 info: Authorizing...
+2020-11-04 12:37:50 info: Get All Issues Validations
+2020-11-04 12:37:50 info: Get All users for watchlist
+2020-11-04 12:37:50 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 138.932 ms - -
+2020-11-04 12:38:37 info: Emit On Connection
+2020-11-04 12:38:37 info: Authenticating User
+2020-11-04 12:38:38 info: Verify USERId
+2020-11-04 12:40:49 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.257 ms - 0
+2020-11-04 12:40:49 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-04 12:40:49 info: Authorizing...
+2020-11-04 12:40:49 info: Get All Issues Validations
+2020-11-04 12:40:49 info: Get All Issues Control
+2020-11-04 12:40:49 info: Validate user stub
+2020-11-04 12:40:49 info: Authorizing...
+2020-11-04 12:40:49 info: Get All Issues Validations
+2020-11-04 12:40:49 info: Get All users for watchlist
+2020-11-04 12:40:49 info: Emit On Connection
+2020-11-04 12:40:50 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 170.866 ms - -
+2020-11-04 12:40:50 info: Authenticating User
+2020-11-04 12:40:50 info: Verify USERId
+2020-11-04 12:40:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 432.450 ms - -
+2020-11-04 12:41:00 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.170 ms - 0
+2020-11-04 12:41:00 info: Authorizing...
+2020-11-04 12:41:00 info: Update issue validations
+2020-11-04 12:41:00 info: Update Issue Control
+2020-11-04 12:41:00 info: Validate user stub
+2020-11-04 12:41:00 info: Validate issue stub:
+2020-11-04 12:41:00 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 314.515 ms - 79
+2020-11-04 12:41:00 info: issue update socket listener:
+2020-11-04 12:41:00 info: server is emiiting issue updates
+2020-11-04 12:41:28 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-04 12:41:28 info: Authorizing...
+2020-11-04 12:41:28 info: Update issue validations
+2020-11-04 12:41:28 info: Update Issue Control
+2020-11-04 12:41:28 info: Validate user stub
+2020-11-04 12:41:28 info: Validate issue stub:
+2020-11-04 12:41:28 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 384.419 ms - 79
+2020-11-04 12:41:28 info: issue update socket listener:
+2020-11-04 12:41:28 info: server is emiiting issue updates
+2020-11-04 14:20:38 info: SERVER__HEALTH true
+2020-11-04 14:20:38 info: SOCKET SERVER INIT
+2020-11-04 14:20:38 info: API SERVER Running at:3001
+2020-11-04 14:20:39 info: DB Conenction Sucess
+2020-11-04 14:22:56 info: OPTIONS /api/v1/user/login 204 1.454 ms - 0
+2020-11-04 14:22:56 info: Login Param Validations
+2020-11-04 14:22:56 info: Login Control Init
+2020-11-04 14:22:57 info: credMatch:true
+2020-11-04 14:22:57 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-04 14:22:57 info: generate tokennull
+2020-11-04 14:22:57 info: POST /api/v1/user/login 200 625.730 ms - 498
+2020-11-04 14:22:59 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.349 ms - 0
+2020-11-04 14:22:59 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.178 ms - 0
+2020-11-04 14:22:59 info: Authorizing...
+2020-11-04 14:22:59 info: Get All Issues Validations
+2020-11-04 14:22:59 info: Get All Issues Control
+2020-11-04 14:22:59 info: Validate user stub
+2020-11-04 14:22:59 info: Authorizing...
+2020-11-04 14:22:59 info: Get All Issues Validations
+2020-11-04 14:22:59 info: Get All users for watchlist
+2020-11-04 14:22:59 info: Emit On Connection
+2020-11-04 14:22:59 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.142 ms - -
+2020-11-04 14:22:59 info: Authenticating User
+2020-11-04 14:22:59 info: Verify USERId
+2020-11-04 14:22:59 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 300.377 ms - 4433
+2020-11-04 14:24:20 info: OPTIONS /api/v1/user/login 204 0.185 ms - 0
+2020-11-04 14:24:20 info: Login Param Validations
+2020-11-04 14:24:20 info: Login Control Init
+2020-11-04 14:24:20 info: credMatch:true
+2020-11-04 14:24:20 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-04 14:24:20 info: generate tokennull
+2020-11-04 14:24:20 info: POST /api/v1/user/login 200 283.681 ms - 498
+2020-11-04 14:24:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.322 ms - 0
+2020-11-04 14:24:23 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.267 ms - 0
+2020-11-04 14:24:23 info: Authorizing...
+2020-11-04 14:24:23 info: Get All Issues Validations
+2020-11-04 14:24:23 info: Get All Issues Control
+2020-11-04 14:24:23 info: Validate user stub
+2020-11-04 14:24:23 info: Authorizing...
+2020-11-04 14:24:23 info: Get All Issues Validations
+2020-11-04 14:24:23 info: Get All users for watchlist
+2020-11-04 14:24:23 info: Emit On Connection
+2020-11-04 14:24:23 info: GET /api/v1/user/all?userId=_ofyQhK9u 200 88.281 ms - 412
+2020-11-04 14:24:23 info: Authenticating User
+2020-11-04 14:24:23 info: Verify USERId
+2020-11-04 14:24:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 297.299 ms - 4433
+2020-11-04 14:24:44 info: OPTIONS /api/v1/user/login 204 0.432 ms - 0
+2020-11-04 14:24:44 info: Login Param Validations
+2020-11-04 14:24:44 info: Login Control Init
+2020-11-04 14:24:45 info: credMatch:true
+2020-11-04 14:24:45 info: userexists:{
+  _id: 5f942e5e39cf486a9fa0018b,
+  userId: 'EjLQ8s0Eg',
+  name: 'Johnny English',
+  email: 'je@api.com',
+  username: 'jeng',
+  password: '$2b$11$JtIE.aO03aX8A8gmOLhO6OlwFY3o6vVOcC5VySAqyR48osdm2ZJr2',
+  __v: 0
+}
+2020-11-04 14:24:45 info: generate tokennull
+2020-11-04 14:24:45 info: POST /api/v1/user/login 200 238.246 ms - 495
+2020-11-04 14:24:47 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.221 ms - 0
+2020-11-04 14:24:47 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.206 ms - 0
+2020-11-04 14:24:47 info: Authorizing...
+2020-11-04 14:24:47 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 400 1.212 ms - 65
+2020-11-04 14:24:47 info: Authorizing...
+2020-11-04 14:24:47 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 400 1.456 ms - 65
+2020-11-04 14:27:21 info: OPTIONS /api/v1/user/login 204 0.453 ms - 0
+2020-11-04 14:27:21 info: Login Param Validations
+2020-11-04 14:27:21 info: Login Control Init
+2020-11-04 14:27:22 info: credMatch:true
+2020-11-04 14:27:22 info: userexists:{
+  _id: 5f942e5e39cf486a9fa0018b,
+  userId: 'EjLQ8s0Eg',
+  name: 'Johnny English',
+  email: 'je@api.com',
+  username: 'jeng',
+  password: '$2b$11$JtIE.aO03aX8A8gmOLhO6OlwFY3o6vVOcC5VySAqyR48osdm2ZJr2',
+  __v: 0
+}
+2020-11-04 14:27:22 info: generate tokennull
+2020-11-04 14:27:22 info: POST /api/v1/user/login 200 260.204 ms - 495
+2020-11-04 14:27:24 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.349 ms - 0
+2020-11-04 14:27:24 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.293 ms - 0
+2020-11-04 14:27:24 info: Authorizing...
+2020-11-04 14:27:24 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 400 2.557 ms - 65
+2020-11-04 14:27:24 info: Authorizing...
+2020-11-04 14:27:24 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 400 1.130 ms - 65
+2020-11-04 14:30:33 info: Authorizing...
+2020-11-04 14:30:33 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 400 1.121 ms - 65
+2020-11-04 14:30:57 info: Authorizing...
+2020-11-04 14:30:57 info: Get All Issues Validations
+2020-11-04 14:30:57 info: Get All Issues Control
+2020-11-04 14:30:57 info: Validate user stub
+2020-11-04 14:30:57 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 231.295 ms - 396
+2020-11-04 14:31:09 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.256 ms - 0
+2020-11-04 14:31:09 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.322 ms - 0
+2020-11-04 14:31:09 info: Authorizing...
+2020-11-04 14:31:09 info: Get All Issues Validations
+2020-11-04 14:31:09 info: Get All Issues Control
+2020-11-04 14:31:09 info: Validate user stub
+2020-11-04 14:31:09 info: Authorizing...
+2020-11-04 14:31:09 info: Get All Issues Validations
+2020-11-04 14:31:09 info: Get All users for watchlist
+2020-11-04 14:31:09 info: Emit On Connection
+2020-11-04 14:31:09 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 200 202.815 ms - 412
+2020-11-04 14:31:09 info: Authenticating User
+2020-11-04 14:31:09 info: Verify USERId
+2020-11-04 14:31:09 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 311.291 ms - 396
+2020-11-04 14:32:11 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.267 ms - 0
+2020-11-04 14:32:11 info: Authorizing...
+2020-11-04 14:32:11 info: Get All Issues Validations
+2020-11-04 14:32:11 info: Get All Issues Control
+2020-11-04 14:32:11 info: Validate user stub
+2020-11-04 14:32:11 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 2.259 ms - 0
+2020-11-04 14:32:11 info: Authorizing...
+2020-11-04 14:32:11 info: Get All Issues Validations
+2020-11-04 14:32:11 info: Get All users for watchlist
+2020-11-04 14:32:11 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 102.256 ms - -
+2020-11-04 14:32:11 info: Emit On Connection
+2020-11-04 14:32:11 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 217.720 ms - -
+2020-11-04 14:32:11 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.249 ms - 0
+2020-11-04 14:32:11 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.222 ms - 0
+2020-11-04 14:32:11 info: Authorizing...
+2020-11-04 14:32:11 info: Get All Issues Validations
+2020-11-04 14:32:11 info: Get All Issues Control
+2020-11-04 14:32:11 info: Validate user stub
+2020-11-04 14:32:11 info: Authorizing...
+2020-11-04 14:32:11 info: Get All Issues Validations
+2020-11-04 14:32:11 info: Get All users for watchlist
+2020-11-04 14:32:11 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 140.677 ms - -
+2020-11-04 14:32:11 info: Emit On Connection
+2020-11-04 14:32:11 info: Authenticating User
+2020-11-04 14:32:11 info: Verify USERId
+2020-11-04 14:32:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 356.181 ms - -
+2020-11-04 14:32:12 info: Authenticating User
+2020-11-04 14:32:12 info: Verify USERId
+2020-11-04 14:32:46 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.183 ms - 0
+2020-11-04 14:32:46 info: Authorizing...
+2020-11-04 14:32:46 info: Update issue validations
+2020-11-04 14:32:46 info: Update Issue Control
+2020-11-04 14:32:46 info: Validate user stub
+2020-11-04 14:32:46 info: Validate issue stub:
+2020-11-04 14:32:47 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 332.295 ms - 79
+2020-11-04 14:32:47 info: issue update socket listener:
+2020-11-04 14:32:47 info: server is emiiting issue updates
+2020-11-04 14:32:59 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.241 ms - 0
+2020-11-04 14:32:59 info: Authorizing...
+2020-11-04 14:32:59 info: Update issue validations
+2020-11-04 14:32:59 info: Update Issue Control
+2020-11-04 14:32:59 info: Validate user stub
+2020-11-04 14:32:59 info: Validate issue stub:
+2020-11-04 14:32:59 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 337.927 ms - 79
+2020-11-04 14:32:59 info: issue update socket listener:
+2020-11-04 14:32:59 info: server is emiiting issue updates
+2020-11-04 14:33:03 info: Authorizing...
+2020-11-04 14:33:03 info: Update issue validations
+2020-11-04 14:33:03 info: Update Issue Control
+2020-11-04 14:33:03 info: Validate user stub
+2020-11-04 14:33:03 info: Validate issue stub:
+2020-11-04 14:33:03 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 314.234 ms - 79
+2020-11-04 14:33:03 info: issue update socket listener:
+2020-11-04 14:33:03 info: server is emiiting issue updates
+2020-11-04 14:33:16 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.166 ms - 0
+2020-11-04 14:33:16 info: Authorizing...
+2020-11-04 14:33:16 info: Update issue validations
+2020-11-04 14:33:16 info: Update Issue Control
+2020-11-04 14:33:16 info: Validate user stub
+2020-11-04 14:33:16 info: Validate issue stub:
+2020-11-04 14:33:16 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 331.481 ms - 79
+2020-11-04 14:33:16 info: issue update socket listener:
+2020-11-04 14:33:17 info: server is emiiting issue updates
+2020-11-04 14:33:32 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.414 ms - 0
+2020-11-04 14:33:32 info: Authorizing...
+2020-11-04 14:33:32 info: Update issue validations
+2020-11-04 14:33:32 info: Update Issue Control
+2020-11-04 14:33:32 info: Validate user stub
+2020-11-04 14:33:32 info: Validate issue stub:
+2020-11-04 14:33:33 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 550.984 ms - 79
+2020-11-04 14:33:33 info: issue update socket listener:
+2020-11-04 14:33:33 info: server is emiiting issue updates
+2020-11-04 14:33:36 info: Authorizing...
+2020-11-04 14:33:36 info: Update issue validations
+2020-11-04 14:33:37 info: Update Issue Control
+2020-11-04 14:33:37 info: Validate user stub
+2020-11-04 14:33:37 info: Validate issue stub:
+2020-11-04 14:33:37 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 322.766 ms - 79
+2020-11-04 14:33:37 info: issue update socket listener:
+2020-11-04 14:33:37 info: server is emiiting issue updates
+2020-11-04 14:33:53 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.287 ms - 0
+2020-11-04 14:33:53 info: Authorizing...
+2020-11-04 14:33:53 info: Update issue validations
+2020-11-04 14:33:53 info: Update Issue Control
+2020-11-04 14:33:53 info: Validate user stub
+2020-11-04 14:33:53 info: Validate issue stub:
+2020-11-04 14:33:54 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 323.746 ms - 79
+2020-11-04 14:33:54 info: issue update socket listener:
+2020-11-04 14:33:54 info: server is emiiting issue updates
+2020-11-04 14:34:00 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.247 ms - 0
+2020-11-04 14:34:00 info: Authorizing...
+2020-11-04 14:34:00 info: Update issue validations
+2020-11-04 14:34:00 info: Update Issue Control
+2020-11-04 14:34:00 info: Validate user stub
+2020-11-04 14:34:00 info: Validate issue stub:
+2020-11-04 14:34:00 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 340.375 ms - 79
+2020-11-04 14:34:00 info: issue update socket listener:
+2020-11-04 14:34:00 info: server is emiiting issue updates
+2020-11-04 14:35:57 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.194 ms - 0
+2020-11-04 14:35:57 info: Authorizing...
+2020-11-04 14:35:57 info: Get All Issues Validations
+2020-11-04 14:35:57 info: Get All Issues Control
+2020-11-04 14:35:57 info: Validate user stub
+2020-11-04 14:35:57 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.251 ms - 0
+2020-11-04 14:35:57 info: Authorizing...
+2020-11-04 14:35:57 info: Get All Issues Validations
+2020-11-04 14:35:57 info: Get All users for watchlist
+2020-11-04 14:35:57 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 99.379 ms - -
+2020-11-04 14:35:57 info: Emit On Connection
+2020-11-04 14:35:57 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 296.846 ms - 759
+2020-11-04 14:35:57 info: Authenticating User
+2020-11-04 14:35:57 info: Verify USERId
+2020-11-04 14:35:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 14:35:58 info: Authorizing...
+2020-11-04 14:35:58 info: Get All Issues Validations
+2020-11-04 14:35:58 info: Get All Issues Control
+2020-11-04 14:35:58 info: Validate user stub
+2020-11-04 14:35:58 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.220 ms - 0
+2020-11-04 14:35:58 info: Authorizing...
+2020-11-04 14:35:58 info: Get All Issues Validations
+2020-11-04 14:35:58 info: Get All users for watchlist
+2020-11-04 14:35:58 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.327 ms - -
+2020-11-04 14:35:58 info: Emit On Connection
+2020-11-04 14:35:58 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 284.514 ms - -
+2020-11-04 14:35:58 info: Authenticating User
+2020-11-04 14:35:58 info: Verify USERId
+2020-11-04 14:36:26 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.160 ms - 0
+2020-11-04 14:36:26 info: Authorizing...
+2020-11-04 14:36:26 info: Update issue validations
+2020-11-04 14:36:26 info: Update Issue Control
+2020-11-04 14:36:26 info: Validate user stub
+2020-11-04 14:36:27 info: Validate issue stub:
+2020-11-04 14:36:27 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 313.087 ms - 79
+2020-11-04 14:36:27 info: issue update socket listener:
+2020-11-04 14:36:27 info: server is emiiting issue updates
+2020-11-04 14:37:05 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.202 ms - 0
+2020-11-04 14:37:05 info: Authorizing...
+2020-11-04 14:37:05 info: Get All Issues Validations
+2020-11-04 14:37:05 info: Get All Issues Control
+2020-11-04 14:37:05 info: Validate user stub
+2020-11-04 14:37:05 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.221 ms - 0
+2020-11-04 14:37:05 info: Authorizing...
+2020-11-04 14:37:05 info: Get All Issues Validations
+2020-11-04 14:37:05 info: Get All users for watchlist
+2020-11-04 14:37:05 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 101.880 ms - -
+2020-11-04 14:37:05 info: Emit On Connection
+2020-11-04 14:37:05 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.275 ms - 0
+2020-11-04 14:37:05 info: Authorizing...
+2020-11-04 14:37:05 info: Get All Issues Validations
+2020-11-04 14:37:05 info: Get All Issues Control
+2020-11-04 14:37:05 info: Validate user stub
+2020-11-04 14:37:05 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 304.768 ms - 757
+2020-11-04 14:37:06 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.281 ms - 0
+2020-11-04 14:37:06 info: Authorizing...
+2020-11-04 14:37:06 info: Get All Issues Validations
+2020-11-04 14:37:06 info: Get All users for watchlist
+2020-11-04 14:37:06 info: Authenticating User
+2020-11-04 14:37:06 info: Verify USERId
+2020-11-04 14:37:06 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.762 ms - -
+2020-11-04 14:37:06 info: Emit On Connection
+2020-11-04 14:37:06 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 317.364 ms - -
+2020-11-04 14:37:06 info: Authenticating User
+2020-11-04 14:37:06 info: Verify USERId
+2020-11-04 14:39:00 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.226 ms - 0
+2020-11-04 14:39:00 info: Authorizing...
+2020-11-04 14:39:00 info: Get All Issues Validations
+2020-11-04 14:39:00 info: Get All Issues Control
+2020-11-04 14:39:00 info: Validate user stub
+2020-11-04 14:39:00 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.242 ms - 0
+2020-11-04 14:39:00 info: Authorizing...
+2020-11-04 14:39:00 info: Get All Issues Validations
+2020-11-04 14:39:00 info: Get All users for watchlist
+2020-11-04 14:39:00 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 117.083 ms - -
+2020-11-04 14:39:00 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 344.999 ms - -
+2020-11-04 14:39:00 info: Emit On Connection
+2020-11-04 14:39:01 info: Authenticating User
+2020-11-04 14:39:01 info: Verify USERId
+2020-11-04 14:39:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.266 ms - 0
+2020-11-04 14:39:02 info: Authorizing...
+2020-11-04 14:39:02 info: Get All Issues Validations
+2020-11-04 14:39:02 info: Get All Issues Control
+2020-11-04 14:39:02 info: Validate user stub
+2020-11-04 14:39:02 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-04 14:39:02 info: Authorizing...
+2020-11-04 14:39:02 info: Get All Issues Validations
+2020-11-04 14:39:02 info: Get All users for watchlist
+2020-11-04 14:39:02 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 97.959 ms - -
+2020-11-04 14:39:02 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 376.555 ms - -
+2020-11-04 14:39:02 info: Emit On Connection
+2020-11-04 14:39:04 info: Authenticating User
+2020-11-04 14:39:04 info: Verify USERId
+2020-11-04 14:39:05 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.273 ms - 0
+2020-11-04 14:39:05 info: Authorizing...
+2020-11-04 14:39:05 info: Get All Issues Validations
+2020-11-04 14:39:05 info: Get All Issues Control
+2020-11-04 14:39:05 info: Validate user stub
+2020-11-04 14:39:05 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.264 ms - 0
+2020-11-04 14:39:05 info: Authorizing...
+2020-11-04 14:39:05 info: Get All Issues Validations
+2020-11-04 14:39:05 info: Get All users for watchlist
+2020-11-04 14:39:06 info: Emit On Connection
+2020-11-04 14:39:06 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 108.678 ms - -
+2020-11-04 14:39:06 info: Authenticating User
+2020-11-04 14:39:06 info: Verify USERId
+2020-11-04 14:39:06 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 305.439 ms - -
+2020-11-04 14:39:26 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.157 ms - 0
+2020-11-04 14:39:26 info: Authorizing...
+2020-11-04 14:39:26 info: Update issue validations
+2020-11-04 14:39:26 info: Update Issue Control
+2020-11-04 14:39:26 info: Validate user stub
+2020-11-04 14:39:26 info: Validate issue stub:
+2020-11-04 14:39:26 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 309.156 ms - 79
+2020-11-04 14:39:26 info: issue update socket listener:
+2020-11-04 14:39:26 info: server is emiiting issue updates
+2020-11-04 14:40:32 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.235 ms - 0
+2020-11-04 14:40:32 info: Authorizing...
+2020-11-04 14:40:33 info: Get All Issues Validations
+2020-11-04 14:40:33 info: Get All Issues Control
+2020-11-04 14:40:33 info: Validate user stub
+2020-11-04 14:40:33 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.293 ms - 0
+2020-11-04 14:40:33 info: Authorizing...
+2020-11-04 14:40:33 info: Get All Issues Validations
+2020-11-04 14:40:33 info: Get All users for watchlist
+2020-11-04 14:40:33 info: Emit On Connection
+2020-11-04 14:40:33 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 112.350 ms - -
+2020-11-04 14:40:33 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 294.810 ms - 759
+2020-11-04 14:40:33 info: Authenticating User
+2020-11-04 14:40:33 info: Verify USERId
+2020-11-04 14:40:33 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.336 ms - 0
+2020-11-04 14:40:33 info: Authorizing...
+2020-11-04 14:40:33 info: Get All Issues Validations
+2020-11-04 14:40:33 info: Get All Issues Control
+2020-11-04 14:40:33 info: Validate user stub
+2020-11-04 14:40:33 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.322 ms - 0
+2020-11-04 14:40:33 info: Authorizing...
+2020-11-04 14:40:33 info: Get All Issues Validations
+2020-11-04 14:40:33 info: Get All users for watchlist
+2020-11-04 14:40:33 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 95.133 ms - -
+2020-11-04 14:40:34 info: Emit On Connection
+2020-11-04 14:40:34 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 311.822 ms - -
+2020-11-04 14:40:34 info: Authenticating User
+2020-11-04 14:40:34 info: Verify USERId
+2020-11-04 14:40:41 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.185 ms - 0
+2020-11-04 14:40:41 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.188 ms - 0
+2020-11-04 14:40:41 info: Authorizing...
+2020-11-04 14:40:41 info: Get All Issues Validations
+2020-11-04 14:40:41 info: Get All Issues Control
+2020-11-04 14:40:41 info: Validate user stub
+2020-11-04 14:40:41 info: Authorizing...
+2020-11-04 14:40:41 info: Get All Issues Validations
+2020-11-04 14:40:41 info: Get All users for watchlist
+2020-11-04 14:40:41 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 115.535 ms - -
+2020-11-04 14:40:41 info: Emit On Connection
+2020-11-04 14:40:41 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 307.557 ms - -
+2020-11-04 14:40:41 info: Authenticating User
+2020-11-04 14:40:41 info: Verify USERId
+2020-11-04 14:40:42 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-04 14:40:42 info: Authorizing...
+2020-11-04 14:40:42 info: Get All Issues Validations
+2020-11-04 14:40:42 info: Get All Issues Control
+2020-11-04 14:40:42 info: Validate user stub
+2020-11-04 14:40:42 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.222 ms - 0
+2020-11-04 14:40:42 info: Authorizing...
+2020-11-04 14:40:42 info: Get All Issues Validations
+2020-11-04 14:40:42 info: Get All users for watchlist
+2020-11-04 14:40:42 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.690 ms - -
+2020-11-04 14:40:42 info: Emit On Connection
+2020-11-04 14:40:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 327.773 ms - -
+2020-11-04 14:40:43 info: Authenticating User
+2020-11-04 14:40:43 info: Verify USERId
+2020-11-04 14:41:29 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.207 ms - 0
+2020-11-04 14:41:29 info: Authorizing...
+2020-11-04 14:41:29 info: Update issue validations
+2020-11-04 14:41:29 info: Update Issue Control
+2020-11-04 14:41:29 info: Validate user stub
+2020-11-04 14:41:29 info: Validate issue stub:
+2020-11-04 14:41:29 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 326.325 ms - 79
+2020-11-04 14:41:29 info: issue update socket listener:
+2020-11-04 14:41:30 info: server is emiiting issue updates
+2020-11-04 14:45:29 info: Authorizing...
+2020-11-04 14:45:29 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh%20bharti&option=all&type=status 400 1.762 ms - 144
+2020-11-04 14:46:13 info: Login Param Validations
+2020-11-04 14:46:13 info: Login Control Init
+2020-11-04 14:46:13 info: credMatch:true
+2020-11-04 14:46:13 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-04 14:46:13 info: generate tokennull
+2020-11-04 14:46:13 info: POST /api/v1/user/login 200 255.255 ms - 498
+2020-11-04 14:46:29 info: Authorizing...
+2020-11-04 14:46:29 info: Filter user validations
+2020-11-04 14:46:29 info: Filter Issues Control
+2020-11-04 14:46:29 info: Computing status filter options
+2020-11-04 14:46:29 info: Validate user stub
+2020-11-04 14:46:30 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh%20bharti&option=all&type=status 200 349.452 ms - 6113
+2020-11-04 14:48:45 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.239 ms - 0
+2020-11-04 14:48:45 info: Authorizing...
+2020-11-04 14:48:45 info: Get All Issues Validations
+2020-11-04 14:48:45 info: Get All Issues Control
+2020-11-04 14:48:45 info: Validate user stub
+2020-11-04 14:48:46 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.204 ms - 0
+2020-11-04 14:48:46 info: Authorizing...
+2020-11-04 14:48:46 info: Get All Issues Validations
+2020-11-04 14:48:46 info: Get All users for watchlist
+2020-11-04 14:48:46 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 100.847 ms - -
+2020-11-04 14:48:46 info: Emit On Connection
+2020-11-04 14:48:46 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 298.748 ms - 756
+2020-11-04 14:48:46 info: Authenticating User
+2020-11-04 14:48:46 info: Verify USERId
+2020-11-04 14:48:46 info: Authorizing...
+2020-11-04 14:48:46 info: Filter user validations
+2020-11-04 14:48:46 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&option=all&type=status 400 6.875 ms - 82
+2020-11-04 14:48:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.286 ms - 0
+2020-11-04 14:48:46 info: Authorizing...
+2020-11-04 14:48:46 info: Get All Issues Validations
+2020-11-04 14:48:46 info: Get All Issues Control
+2020-11-04 14:48:46 info: Validate user stub
+2020-11-04 14:48:46 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-04 14:48:46 info: Authorizing...
+2020-11-04 14:48:46 info: Get All Issues Validations
+2020-11-04 14:48:46 info: Get All users for watchlist
+2020-11-04 14:48:47 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.090 ms - -
+2020-11-04 14:48:47 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 328.551 ms - -
+2020-11-04 14:48:47 info: Emit On Connection
+2020-11-04 14:48:48 info: Authenticating User
+2020-11-04 14:48:48 info: Verify USERId
+2020-11-04 14:48:51 info: Authorizing...
+2020-11-04 14:48:51 info: Filter user validations
+2020-11-04 14:48:51 info: Filter Issues Control
+2020-11-04 14:48:51 info: Computing status filter options
+2020-11-04 14:48:51 info: Validate user stub
+2020-11-04 14:48:52 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=saurabh%20bharti&option=all&type=status 200 324.601 ms - 6113
+2020-11-04 14:49:08 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.227 ms - 0
+2020-11-04 14:49:08 info: Authorizing...
+2020-11-04 14:49:08 info: Get All Issues Validations
+2020-11-04 14:49:08 info: Get All Issues Control
+2020-11-04 14:49:08 info: Validate user stub
+2020-11-04 14:49:08 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.214 ms - 0
+2020-11-04 14:49:08 info: Authorizing...
+2020-11-04 14:49:08 info: Get All Issues Validations
+2020-11-04 14:49:08 info: Get All users for watchlist
+2020-11-04 14:49:08 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 110.291 ms - -
+2020-11-04 14:49:08 info: Emit On Connection
+2020-11-04 14:49:08 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 311.259 ms - -
+2020-11-04 14:49:08 info: Authenticating User
+2020-11-04 14:49:08 info: Verify USERId
+2020-11-04 14:49:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.195 ms - 0
+2020-11-04 14:49:08 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.228 ms - 0
+2020-11-04 14:49:08 info: Authorizing...
+2020-11-04 14:49:08 info: Get All Issues Validations
+2020-11-04 14:49:08 info: Get All Issues Control
+2020-11-04 14:49:08 info: Validate user stub
+2020-11-04 14:49:08 info: Authorizing...
+2020-11-04 14:49:08 info: Get All Issues Validations
+2020-11-04 14:49:08 info: Get All users for watchlist
+2020-11-04 14:49:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 100.159 ms - -
+2020-11-04 14:49:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 305.746 ms - -
+2020-11-04 14:49:09 info: Emit On Connection
+2020-11-04 14:49:10 info: Authenticating User
+2020-11-04 14:49:10 info: Verify USERId
+2020-11-04 14:49:16 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.226 ms - 0
+2020-11-04 14:49:16 info: Authorizing...
+2020-11-04 14:49:16 info: Get All Issues Validations
+2020-11-04 14:49:16 info: Get All Issues Control
+2020-11-04 14:49:16 info: Validate user stub
+2020-11-04 14:49:16 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.202 ms - 0
+2020-11-04 14:49:16 info: Authorizing...
+2020-11-04 14:49:16 info: Get All Issues Validations
+2020-11-04 14:49:16 info: Get All users for watchlist
+2020-11-04 14:49:16 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 100.588 ms - -
+2020-11-04 14:49:16 info: Emit On Connection
+2020-11-04 14:49:16 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 305.703 ms - -
+2020-11-04 14:49:17 info: Authenticating User
+2020-11-04 14:49:17 info: Verify USERId
+2020-11-04 14:49:17 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.220 ms - 0
+2020-11-04 14:49:17 info: Authorizing...
+2020-11-04 14:49:17 info: Get All Issues Validations
+2020-11-04 14:49:17 info: Get All Issues Control
+2020-11-04 14:49:17 info: Validate user stub
+2020-11-04 14:49:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.257 ms - 0
+2020-11-04 14:49:18 info: Authorizing...
+2020-11-04 14:49:18 info: Get All Issues Validations
+2020-11-04 14:49:18 info: Get All users for watchlist
+2020-11-04 14:49:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.015 ms - -
+2020-11-04 14:49:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 385.784 ms - -
+2020-11-04 14:49:18 info: Emit On Connection
+2020-11-04 14:49:18 info: Authenticating User
+2020-11-04 14:49:18 info: Verify USERId
+2020-11-04 14:49:34 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.232 ms - 0
+2020-11-04 14:49:34 info: Authorizing...
+2020-11-04 14:49:34 info: Update issue validations
+2020-11-04 14:49:34 info: Update Issue Control
+2020-11-04 14:49:34 info: Validate user stub
+2020-11-04 14:49:34 info: Validate issue stub:
+2020-11-04 14:49:34 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 340.109 ms - 79
+2020-11-04 14:49:34 info: issue update socket listener:
+2020-11-04 14:49:34 info: server is emiiting issue updates
+2020-11-04 14:49:36 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.253 ms - 0
+2020-11-04 14:49:36 info: Authorizing...
+2020-11-04 14:49:36 info: Filter user validations
+2020-11-04 14:49:36 info: Filter Issues Control
+2020-11-04 14:49:36 info: Computing status filter options
+2020-11-04 14:49:36 info: Validate user stub
+2020-11-04 14:49:36 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 346.977 ms - 6116
+2020-11-04 14:52:16 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.240 ms - 0
+2020-11-04 14:52:16 info: Authorizing...
+2020-11-04 14:52:16 info: Get All Issues Validations
+2020-11-04 14:52:16 info: Get All Issues Control
+2020-11-04 14:52:16 info: Validate user stub
+2020-11-04 14:52:16 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.196 ms - 0
+2020-11-04 14:52:16 info: Authorizing...
+2020-11-04 14:52:16 info: Get All Issues Validations
+2020-11-04 14:52:16 info: Get All users for watchlist
+2020-11-04 14:52:16 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 107.368 ms - -
+2020-11-04 14:52:16 info: Emit On Connection
+2020-11-04 14:52:16 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 322.574 ms - 759
+2020-11-04 14:52:16 info: Authenticating User
+2020-11-04 14:52:16 info: Verify USERId
+2020-11-04 14:52:16 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.265 ms - 0
+2020-11-04 14:52:16 info: Authorizing...
+2020-11-04 14:52:16 info: Get All Issues Validations
+2020-11-04 14:52:16 info: Get All Issues Control
+2020-11-04 14:52:16 info: Validate user stub
+2020-11-04 14:52:16 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.247 ms - 0
+2020-11-04 14:52:16 info: Authorizing...
+2020-11-04 14:52:16 info: Get All Issues Validations
+2020-11-04 14:52:16 info: Get All users for watchlist
+2020-11-04 14:52:17 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 102.978 ms - -
+2020-11-04 14:52:17 info: Emit On Connection
+2020-11-04 14:52:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 316.753 ms - -
+2020-11-04 14:52:18 info: Authenticating User
+2020-11-04 14:52:18 info: Verify USERId
+2020-11-04 14:52:51 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.232 ms - 0
+2020-11-04 14:52:52 info: Authorizing...
+2020-11-04 14:52:52 info: Get All Issues Validations
+2020-11-04 14:52:52 info: Get All Issues Control
+2020-11-04 14:52:52 info: Validate user stub
+2020-11-04 14:52:52 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.193 ms - 0
+2020-11-04 14:52:52 info: Authorizing...
+2020-11-04 14:52:52 info: Get All Issues Validations
+2020-11-04 14:52:52 info: Get All users for watchlist
+2020-11-04 14:52:52 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 95.509 ms - -
+2020-11-04 14:52:52 info: Emit On Connection
+2020-11-04 14:52:52 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 310.718 ms - -
+2020-11-04 14:52:52 info: Authenticating User
+2020-11-04 14:52:52 info: Verify USERId
+2020-11-04 14:52:52 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.240 ms - 0
+2020-11-04 14:52:52 info: Authorizing...
+2020-11-04 14:52:52 info: Get All Issues Validations
+2020-11-04 14:52:52 info: Get All Issues Control
+2020-11-04 14:52:52 info: Validate user stub
+2020-11-04 14:52:52 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-04 14:52:52 info: Authorizing...
+2020-11-04 14:52:52 info: Get All Issues Validations
+2020-11-04 14:52:52 info: Get All users for watchlist
+2020-11-04 14:52:52 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.210 ms - -
+2020-11-04 14:52:53 info: Emit On Connection
+2020-11-04 14:52:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 328.668 ms - -
+2020-11-04 14:52:53 info: Authenticating User
+2020-11-04 14:52:53 info: Verify USERId
+2020-11-04 14:53:27 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.241 ms - 0
+2020-11-04 14:53:27 info: Authorizing...
+2020-11-04 14:53:27 info: Get All Issues Validations
+2020-11-04 14:53:27 info: Get All Issues Control
+2020-11-04 14:53:27 info: Validate user stub
+2020-11-04 14:53:27 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.213 ms - 0
+2020-11-04 14:53:27 info: Authorizing...
+2020-11-04 14:53:27 info: Get All Issues Validations
+2020-11-04 14:53:27 info: Get All users for watchlist
+2020-11-04 14:53:27 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 115.824 ms - -
+2020-11-04 14:53:27 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 321.973 ms - -
+2020-11-04 14:53:27 info: Emit On Connection
+2020-11-04 14:53:27 info: Authenticating User
+2020-11-04 14:53:27 info: Verify USERId
+2020-11-04 14:53:28 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-04 14:53:28 info: Authorizing...
+2020-11-04 14:53:28 info: Get All Issues Validations
+2020-11-04 14:53:28 info: Get All Issues Control
+2020-11-04 14:53:28 info: Validate user stub
+2020-11-04 14:53:28 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-04 14:53:28 info: Authorizing...
+2020-11-04 14:53:28 info: Get All Issues Validations
+2020-11-04 14:53:28 info: Get All users for watchlist
+2020-11-04 14:53:28 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 98.969 ms - -
+2020-11-04 14:53:28 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 304.912 ms - -
+2020-11-04 14:53:28 info: Emit On Connection
+2020-11-04 14:53:28 info: Authenticating User
+2020-11-04 14:53:28 info: Verify USERId
+2020-11-04 14:54:21 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.201 ms - 0
+2020-11-04 14:54:21 info: Authorizing...
+2020-11-04 14:54:21 info: Get All Issues Validations
+2020-11-04 14:54:21 info: Get All Issues Control
+2020-11-04 14:54:21 info: Validate user stub
+2020-11-04 14:54:21 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.206 ms - 0
+2020-11-04 14:54:21 info: Authorizing...
+2020-11-04 14:54:21 info: Get All Issues Validations
+2020-11-04 14:54:21 info: Get All users for watchlist
+2020-11-04 14:54:21 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 99.962 ms - -
+2020-11-04 14:54:21 info: Emit On Connection
+2020-11-04 14:54:21 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 311.755 ms - -
+2020-11-04 14:54:21 info: Authenticating User
+2020-11-04 14:54:21 info: Verify USERId
+2020-11-04 14:54:22 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.220 ms - 0
+2020-11-04 14:54:22 info: Authorizing...
+2020-11-04 14:54:22 info: Get All Issues Validations
+2020-11-04 14:54:22 info: Get All Issues Control
+2020-11-04 14:54:22 info: Validate user stub
+2020-11-04 14:54:22 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 14:54:22 info: Authorizing...
+2020-11-04 14:54:22 info: Get All Issues Validations
+2020-11-04 14:54:22 info: Get All users for watchlist
+2020-11-04 14:54:22 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.818 ms - -
+2020-11-04 14:54:22 info: Emit On Connection
+2020-11-04 14:54:22 info: Authenticating User
+2020-11-04 14:54:22 info: Verify USERId
+2020-11-04 14:54:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 324.436 ms - -
+2020-11-04 14:55:20 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.232 ms - 0
+2020-11-04 14:55:20 info: Authorizing...
+2020-11-04 14:55:20 info: Get All Issues Validations
+2020-11-04 14:55:20 info: Get All Issues Control
+2020-11-04 14:55:20 info: Validate user stub
+2020-11-04 14:55:20 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.227 ms - 0
+2020-11-04 14:55:20 info: Authorizing...
+2020-11-04 14:55:20 info: Get All Issues Validations
+2020-11-04 14:55:20 info: Get All users for watchlist
+2020-11-04 14:55:20 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 109.614 ms - -
+2020-11-04 14:55:21 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 316.627 ms - -
+2020-11-04 14:55:21 info: Emit On Connection
+2020-11-04 14:55:21 info: Authenticating User
+2020-11-04 14:55:21 info: Verify USERId
+2020-11-04 14:55:21 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.191 ms - 0
+2020-11-04 14:55:21 info: Authorizing...
+2020-11-04 14:55:21 info: Get All Issues Validations
+2020-11-04 14:55:21 info: Get All Issues Control
+2020-11-04 14:55:21 info: Validate user stub
+2020-11-04 14:55:21 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.220 ms - 0
+2020-11-04 14:55:21 info: Authorizing...
+2020-11-04 14:55:21 info: Get All Issues Validations
+2020-11-04 14:55:21 info: Get All users for watchlist
+2020-11-04 14:55:22 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 87.667 ms - -
+2020-11-04 14:55:22 info: Emit On Connection
+2020-11-04 14:55:22 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 319.759 ms - -
+2020-11-04 14:55:22 info: Authenticating User
+2020-11-04 14:55:22 info: Verify USERId
+2020-11-04 14:56:43 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.191 ms - 0
+2020-11-04 14:56:43 info: Authorizing...
+2020-11-04 14:56:43 info: Get All Issues Validations
+2020-11-04 14:56:43 info: Get All Issues Control
+2020-11-04 14:56:43 info: Validate user stub
+2020-11-04 14:56:43 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 1.035 ms - 0
+2020-11-04 14:56:43 info: Authorizing...
+2020-11-04 14:56:43 info: Get All Issues Validations
+2020-11-04 14:56:43 info: Get All users for watchlist
+2020-11-04 14:56:43 info: Emit On Connection
+2020-11-04 14:56:43 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 107.488 ms - -
+2020-11-04 14:56:44 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 305.699 ms - -
+2020-11-04 14:56:44 info: Authenticating User
+2020-11-04 14:56:44 info: Verify USERId
+2020-11-04 14:56:44 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.249 ms - 0
+2020-11-04 14:56:44 info: Authorizing...
+2020-11-04 14:56:44 info: Get All Issues Validations
+2020-11-04 14:56:44 info: Get All Issues Control
+2020-11-04 14:56:44 info: Validate user stub
+2020-11-04 14:56:44 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.268 ms - 0
+2020-11-04 14:56:45 info: Authorizing...
+2020-11-04 14:56:45 info: Get All Issues Validations
+2020-11-04 14:56:45 info: Get All users for watchlist
+2020-11-04 14:56:45 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 93.773 ms - -
+2020-11-04 14:56:45 info: Emit On Connection
+2020-11-04 14:56:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 339.375 ms - -
+2020-11-04 14:56:45 info: Authenticating User
+2020-11-04 14:56:45 info: Verify USERId
+2020-11-04 14:56:54 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.231 ms - 0
+2020-11-04 14:56:54 info: Authorizing...
+2020-11-04 14:56:54 info: Get All Issues Validations
+2020-11-04 14:56:54 info: Get All Issues Control
+2020-11-04 14:56:54 info: Validate user stub
+2020-11-04 14:56:54 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.248 ms - 0
+2020-11-04 14:56:54 info: Authorizing...
+2020-11-04 14:56:54 info: Get All Issues Validations
+2020-11-04 14:56:54 info: Get All users for watchlist
+2020-11-04 14:56:54 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 90.843 ms - -
+2020-11-04 14:56:54 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 353.004 ms - -
+2020-11-04 14:56:54 info: Emit On Connection
+2020-11-04 14:56:55 info: Authenticating User
+2020-11-04 14:56:55 info: Verify USERId
+2020-11-04 14:56:56 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 14:56:56 info: Authorizing...
+2020-11-04 14:56:56 info: Get All Issues Validations
+2020-11-04 14:56:56 info: Get All Issues Control
+2020-11-04 14:56:56 info: Validate user stub
+2020-11-04 14:56:56 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.216 ms - 0
+2020-11-04 14:56:56 info: Authorizing...
+2020-11-04 14:56:56 info: Get All Issues Validations
+2020-11-04 14:56:56 info: Get All users for watchlist
+2020-11-04 14:56:56 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 109.732 ms - -
+2020-11-04 14:56:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 304.542 ms - -
+2020-11-04 14:56:57 info: Emit On Connection
+2020-11-04 14:56:58 info: Authenticating User
+2020-11-04 14:56:58 info: Verify USERId
+2020-11-04 14:57:15 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.350 ms - 0
+2020-11-04 14:57:15 info: Authorizing...
+2020-11-04 14:57:15 info: Get All Issues Validations
+2020-11-04 14:57:15 info: Get All Issues Control
+2020-11-04 14:57:15 info: Validate user stub
+2020-11-04 14:57:15 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.224 ms - 0
+2020-11-04 14:57:15 info: Authorizing...
+2020-11-04 14:57:15 info: Get All Issues Validations
+2020-11-04 14:57:15 info: Get All users for watchlist
+2020-11-04 14:57:15 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 91.988 ms - -
+2020-11-04 14:57:16 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 289.531 ms - -
+2020-11-04 14:57:16 info: Emit On Connection
+2020-11-04 14:57:16 info: Authenticating User
+2020-11-04 14:57:16 info: Verify USERId
+2020-11-04 14:57:17 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.255 ms - 0
+2020-11-04 14:57:17 info: Authorizing...
+2020-11-04 14:57:17 info: Get All Issues Validations
+2020-11-04 14:57:17 info: Get All Issues Control
+2020-11-04 14:57:17 info: Validate user stub
+2020-11-04 14:57:17 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 14:57:17 info: Authorizing...
+2020-11-04 14:57:17 info: Get All Issues Validations
+2020-11-04 14:57:17 info: Get All users for watchlist
+2020-11-04 14:57:17 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 102.129 ms - -
+2020-11-04 14:57:17 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 284.334 ms - -
+2020-11-04 14:57:17 info: Emit On Connection
+2020-11-04 14:57:19 info: Authenticating User
+2020-11-04 14:57:19 info: Verify USERId
+2020-11-04 14:57:20 info: Authorizing...
+2020-11-04 14:57:20 info: Get All Issues Validations
+2020-11-04 14:57:20 info: Get All Issues Control
+2020-11-04 14:57:20 info: Validate user stub
+2020-11-04 14:57:20 info: Authorizing...
+2020-11-04 14:57:20 info: Get All Issues Validations
+2020-11-04 14:57:20 info: Get All users for watchlist
+2020-11-04 14:57:20 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 94.199 ms - -
+2020-11-04 14:57:20 info: Emit On Connection
+2020-11-04 14:57:20 info: Authenticating User
+2020-11-04 14:57:20 info: Verify USERId
+2020-11-04 14:57:20 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 301.468 ms - -
+2020-11-04 14:57:28 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.257 ms - 0
+2020-11-04 14:57:28 info: Authorizing...
+2020-11-04 14:57:28 info: Get All Issues Validations
+2020-11-04 14:57:28 info: Get All Issues Control
+2020-11-04 14:57:28 info: Validate user stub
+2020-11-04 14:57:28 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.286 ms - 0
+2020-11-04 14:57:28 info: Authorizing...
+2020-11-04 14:57:28 info: Get All Issues Validations
+2020-11-04 14:57:28 info: Get All users for watchlist
+2020-11-04 14:57:28 info: Emit On Connection
+2020-11-04 14:57:29 info: Authenticating User
+2020-11-04 14:57:29 info: Verify USERId
+2020-11-04 14:57:29 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 274.033 ms - -
+2020-11-04 14:57:29 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 545.116 ms - -
+2020-11-04 14:57:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.202 ms - 0
+2020-11-04 14:57:29 info: Authorizing...
+2020-11-04 14:57:29 info: Get All Issues Validations
+2020-11-04 14:57:29 info: Get All Issues Control
+2020-11-04 14:57:29 info: Validate user stub
+2020-11-04 14:57:29 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.239 ms - 0
+2020-11-04 14:57:29 info: Authorizing...
+2020-11-04 14:57:29 info: Get All Issues Validations
+2020-11-04 14:57:29 info: Get All users for watchlist
+2020-11-04 14:57:29 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 151.300 ms - -
+2020-11-04 14:57:29 info: Emit On Connection
+2020-11-04 14:57:30 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 392.290 ms - -
+2020-11-04 14:57:30 info: Authenticating User
+2020-11-04 14:57:30 info: Verify USERId
+2020-11-04 14:57:38 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.254 ms - 0
+2020-11-04 14:57:38 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.233 ms - 0
+2020-11-04 14:57:38 info: Authorizing...
+2020-11-04 14:57:38 info: Get All Issues Validations
+2020-11-04 14:57:38 info: Get All Issues Control
+2020-11-04 14:57:38 info: Validate user stub
+2020-11-04 14:57:38 info: Authorizing...
+2020-11-04 14:57:38 info: Get All Issues Validations
+2020-11-04 14:57:38 info: Get All users for watchlist
+2020-11-04 14:57:38 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 115.865 ms - -
+2020-11-04 14:57:38 info: Emit On Connection
+2020-11-04 14:57:38 info: Authenticating User
+2020-11-04 14:57:38 info: Verify USERId
+2020-11-04 14:57:38 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 362.255 ms - -
+2020-11-04 14:57:40 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 14:57:40 info: Authorizing...
+2020-11-04 14:57:40 info: Get All Issues Validations
+2020-11-04 14:57:40 info: Get All Issues Control
+2020-11-04 14:57:40 info: Validate user stub
+2020-11-04 14:57:40 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-04 14:57:40 info: Authorizing...
+2020-11-04 14:57:40 info: Get All Issues Validations
+2020-11-04 14:57:40 info: Get All users for watchlist
+2020-11-04 14:57:40 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 96.817 ms - -
+2020-11-04 14:57:40 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 313.021 ms - -
+2020-11-04 14:57:41 info: Emit On Connection
+2020-11-04 14:57:41 info: Authenticating User
+2020-11-04 14:57:41 info: Verify USERId
+2020-11-04 14:57:42 info: Authorizing...
+2020-11-04 14:57:42 info: Get All Issues Validations
+2020-11-04 14:57:42 info: Get All Issues Control
+2020-11-04 14:57:42 info: Validate user stub
+2020-11-04 14:57:42 info: Authorizing...
+2020-11-04 14:57:42 info: Get All Issues Validations
+2020-11-04 14:57:42 info: Get All users for watchlist
+2020-11-04 14:57:42 info: Emit On Connection
+2020-11-04 14:57:42 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 110.050 ms - -
+2020-11-04 14:57:42 info: Authenticating User
+2020-11-04 14:57:42 info: Verify USERId
+2020-11-04 14:57:42 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 320.741 ms - -
+2020-11-04 14:58:05 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.259 ms - 0
+2020-11-04 14:58:05 info: Authorizing...
+2020-11-04 14:58:05 info: Get All Issues Validations
+2020-11-04 14:58:05 info: Get All Issues Control
+2020-11-04 14:58:05 info: Validate user stub
+2020-11-04 14:58:05 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.219 ms - 0
+2020-11-04 14:58:05 info: Authorizing...
+2020-11-04 14:58:05 info: Get All Issues Validations
+2020-11-04 14:58:05 info: Get All users for watchlist
+2020-11-04 14:58:05 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 108.512 ms - -
+2020-11-04 14:58:05 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 332.825 ms - -
+2020-11-04 14:58:05 info: Emit On Connection
+2020-11-04 14:58:05 info: Authenticating User
+2020-11-04 14:58:05 info: Verify USERId
+2020-11-04 14:58:06 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.229 ms - 0
+2020-11-04 14:58:06 info: Authorizing...
+2020-11-04 14:58:06 info: Get All Issues Validations
+2020-11-04 14:58:06 info: Get All Issues Control
+2020-11-04 14:58:06 info: Validate user stub
+2020-11-04 14:58:06 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.227 ms - 0
+2020-11-04 14:58:06 info: Authorizing...
+2020-11-04 14:58:06 info: Get All Issues Validations
+2020-11-04 14:58:06 info: Get All users for watchlist
+2020-11-04 14:58:06 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 98.175 ms - -
+2020-11-04 14:58:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 325.476 ms - -
+2020-11-04 14:58:07 info: Emit On Connection
+2020-11-04 14:58:08 info: Authenticating User
+2020-11-04 14:58:08 info: Verify USERId
+2020-11-04 14:58:57 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.263 ms - 0
+2020-11-04 14:58:57 info: Authorizing...
+2020-11-04 14:58:57 info: Get All Issues Validations
+2020-11-04 14:58:57 info: Get All Issues Control
+2020-11-04 14:58:57 info: Validate user stub
+2020-11-04 14:58:57 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.213 ms - 0
+2020-11-04 14:58:57 info: Authorizing...
+2020-11-04 14:58:57 info: Get All Issues Validations
+2020-11-04 14:58:57 info: Get All users for watchlist
+2020-11-04 14:58:58 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 93.555 ms - -
+2020-11-04 14:58:58 info: Emit On Connection
+2020-11-04 14:58:58 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 308.288 ms - -
+2020-11-04 14:58:58 info: Authenticating User
+2020-11-04 14:58:58 info: Verify USERId
+2020-11-04 14:58:59 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.240 ms - 0
+2020-11-04 14:58:59 info: Authorizing...
+2020-11-04 14:58:59 info: Get All Issues Validations
+2020-11-04 14:58:59 info: Get All Issues Control
+2020-11-04 14:58:59 info: Validate user stub
+2020-11-04 14:58:59 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.210 ms - 0
+2020-11-04 14:58:59 info: Authorizing...
+2020-11-04 14:58:59 info: Get All Issues Validations
+2020-11-04 14:58:59 info: Get All users for watchlist
+2020-11-04 14:58:59 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 111.538 ms - -
+2020-11-04 14:58:59 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.664 ms - -
+2020-11-04 14:58:59 info: Emit On Connection
+2020-11-04 14:59:00 info: Authenticating User
+2020-11-04 14:59:00 info: Verify USERId
+2020-11-04 14:59:22 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.137 ms - 0
+2020-11-04 14:59:22 info: Authorizing...
+2020-11-04 14:59:22 info: Update issue validations
+2020-11-04 14:59:22 info: Update Issue Control
+2020-11-04 14:59:22 info: Validate user stub
+2020-11-04 14:59:22 info: Validate issue stub:
+2020-11-04 14:59:22 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 322.892 ms - 79
+2020-11-04 14:59:22 info: issue update socket listener:
+2020-11-04 14:59:23 info: server is emiiting issue updates
+2020-11-04 14:59:24 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.154 ms - 0
+2020-11-04 14:59:24 info: Authorizing...
+2020-11-04 14:59:24 info: Filter user validations
+2020-11-04 14:59:24 info: Filter Issues Control
+2020-11-04 14:59:24 info: Computing status filter options
+2020-11-04 14:59:24 info: Validate user stub
+2020-11-04 14:59:25 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 319.416 ms - 6113
+2020-11-04 14:59:53 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.197 ms - 0
+2020-11-04 14:59:53 info: Authorizing...
+2020-11-04 14:59:53 info: Get All Issues Validations
+2020-11-04 14:59:53 info: Get All Issues Control
+2020-11-04 14:59:53 info: Validate user stub
+2020-11-04 14:59:53 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.225 ms - 0
+2020-11-04 14:59:53 info: Authorizing...
+2020-11-04 14:59:53 info: Get All Issues Validations
+2020-11-04 14:59:53 info: Get All users for watchlist
+2020-11-04 14:59:53 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 95.676 ms - -
+2020-11-04 14:59:53 info: Emit On Connection
+2020-11-04 14:59:53 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 291.638 ms - 756
+2020-11-04 14:59:53 info: Authenticating User
+2020-11-04 14:59:53 info: Verify USERId
+2020-11-04 14:59:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.236 ms - 0
+2020-11-04 14:59:53 info: Authorizing...
+2020-11-04 14:59:53 info: Get All Issues Validations
+2020-11-04 14:59:53 info: Get All Issues Control
+2020-11-04 14:59:53 info: Validate user stub
+2020-11-04 14:59:53 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-04 14:59:53 info: Authorizing...
+2020-11-04 14:59:53 info: Get All Issues Validations
+2020-11-04 14:59:53 info: Get All users for watchlist
+2020-11-04 14:59:53 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 94.735 ms - -
+2020-11-04 14:59:54 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 311.937 ms - -
+2020-11-04 14:59:54 info: Emit On Connection
+2020-11-04 14:59:54 info: Authenticating User
+2020-11-04 14:59:54 info: Verify USERId
+2020-11-04 15:00:07 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.207 ms - 0
+2020-11-04 15:00:07 info: Authorizing...
+2020-11-04 15:00:07 info: Update issue validations
+2020-11-04 15:00:07 info: Update Issue Control
+2020-11-04 15:00:07 info: Validate user stub
+2020-11-04 15:00:07 info: Validate issue stub:
+2020-11-04 15:00:07 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 312.161 ms - 79
+2020-11-04 15:00:07 info: issue update socket listener:
+2020-11-04 15:00:07 info: server is emiiting issue updates
+2020-11-04 15:00:33 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.236 ms - 0
+2020-11-04 15:00:33 info: Authorizing...
+2020-11-04 15:00:33 info: Get All Issues Validations
+2020-11-04 15:00:33 info: Get All Issues Control
+2020-11-04 15:00:33 info: Validate user stub
+2020-11-04 15:00:33 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.375 ms - 0
+2020-11-04 15:00:33 info: Authorizing...
+2020-11-04 15:00:33 info: Get All Issues Validations
+2020-11-04 15:00:33 info: Get All users for watchlist
+2020-11-04 15:00:34 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 95.227 ms - -
+2020-11-04 15:00:34 info: Emit On Connection
+2020-11-04 15:00:34 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 313.606 ms - 757
+2020-11-04 15:00:34 info: Authenticating User
+2020-11-04 15:00:34 info: Verify USERId
+2020-11-04 15:00:34 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.200 ms - 0
+2020-11-04 15:00:34 info: Authorizing...
+2020-11-04 15:00:34 info: Get All Issues Validations
+2020-11-04 15:00:34 info: Get All Issues Control
+2020-11-04 15:00:34 info: Validate user stub
+2020-11-04 15:00:34 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.219 ms - 0
+2020-11-04 15:00:34 info: Authorizing...
+2020-11-04 15:00:34 info: Get All Issues Validations
+2020-11-04 15:00:34 info: Get All users for watchlist
+2020-11-04 15:00:35 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 94.373 ms - -
+2020-11-04 15:00:35 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 326.616 ms - -
+2020-11-04 15:00:35 info: Emit On Connection
+2020-11-04 15:00:35 info: Authenticating User
+2020-11-04 15:00:35 info: Verify USERId
+2020-11-04 15:00:43 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.233 ms - 0
+2020-11-04 15:00:43 info: Authorizing...
+2020-11-04 15:00:43 info: Get All Issues Validations
+2020-11-04 15:00:43 info: Get All Issues Control
+2020-11-04 15:00:43 info: Validate user stub
+2020-11-04 15:00:43 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.222 ms - 0
+2020-11-04 15:00:43 info: Authorizing...
+2020-11-04 15:00:43 info: Get All Issues Validations
+2020-11-04 15:00:43 info: Get All users for watchlist
+2020-11-04 15:00:43 info: Emit On Connection
+2020-11-04 15:00:43 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 126.163 ms - -
+2020-11-04 15:00:43 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 275.363 ms - -
+2020-11-04 15:00:43 info: Authenticating User
+2020-11-04 15:00:43 info: Verify USERId
+2020-11-04 15:00:44 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.269 ms - 0
+2020-11-04 15:00:44 info: Authorizing...
+2020-11-04 15:00:44 info: Get All Issues Validations
+2020-11-04 15:00:44 info: Get All Issues Control
+2020-11-04 15:00:44 info: Validate user stub
+2020-11-04 15:00:44 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.230 ms - 0
+2020-11-04 15:00:44 info: Authorizing...
+2020-11-04 15:00:44 info: Get All Issues Validations
+2020-11-04 15:00:44 info: Get All users for watchlist
+2020-11-04 15:00:45 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.063 ms - -
+2020-11-04 15:00:45 info: Emit On Connection
+2020-11-04 15:00:45 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 314.455 ms - -
+2020-11-04 15:00:45 info: Authenticating User
+2020-11-04 15:00:45 info: Verify USERId
+2020-11-04 15:00:56 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.554 ms - 0
+2020-11-04 15:00:56 info: Authorizing...
+2020-11-04 15:00:56 info: Update issue validations
+2020-11-04 15:00:56 info: Update Issue Control
+2020-11-04 15:00:56 info: Validate user stub
+2020-11-04 15:00:56 info: Validate issue stub:
+2020-11-04 15:00:56 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 323.745 ms - 79
+2020-11-04 15:00:56 info: issue update socket listener:
+2020-11-04 15:00:57 info: server is emiiting issue updates
+2020-11-04 15:02:09 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.247 ms - 0
+2020-11-04 15:02:09 info: Authorizing...
+2020-11-04 15:02:09 info: Get All Issues Validations
+2020-11-04 15:02:09 info: Get All Issues Control
+2020-11-04 15:02:09 info: Validate user stub
+2020-11-04 15:02:09 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.218 ms - 0
+2020-11-04 15:02:09 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.215 ms - 0
+2020-11-04 15:02:09 info: Authorizing...
+2020-11-04 15:02:09 info: Get All Issues Validations
+2020-11-04 15:02:09 info: Get All users for watchlist
+2020-11-04 15:02:09 info: Authorizing...
+2020-11-04 15:02:09 info: Filter user validations
+2020-11-04 15:02:09 info: Filter Issues Control
+2020-11-04 15:02:09 info: Computing status filter options
+2020-11-04 15:02:09 info: Validate user stub
+2020-11-04 15:02:09 info: Emit On Connection
+2020-11-04 15:02:09 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 111.144 ms - -
+2020-11-04 15:02:09 info: Authenticating User
+2020-11-04 15:02:09 info: Verify USERId
+2020-11-04 15:02:09 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 316.155 ms - 759
+2020-11-04 15:02:09 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 200 334.618 ms - 6116
+2020-11-04 15:02:10 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.241 ms - 0
+2020-11-04 15:02:10 info: Authorizing...
+2020-11-04 15:02:10 info: Get All Issues Validations
+2020-11-04 15:02:10 info: Get All Issues Control
+2020-11-04 15:02:10 info: Validate user stub
+2020-11-04 15:02:10 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-04 15:02:10 info: Authorizing...
+2020-11-04 15:02:10 info: Get All Issues Validations
+2020-11-04 15:02:10 info: Get All users for watchlist
+2020-11-04 15:02:10 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.233 ms - 0
+2020-11-04 15:02:10 info: Authorizing...
+2020-11-04 15:02:10 info: Filter user validations
+2020-11-04 15:02:10 info: Filter Issues Control
+2020-11-04 15:02:10 info: Computing status filter options
+2020-11-04 15:02:10 info: Validate user stub
+2020-11-04 15:02:10 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.896 ms - -
+2020-11-04 15:02:10 info: Emit On Connection
+2020-11-04 15:02:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 306.626 ms - -
+2020-11-04 15:02:10 info: Authenticating User
+2020-11-04 15:02:10 info: Verify USERId
+2020-11-04 15:02:10 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 359.625 ms - 6116
+2020-11-04 15:02:22 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.148 ms - 0
+2020-11-04 15:02:22 info: Authorizing...
+2020-11-04 15:02:22 info: Update issue validations
+2020-11-04 15:02:22 info: Update Issue Control
+2020-11-04 15:02:22 info: Validate user stub
+2020-11-04 15:02:22 info: Validate issue stub:
+2020-11-04 15:02:22 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 331.359 ms - 79
+2020-11-04 15:02:22 info: issue update socket listener:
+2020-11-04 15:02:22 info: server is emiiting issue updates
+2020-11-04 15:03:09 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.236 ms - 0
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Get All Issues Validations
+2020-11-04 15:03:09 info: Get All Issues Control
+2020-11-04 15:03:09 info: Validate user stub
+2020-11-04 15:03:09 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.236 ms - 0
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Get All Issues Validations
+2020-11-04 15:03:09 info: Get All users for watchlist
+2020-11-04 15:03:09 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.353 ms - 0
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Filter user validations
+2020-11-04 15:03:09 info: Filter Issues Control
+2020-11-04 15:03:09 info: Computing status filter options
+2020-11-04 15:03:09 info: Validate user stub
+2020-11-04 15:03:09 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 90.968 ms - -
+2020-11-04 15:03:09 info: Emit On Connection
+2020-11-04 15:03:09 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 292.728 ms - 757
+2020-11-04 15:03:09 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 200 272.256 ms - 6114
+2020-11-04 15:03:09 info: Authenticating User
+2020-11-04 15:03:09 info: Verify USERId
+2020-11-04 15:03:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.237 ms - 0
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Get All Issues Validations
+2020-11-04 15:03:09 info: Get All Issues Control
+2020-11-04 15:03:09 info: Validate user stub
+2020-11-04 15:03:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.267 ms - 0
+2020-11-04 15:03:09 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.227 ms - 0
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Get All Issues Validations
+2020-11-04 15:03:09 info: Get All users for watchlist
+2020-11-04 15:03:09 info: Authorizing...
+2020-11-04 15:03:09 info: Filter user validations
+2020-11-04 15:03:09 info: Filter Issues Control
+2020-11-04 15:03:09 info: Computing status filter options
+2020-11-04 15:03:09 info: Validate user stub
+2020-11-04 15:03:10 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.197 ms - -
+2020-11-04 15:03:10 info: Emit On Connection
+2020-11-04 15:03:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 311.553 ms - -
+2020-11-04 15:03:10 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 298.836 ms - 6114
+2020-11-04 15:03:10 info: Authenticating User
+2020-11-04 15:03:10 info: Verify USERId
+2020-11-04 15:03:26 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.215 ms - 0
+2020-11-04 15:03:26 info: Authorizing...
+2020-11-04 15:03:26 info: Get All Issues Validations
+2020-11-04 15:03:26 info: Get All Issues Control
+2020-11-04 15:03:26 info: Validate user stub
+2020-11-04 15:03:26 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.184 ms - 0
+2020-11-04 15:03:26 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.192 ms - 0
+2020-11-04 15:03:26 info: Authorizing...
+2020-11-04 15:03:26 info: Get All Issues Validations
+2020-11-04 15:03:26 info: Get All users for watchlist
+2020-11-04 15:03:26 info: Authorizing...
+2020-11-04 15:03:26 info: Filter user validations
+2020-11-04 15:03:26 info: Filter Issues Control
+2020-11-04 15:03:26 info: Computing status filter options
+2020-11-04 15:03:26 info: Validate user stub
+2020-11-04 15:03:26 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 88.536 ms - -
+2020-11-04 15:03:26 info: Emit On Connection
+2020-11-04 15:03:26 info: Authenticating User
+2020-11-04 15:03:26 info: Verify USERId
+2020-11-04 15:03:26 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 294.679 ms - -
+2020-11-04 15:03:26 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 304 285.568 ms - -
+2020-11-04 15:03:26 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.221 ms - 0
+2020-11-04 15:03:26 info: Authorizing...
+2020-11-04 15:03:26 info: Get All Issues Validations
+2020-11-04 15:03:26 info: Get All Issues Control
+2020-11-04 15:03:26 info: Validate user stub
+2020-11-04 15:03:27 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.209 ms - 0
+2020-11-04 15:03:27 info: Authorizing...
+2020-11-04 15:03:27 info: Get All Issues Validations
+2020-11-04 15:03:27 info: Get All users for watchlist
+2020-11-04 15:03:27 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.192 ms - 0
+2020-11-04 15:03:27 info: Authorizing...
+2020-11-04 15:03:27 info: Filter user validations
+2020-11-04 15:03:27 info: Filter Issues Control
+2020-11-04 15:03:27 info: Computing status filter options
+2020-11-04 15:03:27 info: Validate user stub
+2020-11-04 15:03:27 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 114.622 ms - -
+2020-11-04 15:03:27 info: Emit On Connection
+2020-11-04 15:03:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 333.213 ms - -
+2020-11-04 15:03:27 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 308.384 ms - -
+2020-11-04 15:03:27 info: Authenticating User
+2020-11-04 15:03:27 info: Verify USERId
+2020-11-04 15:03:36 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.159 ms - 0
+2020-11-04 15:03:36 info: Authorizing...
+2020-11-04 15:03:36 info: Update issue validations
+2020-11-04 15:03:36 info: Update Issue Control
+2020-11-04 15:03:36 info: Validate user stub
+2020-11-04 15:03:36 info: Validate issue stub:
+2020-11-04 15:03:36 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 319.337 ms - 79
+2020-11-04 15:03:36 info: issue update socket listener:
+2020-11-04 15:03:36 info: server is emiiting issue updates
+2020-11-04 15:04:51 info: OPTIONS /api/v1/user/login 204 0.315 ms - 0
+2020-11-04 15:04:51 info: Login Param Validations
+2020-11-04 15:04:51 info: Login Control Init
+2020-11-04 15:04:51 info: credMatch:true
+2020-11-04 15:04:51 info: userexists:{
+  _id: 5f942e5e39cf486a9fa0018b,
+  userId: 'EjLQ8s0Eg',
+  name: 'Johnny English',
+  email: 'je@api.com',
+  username: 'jeng',
+  password: '$2b$11$JtIE.aO03aX8A8gmOLhO6OlwFY3o6vVOcC5VySAqyR48osdm2ZJr2',
+  __v: 0
+}
+2020-11-04 15:04:51 info: generate tokennull
+2020-11-04 15:04:51 info: POST /api/v1/user/login 200 266.039 ms - 495
+2020-11-04 15:04:53 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.234 ms - 0
+2020-11-04 15:04:53 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.253 ms - 0
+2020-11-04 15:04:53 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.279 ms - 0
+2020-11-04 15:04:53 info: Authorizing...
+2020-11-04 15:04:53 info: Get All Issues Validations
+2020-11-04 15:04:53 info: Get All Issues Control
+2020-11-04 15:04:53 info: Validate user stub
+2020-11-04 15:04:53 info: Authorizing...
+2020-11-04 15:04:53 info: Get All Issues Validations
+2020-11-04 15:04:53 info: Get All users for watchlist
+2020-11-04 15:04:53 info: Authorizing...
+2020-11-04 15:04:53 info: Filter user validations
+2020-11-04 15:04:53 info: Filter Issues Control
+2020-11-04 15:04:53 info: Computing status filter options
+2020-11-04 15:04:53 info: Validate user stub
+2020-11-04 15:04:53 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 114.103 ms - -
+2020-11-04 15:04:53 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 200 347.464 ms - 759
+2020-11-04 15:04:53 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 200 346.267 ms - 6116
+2020-11-04 15:05:29 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.213 ms - 0
+2020-11-04 15:05:30 info: Authorizing...
+2020-11-04 15:05:30 info: Get All Issues Validations
+2020-11-04 15:05:30 info: Get All Issues Control
+2020-11-04 15:05:30 info: Validate user stub
+2020-11-04 15:05:30 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.224 ms - 0
+2020-11-04 15:05:30 info: Authorizing...
+2020-11-04 15:05:30 info: Get All Issues Validations
+2020-11-04 15:05:30 info: Get All users for watchlist
+2020-11-04 15:05:30 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.218 ms - 0
+2020-11-04 15:05:30 info: Authorizing...
+2020-11-04 15:05:30 info: Filter user validations
+2020-11-04 15:05:30 info: Filter Issues Control
+2020-11-04 15:05:30 info: Computing status filter options
+2020-11-04 15:05:30 info: Validate user stub
+2020-11-04 15:05:30 info: Emit On Connection
+2020-11-04 15:05:30 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 88.103 ms - -
+2020-11-04 15:05:30 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 297.892 ms - -
+2020-11-04 15:05:30 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 304 280.090 ms - -
+2020-11-04 15:05:30 info: Authenticating User
+2020-11-04 15:05:30 info: Verify USERId
+2020-11-04 15:05:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-04 15:05:31 info: Authorizing...
+2020-11-04 15:05:31 info: Get All Issues Validations
+2020-11-04 15:05:31 info: Get All Issues Control
+2020-11-04 15:05:31 info: Validate user stub
+2020-11-04 15:05:31 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.252 ms - 0
+2020-11-04 15:05:31 info: Authorizing...
+2020-11-04 15:05:31 info: Get All Issues Validations
+2020-11-04 15:05:31 info: Get All users for watchlist
+2020-11-04 15:05:31 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.232 ms - 0
+2020-11-04 15:05:31 info: Authorizing...
+2020-11-04 15:05:31 info: Filter user validations
+2020-11-04 15:05:31 info: Filter Issues Control
+2020-11-04 15:05:31 info: Computing status filter options
+2020-11-04 15:05:31 info: Validate user stub
+2020-11-04 15:05:31 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.149 ms - -
+2020-11-04 15:05:32 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 318.509 ms - -
+2020-11-04 15:05:32 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 309.235 ms - 6116
+2020-11-04 15:05:32 info: Emit On Connection
+2020-11-04 15:05:33 info: Authenticating User
+2020-11-04 15:05:33 info: Verify USERId
+2020-11-04 15:05:40 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.237 ms - 0
+2020-11-04 15:05:40 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.189 ms - 0
+2020-11-04 15:05:40 info: Authorizing...
+2020-11-04 15:05:40 info: Get All Issues Validations
+2020-11-04 15:05:40 info: Get All Issues Control
+2020-11-04 15:05:40 info: Validate user stub
+2020-11-04 15:05:40 info: Authorizing...
+2020-11-04 15:05:40 info: Get All Issues Validations
+2020-11-04 15:05:40 info: Get All users for watchlist
+2020-11-04 15:05:40 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.234 ms - 0
+2020-11-04 15:05:40 info: Authorizing...
+2020-11-04 15:05:40 info: Filter user validations
+2020-11-04 15:05:40 info: Filter Issues Control
+2020-11-04 15:05:40 info: Computing status filter options
+2020-11-04 15:05:40 info: Validate user stub
+2020-11-04 15:05:40 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 95.779 ms - -
+2020-11-04 15:05:40 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 294.511 ms - -
+2020-11-04 15:05:40 info: Emit On Connection
+2020-11-04 15:05:41 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 304 315.334 ms - -
+2020-11-04 15:05:41 info: Authenticating User
+2020-11-04 15:05:41 info: Verify USERId
+2020-11-04 15:05:42 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.206 ms - 0
+2020-11-04 15:05:42 info: Authorizing...
+2020-11-04 15:05:42 info: Get All Issues Validations
+2020-11-04 15:05:42 info: Get All Issues Control
+2020-11-04 15:05:42 info: Validate user stub
+2020-11-04 15:05:42 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.198 ms - 0
+2020-11-04 15:05:42 info: Authorizing...
+2020-11-04 15:05:42 info: Get All Issues Validations
+2020-11-04 15:05:42 info: Get All users for watchlist
+2020-11-04 15:05:42 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.210 ms - 0
+2020-11-04 15:05:42 info: Authorizing...
+2020-11-04 15:05:42 info: Filter user validations
+2020-11-04 15:05:42 info: Filter Issues Control
+2020-11-04 15:05:42 info: Computing status filter options
+2020-11-04 15:05:42 info: Validate user stub
+2020-11-04 15:05:42 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 98.725 ms - -
+2020-11-04 15:05:42 info: Emit On Connection
+2020-11-04 15:05:42 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 309.337 ms - -
+2020-11-04 15:05:42 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 290.553 ms - -
+2020-11-04 15:05:42 info: Authenticating User
+2020-11-04 15:05:42 info: Verify USERId
+2020-11-04 15:07:07 info: OPTIONS /api/v1/issue/allIssues?userId=EjLQ8s0Eg 204 0.201 ms - 0
+2020-11-04 15:07:07 info: Authorizing...
+2020-11-04 15:07:07 info: Get All Issues Validations
+2020-11-04 15:07:07 info: Get All Issues Control
+2020-11-04 15:07:07 info: Validate user stub
+2020-11-04 15:07:07 info: OPTIONS /api/v1/user/all?userId=EjLQ8s0Eg 204 0.208 ms - 0
+2020-11-04 15:07:07 info: OPTIONS /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 204 0.213 ms - 0
+2020-11-04 15:07:07 info: Authorizing...
+2020-11-04 15:07:07 info: Get All Issues Validations
+2020-11-04 15:07:07 info: Get All users for watchlist
+2020-11-04 15:07:07 info: Authorizing...
+2020-11-04 15:07:07 info: Filter user validations
+2020-11-04 15:07:07 info: Filter Issues Control
+2020-11-04 15:07:07 info: Computing status filter options
+2020-11-04 15:07:07 info: Validate user stub
+2020-11-04 15:07:07 info: GET /api/v1/user/all?userId=EjLQ8s0Eg 304 92.826 ms - -
+2020-11-04 15:07:07 info: Emit On Connection
+2020-11-04 15:07:07 info: GET /api/v1/issue/allIssues?userId=EjLQ8s0Eg 304 309.175 ms - -
+2020-11-04 15:07:07 info: GET /api/v1/issue/filter?userId=EjLQ8s0Eg&name=Johnny%20English&option=all&type=status 304 295.754 ms - -
+2020-11-04 15:07:08 info: Authenticating User
+2020-11-04 15:07:08 info: Verify USERId
+2020-11-04 15:07:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.208 ms - 0
+2020-11-04 15:07:09 info: Authorizing...
+2020-11-04 15:07:09 info: Get All Issues Validations
+2020-11-04 15:07:09 info: Get All Issues Control
+2020-11-04 15:07:09 info: Validate user stub
+2020-11-04 15:07:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-04 15:07:09 info: Authorizing...
+2020-11-04 15:07:09 info: Get All Issues Validations
+2020-11-04 15:07:09 info: Get All users for watchlist
+2020-11-04 15:07:09 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.248 ms - 0
+2020-11-04 15:07:09 info: Authorizing...
+2020-11-04 15:07:09 info: Filter user validations
+2020-11-04 15:07:09 info: Filter Issues Control
+2020-11-04 15:07:09 info: Computing status filter options
+2020-11-04 15:07:09 info: Validate user stub
+2020-11-04 15:07:09 info: Emit On Connection
+2020-11-04 15:07:09 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 308.538 ms - -
+2020-11-04 15:07:09 info: Authenticating User
+2020-11-04 15:07:09 info: Verify USERId
+2020-11-04 15:07:10 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 466.669 ms - -
+2020-11-04 15:07:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 530.930 ms - -
+2020-11-04 15:07:26 info: OPTIONS /api/v1/issue/update?userId=EjLQ8s0Eg 204 0.214 ms - 0
+2020-11-04 15:07:26 info: Authorizing...
+2020-11-04 15:07:26 info: Update issue validations
+2020-11-04 15:07:26 info: Update Issue Control
+2020-11-04 15:07:26 info: Validate user stub
+2020-11-04 15:07:26 info: Validate issue stub:
+2020-11-04 15:07:27 info: POST /api/v1/issue/update?userId=EjLQ8s0Eg 200 303.352 ms - 79
+2020-11-04 15:07:27 info: issue update socket listener:
+2020-11-04 15:07:27 info: server is emiiting issue updates
+2020-11-04 15:15:26 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.248 ms - 0
+2020-11-04 15:15:26 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.303 ms - 0
+2020-11-04 15:15:26 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.251 ms - 0
+2020-11-04 15:15:26 info: Authorizing...
+2020-11-04 15:15:26 info: Get All Issues Validations
+2020-11-04 15:15:26 info: Get All Issues Control
+2020-11-04 15:15:26 info: Validate user stub
+2020-11-04 15:15:26 info: Authorizing...
+2020-11-04 15:15:26 info: Get All Issues Validations
+2020-11-04 15:15:26 info: Get All users for watchlist
+2020-11-04 15:15:26 info: Authorizing...
+2020-11-04 15:15:26 info: Filter user validations
+2020-11-04 15:15:26 info: Filter Issues Control
+2020-11-04 15:15:26 info: Computing status filter options
+2020-11-04 15:15:26 info: Validate user stub
+2020-11-04 15:15:26 info: Emit On Connection
+2020-11-04 15:15:26 info: Authenticating User
+2020-11-04 15:15:26 info: Verify USERId
+2020-11-04 15:15:27 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 732.673 ms - -
+2020-11-04 15:15:27 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 934.596 ms - -
+2020-11-04 15:15:27 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 1018.048 ms - -
+2020-11-04 15:16:53 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.195 ms - 0
+2020-11-04 15:16:53 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.185 ms - 0
+2020-11-04 15:16:53 info: Authorizing...
+2020-11-04 15:16:53 info: Get All Issues Validations
+2020-11-04 15:16:53 info: Get All Issues Control
+2020-11-04 15:16:53 info: Validate user stub
+2020-11-04 15:16:53 info: Authorizing...
+2020-11-04 15:16:53 info: Get All Issues Validations
+2020-11-04 15:16:53 info: Get All users for watchlist
+2020-11-04 15:16:53 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.205 ms - 0
+2020-11-04 15:16:53 info: Authorizing...
+2020-11-04 15:16:53 info: Filter user validations
+2020-11-04 15:16:53 info: Filter Issues Control
+2020-11-04 15:16:53 info: Computing status filter options
+2020-11-04 15:16:53 info: Validate user stub
+2020-11-04 15:16:53 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 79.756 ms - -
+2020-11-04 15:16:53 info: Emit On Connection
+2020-11-04 15:16:53 info: Authenticating User
+2020-11-04 15:16:53 info: Verify USERId
+2020-11-04 15:16:53 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 334.135 ms - -
+2020-11-04 15:16:53 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 321.994 ms - -
+2020-11-04 15:17:03 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.214 ms - 0
+2020-11-04 15:17:03 info: Authorizing...
+2020-11-04 15:17:03 info: Get All Issues Validations
+2020-11-04 15:17:03 info: Get All Issues Control
+2020-11-04 15:17:03 info: Validate user stub
+2020-11-04 15:17:03 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.252 ms - 0
+2020-11-04 15:17:03 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.344 ms - 0
+2020-11-04 15:17:03 info: Authorizing...
+2020-11-04 15:17:03 info: Get All Issues Validations
+2020-11-04 15:17:03 info: Get All users for watchlist
+2020-11-04 15:17:03 info: Authorizing...
+2020-11-04 15:17:03 info: Filter user validations
+2020-11-04 15:17:03 info: Filter Issues Control
+2020-11-04 15:17:03 info: Computing status filter options
+2020-11-04 15:17:03 info: Validate user stub
+2020-11-04 15:17:03 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 92.454 ms - -
+2020-11-04 15:17:03 info: Emit On Connection
+2020-11-04 15:17:03 info: Authenticating User
+2020-11-04 15:17:03 info: Verify USERId
+2020-11-04 15:17:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 287.432 ms - -
+2020-11-04 15:17:03 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 272.722 ms - -
+2020-11-04 15:17:55 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.212 ms - 0
+2020-11-04 15:17:55 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.221 ms - 0
+2020-11-04 15:17:55 info: Authorizing...
+2020-11-04 15:17:55 info: Get All Issues Validations
+2020-11-04 15:17:55 info: Get All Issues Control
+2020-11-04 15:17:55 info: Validate user stub
+2020-11-04 15:17:55 info: Authorizing...
+2020-11-04 15:17:55 info: Get All Issues Validations
+2020-11-04 15:17:55 info: Get All users for watchlist
+2020-11-04 15:17:55 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 10.647 ms - 0
+2020-11-04 15:17:55 info: Authorizing...
+2020-11-04 15:17:55 info: Filter user validations
+2020-11-04 15:17:55 info: Filter Issues Control
+2020-11-04 15:17:55 info: Computing status filter options
+2020-11-04 15:17:55 info: Validate user stub
+2020-11-04 15:17:55 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.729 ms - -
+2020-11-04 15:17:55 info: Emit On Connection
+2020-11-04 15:17:55 info: Authenticating User
+2020-11-04 15:17:55 info: Verify USERId
+2020-11-04 15:17:55 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 284.524 ms - -
+2020-11-04 15:17:55 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 289.947 ms - -
+2020-11-04 15:18:00 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.298 ms - 0
+2020-11-04 15:18:00 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.231 ms - 0
+2020-11-04 15:18:00 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 1.305 ms - 0
+2020-11-04 15:18:00 info: Authorizing...
+2020-11-04 15:18:00 info: Get All Issues Validations
+2020-11-04 15:18:00 info: Get All Issues Control
+2020-11-04 15:18:00 info: Validate user stub
+2020-11-04 15:18:00 info: Authorizing...
+2020-11-04 15:18:00 info: Get All Issues Validations
+2020-11-04 15:18:00 info: Get All users for watchlist
+2020-11-04 15:18:00 info: Authorizing...
+2020-11-04 15:18:00 info: Filter user validations
+2020-11-04 15:18:00 info: Filter Issues Control
+2020-11-04 15:18:00 info: Computing status filter options
+2020-11-04 15:18:00 info: Validate user stub
+2020-11-04 15:18:00 info: Emit On Connection
+2020-11-04 15:18:00 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 96.454 ms - -
+2020-11-04 15:18:00 info: Authenticating User
+2020-11-04 15:18:00 info: Verify USERId
+2020-11-04 15:18:00 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 282.006 ms - -
+2020-11-04 15:18:00 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 308.003 ms - -
+2020-11-04 15:24:02 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.219 ms - 0
+2020-11-04 15:24:02 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.256 ms - 0
+2020-11-04 15:24:02 info: Authorizing...
+2020-11-04 15:24:02 info: Get All Issues Validations
+2020-11-04 15:24:02 info: Get All Issues Control
+2020-11-04 15:24:02 info: Validate user stub
+2020-11-04 15:24:02 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.239 ms - 0
+2020-11-04 15:24:02 info: Authorizing...
+2020-11-04 15:24:02 info: Get All Issues Validations
+2020-11-04 15:24:02 info: Get All users for watchlist
+2020-11-04 15:24:02 info: Authorizing...
+2020-11-04 15:24:02 info: Filter user validations
+2020-11-04 15:24:02 info: Filter Issues Control
+2020-11-04 15:24:02 info: Computing status filter options
+2020-11-04 15:24:02 info: Validate user stub
+2020-11-04 15:24:03 info: Emit On Connection
+2020-11-04 15:24:03 info: Authenticating User
+2020-11-04 15:24:03 info: Verify USERId
+2020-11-04 15:24:03 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 667.372 ms - -
+2020-11-04 15:24:03 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 879.436 ms - -
+2020-11-04 15:24:03 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 963.789 ms - -
+2020-11-04 15:24:46 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.270 ms - 0
+2020-11-04 15:24:46 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-04 15:24:46 info: Authorizing...
+2020-11-04 15:24:46 info: Get All Issues Validations
+2020-11-04 15:24:46 info: Get All Issues Control
+2020-11-04 15:24:46 info: Validate user stub
+2020-11-04 15:24:46 info: Authorizing...
+2020-11-04 15:24:46 info: Get All Issues Validations
+2020-11-04 15:24:46 info: Get All users for watchlist
+2020-11-04 15:24:46 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.287 ms - 0
+2020-11-04 15:24:46 info: Authorizing...
+2020-11-04 15:24:46 info: Filter user validations
+2020-11-04 15:24:46 info: Filter Issues Control
+2020-11-04 15:24:46 info: Computing status filter options
+2020-11-04 15:24:46 info: Validate user stub
+2020-11-04 15:24:46 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 97.346 ms - -
+2020-11-04 15:24:46 info: Emit On Connection
+2020-11-04 15:24:46 info: Authenticating User
+2020-11-04 15:24:46 info: Verify USERId
+2020-11-04 15:24:46 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 295.728 ms - -
+2020-11-04 15:24:46 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 277.319 ms - -
+2020-11-04 15:25:13 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.210 ms - 0
+2020-11-04 15:25:13 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.253 ms - 0
+2020-11-04 15:25:13 info: Authorizing...
+2020-11-04 15:25:13 info: Get All Issues Validations
+2020-11-04 15:25:13 info: Get All Issues Control
+2020-11-04 15:25:13 info: Validate user stub
+2020-11-04 15:25:13 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 1.837 ms - 0
+2020-11-04 15:25:13 info: Authorizing...
+2020-11-04 15:25:13 info: Get All Issues Validations
+2020-11-04 15:25:13 info: Get All users for watchlist
+2020-11-04 15:25:13 info: Authorizing...
+2020-11-04 15:25:13 info: Filter user validations
+2020-11-04 15:25:13 info: Filter Issues Control
+2020-11-04 15:25:13 info: Computing status filter options
+2020-11-04 15:25:13 info: Validate user stub
+2020-11-04 15:25:13 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.109 ms - -
+2020-11-04 15:25:14 info: Emit On Connection
+2020-11-04 15:25:14 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 304.987 ms - -
+2020-11-04 15:25:14 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 280.400 ms - -
+2020-11-04 15:25:14 info: Authenticating User
+2020-11-04 15:25:14 info: Verify USERId

@@ -16,7 +16,7 @@ exports.setSocketServer = (server) => {
 
   // cors
   io.origins("*:*");
-  let myio = io.of("/notify");
+  let myio = io.of("/issue/notify");
 
   myio.on("connection", (socket) => {
     logger.info("Emit On Connection");
@@ -30,12 +30,14 @@ exports.setSocketServer = (server) => {
         jwt.verify(authToken, process.env.TOKEN_SECRET, (error, decoded) => {
           if (error != null) {
             logger.error("authError");
-            socket.emit("authError", error);
+            socket.emit("authStatus", error);
           } else {
             logger.info("Verify USERId");
             const { userId } = decoded.data;
             if (!userId === verificationUserId) {
-              socket.emit("authError", "Invalid Token/UserId");
+              socket.emit("authStatus", "Invalid Token/UserId");
+            }else{
+              socket.emit("authStatus", "Notification System Online");
             }
           }
         });
