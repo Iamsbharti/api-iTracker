@@ -54,7 +54,7 @@ router.get(
   validations.filterIssuesValidation,
   issues.filterIssues
 );
-router.put(
+router.post(
   "/issue/update",
   isAuthorized,
   validations.updateIssueValidations,

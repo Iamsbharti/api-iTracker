@@ -79,7 +79,7 @@ const getAllIssues = async (req, res) => {
 
   if (isUserValid) {
     await Issue.find({ assignee: userId })
-      .populate("watchList", "name")
+      .populate("watchList", ["name","userId"])
       .populate("comments")
       .populate("attachment", ["_id", "filename"])
       .lean()
@@ -137,7 +137,7 @@ const filterIssues = async (req, res) => {
       filteredIssues = await Issue.find({ userId: userId })
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
-        .populate("watchList", "name")
+        .populate("watchList", ["name","userId"])
         .populate("comments")
         .populate("attachment", ["_id", "filename"])
         .lean();
@@ -151,7 +151,7 @@ const filterIssues = async (req, res) => {
       })
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
-        .populate("watchList", "name")
+        .populate("watchList", ["name","userId"])
         .populate("comments")
         .populate("attachment", ["_id", "filename"])
         .lean();
@@ -162,7 +162,7 @@ const filterIssues = async (req, res) => {
     /**status based filters */
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
-      .populate("watchList", "name")
+      .populate("watchList", ["name","userId"])
       .populate("comments", ["text", "name", "commentId"])
       .populate("attachment", ["_id", "filename"])
       .lean();
@@ -192,17 +192,24 @@ const updateIssue = async (req, res) => {
   let isUserValid = await validateUser(userId);
   let isIssueValid = await validateIssue(issueId);
 
-  let { watchList } = updates;
+  let { watchList ,operation } = updates;
   let updateOptions = updates;
   delete updateOptions.watchList;
-
+  let updateWatchListOptions={};
   if (watchList !== undefined) {
     /** add the unique db id to of the userid to the watchlist */
-    updateOptions = { ...updateOptions, $push: { watchList: watchList } };
+    /**add watcher**/
+    if(operation==='watch'){
+      updateWatchListOptions = { $push: { watchList: watchList },modifiedDate: Date.now() };
+      updateOptions=updateWatchListOptions;
+    }else if(operation==='unwatch'){
+      updateWatchListOptions = { $pull: { watchList: watchList },modifiedDate: Date.now() };
+      updateOptions=updateWatchListOptions;
+    }
+
   }
-  /**add modifidied date */
-  updateOptions = { ...updateOptions, modifiedDate: Date.now() };
   if (isUserValid && isIssueValid) {
+    console.log('final update options:',updateOptions);
     await Issue.updateOne(
       { issueId: issueId },
       updateOptions,
@@ -284,7 +291,7 @@ const searchRoute = async (req, res) => {
   //console.log("queryoptions:", queryOptions);
   Issue.find(queryOptions)
     .select(EXCLUDE)
-    .populate("watchList", "name")
+    .populate("watchList", ["name","userId"])
     .populate("comments")
     .populate("attachment", ["_id", "filename"])
     .sort({ title: "asc" })
