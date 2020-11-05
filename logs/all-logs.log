@@ -38960,3 +38960,43 @@
 2020-11-05 17:36:55 info: verify social response control
 2020-11-05 17:36:56 info: generate tokennull
 2020-11-05 17:36:56 info: GET /api/v1/user/social/verify?email=sbh@api.com&name=Saurabh%20Bharti 200 143.375 ms - 522
+2020-11-05 17:42:23 info: OPTIONS /api/v1/user/login 204 0.601 ms - 0
+2020-11-05 17:42:23 info: Login Param Validations
+2020-11-05 17:42:23 info: Login Control Init
+2020-11-05 17:42:23 info: credMatch:true
+2020-11-05 17:42:23 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-05 17:42:23 info: generate tokennull
+2020-11-05 17:42:23 info: POST /api/v1/user/login 200 507.140 ms - 498
+2020-11-05 17:42:25 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.279 ms - 0
+2020-11-05 17:42:25 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.293 ms - 0
+2020-11-05 17:42:25 info: Authorizing...
+2020-11-05 17:42:25 info: Get All Issues Validations
+2020-11-05 17:42:25 info: Get All Issues Control
+2020-11-05 17:42:25 info: Validate user stub",_ofyQhK9u
+2020-11-05 17:42:25 info: Authorizing...
+2020-11-05 17:42:25 info: Get All Issues Validations
+2020-11-05 17:42:25 info: Get All users for watchlist
+2020-11-05 17:42:26 info: Emit On Connection
+2020-11-05 17:42:26 info: GET /api/v1/user/all?userId=_ofyQhK9u 200 217.171 ms - 803
+2020-11-05 17:42:26 info: Authenticating User
+2020-11-05 17:42:26 info: Verify USERId
+2020-11-05 17:42:26 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 652.800 ms - 5159
+2020-11-05 17:42:27 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.429 ms - 0
+2020-11-05 17:42:27 info: Authorizing...
+2020-11-05 17:42:27 info: Filter user validations
+2020-11-05 17:42:27 info: Filter Issues Control
+2020-11-05 17:42:27 info: Computing status filter options
+2020-11-05 17:42:27 info: Validate user stub",_ofyQhK9u
+2020-11-05 17:42:27 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 349.898 ms - 6898
+2020-11-05 17:42:29 info: Authorizing...
+2020-11-05 17:42:29 info: Get All Issues Validations
+2020-11-05 17:42:29 info: Get All users for watchlist
+2020-11-05 17:42:29 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 129.775 ms - -
