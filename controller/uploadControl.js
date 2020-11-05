@@ -44,7 +44,7 @@ const storage = new GridFsStorage({
           fileName: fileName,
           bucketName: "attachments",
         };
-        console.log("fileInfo::", fileInfo);
+        console.debug("fileInfo::", fileInfo);
         resolve(fileInfo);
       });
     });
@@ -65,13 +65,13 @@ const uploadValidation = async (req, res, next) => {
   logger.info("upload i/p validation");
   const userId = req.query.userId;
   const issueId = req.query.issueId;
-  console.log(userId, issueId);
+  console.debug(userId, issueId);
   /**check for valid user & issue id */
   let isUserValid = await issueControl.validateUser(userId);
   let isIssueValid = await issueControl.validateIssue(issueId);
-  console.log("validity:", isUserValid, isIssueValid);
+  console.debug("validity:", isUserValid, isIssueValid);
   if (isUserValid && isIssueValid) {
-    console.log("valid ids");
+    console.debug("valid ids");
   } else if (!isUserValid) {
     return res
       .status(400)

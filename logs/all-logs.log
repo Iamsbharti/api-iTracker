@@ -39000,3 +39000,399 @@
 2020-11-05 17:42:29 info: Get All Issues Validations
 2020-11-05 17:42:29 info: Get All users for watchlist
 2020-11-05 17:42:29 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 129.775 ms - -
+2020-11-05 23:03:13 info: DB Conenction Sucess
+2020-11-05 23:46:16 info: DB Conenction Sucess
+2020-11-06 00:21:05 info: OPTIONS /api/v1/user/login 204 0.346 ms - 0
+2020-11-06 00:21:05 info: Login Param Validations
+2020-11-06 00:21:05 info: Login Control Init
+2020-11-06 00:21:07 info: credMatch:true
+2020-11-06 00:21:07 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-06 00:21:07 info: generate tokennull
+2020-11-06 00:21:07 info: POST /api/v1/user/login 200 1401.158 ms - 498
+2020-11-06 00:21:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.243 ms - 0
+2020-11-06 00:21:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.270 ms - 0
+2020-11-06 00:21:09 info: Authorizing...
+2020-11-06 00:21:09 info: Get All Issues Validations
+2020-11-06 00:21:09 info: Get All Issues Control
+2020-11-06 00:21:09 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:21:09 info: Authorizing...
+2020-11-06 00:21:09 info: Get All Issues Validations
+2020-11-06 00:21:09 info: Get All users for watchlist
+2020-11-06 00:21:10 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 282.535 ms - -
+2020-11-06 00:21:10 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 646.066 ms - -
+2020-11-06 00:21:10 info: Emit On Connection
+2020-11-06 00:21:10 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.248 ms - 0
+2020-11-06 00:21:11 info: Authenticating User
+2020-11-06 00:21:11 info: Verify USERId
+2020-11-06 00:21:11 info: Authorizing...
+2020-11-06 00:21:11 info: Filter user validations
+2020-11-06 00:21:11 info: Filter Issues Control
+2020-11-06 00:21:11 info: Computing status filter options
+2020-11-06 00:21:11 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:21:11 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 313.615 ms - -
+2020-11-06 00:21:17 info: Authorizing...
+2020-11-06 00:21:17 info: Get Image Validation
+2020-11-06 00:21:17 info: Fetch Attachments
+2020-11-06 00:21:17 info: Fetch Picturesb4a3a4852e184d1d21cdd19a9d7b0f64
+2020-11-06 00:21:18 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=b4a3a4852e184d1d21cdd19a9d7b0f64&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6ImZ2NTF2UjllNyIsImlhdCI6MTYwNDYwMjI2NzMxNywiZXhwIjoxNjA0Nzc1MDY3LCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.FfF1voy9A3SKuY0qDDwn2bzQYqWk9T6QzXt0BgSHU3I 200 877.068 ms - -
+2020-11-06 00:21:21 info: OPTIONS /api/v1/issue/update?userId=_ofyQhK9u 204 0.388 ms - 0
+2020-11-06 00:21:21 info: Authorizing...
+2020-11-06 00:21:21 info: Update issue validations
+2020-11-06 00:21:21 info: Update Issue Control
+2020-11-06 00:21:21 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:21:21 info: Validate issue stub:
+2020-11-06 00:21:22 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 373.922 ms - 79
+2020-11-06 00:21:22 info: issue update socket listener:
+2020-11-06 00:21:22 info: server is emiiting issue updates
+2020-11-06 00:21:23 info: Authorizing...
+2020-11-06 00:21:23 info: Update issue validations
+2020-11-06 00:21:23 info: Update Issue Control
+2020-11-06 00:21:23 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:21:23 info: Validate issue stub:
+2020-11-06 00:21:24 info: POST /api/v1/issue/update?userId=_ofyQhK9u 200 345.770 ms - 79
+2020-11-06 00:21:24 info: issue update socket listener:
+2020-11-06 00:21:24 info: server is emiiting issue updates
+2020-11-06 00:23:31 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.266 ms - 0
+2020-11-06 00:23:31 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.292 ms - 0
+2020-11-06 00:23:31 info: Authorizing...
+2020-11-06 00:23:31 info: Get All Issues Validations
+2020-11-06 00:23:31 info: Get All Issues Control
+2020-11-06 00:23:31 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:23:31 info: Authorizing...
+2020-11-06 00:23:31 info: Get All Issues Validations
+2020-11-06 00:23:31 info: Get All users for watchlist
+2020-11-06 00:23:31 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 107.918 ms - -
+2020-11-06 00:23:31 info: Emit On Connection
+2020-11-06 00:23:31 info: Authenticating User
+2020-11-06 00:23:31 info: Verify USERId
+2020-11-06 00:23:31 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 200 324.479 ms - 5159
+2020-11-06 00:23:32 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.256 ms - 0
+2020-11-06 00:23:32 info: Authorizing...
+2020-11-06 00:23:32 info: Filter user validations
+2020-11-06 00:23:32 info: Filter Issues Control
+2020-11-06 00:23:32 info: Computing status filter options
+2020-11-06 00:23:32 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:23:33 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 200 320.767 ms - 6898
+2020-11-06 00:23:39 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.263 ms - 0
+2020-11-06 00:23:39 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.258 ms - 0
+2020-11-06 00:23:39 info: Authorizing...
+2020-11-06 00:23:39 info: Get All Issues Validations
+2020-11-06 00:23:39 info: Get All Issues Control
+2020-11-06 00:23:39 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:23:39 info: Authorizing...
+2020-11-06 00:23:39 info: Get All Issues Validations
+2020-11-06 00:23:39 info: Get All users for watchlist
+2020-11-06 00:23:39 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 99.191 ms - -
+2020-11-06 00:23:39 info: Emit On Connection
+2020-11-06 00:23:39 info: Authenticating User
+2020-11-06 00:23:39 info: Verify USERId
+2020-11-06 00:23:39 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 345.511 ms - -
+2020-11-06 00:23:40 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.341 ms - 0
+2020-11-06 00:23:40 info: Authorizing...
+2020-11-06 00:23:40 info: Filter user validations
+2020-11-06 00:23:40 info: Filter Issues Control
+2020-11-06 00:23:40 info: Computing status filter options
+2020-11-06 00:23:40 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:23:41 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 332.225 ms - -
+2020-11-06 00:24:07 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.266 ms - 0
+2020-11-06 00:24:07 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-06 00:24:07 info: Authorizing...
+2020-11-06 00:24:07 info: Get All Issues Validations
+2020-11-06 00:24:07 info: Get All Issues Control
+2020-11-06 00:24:07 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:07 info: Authorizing...
+2020-11-06 00:24:07 info: Get All Issues Validations
+2020-11-06 00:24:07 info: Get All users for watchlist
+2020-11-06 00:24:07 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.553 ms - -
+2020-11-06 00:24:07 info: Emit On Connection
+2020-11-06 00:24:07 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 346.933 ms - -
+2020-11-06 00:24:07 info: Authenticating User
+2020-11-06 00:24:07 info: Verify USERId
+2020-11-06 00:24:08 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.202 ms - 0
+2020-11-06 00:24:08 info: Authorizing...
+2020-11-06 00:24:08 info: Filter user validations
+2020-11-06 00:24:08 info: Filter Issues Control
+2020-11-06 00:24:08 info: Computing status filter options
+2020-11-06 00:24:08 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:09 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 335.757 ms - -
+2020-11-06 00:24:18 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.282 ms - 0
+2020-11-06 00:24:18 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.254 ms - 0
+2020-11-06 00:24:18 info: Authorizing...
+2020-11-06 00:24:18 info: Get All Issues Validations
+2020-11-06 00:24:18 info: Get All Issues Control
+2020-11-06 00:24:18 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:18 info: Authorizing...
+2020-11-06 00:24:18 info: Get All Issues Validations
+2020-11-06 00:24:18 info: Get All users for watchlist
+2020-11-06 00:24:18 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 110.880 ms - -
+2020-11-06 00:24:18 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 342.359 ms - -
+2020-11-06 00:24:19 info: Emit On Connection
+2020-11-06 00:24:20 info: Authenticating User
+2020-11-06 00:24:20 info: Verify USERId
+2020-11-06 00:24:20 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.255 ms - 0
+2020-11-06 00:24:20 info: Authorizing...
+2020-11-06 00:24:20 info: Filter user validations
+2020-11-06 00:24:20 info: Filter Issues Control
+2020-11-06 00:24:20 info: Computing status filter options
+2020-11-06 00:24:20 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:20 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 312.001 ms - -
+2020-11-06 00:24:49 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.279 ms - 0
+2020-11-06 00:24:49 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 1.880 ms - 0
+2020-11-06 00:24:49 info: Authorizing...
+2020-11-06 00:24:49 info: Get All Issues Validations
+2020-11-06 00:24:49 info: Get All Issues Control
+2020-11-06 00:24:49 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:49 info: Authorizing...
+2020-11-06 00:24:49 info: Get All Issues Validations
+2020-11-06 00:24:49 info: Get All users for watchlist
+2020-11-06 00:24:49 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 109.882 ms - -
+2020-11-06 00:24:49 info: Emit On Connection
+2020-11-06 00:24:50 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 343.080 ms - -
+2020-11-06 00:24:50 info: Authenticating User
+2020-11-06 00:24:50 info: Verify USERId
+2020-11-06 00:24:51 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.245 ms - 0
+2020-11-06 00:24:51 info: Authorizing...
+2020-11-06 00:24:51 info: Filter user validations
+2020-11-06 00:24:51 info: Filter Issues Control
+2020-11-06 00:24:51 info: Computing status filter options
+2020-11-06 00:24:51 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:24:51 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 337.013 ms - -
+2020-11-06 00:25:08 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.162 ms - 0
+2020-11-06 00:25:08 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 1.987 ms - 0
+2020-11-06 00:25:08 info: Authorizing...
+2020-11-06 00:25:08 info: Get All Issues Validations
+2020-11-06 00:25:08 info: Get All Issues Control
+2020-11-06 00:25:08 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:25:08 info: Authorizing...
+2020-11-06 00:25:08 info: Get All Issues Validations
+2020-11-06 00:25:08 info: Get All users for watchlist
+2020-11-06 00:25:08 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 110.466 ms - -
+2020-11-06 00:25:08 info: Emit On Connection
+2020-11-06 00:25:09 info: Authenticating User
+2020-11-06 00:25:09 info: Verify USERId
+2020-11-06 00:25:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 363.949 ms - -
+2020-11-06 00:25:09 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.210 ms - 0
+2020-11-06 00:25:09 info: Authorizing...
+2020-11-06 00:25:09 info: Filter user validations
+2020-11-06 00:25:09 info: Filter Issues Control
+2020-11-06 00:25:09 info: Computing status filter options
+2020-11-06 00:25:09 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:25:10 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 333.883 ms - -
+2020-11-06 00:25:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.164 ms - 0
+2020-11-06 00:25:29 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.242 ms - 0
+2020-11-06 00:25:29 info: Authorizing...
+2020-11-06 00:25:29 info: Get All Issues Validations
+2020-11-06 00:25:29 info: Get All Issues Control
+2020-11-06 00:25:29 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:25:29 info: Authorizing...
+2020-11-06 00:25:29 info: Get All Issues Validations
+2020-11-06 00:25:29 info: Get All users for watchlist
+2020-11-06 00:25:29 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 116.096 ms - -
+2020-11-06 00:25:29 info: Emit On Connection
+2020-11-06 00:25:29 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 357.167 ms - -
+2020-11-06 00:25:29 info: Authenticating User
+2020-11-06 00:25:29 info: Verify USERId
+2020-11-06 00:25:30 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.264 ms - 0
+2020-11-06 00:25:30 info: Authorizing...
+2020-11-06 00:25:30 info: Filter user validations
+2020-11-06 00:25:30 info: Filter Issues Control
+2020-11-06 00:25:30 info: Computing status filter options
+2020-11-06 00:25:30 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:25:31 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 313.332 ms - -
+2020-11-06 00:26:12 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.328 ms - 0
+2020-11-06 00:26:12 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.235 ms - 0
+2020-11-06 00:26:12 info: Authorizing...
+2020-11-06 00:26:12 info: Get All Issues Validations
+2020-11-06 00:26:12 info: Get All Issues Control
+2020-11-06 00:26:12 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:26:12 info: Authorizing...
+2020-11-06 00:26:12 info: Get All Issues Validations
+2020-11-06 00:26:12 info: Get All users for watchlist
+2020-11-06 00:26:12 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 103.764 ms - -
+2020-11-06 00:26:12 info: Emit On Connection
+2020-11-06 00:26:12 info: Authenticating User
+2020-11-06 00:26:12 info: Verify USERId
+2020-11-06 00:26:12 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 359.160 ms - -
+2020-11-06 00:26:13 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.260 ms - 0
+2020-11-06 00:26:13 info: Authorizing...
+2020-11-06 00:26:13 info: Filter user validations
+2020-11-06 00:26:13 info: Filter Issues Control
+2020-11-06 00:26:13 info: Computing status filter options
+2020-11-06 00:26:13 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:26:14 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 348.854 ms - -
+2020-11-06 00:28:20 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-06 00:28:20 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-06 00:28:20 info: Authorizing...
+2020-11-06 00:28:20 info: Get All Issues Validations
+2020-11-06 00:28:20 info: Get All Issues Control
+2020-11-06 00:28:20 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:28:20 info: Authorizing...
+2020-11-06 00:28:20 info: Get All Issues Validations
+2020-11-06 00:28:20 info: Get All users for watchlist
+2020-11-06 00:28:21 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 116.402 ms - -
+2020-11-06 00:28:21 info: Emit On Connection
+2020-11-06 00:28:21 info: Authenticating User
+2020-11-06 00:28:21 info: Verify USERId
+2020-11-06 00:28:21 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 350.542 ms - -
+2020-11-06 00:28:22 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.288 ms - 0
+2020-11-06 00:28:22 info: Authorizing...
+2020-11-06 00:28:22 info: Filter user validations
+2020-11-06 00:28:22 info: Filter Issues Control
+2020-11-06 00:28:22 info: Computing status filter options
+2020-11-06 00:28:22 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:28:22 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 345.041 ms - -
+2020-11-06 00:28:29 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.279 ms - 0
+2020-11-06 00:28:29 info: Authorizing...
+2020-11-06 00:28:29 info: Get All Issues Validations
+2020-11-06 00:28:29 info: Get All Issues Control
+2020-11-06 00:28:29 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:28:29 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 1.097 ms - 0
+2020-11-06 00:28:29 info: Authorizing...
+2020-11-06 00:28:29 info: Get All Issues Validations
+2020-11-06 00:28:29 info: Get All users for watchlist
+2020-11-06 00:28:29 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 89.749 ms - -
+2020-11-06 00:28:29 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 368.542 ms - -
+2020-11-06 00:28:29 info: Emit On Connection
+2020-11-06 00:28:30 info: Authenticating User
+2020-11-06 00:28:30 info: Verify USERId
+2020-11-06 00:28:31 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.254 ms - 0
+2020-11-06 00:28:31 info: Authorizing...
+2020-11-06 00:28:31 info: Filter user validations
+2020-11-06 00:28:31 info: Filter Issues Control
+2020-11-06 00:28:31 info: Computing status filter options
+2020-11-06 00:28:31 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:28:31 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 311.746 ms - -
+2020-11-06 00:34:09 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.139 ms - 0
+2020-11-06 00:34:09 info: Authorizing...
+2020-11-06 00:34:09 info: Get All Issues Validations
+2020-11-06 00:34:09 info: Get All Issues Control
+2020-11-06 00:34:09 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:09 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.129 ms - 0
+2020-11-06 00:34:09 info: Authorizing...
+2020-11-06 00:34:09 info: Get All Issues Validations
+2020-11-06 00:34:09 info: Get All users for watchlist
+2020-11-06 00:34:09 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 110.499 ms - -
+2020-11-06 00:34:09 info: Emit On Connection
+2020-11-06 00:34:09 info: Authenticating User
+2020-11-06 00:34:09 info: Verify USERId
+2020-11-06 00:34:09 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.419 ms - -
+2020-11-06 00:34:10 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.253 ms - 0
+2020-11-06 00:34:10 info: Authorizing...
+2020-11-06 00:34:10 info: Filter user validations
+2020-11-06 00:34:10 info: Filter Issues Control
+2020-11-06 00:34:10 info: Computing status filter options
+2020-11-06 00:34:10 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:10 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 316.800 ms - -
+2020-11-06 00:34:41 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.238 ms - 0
+2020-11-06 00:34:41 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-06 00:34:41 info: Authorizing...
+2020-11-06 00:34:41 info: Get All Issues Validations
+2020-11-06 00:34:41 info: Get All Issues Control
+2020-11-06 00:34:41 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:41 info: Authorizing...
+2020-11-06 00:34:41 info: Get All Issues Validations
+2020-11-06 00:34:41 info: Get All users for watchlist
+2020-11-06 00:34:41 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 104.380 ms - -
+2020-11-06 00:34:41 info: Emit On Connection
+2020-11-06 00:34:41 info: Authenticating User
+2020-11-06 00:34:41 info: Verify USERId
+2020-11-06 00:34:41 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 324.625 ms - -
+2020-11-06 00:34:43 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.252 ms - 0
+2020-11-06 00:34:43 info: Authorizing...
+2020-11-06 00:34:43 info: Filter user validations
+2020-11-06 00:34:43 info: Filter Issues Control
+2020-11-06 00:34:43 info: Computing status filter options
+2020-11-06 00:34:43 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:43 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 307.513 ms - -
+2020-11-06 00:34:51 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.311 ms - 0
+2020-11-06 00:34:51 info: Authorizing...
+2020-11-06 00:34:51 info: Get All Issues Validations
+2020-11-06 00:34:51 info: Get All Issues Control
+2020-11-06 00:34:51 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:51 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.209 ms - 0
+2020-11-06 00:34:51 info: Authorizing...
+2020-11-06 00:34:51 info: Get All Issues Validations
+2020-11-06 00:34:51 info: Get All users for watchlist
+2020-11-06 00:34:51 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 108.230 ms - -
+2020-11-06 00:34:51 info: Emit On Connection
+2020-11-06 00:34:51 info: Authenticating User
+2020-11-06 00:34:51 info: Verify USERId
+2020-11-06 00:34:51 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 365.599 ms - -
+2020-11-06 00:34:53 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.226 ms - 0
+2020-11-06 00:34:53 info: Authorizing...
+2020-11-06 00:34:53 info: Filter user validations
+2020-11-06 00:34:53 info: Filter Issues Control
+2020-11-06 00:34:53 info: Computing status filter options
+2020-11-06 00:34:53 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:53 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 315.941 ms - -
+2020-11-06 00:34:58 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.225 ms - 0
+2020-11-06 00:34:58 info: Authorizing...
+2020-11-06 00:34:58 info: Get All Issues Validations
+2020-11-06 00:34:58 info: Get All Issues Control
+2020-11-06 00:34:58 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:34:58 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.195 ms - 0
+2020-11-06 00:34:58 info: Authorizing...
+2020-11-06 00:34:58 info: Get All Issues Validations
+2020-11-06 00:34:58 info: Get All users for watchlist
+2020-11-06 00:34:58 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 112.482 ms - -
+2020-11-06 00:34:58 info: Emit On Connection
+2020-11-06 00:34:59 info: Authenticating User
+2020-11-06 00:34:59 info: Verify USERId
+2020-11-06 00:34:59 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 340.260 ms - -
+2020-11-06 00:35:00 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.271 ms - 0
+2020-11-06 00:35:00 info: Authorizing...
+2020-11-06 00:35:00 info: Filter user validations
+2020-11-06 00:35:00 info: Filter Issues Control
+2020-11-06 00:35:00 info: Computing status filter options
+2020-11-06 00:35:00 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:35:00 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 349.194 ms - -
+2020-11-06 00:35:57 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-06 00:35:57 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.221 ms - 0
+2020-11-06 00:35:57 info: Authorizing...
+2020-11-06 00:35:57 info: Get All Issues Validations
+2020-11-06 00:35:57 info: Get All Issues Control
+2020-11-06 00:35:57 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:35:57 info: Authorizing...
+2020-11-06 00:35:57 info: Get All Issues Validations
+2020-11-06 00:35:57 info: Get All users for watchlist
+2020-11-06 00:35:57 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 121.260 ms - -
+2020-11-06 00:35:57 info: Emit On Connection
+2020-11-06 00:35:57 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 401.261 ms - -
+2020-11-06 00:35:57 info: Authenticating User
+2020-11-06 00:35:57 info: Verify USERId
+2020-11-06 00:35:59 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.257 ms - 0
+2020-11-06 00:35:59 info: Authorizing...
+2020-11-06 00:35:59 info: Filter user validations
+2020-11-06 00:35:59 info: Filter Issues Control
+2020-11-06 00:35:59 info: Computing status filter options
+2020-11-06 00:35:59 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:35:59 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 317.269 ms - -
+2020-11-06 00:41:48 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.233 ms - 0
+2020-11-06 00:41:48 info: Authorizing...
+2020-11-06 00:41:48 info: Get All Issues Validations
+2020-11-06 00:41:48 info: Get All Issues Control
+2020-11-06 00:41:48 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:41:48 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.145 ms - 0
+2020-11-06 00:41:48 info: Authorizing...
+2020-11-06 00:41:48 info: Get All Issues Validations
+2020-11-06 00:41:48 info: Get All users for watchlist
+2020-11-06 00:41:48 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 113.670 ms - -
+2020-11-06 00:41:48 info: Emit On Connection
+2020-11-06 00:41:48 info: Authenticating User
+2020-11-06 00:41:48 info: Verify USERId
+2020-11-06 00:41:48 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 337.481 ms - -
+2020-11-06 00:41:50 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.222 ms - 0
+2020-11-06 00:41:50 info: Authorizing...
+2020-11-06 00:41:50 info: Filter user validations
+2020-11-06 00:41:50 info: Filter Issues Control
+2020-11-06 00:41:50 info: Computing status filter options
+2020-11-06 00:41:50 info: Validate user stub",_ofyQhK9u
+2020-11-06 00:41:50 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 320.706 ms - -

@@ -77,7 +77,7 @@ const getAllUser = async (req, res) => {
     });
 };
 const tokenGen = async (userDetails) => {
-  console.log("generating auth toekn");
+  console.debug("generating auth toekn");
   /**generate authToken */
   await generateToken(userDetails, (token, error) => {
     logger.info(`generate token${(token, error)}`);
@@ -86,7 +86,7 @@ const tokenGen = async (userDetails) => {
         .status(500)
         .json(formatResponse(true, 500, "Internal Server Error", null));
     } else {
-      console.log("token genrated:");
+      console.debug("token genrated:");
       return token.authToken;
     }
   });
@@ -114,12 +114,12 @@ const verifySocialLogin = async (req, res) => {
           .status(500)
           .json(formatResponse(true, 500, "Internal Server Error", null));
       } else {
-        console.log("token genrated:");
+        console.debug("token genrated:");
         tokenauth = token;
       }
     });
 
-    console.log("token genrated:", tokenauth);
+    console.debug("token genrated:", tokenauth);
     res.status(200).json(
       formatResponse(false, 200, "User Verification Success", {
         ...userInfo,

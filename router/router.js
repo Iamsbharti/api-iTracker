@@ -16,7 +16,7 @@ const upload = multer({
 });
 
 router.get("/ping", (req, res) => {
-  console.log("Welcome to iTracker API");
+  console.debug("Welcome to iTracker API");
   res.status(200).send("Welcome to iTracker API");
 });
 

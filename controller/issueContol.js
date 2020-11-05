@@ -10,7 +10,7 @@ const EXCLUDE = "-__v -_id";
 const validateUser = async (userId) => {
   logger.info(`Validate user stub",${userId}`);
   let userFound = await User.findOne({ userId: userId });
-  console.log(("user found", userFound));
+  console.debug(("user found", userFound));
   return userFound ? true : false;
 };
 const validateIssue = async (issueId) => {
@@ -102,7 +102,7 @@ const getAllIssues = async (req, res) => {
 const filterIssues = async (req, res) => {
   logger.info("Filter Issues Control");
   let { userId, option, name, type } = req.query;
-  console.log(userId, option, name, type);
+  console.debug(userId, option, name, type);
 
   let queryOption;
   logger.info("Computing status filter options");
@@ -129,12 +129,12 @@ const filterIssues = async (req, res) => {
 
   let issuesFetchedFlag = false;
   let filteredIssues;
-  console.log("query options:", queryOption);
+  console.debug("query options:", queryOption);
   /**time based filters */
   if (isUserValid && type === "time") {
-    console.log("Time based filter option");
+    console.debug("Time based filter option");
     if (option.includes("updatedRecent")) {
-      console.log("Recently updated");
+      console.debug("Recently updated");
       filteredIssues = await Issue.find({ userId: userId })
         .select(EXCLUDE)
         .sort({ modifiedDate: "desc" })
@@ -146,7 +146,7 @@ const filterIssues = async (req, res) => {
     }
 
     if (option.includes("resolvedRecent")) {
-      console.log("resolved recently");
+      console.debug("resolved recently");
       filteredIssues = await Issue.find({
         $and: [{ userId: userId }, { status: "done" }],
       })
@@ -159,7 +159,7 @@ const filterIssues = async (req, res) => {
       issuesFetchedFlag = filteredIssues ? true : false;
     }
   } else if (isUserValid && type === "status") {
-    console.log("Status bsed filters", queryOption);
+    console.debug("Status bsed filters", queryOption);
     /**status based filters */
     filteredIssues = await Issue.find(queryOption)
       .select(EXCLUDE)
@@ -169,7 +169,7 @@ const filterIssues = async (req, res) => {
       .lean();
     issuesFetchedFlag = filteredIssues ? true : false;
   } else if (!isUserValid) {
-    console.log("invalid user");
+    console.debug("invalid user");
     res.status(404).json(formatResponse(true, 404, "Invalid User", null));
   }
 
@@ -189,7 +189,7 @@ const filterIssues = async (req, res) => {
 const updateIssue = async (req, res) => {
   logger.info("Update Issue Control");
   let { userId, issueId, updates } = req.body;
-  console.log("userid", userId, req.query.userId);
+  console.debug("userid", userId, req.query.userId);
   /**check for valida user */
   let isUserValid = await validateUser(req.query.userId);
   let isIssueValid = await validateIssue(issueId);
@@ -216,7 +216,7 @@ const updateIssue = async (req, res) => {
     }
   }
   if (isUserValid && isIssueValid) {
-    console.log("final update options:", updateOptions);
+    console.debug("final update options:", updateOptions);
     await Issue.updateOne(
       { issueId: issueId },
       updateOptions,
@@ -236,7 +236,7 @@ const updateIssue = async (req, res) => {
       }
     );
   } else if (!isUserValid) {
-    console.log("user id not found");
+    console.debug("user id not found");
     res.status(400).json(formatResponse(false, 400, "Invalid userId", ""));
   } else if (!isIssueValid) {
     res.status(400).json(formatResponse(false, 400, "Invalid IssueId", ""));
@@ -296,7 +296,7 @@ const searchRoute = async (req, res) => {
       { name: { $regex: new RegExp(search.toLowerCase(), "i") } },
     ],
   };
-  //console.log("queryoptions:", queryOptions);
+  //console.debug("queryoptions:", queryOptions);
   Issue.find(queryOptions)
     .select(EXCLUDE)
     .populate("watchList", ["name", "userId"])
@@ -323,7 +323,7 @@ const searchRoute = async (req, res) => {
 const uploadAttachment = async (req, res) => {
   logger.info("Attachment upload control");
   const issueId = req.query.issueId;
-  console.log("file", req.file.id);
+  console.debug("file", req.file.id);
   /**update the issue's attachment list with uploaded file id*/
   const updateQuery = { issueId: issueId };
   let attachmentUpdateOption = { $push: { attachment: req.file.id } };
