@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-api": "nodemon app.js",
-    "docs": "apidoc -i router/ -o apidoc/"
+    "docs": "apidoc -i router/ -o apidoc/",
+    "start": "pm2 start app.js"
   },
   "repository": {
     "type": "git",
