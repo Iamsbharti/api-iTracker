@@ -69,10 +69,10 @@ const createIssueValidations = (req, res, next) => {
     priority: joi.string().min(2).required(),
     estimates: joi.string().min(2).required(),
     watchList: joi.string().min(2).optional(),
-    assignee: joi.string().min(2).optional(),
+    assignee: joi.string().min(2).required(),
     description: joi.string().optional(),
   });
-  let { error } = issueSchema.validate(req.body, options);
+  let { error } = issueSchema.validate(req.query, options);
   if (error) {
     let errors = [];
     error.details.map((err) => errors.push(err.message.split("is")[0]));
