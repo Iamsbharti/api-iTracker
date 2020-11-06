@@ -39400,3 +39400,69 @@
 2020-11-06 01:28:44 info: GET /img/favicon.ico 404 0.949 ms - 61
 2020-11-06 01:28:54 info: GET /ping 404 0.779 ms - 50
 2020-11-06 01:29:05 info: GET /issue/ping 404 0.974 ms - 56
+2020-11-06 01:30:08 info: GET / 304 1.114 ms - -
+2020-11-06 02:03:05 info: GET / 304 1.096 ms - -
+2020-11-06 10:12:10 info: DB Conenction Sucess
+2020-11-06 10:36:06 info: SERVER__HEALTH true
+2020-11-06 10:36:06 info: SOCKET SERVER INIT
+2020-11-06 10:36:07 info: API SERVER Running at:3001
+2020-11-06 10:36:08 info: DB Conenction Sucess
+2020-11-06 10:36:09 info: Emit On Connection
+2020-11-06 10:36:09 info: Authenticating User
+2020-11-06 10:36:09 info: Verify USERId
+2020-11-06 10:36:20 info: OPTIONS /api/v1/user/login 204 2.671 ms - 0
+2020-11-06 10:36:20 info: Login Param Validations
+2020-11-06 10:36:20 info: Login Control Init
+2020-11-06 10:36:21 info: credMatch:true
+2020-11-06 10:36:21 info: userexists:{
+  _id: 5f93cb3e1d269674d14d5533,
+  userId: '_ofyQhK9u',
+  name: 'Saurabh Bharti',
+  email: 'sb@api.com',
+  username: 'sbhbp',
+  password: '$2b$11$fYfdQ2/z4HL.s8ik90qXU.M1gDuzqyiZFas.Qwj6Zu1DAturj1X8W',
+  __v: 0
+}
+2020-11-06 10:36:21 info: generate tokennull
+2020-11-06 10:36:21 info: POST /api/v1/user/login 200 741.501 ms - 498
+2020-11-06 10:36:23 info: OPTIONS /api/v1/issue/allIssues?userId=_ofyQhK9u 204 0.220 ms - 0
+2020-11-06 10:36:23 info: Authorizing...
+2020-11-06 10:36:23 info: Get All Issues Validations
+2020-11-06 10:36:23 info: Get All Issues Control
+2020-11-06 10:36:23 info: Validate user stub",_ofyQhK9u
+2020-11-06 10:36:23 info: OPTIONS /api/v1/user/all?userId=_ofyQhK9u 204 0.188 ms - 0
+2020-11-06 10:36:23 info: Authorizing...
+2020-11-06 10:36:23 info: Get All Issues Validations
+2020-11-06 10:36:23 info: Get All users for watchlist
+2020-11-06 10:36:23 info: GET /api/v1/user/all?userId=_ofyQhK9u 304 106.888 ms - -
+2020-11-06 10:36:23 info: Emit On Connection
+2020-11-06 10:36:23 info: Authenticating User
+2020-11-06 10:36:23 info: Verify USERId
+2020-11-06 10:36:23 info: GET /api/v1/issue/allIssues?userId=_ofyQhK9u 304 324.458 ms - -
+2020-11-06 10:36:24 info: OPTIONS /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 204 0.308 ms - 0
+2020-11-06 10:36:24 info: Authorizing...
+2020-11-06 10:36:24 info: Filter user validations
+2020-11-06 10:36:24 info: Filter Issues Control
+2020-11-06 10:36:24 info: Computing status filter options
+2020-11-06 10:36:24 info: Validate user stub",_ofyQhK9u
+2020-11-06 10:36:24 info: GET /api/v1/issue/filter?userId=_ofyQhK9u&name=Saurabh%20Bharti&option=all&type=status 304 309.223 ms - -
+2020-11-06 10:36:27 info: Authorizing...
+2020-11-06 10:36:27 info: Get Image Validation
+2020-11-06 10:36:27 info: Fetch Attachments
+2020-11-06 10:36:27 info: Fetch Picturesb4a3a4852e184d1d21cdd19a9d7b0f64
+2020-11-06 10:36:28 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=b4a3a4852e184d1d21cdd19a9d7b0f64&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6InQwaGlkQWE2UyIsImlhdCI6MTYwNDYzOTE4MTM0NiwiZXhwIjoxNjA0ODExOTgxLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.nrhTO-tCTgoMQDgsrSFdR1F6UBR5TZl0Crp_Iz1uO80 200 995.699 ms - -
+2020-11-06 10:53:40 info: SERVER__HEALTH true
+2020-11-06 10:53:40 info: SOCKET SERVER INIT
+2020-11-06 10:53:40 info: API SERVER Running at:3001
+2020-11-06 10:53:41 info: DB Conenction Sucess
+2020-11-06 10:53:42 info: Emit On Connection
+2020-11-06 10:53:42 info: Authenticating User
+2020-11-06 10:53:42 info: Verify USERId
+2020-11-06 10:53:43 info: Emit On Connection
+2020-11-06 10:53:43 info: Authenticating User
+2020-11-06 10:53:43 info: Verify USERId
+2020-11-06 11:07:50 info: Authorizing...
+2020-11-06 11:07:50 info: Get Image Validation
+2020-11-06 11:07:50 info: Fetch Attachments
+2020-11-06 11:07:50 info: Fetch Picturesb4a3a4852e184d1d21cdd19a9d7b0f64
+2020-11-06 11:07:52 info: GET /api/v1/issue/attachment?userId=_ofyQhK9u&filename=b4a3a4852e184d1d21cdd19a9d7b0f64&authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6ImpPZHBTZEtsTyIsImlhdCI6MTYwNDY0MTA1MTQ0MywiZXhwIjoxNjA0ODEzODUxLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJpVHJhY2tlciIsImRhdGEiOnsidXNlcklkIjoiX29meVFoSzl1IiwibmFtZSI6IlNhdXJhYmggQmhhcnRpIiwiZW1haWwiOiJzYkBhcGkuY29tIiwidXNlcm5hbWUiOiJzYmhicCJ9fQ.seHnVEl1UawjJWTEoNGqKSgCoxgfs1qMWiZazhRNfz4 200 1321.780 ms - -
